@@ -14,6 +14,14 @@ Ne sont **pas** dans le dépôt : les vidéos rendues (`.mp4`), les planches de 
 
 ## Installer sur un nouvel ordinateur
 
+Le plus simple, dans PowerShell (installe aussi Git et Python 3.10 s'ils manquent) :
+
+```powershell
+irm https://raw.githubusercontent.com/bichop67/moteur-pixel/main/demarre.ps1 | iex
+```
+
+Ou à la main :
+
 Il faut : Windows 10 ou 11, [Python 3.10 ou plus récent](https://www.python.org/downloads/) (cocher « Add python.exe
 to PATH »), [Git](https://git-scm.com/download/win) et Claude (application de bureau).
 
