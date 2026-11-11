@@ -25,6 +25,8 @@ def _fichiers(racine, images=False):
             elif images and bas.endswith(".png") and os.path.getsize(chemin) < 400_000 \
                     and "planche" not in bas and "_qa" not in bas:
                 yield chemin                                     # petites images utiles au moteur (pas les planches)
+            elif images and bas.endswith(".jpg") and os.path.basename(dossier) == "controle_moteur_ref":
+                yield chemin                                     # vignettes de référence de controle_moteur.py
 
 
 def main():

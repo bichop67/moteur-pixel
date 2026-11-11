@@ -30,3 +30,13 @@ _MOTEUR_PIXEL/scenarios/**/originaux/
 _MOTEUR_PIXEL/scenarios/outils_duo_*/**/*.png
 _MOTEUR_PIXEL/scenarios/outils_duo_*/*.png
 *.zip
+
+# archives qui contiennent d'anciens liens de telechargement signes (ElevenLabs) : jamais dans le depot public
+_MOTEUR_PIXEL/outils_film/telecharge_voix_conte.py
+_MOTEUR_PIXEL/scenarios/outils_duo_03-11/asr_shorts_duo.py
+_MOTEUR_PIXEL/scenarios/outils_duo_04-11/asr_shorts_duo.py
+_MOTEUR_PIXEL/scenarios/outils_duo_04-11_soir/telecharge_voix.py
+_MOTEUR_PIXEL/scenarios/outils_duo_04-11_soir/transcriptions_04-11_soir.json
+_MOTEUR_PIXEL/scenarios/outils_duo_07-11/transcriptions_07-11.json
+_MOTEUR_PIXEL/scenarios/outils_duo_07-11/voix_urls.json
+_MOTEUR_PIXEL/scenarios/outils_duo_08-11/voix_urls.json
