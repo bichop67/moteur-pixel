@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # LA VILLE FORTIFIÉE — les musulmans rentrent avec leurs bêtes ; la marée contourne les murs
 == gog_forteresse, 1s, contourne, ambiance amb_marche_foule 0.25

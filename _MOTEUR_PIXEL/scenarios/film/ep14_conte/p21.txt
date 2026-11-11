@@ -8,7 +8,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # ENTREZ ! — au bord de la terre verte, les murailles au loin ; Moussa face au peuple ; deux hommes s'avancent ; le peuple

@@ -7,7 +7,7 @@ CODE: E14P24
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, HAROUN
 QUEUE: 6.5
 

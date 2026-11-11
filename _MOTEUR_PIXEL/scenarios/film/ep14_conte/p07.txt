@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_desert
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, FILLE_1
 
 # MADYAN — la plaine à l'aube : le puits, l'abreuvoir, les bergers et leurs troupeaux ; à l'écart, les deux sœurs ; Moussa arrive, faible

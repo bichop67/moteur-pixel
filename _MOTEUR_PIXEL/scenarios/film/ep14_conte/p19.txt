@@ -9,7 +9,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LES SOIXANTE-DIX — Moussa et les hommes choisis sur la montagne ; ils exigent de voir Allah ; la foudre ; Moussa

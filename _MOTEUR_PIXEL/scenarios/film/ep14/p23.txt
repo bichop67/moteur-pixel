@@ -7,7 +7,7 @@ CODE: E14P23
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: QAROUN, GENS
 
 # LE PLUS RICHE — la demeure : des coffres d'or partout ; des porteurs chargés d'énormes trousseaux de clés ; Qaroun

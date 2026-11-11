@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 == gog_barrage, 1s, oiseaux, ambiance amb_vent_doux 0.18
 NARRATEUR (voix off) : [calm] Les siècles ont {devient gog_barrage_soir 4} passé. Beaucoup de siècles. Et le barrage a tenu. {source "CORAN 18:97"}

@@ -6,7 +6,7 @@ CODE: E14P6
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: PHARAON, MOUSSA
 
 # LA PLAINTE — la salle du trône : les Égyptiens en colère devant Pharaon ; Pharaon, froid, lève un doigt

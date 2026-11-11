@@ -6,7 +6,7 @@ CODE: E14P16
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_desert
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LES IDOLES — la colonne passe près d'un village où l'on se prosterne devant des statues ; des fils d'Israël s'arrêtent, fascinés

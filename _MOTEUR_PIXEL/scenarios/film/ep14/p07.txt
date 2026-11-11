@@ -6,7 +6,7 @@ CODE: E14P7
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_desert
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, FILLE_1
 
 # MADYAN — la plaine à l'aube : le puits, l'abreuvoir, les bergers et leurs troupeaux ; à l'écart, les deux sœurs ; Moussa arrive, faible

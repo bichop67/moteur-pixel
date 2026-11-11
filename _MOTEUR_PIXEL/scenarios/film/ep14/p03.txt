@@ -5,7 +5,7 @@ CODE: E14P3
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: SA_MERE, BERCEAU
 
 # LA NAISSANCE — la pièce de la maison au bord du Nil, la nuit, une seule lampe ; la mère et le couffin (MOMENT FORT)

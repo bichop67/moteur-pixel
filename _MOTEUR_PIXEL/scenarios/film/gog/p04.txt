@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_epique
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # LE CHANTIER — les blocs de fer montent ; la fournaise ; le cuivre fondu (MOMENT FORT)
 == gog_col, ambiance amb_chantier 0.22

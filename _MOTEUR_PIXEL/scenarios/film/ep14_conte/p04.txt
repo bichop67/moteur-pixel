@@ -7,7 +7,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: ASIYA, COFFRE
 
 # LE COUVERCLE — la chambre d'Asiya : le couvercle s'ouvre, la lumière dorée ; Asiya s'illumine (MOMENT FORT)

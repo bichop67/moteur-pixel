@@ -7,7 +7,7 @@ CODE: E14P19
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LES SOIXANTE-DIX — Moussa et les hommes choisis sur la montagne ; ils exigent de voir Allah ; la foudre ; Moussa

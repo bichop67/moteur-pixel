@@ -8,7 +8,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: SA_MERE, COFFRE
 
 # LE FLEUVE — le Nil au lever du jour, la maison de briques, le coffre au bord de l'eau, la mère sur la rive

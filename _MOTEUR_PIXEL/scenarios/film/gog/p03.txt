@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # LE LEVANT — la terre nue, le soleil énorme ; des gens sans abri
 == gog_levant, 1.5s, ambiance amb_vent_desert 0.18

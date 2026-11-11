@@ -10,7 +10,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, KHIDR
 
 # LE PLUS SAVANT — au camp, Moussa parle au peuple ; un homme lève la main : qui est le plus savant ?

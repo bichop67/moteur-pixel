@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 QUEUE: 2.5
 
 # À LA PORTE D'UNE VILLE — l'orbe de 'Issa ; des croyants viennent à lui

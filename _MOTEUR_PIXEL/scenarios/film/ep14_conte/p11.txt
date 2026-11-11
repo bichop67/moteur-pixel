@@ -8,7 +8,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: PHARAON, MOUSSA
 
 # LA SALLE DU TRÔNE — pleine : Pharaon, Haman, les notables, les gardes ; les deux frères avancent sur le long tapis

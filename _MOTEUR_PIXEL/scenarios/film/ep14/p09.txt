@@ -7,7 +7,7 @@ CODE: E14P9
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, SA_FEMME
 
 # LA NUIT — entre les montagnes, sous la pluie ; abrités contre le rocher ; pas une étincelle ; puis un feu, au loin

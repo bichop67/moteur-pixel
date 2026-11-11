@@ -5,7 +5,7 @@ CODE: E14P2
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: PHARAON, HAMAN
 
 # AU TEMPS DE YOUSSOUF — souvenir : la caravane de Yaqoub entre en Égypte au coucher du soleil

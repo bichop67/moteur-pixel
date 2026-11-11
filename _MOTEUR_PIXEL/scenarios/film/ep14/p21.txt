@@ -7,7 +7,7 @@ CODE: E14P21
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # ENTREZ ! — au bord de la terre verte, les murailles au loin ; Moussa face au peuple ; deux hommes s'avancent ; le peuple

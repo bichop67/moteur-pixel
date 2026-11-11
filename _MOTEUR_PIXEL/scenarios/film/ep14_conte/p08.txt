@@ -7,7 +7,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_espoir
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, VIEIL_HOMME
 
 # LA PROPOSITION — la maison du vieil homme, le soir, à la lampe ; à la fin, les deux halos se rapprochent (l'accord)

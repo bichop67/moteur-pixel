@@ -8,7 +8,7 @@ CODE: E14P18
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: SAMIRI, MOUSSA
 
 # LE VEAU — au camp : le Samiri fait jeter les bijoux dans le feu ; un veau d'or en sort ; la foule danse ; Haroun s'avance

@@ -6,7 +6,7 @@ CODE: E14P12
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_epique
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: PHARAON, MOUSSA
 
 # LES MAGICIENS ARRIVENT — la carte : des lumières partent des villes et convergent vers la capitale ; puis l'esplanade de la fête

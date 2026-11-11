@@ -9,7 +9,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: QAROUN, GENS
 
 # LE PLUS RICHE — la demeure : des coffres d'or partout ; des porteurs chargés d'énormes trousseaux de clés ; Qaroun

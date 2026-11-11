@@ -6,7 +6,7 @@ CODE: E14P11
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: PHARAON, MOUSSA
 
 # LA SALLE DU TRÔNE — pleine : Pharaon, Haman, les notables, les gardes ; les deux frères avancent sur le long tapis

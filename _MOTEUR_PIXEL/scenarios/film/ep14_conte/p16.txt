@@ -8,7 +8,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_desert
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LES IDOLES — la colonne passe près d'un village où l'on se prosterne devant des statues ; des fils d'Israël s'arrêtent, fascinés

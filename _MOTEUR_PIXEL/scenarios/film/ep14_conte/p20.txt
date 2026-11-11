@@ -9,7 +9,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LE MORT — au petit matin, entre les tentes : un homme étendu ; la foule ; chacun accuse les autres

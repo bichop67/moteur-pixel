@@ -9,7 +9,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, SA_FEMME
 
 # LA NUIT — entre les montagnes, sous la pluie ; abrités contre le rocher ; pas une étincelle ; puis un feu, au loin

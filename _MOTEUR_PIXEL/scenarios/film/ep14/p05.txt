@@ -6,7 +6,7 @@ CODE: E14P5
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_epique
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: PHARAON, ASIYA
 
 # LES CADEAUX — l'enfant a grandi chez sa mère ; puis l'allée du palais : on le couvre de cadeaux, des pétales tombent

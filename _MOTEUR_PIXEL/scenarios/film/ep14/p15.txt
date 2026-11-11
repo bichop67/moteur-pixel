@@ -7,7 +7,7 @@ CODE: E14P15
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_tempete
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, HAROUN
 
 # LE DÉPART DE NUIT — le quartier se vide en silence ; une longue colonne sort sous la lune, menée par Moussa et Haroun

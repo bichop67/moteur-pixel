@@ -7,7 +7,7 @@ CODE: E14P17
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, HAROUN
 
 # LE RENDEZ-VOUS — le camp au pied de la montagne ; Moussa confie le peuple à Haroun, puis monte seul ; les nuits passent

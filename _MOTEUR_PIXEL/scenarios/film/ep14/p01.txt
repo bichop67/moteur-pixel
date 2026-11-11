@@ -5,7 +5,7 @@ CODE: E14P1
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: SA_MERE, COFFRE
 
 # LE FLEUVE — le Nil au lever du jour, la maison de briques, le coffre au bord de l'eau, la mère sur la rive

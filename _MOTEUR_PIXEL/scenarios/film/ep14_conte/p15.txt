@@ -12,7 +12,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_tempete
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, HAROUN
 
 # LE DÉPART DE NUIT — le quartier se vide en silence ; une longue colonne sort sous la lune, derrière Moussa

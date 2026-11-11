@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: SA_MERE, BERCEAU
 
 # LA NAISSANCE — la pièce de la maison au bord du Nil, la nuit, une seule lampe ; la mère et le couffin (MOMENT FORT)

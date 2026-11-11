@@ -5,7 +5,7 @@ CODE: E14P4
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: ASIYA, COFFRE
 
 # LE COUVERCLE — la chambre d'Asiya : le couvercle s'ouvre, la lumière dorée ; Asiya s'illumine (MOMENT FORT)

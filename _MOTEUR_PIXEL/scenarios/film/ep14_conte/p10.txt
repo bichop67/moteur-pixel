@@ -7,7 +7,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_epique
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: MOUSSA, HAROUN
 
 # DEUX FRÈRES — l'aube sur le désert : Moussa, sa famille et son troupeau ; Haroun vient à sa rencontre ; leurs halos se rejoignent (MOMENT FORT)

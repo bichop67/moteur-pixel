@@ -8,7 +8,7 @@ CODE: E14P20
 THEME: film
 FORMAT: horizontal
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+VOIX: FILM/EPISODE 14/voix
 PERSONNAGES: MOUSSA, FILS_D_ISRAEL
 
 # LE MORT — au petit matin, entre les tentes : un homme étendu ; la foule ; chacun accuse les autres

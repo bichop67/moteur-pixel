@@ -8,7 +8,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tension
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: PHARAON, HAMAN
 
 # AU TEMPS DE YOUSSOUF — souvenir : la caravane de Yaqoub entre en Égypte au coucher du soleil

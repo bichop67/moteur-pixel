@@ -8,7 +8,7 @@ FORMAT: horizontal
 CAMERA: calme
 BATON_MOUSSA: oui
 MUSIQUE: fond_tempete
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+VOIX: FILM/EPISODE 14/voix_conte
 PERSONNAGES: PHARAON, MOUSSA
 
 # LA SÉCHERESSE — les champs desséchés, craquelés ; des arbres sans fruits ; des paysans regardent le ciel vide ; puis les notables, hostiles

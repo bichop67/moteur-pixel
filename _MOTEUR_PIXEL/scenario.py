@@ -355,6 +355,8 @@ def fabrique(path):
         raise SystemExit("aucune réplique dans le scénario")
     code = head.get("CODE") or (re.sub(r"\W", "", nom.upper())[:10] or "SCENE")
     voix = head.get("VOIX") or os.path.join(os.path.dirname(os.path.abspath(path)), "voix_" + code.lower())
+    if head.get("VOIX") and not os.path.isabs(voix):               # « VOIX: FILM/<film>/voix » : à partir du dossier qui
+        voix = os.path.join(pxv.BASE, voix)                        # contient _MOTEUR_PIXEL (marche sur un autre ordinateur)
     import estime                                                  # maquette : durées mesurées sur les vraies voix
     durees = [estime.duree(q_, t_, tv_) for (q_, t_), (_, tv_) in zip(repliques, repliques_voix)]
     D = kit.dialogue(voix, code, repliques, avant=avant, serre=True,    # pas de respiration ni de seconde morte

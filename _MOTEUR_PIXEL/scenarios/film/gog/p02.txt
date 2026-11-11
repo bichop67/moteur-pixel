@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_desert
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # LA ROUTE — le désert ; l'orbe du roi avance, son armée suit au loin
 == desert, 1.5s, colonne, ambiance amb_vent_desert 0.2

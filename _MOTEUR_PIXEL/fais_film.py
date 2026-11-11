@@ -6,7 +6,8 @@
 # Le dossier contient p01.txt, p02.txt… (un scénario par partie). Tout le reste se lit dans leurs en-têtes :
 #   FILM: Gog et Magog                    titre du film entier (sinon : le début commun des TITRE)
 #   CHAPITRE: La sortie de Gog et Magog   titre du chapitre YouTube (sinon : la fin du TITRE)
-#   VOIX: …\FILM\<film>\voix              dossier des voix ; le dossier du film est son parent (livraison, planches)
+#   VOIX: FILM/<film>/voix                dossier des voix, à partir du dossier qui contient _MOTEUR_PIXEL (ou un
+#                                         chemin complet) ; le dossier du film est son parent (livraison, planches)
 #
 # Commandes (sans numéro de partie : toutes les parties ; « 6 4 1 » : ces parties, dans cet ordre) :
 #   etat          où en est chaque partie : voix, calage des mots, durée, rendue ou à refaire
@@ -62,6 +63,10 @@ class Film:
             raise SystemExit(f"aucun scénario p01.txt, p02.txt… dans {s.scenarios}")
         s.titre = next((p["film"] for p in s.parties if p["film"]), None) \
             or re.split(r"\s+-\s+partie", os.path.commonprefix([p["titre"] for p in s.parties]))[0].strip(" -") or "Film"
+        import pxv
+        for p in s.parties:                              # « VOIX: FILM/<film>/voix » : à partir du dossier pxv.BASE
+            if p["voix"] and not os.path.isabs(p["voix"]):
+                p["voix"] = os.path.join(pxv.BASE, p["voix"])
         v = next((p["voix"] for p in s.parties if p["voix"]), None)
         s.voix = os.path.abspath(v) if v else os.path.join(s.scenarios, "voix")
         s.dossier = os.path.dirname(s.voix) if v else s.scenarios           # dossier de livraison du film

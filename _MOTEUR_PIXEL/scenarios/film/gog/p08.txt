@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_tristesse
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # SUR LE MONT, LA NUIT — l'orbe de 'Issa et les croyants ; en bas, la plaine couverte (MOMENT FORT)
 == gog_tour_nuit, 1.5s, plaine_horde, ambiance amb_foule_lointaine 0.3

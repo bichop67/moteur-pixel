@@ -6,7 +6,7 @@ THEME: film
 FORMAT: horizontal
 CAMERA: calme
 MUSIQUE: fond_mystere
-VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+VOIX: FILM/HORS SERIE - GOG ET MAGOG/voix
 
 # LE LAC ASSÉCHÉ — crépuscule rouge ; une foule sans fin de silhouettes passe au premier plan
 == gog_lac_fin, 2s, passage, ambiance amb_marche_foule 0.22
