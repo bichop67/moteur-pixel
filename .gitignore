@@ -40,3 +40,6 @@ _MOTEUR_PIXEL/scenarios/outils_duo_04-11_soir/transcriptions_04-11_soir.json
 _MOTEUR_PIXEL/scenarios/outils_duo_07-11/transcriptions_07-11.json
 _MOTEUR_PIXEL/scenarios/outils_duo_07-11/voix_urls.json
 _MOTEUR_PIXEL/scenarios/outils_duo_08-11/voix_urls.json
+
+# traces de rendu de fais_film.py : n'ont de sens que sur le PC qui a les .mp4
+*.rendu.txt
