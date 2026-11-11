@@ -1,0 +1,55 @@
+# DÉMO 8 (07/11/2026) — les nouvelles démonstrations en image des 6 Shorts « consigne » (explique_0611.py et ses 6
+# modules), avec leur code à l'écran : le serment (jurer sur sa mère), l'éternuement, la colère et sa jauge, la porte et
+# la maison-hôtel (Bismillah), le message de Karim et la liste du martyr (la dette), le lit et la nuit (le coucher).
+# Maquette sans voix.
+
+TITRE: Demo 8 - jurer eternuement colere maison dette sommeil
+CODE: DEMO8
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: aucune
+PERSONNAGES: PETIT, GRAND
+DEMO: oui
+DUREE_FIN: 1.0
+
+== salon
+LEGENDE : JURER / {jure PETIT} : Petit jure « sur la tête de ma mère », le panneau STOP arrive
+PETIT : {jure PETIT} Il jure sur la tête de sa mère, ses devoirs sont faits.
+== salon
+LEGENDE : SERMENT / {serment} puis {serment pere} {serment mere} {serment allah} {serment frere} {serment tais} {serment vrai}
+GRAND (nouveau schéma) : {serment} La liste, {serment pere} sur ton père barré, {serment mere} sur ta mère barré, {serment allah} par Allah en or, {serment frere} le frère et la vie barrés, {serment tais} ou tu te tais, {serment vrai} et seulement si c'est vrai.
+== salon
+LEGENDE : ATCHOUM / {atchoum PETIT} : il éternue dans son coude, le mot arrive vers toi
+PETIT : {atchoum PETIT} Il éternue dans son coude, sans rien de liquide.
+== salon
+LEGENDE : CHAÎNE / {chaine} puis {chaine aime} {chaine hamd} {chaine reponse} {chaine retour} {chaine rien}
+GRAND (nouveau schéma) : {chaine} {chaine aime} Allah aime l'éternuement, {chaine hamd} il loue Allah, {chaine reponse} son frère répond, {chaine retour} il répond à son tour, {chaine rien} et sans louange, pas de réponse.
+== salon
+LEGENDE : RHUME / {rhume} puis {rhume reponse} {rhume deux} {rhume enrhume}
+GRAND (nouveau schéma) : {rhume} Il éternue encore, {rhume reponse} on lui répond, {rhume deux} il éternue une deuxième fois, {rhume enrhume} il est enrhumé.
+== salon
+LEGENDE : ÉNERVÉ / {enerve PETIT} : Petit debout, manette en main, l'écran PERDU, la vapeur
+PETIT : {enerve PETIT} Il a perdu, il est tout rouge.
+== salon
+LEGENDE : COLÈRE / {colere} puis {colere refuge} {colere fort} {colere gg}
+GRAND (nouveau schéma) : {colere} La jauge est pleine, {colere refuge} il demande la protection d'Allah et elle descend, {colere fort} le fort se maîtrise, {colere gg} une provocation, elle remonte un peu puis redescend.
+== salon
+LEGENDE : PORTE / {porte} : vue à ta place, la clé tourne, la porte s'ouvre, l'enseigne CHAMBRE LIBRE
+PETIT : {porte} Il rentre chez lui, la nuit.
+== salon
+LEGENDE : MAISON / {maison} puis {maison entre} {maison mange} {maison pas} {maison libre}
+GRAND (nouveau schéma) : {maison} La maison la nuit, {maison entre} Bismillah à la porte, {maison mange} Bismillah à table, {maison pas} pas de chambre, pas de dîner, {maison libre} et sans Bismillah à la porte, chambre libre.
+== salon
+LEGENDE : SMS / {sms} : le message de Karim, le calendrier qui tourne jusqu'à 3 MOIS
+PETIT : {sms} Karim réclame ses cinq euros depuis trois mois.
+== salon
+LEGENDE : DETTE / {dette} puis {dette efface} {dette reste} {dette injustice}, et {carnet}
+GRAND (nouveau schéma) : {dette} La liste du martyr, {dette efface} les péchés s'effacent, {dette reste} la dette reste, {dette injustice} et le retard est une injustice.
+GRAND (nouveau schéma) : {carnet} Et on écrit la dette dans un carnet.
+== salon
+LEGENDE : LIT / {lit PETIT} : la nuit, Petit au lit, le visage éclairé par son téléphone
+PETIT : {lit PETIT} Il est tard, il regarde encore son téléphone.
+== salon
+LEGENDE : SOMMEIL / {sommeil} puis {sommeil verset} {sommeil nuit} {sommeil reveil}
+GRAND (nouveau schéma) : {sommeil} L'invocation du coucher, {sommeil verset} le verset, {sommeil nuit} il dort, {sommeil reveil} et l'aube se lève avec l'invocation du réveil.
+FIN

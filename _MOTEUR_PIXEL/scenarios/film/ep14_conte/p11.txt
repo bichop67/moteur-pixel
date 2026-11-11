@@ -1,0 +1,47 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 11 : FACE À PHARAON
+# Un seul conteur ; PHARAON et CONSEILLERS : leurs paroles du Coran dites en mots simples (NOUVELLES voix à générer).
+# Les paroles de Moussa (7:104-105, 26:20-30, 20:59) sont rapportées par le conteur.
+TITRE: Moussa conte - partie 11 - Face a Pharaon
+CODE: E14P11
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: PHARAON, MOUSSA
+
+# LA SALLE DU TRÔNE — pleine : Pharaon, Haman, les notables, les gardes ; les deux frères avancent sur le long tapis
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 780
+CONSEILLERS place 950
+CONSEILLER2 place 1100
+SOLDAT place 1260, tient la lance
+GARDE place -340, tient la lance
+MOUSSA place -260
+HAROUN place -420
+BATON place -170 1316
+NARRATEUR (voix off) : [calm] {derive MOUSSA 230 1320 6s} {derive HAROUN 80 1320 6s} {derive BATON 320 1316 6s} Les deux frères ont avancé jusqu'au trône. Et Moussa a dit : « Ô Pharaon ! Je suis un messager envoyé par le Seigneur de l'univers. Je ne dois dire sur Allah que la vérité. Je suis venu avec une preuve claire de votre Seigneur. Alors laisse partir avec moi les fils d'Israël ! » {source "CORAN 7:104-105"}
+NARRATEUR (voix off, sur PHARAON) : [dark] Pharaon l'a reconnu tout de suite. Le garçon qu'il avait élevé. Celui qui avait tué un Égyptien… et qui s'était enfui. {source "CORAN 26:18-19"}
+PHARAON (malin) : [mocking] On ne t'a pas élevé chez nous, quand tu étais tout petit ? Tu n'as pas vécu des années avec nous ? Et puis tu as fait ce que tu as fait… Tu es un ingrat ! {source "CORAN 26:18-19"}
+NARRATEUR (voix off) : [calm] Moussa lui a répondu : « Oui, je l'ai fait, quand j'étais encore dans l'égarement. Et je me suis enfui, parce que j'avais peur de vous. Mais mon Seigneur m'a donné la sagesse, et Il a fait de moi un de Ses messagers. Et ce bienfait que tu me rappelles… c'est d'avoir fait des fils d'Israël tes esclaves ? » {source "CORAN 26:20-22"}
+NARRATEUR (voix off) : [calm] Dans l'égarement… c'est-à-dire qu'il ne savait pas encore : la révélation n'était pas encore venue. {source "TAFSIR IBN KATHIR (26:20)"}
+PHARAON (blase) : [arrogant] Et c'est quoi, le Seigneur de l'univers ? {source "CORAN 26:23"}
+NARRATEUR (voix off) : [calm] Moussa a dit : « C'est le Seigneur des cieux, de la terre, et de tout ce qu'il y a entre les deux… si seulement vous pouviez en être sûrs ! » Et Pharaon s'est tourné vers ceux qui l'entouraient : {source "CORAN 26:24-25"}
+PHARAON (malin, explique) : [mocking] Vous entendez ça ? {source "CORAN 26:25"}
+NARRATEUR (voix off) : [calm] Moussa a continué : « C'est votre Seigneur… et le Seigneur de vos ancêtres. » {source "CORAN 26:26"}
+PHARAON (rire) : [mocking] Votre messager, celui qu'on vous a envoyé… c'est un fou ! {source "CORAN 26:27"}
+NARRATEUR (voix off) : [calm] Mais Moussa a ajouté : « C'est le Seigneur de l'Orient et de l'Occident, et de tout ce qu'il y a entre les deux… si seulement vous réfléchissiez. » {source "CORAN 26:28"}
+PHARAON (enerve, pointe) : [menacing] Si tu prends une autre divinité que moi… je te jette en prison ! {source "CORAN 26:29"}
+NARRATEUR (voix off) : [calm] Moussa a répondu : « Même si je t'apporte une preuve évidente ? » {source "CORAN 26:30"}
+PHARAON (blase) : [arrogant] Alors apporte-la… si tu dis la vérité ! {source "CORAN 26:31"}
+
+# LE SERPENT ET LA MAIN — le bâton devient un serpent immense au milieu de la salle ; les notables reculent ; la main blanche
+NARRATEUR (voix off, plan large) : [dramatic] Alors Moussa a jeté son {disparait BATON} {serpent depart 330} {va CONSEILLERS 1400} {va CONSEILLER2 1560} {va HAMAN 1000} bâton… et c'est devenu un serpent immense, là, au milieu du palais de Pharaon. {serpent revient 560} {serpent fin} {apparait BATON} Puis il a sorti sa {main_blanche MOUSSA} main… et elle était blanche, elle brillait comme la lune, devant tous ceux qui regardaient. {source "CORAN 26:32-33 · TAFSIR IBN KATHIR (28:32)"}
+PHARAON choc
+PHARAON (enerve, explique) : [angry] C'est un magicien, et un sacré magicien ! Avec sa magie, il veut vous chasser de votre pays. Qu'est-ce que vous me conseillez ? {source "CORAN 26:34-35"}
+CONSEILLERS (explique) : [calm] Fais-les attendre, lui et son frère. Et envoie des gens dans toutes les villes, pour te ramener tous les grands magiciens. {source "CORAN 26:36-37"}
+PHARAON (enerve, pointe) : [menacing] Tu es venu pour nous chasser de notre pays avec ta magie, ô Moussa ? On va te montrer une magie pareille ! Fixe-nous un rendez-vous, et ni toi ni nous, on ne le manquera. Dans un lieu qui convient à tous. {source "CORAN 20:57-58"}
+NARRATEUR (voix off) : [calm] Et Moussa a dit : « Votre rendez-vous, ce sera le jour de la fête. Que les gens se rassemblent dans la matinée. » {source "CORAN 20:59"}
+NARRATEUR (voix off, plan large) : [mysterious] Ça allait être un duel. D'un côté, tous les magiciens d'Égypte. De l'autre… deux hommes, face à tout un royaume. {source "CORAN 26:37 · 20:59"}

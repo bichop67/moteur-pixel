@@ -1,0 +1,33 @@
+# ISLAMARCADE — Short duo « 2 rakats qui valent plus que le monde entier ?! » — 30 s maximum (03/11/2026)
+# Modèle : « Tes péchés effacés en 2 minutes ?! » (le duo qui a le mieux marché sur TikTok).
+# Image 0 = une grande balance : le monde entier s'entasse à gauche (planète, voitures, argent, maisons, téléphones…),
+# Petit qui prie sur son tapis à droite ; sur « valent mieux », la balance penche lentement du côté des 2 rakats.
+# Sources vérifiées sur sunnah.com le 03/11/2026 : Mouslim 725a (Aïcha) « ركعتا الفجر خير من الدنيا وما فيها » ;
+# Mouslim 725b « لهما أحب إلي من الدنيا جميعا » (les deux rakats au lever de l'aube) ; Mouslim 724a (Aïcha) : il les
+# priait quand il entendait l'adhan, et les faisait légères.
+# Relecture indépendante du 03/11/2026 : « ركعتا الفجر » = les 2 rakats sunna avant l'obligatoire (an-Nawawi 6/4-5 :
+# pas obligatoires, avis de la majorité ; chapitre « باب استحباب ركعتي سنة الفجر ») → à l'écran « 2 RAKATS SUNNA ·
+# RECOMMANDÉES · AVANT LE FAJR » (« OBLIGATOIRE » seul sur une ligne aurait pu se lire de travers) ; Petit ne rate pas le Fajr (« je prie le Fajr à la dernière minute ») ; on les prie entre l'adhan et la
+# prière (Mouslim 724) ; balance acceptable (an-Nawawi : « من متاع الدنيا ») : rien du Jour dernier ; manette générique.
+
+TITRE: Deux rakats qui valent plus que le monde
+CODE: ISL7
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: 2 RAKATS QUI VALENT PLUS / QUE LE MONDE ENTIER ?!
+ACCROCHE_DUREE: 3.2
+MINIATURE: 2 RAKATS QUI VALENT PLUS / QUE LE MONDE ENTIER ?!
+ICONE: globe
+DUREE_FIN: 1.6
+
+== salon
+PETIT tient la manette
+GRAND (malin) : [mischievously] {balance "LE MONDE ENTIER" "2 RAKATS"} Deux rakats… qui valent plus que le *monde entier*. {source "MOUSLIM 725"}
+PETIT (choc, schéma) : [shocked] Plus que {balance + manette} toutes les *PS5* ?!
+GRAND (explique, nouveau schéma) : [calm] Le Prophète ﷺ a dit : les deux rakats {balance "LE MONDE ENTIER" "2 RAKATS SUNNA // RECOMMANDÉES // AVANT LE FAJR" deja manette} avant la prière du *Fajr* valent {balance pese} mieux que le monde et tout ce qu'il contient. {source "MOUSLIM 725"}
+PETIT (gêné) : [sheepishly] Moi, je prie le Fajr à la *dernière minute*…
+GRAND (malin, index) : [mischievously] {texte "À PRIER ENTRE L'ADHAN DU FAJR ET LA PRIÈRE"} Mets ton réveil cinq minutes plus *tôt*. {source "MOUSLIM 724"}
+PETIT (content, pouce) : [excited] *Réglé* !
+FIN

@@ -1,0 +1,35 @@
+# ISLAMARCADE — Short 1 : « Mécréant à cause d'une pensée ?! » — UN SEUL Short complet, 30 s maximum
+# Remplace islam_01_pensees.txt + islam_01b_oublie.txt : jamais de « partie 2 » ni de « 1/2 » à l'écran
+# (demande de l'utilisateur du 01/11/2026). Accroche choc + images CONCRÈTES : les Compagnons en orbes de lumière avec
+# LES MÊMES nuages noirs que PETIT ; il repousse ses pensées ; il invoque. Jamais de prophète ni de Compagnon dessiné.
+# Sources vérifiées le 01/11/2026 : Mouslim 132a ; Boukhari 3276 ; Coran 19:64 (Hamidullah) ; Boukhari 7405.
+# Sens : an-Nawawi (Charh Mouslim) : c'est de trouver ces pensées trop graves (de les détester) qui est la marque de la
+# foi ; croire qu'Allah t'a oublié est faux → demander pardon (Ibn Baz) ; hadith qudsi annoncé comme hadith.
+# Voix : PETIT neuf (accroche + relance) ; GRAND = répliques déjà enregistrées (ISL1A 1-3, ISL1B 1 et 3), recollées.
+
+TITRE: Mecreant a cause d une pensee
+CODE: ISL1
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_mystere
+DUREE_FIN: 1.3
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: MÉCRÉANT À CAUSE / D'UNE PENSÉE ?!
+MINIATURE: MÉCRÉANT À CAUSE / D'UNE PENSÉE ?!
+ICONE: nuage
+
+== chambre_ado
+PETIT (peur, panique) : {pensees PETIT} Des horreurs sur Allah me passent par la tête… je suis devenu *mécréant* ?!
+
+== desert_nuit, orbes "DES COMPAGNONS" 3 (395, 1010) pensees, orbe "LE PROPHÈTE" (815, 930) dore grand @Prophète, ensemble (575, 990)
+GRAND (voix off) : {source "MOUSLIM 132"} Des Compagnons n'osaient même pas les dire. Le Prophète ﷺ leur a dit : {texte "« C'EST LA FOI ÉVIDENTE »"} c'est la foi *évidente*.
+
+== chambre_ado
+PETIT dégoûté
+GRAND (index) : {pensees PETIT} Pas la pensée : c'est de la *détester* {repousse PETIT} qui {etiquette PETIT "IL DÉTESTE ÇA = SIGNE DE FOI" vert} le {coche PETIT} montre. {source "SELON AN-NAWAWI (CHARH MOUSLIM)"}
+GRAND (explique) : Dis « je cherche refuge {geste PETIT invoque} auprès d'Allah »… et lâche-la. {source "BOUKHARI 3276"}
+PETIT bras le long du corps
+PETIT (triste, plan moyen) : Et si je crois {etiquette PETIT "ALLAH M'A OUBLIÉ" rouge} qu'Allah m'a *oublié* ?
+GRAND (calme, index) : Ça, c'est {barre PETIT} faux : {texte "« ET TON SEIGNEUR N'OUBLIE RIEN »"} ton Seigneur n'oublie rien. Demande-Lui {geste PETIT invoque} {etiquette PETIT "ALLAH VA ME PARDONNER" vert} pardon. {coche PETIT} {source "CORAN 19:64"}
+GRAND (content, explique, plan large) : Dans un hadith, Allah dit : « Je suis {texte "« JE SUIS SELON L'OPINION QUE MON SERVITEUR A DE MOI » // = IL TE TRAITE SELON CE QUE TU ESPÈRES DE LUI"} selon l'opinion que Mon serviteur a de Moi. » {source "BOUKHARI 7405 · SENS : AN-NAWAWI"}
+FIN

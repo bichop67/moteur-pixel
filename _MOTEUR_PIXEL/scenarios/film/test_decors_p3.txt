@@ -1,0 +1,76 @@
+TITRE: Test decors P3
+CODE: TP3
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: SA_MERE, COFFRE
+
+== maison_nil
+SA_MERE place 300
+NARRATEUR (voix off) : La maison au bord du Nil, la nuit. Une seule lampe.
+== maison_nil_jour
+SA_MERE place 300
+SA_SOEUR place 760
+NARRATEUR (voix off) : La même maison, en plein jour.
+== maison_nil_soir
+SA_MERE place 300
+NARRATEUR (voix off) : La même maison, le soir.
+== rive_maison_corde
+SA_MERE place 220
+COFFRE place 600 1336
+NARRATEUR (voix off) : La rive derrière la maison, le coffre retenu par la corde.
+== rive_maison
+SA_MERE place 220
+COFFRE place 640 1336, corde
+NARRATEUR (voix off) : La corde n'est pas attachée.
+== ruelle_nuit
+SOLDAT place 200, tient la lance
+SOLDAT2 place 820, tient la lance
+NARRATEUR (voix off) : La ruelle devant la maison, la nuit. {devient ruelle_nuit_eteinte 1.5} La lumière s'éteint.
+== ruelle
+ISRAELITE place 300
+EGYPTIEN place 760
+NARRATEUR (voix off) : La même ruelle, de jour, le linge sèche.
+== couloir_palais
+SERVANTE place 300
+SERVANTE2 place 700
+NARRATEUR (voix off) : Le couloir du palais, le soleil entre.
+== couloir_palais_nuit
+GARDE place 500, tient la lance
+NARRATEUR (voix off) : Le couloir du palais, la nuit.
+== chambre_asiya, voiles
+ASIYA place 360
+SERVANTE place 860
+COFFRE place 600 1320
+NARRATEUR (voix off) : La chambre d'Asiya, les voiles ondulent.
+== chambre_asiya_nuit, voiles
+ASIYA place 400
+BERCEAU place 600 1320
+NARRATEUR (voix off) : La chambre d'Asiya, la nuit.
+== marche_egypte
+EGYPTIEN place 120
+ANE place 360
+EGYPTIENNE place 560
+ISRAELITE place 860
+NARRATEUR (voix off) : Le marché de la ville.
+== avenue_palais, petales
+EGYPTIEN place 250
+EGYPTIEN2 place 800
+NARRATEUR (voix off) : L'allée qui monte au palais, des pétales tombent.
+== palais_egypte
+PHARAON place trone, sur le trône
+PLATEAU place 640 1320
+MOUSSA_ENFANT place 820
+NARRATEUR (voix off) : Les perles et les braises.
+== porte_ville
+MOUSSA place 240 1224
+NARRATEUR (voix off) : La porte de la ville, au crépuscule.
+== palais_ciel
+ASIYA place 460 700
+MARYAM place 640 700
+NARRATEUR (voix off) : Le ciel au-dessus du palais endormi.
+== carte_madyan, chemin 0.2 3
+NARRATEUR (voix off) : La carte, de l'Égypte jusqu'à Madyan.
+== desert_nuit
+MOUSSA place 400
+NARRATEUR (voix off) : Le désert, la nuit.

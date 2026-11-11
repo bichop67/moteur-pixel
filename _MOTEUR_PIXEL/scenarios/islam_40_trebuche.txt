@@ -1,0 +1,25 @@
+# ISLAMARCADE — Short duo « Tu trébuches ? Ne dis JAMAIS ça » — format CONSIGNE (incident + interdit qui surprend), 30 s max (10/11/2026)
+# Image 0 : le pied qui se cogne ({orteil}, déjà fait). Le hadith ligne par ligne (brique citation), puis au sens
+# propre : la maison contre la mouche (brique versus, objet « mouche » ajouté le 10/11/2026). Le diable n'est pas dessiné.
+# Source : Abou Dawoud 4982 (sahih, al-Albani), vérifiée sur sunnah.com le 10/11/2026. Détails : sources\fiches\ISL40.md
+
+TITRE: Tu trebuches ne dis jamais ca
+CODE: ISL40
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU TRÉBUCHES ? / NE DIS JAMAIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TU TRÉBUCHES ? / NE DIS JAMAIS ÇA !
+ICONE: exclamation
+DUREE_FIN: 1.5
+
+== chambre_ado
+PETIT (crie) : [shouting] {orteil} Aïe ! Que le diable *périsse* !
+GRAND (choc, stop) : [alarmed] Ne dis pas ça quand tu *trébuches* !
+PETIT (choc, bulle ?) : [confused] Mais… c'est le *diable* !
+GRAND (explique, plan moyen) : [calm] Un homme, monté derrière le Prophète ﷺ, {citation "LA MONTURE A TRÉBUCHÉ. UN HOMME A DIT :"} l'a dit quand la monture {citation + "« QUE LE DIABLE PÉRISSE ! »"} a trébuché. {citation "LE PROPHÈTE ﷺ A RÉPONDU :" "« NE DIS PAS : QUE LE DIABLE PÉRISSE !"} Réponse : {citation "CAR SI TU DIS CELA, IL ENFLE JUSQU'À DEVENIR COMME UNE MAISON,"} si tu dis ça, il enfle comme une *maison*, {citation + "ET IL DIT : PAR MA FORCE ! »"} et il dit : « c'est par ma force ! » {source "ABOU DAWOUD 4982"}
+GRAND (nouveau schéma) : [warmly] {versus titre "LE DIABLE DEVIENT…" maison "COMME UNE MAISON" mouche "COMME UNE MOUCHE"} {versus non} Dis plutôt « *Bismillah* » : {versus oui} il rapetisse… comme une *mouche* ! {source "ABOU DAWOUD 4982"}
+PETIT (malin) : [mischievously] *Bismillah* ! … Minuscule !
+FIN

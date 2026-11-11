@@ -1,0 +1,72 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 9 : LE FEU SUR LA MONTAGNE
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P9). Voix : E14P9_NARRATEUR, E14P9_CORAN
+# Allah n'est JAMAIS représenté : ni le feu, ni l'arbre, ni une lumière qui « parle ». La lueur de l'arbre reste régulière
+# (option arbre_feu), jamais calée sur la voix. Les paroles de Moussa et d'Allah : uniquement la voix du Coran.
+TITRE: Moussa - partie 9 - Le feu sur la montagne
+CODE: E14P9
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, SA_FEMME
+
+# LA NUIT — entre les montagnes, sous la pluie ; abrités contre le rocher ; pas une étincelle ; puis un feu, au loin
+== montagne_nuit, pluie, ambiance amb_pluie 0.3
+MOUSSA place 120
+SA_FEMME place 250
+MOUTON place 400
+MOUTON place 500 1300
+NARRATEUR (voix off, plan large) : [dark] Une nuit, entre les montagnes… il fait noir, il pleut, il fait froid. Ils ont perdu leur chemin. {source "TAFSIR IBN KATHIR (20:10 · 28:29)"}
+NARRATEUR (voix off, sur MOUSSA) : [dark] Moussa essaie d'allumer un feu. {son imp_marteau_pierre_1 0.04} [pause] Rien. {son imp_marteau_pierre_1 0.04} Pas une étincelle. {source "TAFSIR IBN KATHIR (20:10)"}
+NARRATEUR (voix off, plan large) : [mysterious] Et soudain, au loin, sur le flanc de la montagne… un {devient montagne_nuit_feu 1.6} feu. {source "CORAN 28:29"}
+CORAN (voix off, plan large) : Puis, lorsque Moussa eut accompli la période convenue et qu'il se mit en route avec sa famille, il vit un feu du côté du Mont. Il dit à sa famille : « Demeurez ici ! J'ai vu du feu. Peut-être vous en apporterai-je une nouvelle ou un tison de feu afin que vous vous réchauffiez. » {derive MOUSSA 1500 1320 6s} {source "CORAN 28:29"}
+
+# L'ARBRE — au pied de la montagne, l'arbre vert où flambe un feu sans qu'il brûle ; Moussa s'arrête ; l'appel (MOMENT FORT)
+== vallee_tuwa, arbre_feu, emotion b, ambiance amb_vent_doux 0.12
+MOUSSA place -220
+NARRATEUR (voix off, plan large) : [mysterious] {derive MOUSSA 540 1320 7s} Moussa s'approche. Au pied de la montagne, il y a un arbre vert… et dans cet arbre, un feu qui flambe. [pause] Mais l'arbre ne brûle pas. Ses feuilles restent vertes. {source "TAFSIR IBN KATHIR (28:30)"}
+NARRATEUR (voix off, sur MOUSSA) : [softly] Moussa s'arrête. Stupéfait. {source "TAFSIR IBN KATHIR (28:30)"}
+CORAN (voix off, plan large) : Puis quand il y arriva, on l'appela, du flanc droit de la vallée, dans la place bénie, à partir de l'arbre : « Ô {gros MOUSSA} Moussa ! C'est Moi Allah, le Seigneur de {large} l'Univers. » {source "CORAN 28:30"}
+NARRATEUR (voix off, plan large) : [calm] Celui qui lui parle, c'est le Seigneur de l'univers. Ni le feu, ni l'arbre : Allah ne ressemble à rien de ce qu'Il a créé. {source "TAFSIR IBN KATHIR (28:30) · CORAN 42:11"}
+CORAN (voix off, sur MOUSSA) : Je suis ton Seigneur. Enlève tes sandales ! Car tu es dans la vallée sacrée {large} Touwa. Et Moi, Je t'ai {gros MOUSSA} choisi. Écoute donc ce qui va être révélé. Certes, c'est Moi Allah. Point de divinité véritable autre que Moi ! Adore-Moi et {cadre MOUSSA} accomplis la prière en souvenir de Moi. {source "CORAN 20:12-14"}
+CORAN (voix off, plan large) : L'Heure va certes arriver. Je la cache à peine, pour que chaque âme soit rétribuée selon ses {cadre MOUSSA} efforts. Que celui qui n'y croit pas et qui suit sa propre passion ne t'en détourne pas. Sinon tu périras. {source "CORAN 20:15-16"}
+
+# LE BÂTON — son bâton de berger près de lui ; il le jette : un serpent immense qui file, avale un buisson, engloutit un rocher ;
+# Moussa s'éloigne d'un trait ; puis il revient et le serpent redevient bâton
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.12
+MOUSSA place 540
+BATON place 660 1316
+CORAN (voix off, plan large) : Et qu'est-ce qu'il y a dans ta main droite, ô {cadre MOUSSA} Moussa ? {source "CORAN 20:17"}
+CORAN (voix off, sur BATON) : Il dit : « C'est mon bâton sur lequel je m'appuie, qui me sert à effeuiller les arbres pour mes moutons et j'en fais d'autres usages. » {source "CORAN 20:18"}
+NARRATEUR (voix off, plan large) : [calm] Son bâton de berger. Il s'appuie dessus quand il {souvenir MOUSSA collines_madyan 0 -10 2.6s} marche, et il en secoue les branches pour que les feuilles tombent… et que ses moutons {souvenir MOUSSA collines_madyan_ete 0 -10 2.6s} mangent. {source "TAFSIR IBN KATHIR (20:18)"}
+CORAN (voix off, plan large) : Allah lui dit : « Jette-le, ô Moussa ! » Il le {disparait BATON} {serpent depart} jeta ; et le voici un serpent qui rampait. {source "CORAN 20:19-20"}
+NARRATEUR (voix off, plan large) : [dramatic] Un serpent immense, qui file à toute vitesse. Il passe près d'un arbre… et {serpent avale} l'avale. Près d'un rocher… et {serpent engloutit} l'engloutit. On entend le rocher tomber dans son {son imp_pierres_chute_1 0.08} ventre. {source "TAFSIR IBN KATHIR (20:20, IBN 'ABBAS)"}
+CORAN (voix off, plan large) : Puis, quand il le vit remuer comme si c'était un serpent, il {derive MOUSSA 1560 1320 1.4s} tourna le dos sans même se retourner. « Ô Moussa ! Approche {serpent revient} et n'aie pas peur ! Tu es du nombre de ceux qui sont en sécurité. » {source "CORAN 28:31 (EXTRAIT)"}
+CORAN (voix off, plan large) : Allah dit : « Saisis-le et ne crains rien ! Nous le ramènerons à son premier état. » {source "CORAN 20:21"}
+NARRATEUR (voix off, plan large) : [softly] Moussa {derive MOUSSA 560 1320 3.5s} revient. Il saisit le serpent… et dans sa main, c'est de nouveau son {serpent fin} {apparait BATON} bâton. {source "TAFSIR IBN KATHIR (28:31 · 20:21)"}
+
+# LA MAIN — de son côté, une lumière blanche éclatante, comme un morceau de lune ; puis elle s'apaise
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.12
+MOUSSA place 560
+BATON place 660 1316
+CORAN (voix off, sur MOUSSA) : Introduis ta main dans l'ouverture de ta tunique ! Elle sortira {main_blanche MOUSSA} blanche sans aucun mal. Et serre ton bras contre toi pour ne pas avoir peur. Voilà donc deux preuves de ton Seigneur pour Pharaon et ses notables. Ce sont vraiment des gens pervers. {source "CORAN 28:32"}
+NARRATEUR (voix off, sur MOUSSA) : [mysterious] Sa main ressort… {main_blanche MOUSSA} blanche, brillante comme un morceau de lune, comme un éclair. [pause] Pas une maladie : une lumière. {source "TAFSIR IBN KATHIR (28:32)"}
+
+# VA VERS PHARAON — plan large : la montagne, l'arbre lumineux, Moussa ; l'image du palais de Pharaon, au loin
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.15
+MOUSSA place 560
+BATON place 660 1316
+CORAN (voix off, plan large) : Rends-toi auprès de {souvenir MOUSSA palais_egypte_nuit 0 -10 3.5s} Pharaon car il a outrepassé toute limite. {source "CORAN 20:24"}
+NARRATEUR (voix off, sur MOUSSA) : [dark] Pharaon. Le roi qu'il a fui, il y a plus de dix ans. [pause] C'est vers lui qu'il doit retourner. {source "TAFSIR IBN KATHIR (20:10 · 20:24)"}
+CORAN (voix off, plan large) : « Seigneur, dit Moussa, j'ai tué un des {souvenir MOUSSA ruelle 0 -10 3s} leurs et je crains qu'ils ne me tuent. Mais {gros MOUSSA} Haroun, mon frère, est plus éloquent que moi. {souvenir MOUSSA quartier 0 -10 3s} Envoie-le donc avec moi comme auxiliaire, pour déclarer ma véracité ! Je crains, vraiment, qu'ils ne me traitent de {large} menteur. » {source "CORAN 28:33-34"}
+NARRATEUR (voix off, sur MOUSSA) : [softly] Haroun parle mieux que lui. Car depuis le jour de la {souvenir MOUSSA palais_egypte 0 -10 3s} braise… Moussa a toujours eu du mal à parler. {source "TAFSIR IBN KATHIR (28:34)"}
+CORAN (voix off, plan large) : Moussa dit : « {cadre MOUSSA} Seigneur ! Ouvre-moi ma {gros MOUSSA} poitrine, et facilite ma mission ! Et dénoue un nœud en ma {souvenir MOUSSA palais_egypte 0 -10 3s} langue, afin qu'ils comprennent mes paroles, et assigne-moi un assistant de ma {large} famille : Haroun, mon {souvenir MOUSSA quartier_aube 0 -10 3s} frère, accrois par lui ma force ! Et associe-le à ma {cadre MOUSSA} mission, afin que nous Te glorifions beaucoup, et que nous T'invoquions {large} beaucoup. Et Toi, certes, Tu es Très Clairvoyant sur {gros MOUSSA} nous. » {source "CORAN 20:25-35"}
+CORAN (voix off, sur MOUSSA) : Allah dit : « Ta demande est {geste MOUSSA intense} exaucée, ô Moussa ! » {source "CORAN 20:36"}
+CORAN (voix off, plan large) : Allah dit : « Nous allons t'apporter le soutien de ton {souvenir MOUSSA desert_aube 0 -10 3s} frère, et vous donner, à vous deux, des arguments {cadre MOUSSA} irréfutables ; ils ne sauront vous atteindre, grâce à Nos {large} signes. Vous deux et ceux qui vous suivront serez les {gros MOUSSA} vainqueurs. » {source "CORAN 28:35"}
+
+# LA DEUXIÈME PROMESSE — l'aube derrière la montagne ; les souvenirs de toute sa vie ; Moussa repart, vers l'Égypte (MOMENT FORT)
+== vallee_tuwa_aube, emotion, ambiance amb_vent_doux 0.15
+MOUSSA place 560, intense
+BATON place 660 1316
+NARRATEUR (voix off, plan large) : [softly] Le bébé jeté au {souvenir MOUSSA nil_aube -120 -20 2.4s} fleuve. L'enfant aux {souvenir MOUSSA palais_egypte -40 -60 2.4s} braises. Le prince en {souvenir MOUSSA porte_ville 40 -20 2.4s} fuite. Le berger de {souvenir MOUSSA collines_madyan 120 -60 2.4s} Madyan. {source "CORAN 28:7 · 20:40"}
+NARRATEUR (voix off, plan large) : [mysterious] Cette nuit-là, sur la montagne, s'est accomplie la deuxième promesse faite à sa mère. [pause] Et maintenant… Moussa retourne en {derive MOUSSA 1560 1320 7s} {disparait BATON} Égypte. Face à *Pharaon*. {source "CORAN 28:7 · 20:24"}

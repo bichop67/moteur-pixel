@@ -1,0 +1,33 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 6 : LA SORTIE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 6 - La sortie
+CODE: GOGP6
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+QUEUE: 2.5
+
+# À LA PORTE D'UNE VILLE — l'orbe de 'Issa ; des croyants viennent à lui
+== porte_ville, 1s, ambiance amb_vent_doux 0.2
+ISSA place 1900
+CROYANT place -560
+PERE_CROYANT place -700
+MERE_CROYANTE place -840
+NARRATEUR (voix off) : [calm] Ce sera à la fin des temps. Après le Dajjal — le faux messie. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [calm] {derive ISSA 700 8s} À ce moment-là, 'Issa, le fils de Maryam, sera redescendu sur terre. Il poursuivra le Dajjal… et il le tuera, à la porte de Loudd. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [warmly] {va CROYANT 420 6s} {va PERE_CROYANT 280 6s} {va MERE_CROYANTE 140 6s} Ensuite, des gens qu'Allah a protégés du Dajjal viendront trouver 'Issa. Il essuiera leurs visages… et il leur parlera de leurs degrés au *Paradis*. {source "MOUSLIM 2937"}
+ISSA intense
+NARRATEUR (voix off) : [dark] {cadre ISSA} Et c'est à ce moment-là qu'Allah révélera à 'Issa : « J'ai fait sortir des serviteurs à Moi… que personne n'a la force de combattre. {large} Mets Mes serviteurs à l'abri, sur le *Mont*. » {source "MOUSLIM 2937"}
+
+# LE BARRAGE SOUS LE CIEL ROUGE — encore debout
+== gog_barrage_fin, 1s, ambiance amb_vent_fort 0.22
+NARRATEUR (voix off) : [dark] Parce que là-bas, entre les deux montagnes… la promesse est arrivée. {source "CORAN 18:98"}
+NARRATEUR (voix off) : [dramatic] Le barrage de fer et de cuivre… celui que personne n'avait pu percer… [pause] Allah le *rase*. {source "CORAN 18:98"}
+
+# LA SORTIE — 7 s sans un mot : les fissures, la chute, la poussière ; puis la marée (MOMENT FORT)
+== gog_barrage_fin, 7s, effondre, ambiance amb_foule_lointaine 0.4
+NARRATEUR (voix off) : [dark] {son imp_grondement_1 0.3} Et ils sortent. {source "CORAN 21:96"}
+NARRATEUR (voix off) : [dramatic] Allah dit dans le Coran : « Jusqu'à ce que soient relâchés Ya'jouj et Ma'jouj… et qu'ils se précipitent de chaque *hauteur*. » {source "CORAN 21:96"}
+NARRATEUR (voix off) : [dark] Ils déferlent comme des flots. [pause] Il en sort… il en sort… et ça ne s'arrête *pas*. {source "CORAN 18:99 · selon le TAFSIR IBN KATHIR"}

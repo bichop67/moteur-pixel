@@ -1,0 +1,21 @@
+{
+ "flow_id": "5ZF98cbHA05qS9lOZLdM",
+ "credits_total": 3009,
+ "voix": [
+  {"code": "ISL17", "perso": "PETIT", "node": "Jy8xMa0FIP1eVTV9OKVt", "session": "rhPGDoIEffdWXbJ1btWG", "generation": "0Zxif8ji7rw4DoHcFHys", "credits": 232},
+  {"code": "ISL17", "perso": "GRAND", "node": "YCtKwAmYSYTqUw2NEdRe", "session": "8wLUqWxWIY7tAXhHnza2", "generation": "8OeAZSDTYfY8DkfCkszr", "credits": 307},
+  {"code": "ISL18", "perso": "PETIT", "node": "7x5mEHCNIwDgRRqAhjN6", "session": "8hW1PiY81TnbuqYzJJEr", "generation": "DPVjBWUP9mrGAaqaZCLO", "credits": 107},
+  {"code": "ISL18", "perso": "GRAND", "node": "xTsCJ7X9ywQPiNyjIAfn", "session": "vJXWNtaUafqS4jAH7JWI", "generation": "na2LnNkm4wJQAqA6wsjw", "credits": 388},
+  {"code": "ISL19", "perso": "PETIT", "node": "AWZYWTwLTknFOndXtR17", "session": "wnTJUbLtz2BtISQ7pRU1", "generation": "cyzVM0ArLPBwkKhqAj3c", "credits": 185},
+  {"code": "ISL19", "perso": "GRAND", "node": "19QTRT3hEv2aHaPuVKQu", "session": "Q6aiO0I7p3WUPnZjszrX", "generation": "oKupwtYypCly1ZrFGiwa", "credits": 314},
+  {"code": "ISL20", "perso": "PETIT", "node": "2kQdx9Ut5zpevaRXVzfq", "session": "nH3e81MpT05RSTW1sK8f", "generation": "l3ejWQGyo7blhP3kFvFy", "credits": 98},
+  {"code": "ISL20", "perso": "GRAND", "node": "sf1576OIed71oMALhJaO", "session": "JyZKjqJ3HKbFm1mCfXYR", "generation": "C7IOm5FWdo3WUiUg7ElW", "credits": 379},
+  {"code": "ISL21", "perso": "PETIT", "node": "k7fHXEbq5Bp4EnS7Hiil", "session": "hJQmdiyu7qnjdj9qOLqq", "generation": "88vPLJbfpi4u1PNAcnbr", "credits": 225},
+  {"code": "ISL21", "perso": "GRAND", "node": "q5UllFFbj63Bn9Xb3TLs", "session": "6sceO3TlaJ4kudhf18yT", "generation": "oRMEJws2DgDSnKqtst3I", "credits": 288},
+  {"code": "ISL22", "perso": "PETIT", "node": "FnCPWSaNL6ngT5NbT62L", "session": "UlY77AmUB6IMlbJqnEt4", "generation": "w9WeSs2nTP24HeNZKN99", "credits": 124},
+  {"code": "ISL22", "perso": "GRAND", "node": "dja60zqLN0nccm6AmReW", "session": "jprsmhBDkuipn0b3XwAj", "generation": "jld2HINQOHulyhTwfcna", "credits": 362},
+  {"code": "ISL21", "perso": "PETIT (ajout « Bon… je signe ! »)", "node": "jtUOZtR0qvfWStKov7aP", "session": "QnE6Y39wWyPAAMPJpEc2", "generation": "UfDlou693I16geuUGKHX", "credits": 23},
+  {"code": "ISL22", "perso": "PETIT (ajout « Al-hamdoulillah… »)", "node": "N6bEJFigiL5g403krjl8", "session": "kwz8VbRWQzoLDhzch2Bk", "generation": "PRkXNSTniNR2oFxROoU5", "credits": 25}
+ ],
+ "credits_total_avec_ajouts": 3057
+}

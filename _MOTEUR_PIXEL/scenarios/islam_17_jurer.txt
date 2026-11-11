@@ -1,0 +1,40 @@
+# ISLAMARCADE — Short duo « Ne jure JAMAIS sur ta mère » — format CONSIGNE, 30 s maximum (07/11/2026)
+# Image 0 : Petit, main levée, bulle « SUR LA TÊTE DE MA MÈRE ! » (il dit vrai : ses devoirs sont faits) ; le panneau
+# STOP arrive ; puis la règle : SUR TON PÈRE / SUR TA MÈRE barrés, PAR ALLAH en or, SUR TON FRÈRE / SUR TA VIE barrés,
+# « … OU TU TE TAIS », et la condition du même hadith : « NE JUREZ PAR ALLAH QUE SI VOUS DITES VRAI ».
+# Sources vérifiées sur sunnah.com le 06/11/2026 :
+#   Abou Dawoud 3248 (sahih, al-Albani) = Nasa'i 3769 (sahih, Darussalam), Abou Hourayra : « لاَ تَحْلِفُوا بِآبَائِكُمْ وَلاَ
+#   بِأُمَّهَاتِكُمْ وَلاَ بِالأَنْدَادِ وَلاَ تَحْلِفُوا إِلاَّ بِاللَّهِ وَلاَ تَحْلِفُوا بِاللَّهِ إِلاَّ وَأَنْتُمْ صَادِقُونَ » ; Boukhari 6646 et
+#   Mouslim 1646d : « فَمَنْ كَانَ حَالِفًا فَلْيَحْلِفْ بِاللَّهِ أَوْ لِيَصْمُتْ ».
+# Vérification critique du 06/11/2026 : « ni par vos mères » n'est PAS dans Boukhari (Abou Dawoud / Nasa'i seulement) ;
+# niveau : interdit par le texte, degré débattu (péché, voire petit chirk, pour les hanbalites ; fortement déconseillé
+# pour beaucoup de chafiites) → pas de « péché » ni de « chirk » à l'écran, la nuance va dans la description ; Petit dit
+# vrai (sinon « wallah ×3 » serait un faux serment, Boukhari 6675) ; la chute reprend la condition du hadith.
+# Relecture indépendante du 07/11/2026 : « Tu jures par Allah… ou tu te tais » (et non « Par Allah… », qui s'entendrait
+# comme un serment de Grand) ; « Une fois suffit » (conseil de Grand) séparé de la condition du hadith, seule sous la
+# source ; Grand sourit (pas de rire après « Wallah ×3 ») ; à l'écran « … OU TU TE TAIS », FRÈRE / VIE affichés seulement
+# quand Grand en parle, guillemets autour de la parole du Prophète ﷺ.
+
+TITRE: Ne jure jamais sur ta mere
+CODE: ISL17
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_tension
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU JURES SUR TA MÈRE ? / ARRÊTE !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TU JURES SUR TA MÈRE ? / ARRÊTE !
+ICONE: interdit
+DUREE_FIN: 1.4
+
+== couloir_ecole
+PETIT (fier, salue) : [confident] {jure PETIT} J'ai fini mes devoirs… je te jure, sur la tête de ma *mère* !
+GRAND (stop) : [firm] Stop. Ne jure *jamais* sur ta mère.
+PETIT (choc, bulle ?) : [surprised] Mais tout le monde le *dit* !
+GRAND (explique, plan moyen) : [calm] Le Prophète ﷺ a dit : {serment} « Ne jurez ni par vos {serment pere} pères, ni par vos {serment mere} *mères*… {serment allah} ne jurez que par Allah. » {source "ABOU DAWOUD 3248 · NASA'I 3769"}
+PETIT (malin, bulle ?) : [mischievously] Et sur la vie de mon *frère* ?
+GRAND (schéma) : [calm] {serment frere} Pareil ! {serment tais} Tu jures par Allah… ou tu te *tais*. {source "BOUKHARI 6646 · MOUSLIM 1646"}
+PETIT (content, victoire) : [excited] Wallah ! Wallah ! *Wallah* !
+GRAND (sourit) : [amused] Une fois *suffit*…
+GRAND (schéma) : [calm] {serment vrai} et seulement si c'est vrai ! {source "ABOU DAWOUD 3248"}
+FIN

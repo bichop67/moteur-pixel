@@ -1,0 +1,62 @@
+{
+ "ISL32": {
+  "empreinte": "32d311a677cefb59",
+  "date": "09/11/2026",
+  "scenario": "islam_32_reveil_nuit.txt"
+ },
+ "ISL33": {
+  "empreinte": "d89f9e5329ae83c4",
+  "date": "09/11/2026",
+  "scenario": "islam_33_douleur.txt"
+ },
+ "ISL34": {
+  "empreinte": "655a49bf834fe994",
+  "date": "09/11/2026",
+  "scenario": "islam_34_tonnerre.txt"
+ },
+ "ISL35": {
+  "empreinte": "84fcec7d11104b5a",
+  "date": "09/11/2026",
+  "scenario": "islam_35_vent.txt"
+ },
+ "ISL36": {
+  "empreinte": "9d829e1ad5df8eb6",
+  "date": "09/11/2026",
+  "scenario": "islam_36_chien.txt"
+ },
+ "ISL37": {
+  "empreinte": "4cbe4e85994af8d9",
+  "date": "09/11/2026",
+  "scenario": "islam_37_angoisse.txt"
+ },
+ "ISL38": {
+  "empreinte": "fccfc9b01a603b93",
+  "date": "10/11/2026",
+  "scenario": "islam_38_bouchee.txt"
+ },
+ "ISL39": {
+  "empreinte": "fe44f8ce926b2d6c",
+  "date": "10/11/2026",
+  "scenario": "islam_39_bismillah.txt"
+ },
+ "ISL40": {
+  "empreinte": "6e993ccc79da36c6",
+  "date": "10/11/2026",
+  "scenario": "islam_40_trebuche.txt"
+ },
+ "ISL41": {
+  "empreinte": "f398df0591a9c46e",
+  "date": "10/11/2026",
+  "scenario": "islam_41_malade.txt"
+ },
+ "ISL42": {
+  "empreinte": "72590605bb6881eb",
+  "date": "10/11/2026",
+  "scenario": "islam_42_opprime.txt"
+ },
+ "ISL43": {
+  "empreinte": "1955651bb50afd23",
+  "date": "10/11/2026",
+  "scenario": "islam_43_endroit.txt"
+ }
+}

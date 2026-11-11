@@ -1,0 +1,26 @@
+# ISLAMARCADE — Short duo « Tu as oublié Bismillah ? Dis ça » — format CONSIGNE (incident + parole à dire), 30 s max (10/11/2026)
+# Image 0 : le burger déjà croqué en gros plan (brique focus), « BISMILLAH OUBLIÉ ! ». La formule de rattrapage (brique
+# citation), puis le hadith du diable et du repas en bandeau sur la scène ; Petit la dit sur son burger (focus ok).
+# Sources : Abou Dawoud 3767 (sahih), Mouslim 2017, vérifiées sur sunnah.com le 10/11/2026. Détails : sources\fiches\ISL39.md
+
+TITRE: Tu as oublie Bismillah dis ca
+CODE: ISL39
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU AS OUBLIÉ BISMILLAH ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: BISMILLAH OUBLIÉ ? / DIS ÇA !
+ICONE: burger
+DUREE_FIN: 1.5
+
+== snack
+PETIT (choc) : [gasps] {focus burger "DÉJÀ CROQUÉ…"} Oh non… {focus non "BISMILLAH OUBLIÉ !"} j'ai oublié *Bismillah* !
+GRAND (calme, index) : [calm] Rattrape-toi. Dis *ça* !
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« S'IL OUBLIE DE MENTIONNER LE NOM D'ALLAH AU DÉBUT, QU'IL DISE :"} s'il oublie au début, qu'il dise : {citation "BISMILLAHI AWWALAHOU WA AKHIRAH. »"} « Bismillahi awwalahou wa *akhirah* ». {citation note "= AU NOM D'ALLAH, AU DÉBUT ET À LA FIN"} {source "ABOU DAWOUD 3767"}
+PETIT (question, bulle ?) : [curious] Et si je dis *rien* ?
+GRAND (explique, nouveau schéma) : [serious] {citation "LE PROPHÈTE ﷺ A DIT :" "« LE DIABLE S'AUTORISE LA NOURRITURE SUR LAQUELLE LE NOM D'ALLAH N'EST PAS MENTIONNÉ. »"} {citation lueur rouge} Sans le nom d'Allah, le diable peut manger de ton *repas* ! {source "MOUSLIM 2017"}
+PETIT (peur, nouveau schéma) : [quickly] {focus burger "BISMILLAHI AWWALAHOU // WA AKHIRAH"} Bismillahi awwalahou wa {focus ok "DIT !"} *akhirah* !
+GRAND (content) : [amused] Voilà. *Mange* !
+FIN

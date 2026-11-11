@@ -1,0 +1,38 @@
+# ISLAMARCADE — Short duo « Tu t'es cogné le petit orteil ? Bonne nouvelle » — 30 s maximum (03/11/2026)
+# Modèle : « Tes péchés effacés en 2 minutes ?! » (le duo qui a le mieux marché sur TikTok).
+# Image 0 = gros plan : le pied qui se cogne contre le pied du lit (une douleur que tout le monde connaît) ; la bonne
+# nouvelle à ~2 s ; le hadith MONTRÉ : un arbre dont les feuilles sombres (« PÉCHÉ ») tombent une à une.
+# Sources vérifiées sur sunnah.com le 03/11/2026 :
+#   Boukhari 5660 (Ibn Mas'oud) : « ما من مسلم يصيبه أذى مرض فما سواه إلا حط الله له سيئاته كما تحط الشجرة ورقها » ;
+#   Boukhari 5640 (Aïcha) : … « حتى الشوكة يشاكها » ; Boukhari 5641-5642 (fatigue, maladie, souci, tristesse, mal…) ;
+#   Mouslim 2688a (Anas) : l'homme qui demandait à souffrir ici-bas, repris par le Prophète ﷺ ; Boukhari 7237
+#   (« وسلوا الله العافية » : demandez à Allah la santé) ; Mouslim 233a (« ما اجتنبت الكبائر »).
+# Relecture indépendante du 03/11/2026 : « Félicitations » remplacé par « Bonne nouvelle » (an-Nawawi sur Mouslim 2572 :
+# 'Aïcha interdit de rire de celui qui trébuche ; les commentateurs parlent de « بشارة عظيمة ») ; la nuance va sur
+# l'arbre lui-même (Ibn Hajar, Fath 10/108 : « الجمهور خصوا ذلك بالصغائر ») : « TES PETITS PÉCHÉS », « AVIS
+# MAJORITAIRE », « LES GRANDS : IL FAUT SE REPENTIR » ; l'effacement ne dépend pas de la patience (Fath 10/105, 10/109),
+# la récompense en plus vient de la patience : rien à ajouter.
+
+TITRE: Tu t es cogne le petit orteil
+CODE: ISL6
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TON PETIT ORTEIL ?! / BONNE NOUVELLE !
+ACCROCHE_DUREE: 3.0
+MINIATURE: LE PETIT ORTEIL ? / BONNE NOUVELLE !
+ICONE: eclair
+DUREE_FIN: 1.6
+
+== chambre_ado
+PETIT (pleure) : [crying] {orteil} Aïe ! Mon petit *orteil* !
+PETIT pleure, larmes, sautille
+GRAND (content) : [warmly] *Bonne nouvelle* !
+PETIT (énervé, bulle !) : [annoyed] Bonne nouvelle ?!
+GRAND (explique, plan moyen) : [calm] Le Prophète ﷺ a dit : {arbre "TES PETITS PÉCHÉS"} quand un musulman a *mal*… Allah {feuilles} fait tomber ses péchés, comme un arbre perd ses {texte "LES GRANDS : IL FAUT SE REPENTIR"} feuilles. {source "BOUKHARI 5660 · AVIS MAJORITAIRE"}
+PETIT (choc, schéma) : [surprised] Même pour un *orteil* ?!
+GRAND (index, schéma) : Même pour une *épine* qui le pique. {source "BOUKHARI 5640"}
+PETIT (malin, index) : [mischievously] Alors je me recogne *exprès* !
+GRAND (facepalm) : [exasperated] Non ! On ne cherche pas le mal : on demande la *santé* à Allah. {source "MOUSLIM 2688 · BOUKHARI 7237"}
+FIN

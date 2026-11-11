@@ -1,0 +1,28 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 1 : L'OUVERTURE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 1 - L'ouverture
+CODE: GOGP1
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# LE LAC ASSÉCHÉ — crépuscule rouge ; une foule sans fin de silhouettes passe au premier plan
+== gog_lac_fin, 2s, passage, ambiance amb_marche_foule 0.22
+NARRATEUR (voix off) : [dark] Un jour… un lac entier va disparaître. [pause] Bu. Jusqu'à la dernière goutte. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [mysterious] Des hommes vont passer devant… tellement nombreux, que les premiers boiront toute son eau. [pause] Et les derniers, en arrivant, diront : {source "MOUSLIM 2937"}
+UN_DES_LEURS (voix off) : [low] Il y a eu de l'eau ici… autrefois. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [dark] {large} Ces hommes-là… personne sur terre n'aura la force de les combattre. *Personne*. {source "MOUSLIM 2937"}
+
+# LE BARRAGE, LA NUIT
+== gog_barrage_nuit, vent, ambiance amb_vent_fort 0.16
+NARRATEUR (voix off) : [mysterious] Et tu sais ce que dit le Coran ? [pause] Qu'on les a enfermés. Derrière un barrage de *fer*… et de cuivre. {source "CORAN 18:96-98 · BOUKHARI 3346"}
+
+# L'AUTRE CÔTÉ — des silhouettes essaient de monter, glissent, retombent
+== gog_derriere, escalade, ambiance amb_foule_lointaine 0.2
+NARRATEUR (voix off) : [dark] Mais ce barrage… il ne tiendra pas toujours. {source "CORAN 18:98"}
+NARRATEUR (voix off) : [calm] Alors qui sont-ils ? Qui les a enfermés ? [pause] Et qu'est-ce qui se passera… le jour où ils sortiront ?
+
+== gog_barrage_nuit, vent, ambiance amb_vent_fort 0.14
+NARRATEUR (voix off) : [warmly] Voici l'histoire de Ya'jouj et Ma'jouj — *Gog et Magog*. Je vais te la raconter du début à la fin… avec ce qu'en disent le Coran, et les paroles authentiques du Prophète ﷺ.

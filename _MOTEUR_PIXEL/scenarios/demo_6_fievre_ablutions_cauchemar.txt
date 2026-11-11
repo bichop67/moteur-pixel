@@ -1,0 +1,26 @@
+# DÉMO 6 (04/11/2026) — les 6 nouvelles démonstrations en image (explique_0411.py), avec leur code à l'écran :
+# fièvre, forge + soufflet, eau glacée, ablutions, cauchemar, gestes après un cauchemar. Maquette sans voix.
+
+TITRE: Demo 6 - fievre forge glace ablutions cauchemar gestes
+CODE: DEMO6
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: aucune
+PERSONNAGES: PETIT, GRAND
+DEMO: oui
+DUREE_FIN: 1.0
+
+== chambre
+LEGENDE : FIÈVRE / {fievre PETIT} : le thermomètre monte à 39,5 °C, sueur, frissons
+PETIT : {fievre PETIT} Saleté de fièvre, regarde le thermomètre monter !
+LEGENDE : FORGE / {forge "…"} puis {soufflet} : les croûtes « PÉCHÉ » partent, le fer brille
+GRAND (nouveau schéma) : {forge "TES PETITS PÉCHÉS // AVIS MAJORITAIRE"} Voici une forge et un fer sale. {soufflet} Le soufflet souffle trois fois, la saleté part, et le fer ressort propre.
+LEGENDE : EAU GLACÉE / {glace} : les mains sous l'eau glacée, « BRRR ! »
+PETIT (nouveau schéma) : {glace} Aïe, l'eau glacée du robinet !
+LEGENDE : ABLUTIONS / {ablutions PETIT} puis {ablutions yeux} {ablutions mains} {ablutions pieds}
+GRAND (nouveau schéma) : {ablutions PETIT} Le voile part avec l'eau : {ablutions yeux} le visage, puis {ablutions mains} les mains jusqu'au coude, puis {ablutions pieds} les pieds, talon compris.
+LEGENDE : CAUCHEMAR / {cauchemar PETIT} : la bulle du cauchemar, il se réveille en sursaut
+PETIT (nouveau schéma) : {cauchemar PETIT} Il dort, il fait un cauchemar, et il se réveille d'un coup.
+LEGENDE : GESTES / {gestes PETIT} puis {gestes souffle} {gestes refuge} {gestes tourne} {gestes chut} {gestes protege}
+GRAND (nouveau schéma) : {gestes PETIT} Il souffle {gestes souffle} trois fois à sa gauche, il dit {gestes refuge} la formule, il se {gestes tourne} recouche sur le côté, il ne {gestes chut} raconte pas le rêve, et {gestes protege} il se rendort en paix.
+FIN

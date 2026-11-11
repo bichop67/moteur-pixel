@@ -1,0 +1,72 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 9 : LE FEU SUR LA MONTAGNE
+# Un seul conteur. Allah n'est JAMAIS représenté : ni le feu, ni l'arbre, ni une lumière qui « parle ». La lueur de l'arbre
+# reste régulière (option arbre_feu), jamais calée sur la voix. Les paroles d'Allah et de Moussa (28:29-35, 20:12-36)
+# sont rapportées par le conteur, au plus près du sens (Hamidullah) ; 20:15-16 résumé en une phrase.
+TITRE: Moussa conte - partie 9 - Le feu sur la montagne
+CODE: E14P9
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, SA_FEMME
+
+# LA NUIT — entre les montagnes, sous la pluie ; abrités contre le rocher ; pas une étincelle ; puis un feu, au loin
+== montagne_nuit, pluie, ambiance amb_pluie 0.2
+MOUSSA place 120
+SA_FEMME place 250
+MOUTON place 400
+MOUTON place 500 1300
+NARRATEUR (voix off) : [dark] Une nuit, entre les montagnes… il faisait noir, il pleuvait, il faisait froid. Et ils avaient perdu leur chemin. {source "TAFSIR IBN KATHIR (20:10 · 28:29)"}
+NARRATEUR (voix off) : [dark] Moussa a essayé d'allumer un feu. {son imp_marteau_pierre_1 0.03} [pause] Rien. {son imp_marteau_pierre_1 0.03} Pas une étincelle. {source "TAFSIR IBN KATHIR (20:10)"}
+NARRATEUR (voix off) : [mysterious] Et soudain, au loin, sur le flanc de la montagne… il a vu un {devient montagne_nuit_feu 1.6} feu. {source "CORAN 28:29"}
+NARRATEUR (voix off) : [calm] Il a dit à sa famille : « Restez ici. J'ai vu un feu. Peut-être que je vous rapporterai des nouvelles… ou un tison, pour que vous vous réchauffiez. » {derive MOUSSA 1500 1320 6s} {source "CORAN 28:29"}
+
+# L'ARBRE — au pied de la montagne, l'arbre vert où flambe un feu sans qu'il brûle ; Moussa s'arrête ; l'appel (MOMENT FORT)
+== vallee_tuwa, arbre_feu, emotion b, ambiance amb_vent_doux 0.1
+MOUSSA place -220
+NARRATEUR (voix off) : [mysterious] {derive MOUSSA 540 1320 7s} Moussa s'est approché. Au pied de la montagne, il y avait un arbre vert… et dans cet arbre, un feu qui flambait. [pause] Mais l'arbre ne brûlait pas. Ses feuilles restaient vertes. {source "TAFSIR IBN KATHIR (27:8 · 28:30)"}
+NARRATEUR (voix off) : [softly] {cadre MOUSSA} Moussa s'est arrêté. Stupéfait. {source "TAFSIR IBN KATHIR (28:30)"}
+NARRATEUR (voix off) : [calm] Et là, on l'a appelé, du côté droit de la vallée, dans ce lieu béni, depuis l'arbre : « Ô Moussa ! C'est Moi, Allah, le Seigneur de l'univers. » {source "CORAN 28:30"}
+NARRATEUR (voix off) : [calm] Celui qui lui parlait, c'était le Seigneur de l'univers. {large} Ni le feu, ni l'arbre : Allah ne ressemble à rien de ce qu'Il a créé. {source "TAFSIR IBN KATHIR (28:30) · CORAN 42:11"}
+NARRATEUR (voix off) : [calm] Allah lui a dit : « Je suis ton Seigneur. Enlève tes sandales : {cadre MOUSSA} tu es dans la vallée sacrée, Touwa. Et Moi, Je t'ai choisi. Alors écoute ce qui va t'être révélé. C'est Moi, Allah. Il n'y a pas d'autre divinité que Moi. Adore-Moi, et fais la prière pour te souvenir de Moi. » {source "CORAN 20:12-14"}
+NARRATEUR (voix off) : [calm] {large} Et Allah lui a parlé de l'Heure : elle va arriver, c'est sûr… et chaque âme recevra ce qu'elle mérite, selon ses efforts. {source "CORAN 20:15"}
+
+# LE BÂTON — son bâton de berger près de lui ; il le jette : un serpent immense qui file, avale un buisson, engloutit un rocher ;
+# Moussa s'éloigne d'un trait ; puis il revient et le serpent redevient bâton
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.1
+MOUSSA place 540
+BATON place 660 1316
+NARRATEUR (voix off) : [calm] Puis Allah lui a demandé : « Qu'est-ce que tu tiens dans ta main droite, ô Moussa ? » Et Moussa a répondu : « C'est mon bâton. Je m'appuie dessus, {cadre MOUSSA} je fais tomber avec lui les feuilles des {souvenir MOUSSA collines_madyan 0 -10 2.6s} arbres pour mes moutons… et je m'en sers pour d'autres choses encore. » {source "CORAN 20:17-18"}
+NARRATEUR (voix off) : [dramatic] Allah lui a dit : « Jette-le, ô Moussa ! » {large} Il l'a {disparait BATON} {serpent depart} jeté… et voilà que c'était un serpent, qui rampait. {source "CORAN 20:19-20"}
+NARRATEUR (voix off) : [dramatic] Un serpent immense, qui filait à toute vitesse. Il est passé près d'un arbre… et il l'a {serpent avale} avalé. Près d'un rocher… et il l'a {serpent engloutit} englouti. On entendait le rocher tomber dans son {son imp_pierres_chute_1 0.05} ventre. {source "TAFSIR IBN KATHIR (20:20, IBN 'ABBAS)"}
+NARRATEUR (voix off) : [dramatic] Quand Moussa l'a vu bouger comme ça… il a tourné le dos, {derive MOUSSA 1560 1320 1.4s} et il est parti sans même se retourner. Et on l'a appelé : « Ô Moussa ! Approche, {serpent revient} et n'aie pas peur. Tu es en sécurité. » {source "CORAN 28:31 (EXTRAIT)"}
+NARRATEUR (voix off) : [calm] « Attrape-le, et n'aie pas peur. Nous allons lui rendre sa forme d'avant. » {source "CORAN 20:21"}
+NARRATEUR (voix off) : [softly] Moussa {derive MOUSSA 560 1320 3.5s} est revenu. {cadre MOUSSA} Il a attrapé le serpent… et dans sa main, c'était de nouveau son {serpent fin} {apparait BATON} bâton. {source "TAFSIR IBN KATHIR (28:31 · 20:21)"}
+
+# LA MAIN — de son côté, une lumière blanche éclatante, comme un morceau de lune ; puis elle s'apaise
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.1
+MOUSSA place 560
+BATON place 660 1316
+NARRATEUR (voix off) : [mysterious] Ensuite, Allah lui a dit : « Mets ta main dans l'ouverture de ton vêtement. Elle va ressortir {main_blanche MOUSSA} blanche, sans aucun mal. {gros MOUSSA} Et serre ton bras contre toi, pour ne plus avoir peur. Ce sont deux preuves de ton Seigneur, pour Pharaon et ses chefs : ce sont vraiment des gens pervers. » {source "CORAN 28:32"}
+NARRATEUR (voix off) : [mysterious] Et sa main est ressortie… blanche, brillante comme un morceau de lune, comme un éclair. [pause] Pas une maladie : une lumière. {source "TAFSIR IBN KATHIR (28:32)"}
+
+# VA VERS PHARAON — plan large : la montagne, l'arbre lumineux, Moussa ; l'image du palais de Pharaon, au loin
+== vallee_tuwa, arbre_feu, ambiance amb_vent_doux 0.12
+MOUSSA place 560
+BATON place 660 1316
+NARRATEUR (voix off) : [dark] Et Allah lui a dit : « Va trouver {souvenir MOUSSA palais_egypte_nuit 0 -10 3.5s} Pharaon. Il a dépassé toutes les limites. » {source "CORAN 20:24"}
+NARRATEUR (voix off) : [dark] Pharaon. Le roi qu'il avait fui, il y avait plus de dix ans. [pause] C'est vers lui qu'il devait retourner. {source "TAFSIR IBN KATHIR (20:10 · 20:24)"}
+NARRATEUR (voix off) : [softly] {cadre MOUSSA} Moussa a dit : « Seigneur, j'ai tué un des {souvenir MOUSSA ruelle 0 -10 3s} leurs, et j'ai peur qu'ils me tuent. Mais mon frère Haroun parle mieux que moi. {souvenir MOUSSA quartier 0 -10 3s} Envoie-le avec moi pour m'aider, pour confirmer que je dis la vérité. J'ai vraiment peur qu'ils me traitent de menteur. » {source "CORAN 28:33-34"}
+NARRATEUR (voix off) : [softly] Haroun parlait mieux que lui. Parce que depuis le jour de la {souvenir MOUSSA palais_egypte 0 -10 3s} braise… Moussa avait du mal à parler. {source "TAFSIR IBN KATHIR (28:34)"}
+NARRATEUR (voix off) : [softly] Et il a prié : « Seigneur, ouvre-moi la poitrine. Facilite-moi ma mission. Défais un nœud de ma langue, pour qu'ils comprennent ce que je dis. Et donne-moi un aide dans ma famille : Haroun, mon {souvenir MOUSSA quartier_aube 0 -10 3s} frère. Rends-moi plus fort grâce à lui, et associe-le à ma mission… pour qu'on Te glorifie beaucoup, et qu'on T'invoque beaucoup. Toi, Tu nous vois parfaitement. » {source "CORAN 20:25-35"}
+NARRATEUR (voix off) : [warmly] Et Allah lui a répondu : « Ta demande est {geste MOUSSA intense} acceptée, ô Moussa ! » {source "CORAN 20:36"}
+NARRATEUR (voix off) : [warmly] {large} « Nous allons te rendre plus fort avec ton frère, et vous donner à tous les deux des preuves irréfutables. Ils ne pourront pas vous atteindre, grâce à Nos signes. Vous deux, et ceux qui vous suivront, vous serez les vainqueurs. » {source "CORAN 28:35"}
+
+# LA DEUXIÈME PROMESSE — l'aube derrière la montagne ; les souvenirs de toute sa vie ; Moussa repart, vers l'Égypte (MOMENT FORT)
+== vallee_tuwa_aube, emotion, ambiance amb_vent_doux 0.12
+MOUSSA place 560, intense
+BATON place 660 1316
+NARRATEUR (voix off) : [softly] Le bébé jeté au {souvenir MOUSSA nil_aube -120 -20 2.4s} fleuve. L'enfant aux {souvenir MOUSSA palais_egypte -40 -60 2.4s} braises. Le prince en {souvenir MOUSSA porte_ville 40 -20 2.4s} fuite. Le berger de {souvenir MOUSSA collines_madyan 120 -60 2.4s} Madyan. {source "CORAN 28:7 · 20:40"}
+NARRATEUR (voix off) : [mysterious] Cette nuit-là, au pied de la montagne, la deuxième promesse faite à sa mère s'est réalisée : son fils était devenu un messager. [pause] Et maintenant… Moussa retournait en {derive MOUSSA 1560 1320 7s} Égypte. Face à *Pharaon*. {source "CORAN 28:7 · 20:24"}

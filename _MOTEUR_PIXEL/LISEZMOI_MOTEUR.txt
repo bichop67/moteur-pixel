@@ -1,0 +1,862 @@
+MOTEUR PIXEL « DUO » — mode d'emploi (mis à jour le 31/10/2026)
+====================================================================
+Le moteur des Shorts « VALABLE OU PAS ? », agrandi pour servir à TOUTES les chaînes : n'importe quels personnages,
+décors et habillages. Les vidéos VOP déjà livrées sortent toujours identiques au pixel près (test fait).
+
+Voir les planches dans le dossier CATALOGUE : troupe.png, poses.png, visages.png, options.png, habits.png,
+icones.png, animaux.png, decors_1.png … decors_5.png, et les vidéos « Demo moteur duo.mp4 », « Demo 2 - mise en scene.mp4 »,
+« Demo 3 - nouveautes.mp4 » (ombres, lumière, gestes, bouche, regards, relief, animaux, nouveaux décors) et
+« Exemple - scenario texte (vertical / 16-9).mp4 » (une scène écrite en texte, partie 9) et
+« Demo 4 - dialogue vivant.mp4 » (champ / contre-champ et réactions de celui qui écoute, partie 14) et
+« Pourquoi on est moche en photo.mp4 » (explications en images calées sur les mots, partie 15).
+
+
+1. LES FICHIERS
+---------------
+px.py, spr.py         dessin pixel (masques, ombres, tramage, contours)
+duo.py                le duo d'origine (P = petit frère, G = grand frère, S = sœur, fidèles, imam) + bulles
+cast.py               CRÉATEUR DE PERSONNAGES (taille, peau, coiffure, barbe, habits, chapeaux, accessoires, poses, expressions)
+troupe.py             45 personnages prêts à l'emploi (liste plus bas) ; on en ajoute en copiant une ligne
+sets.py               décors d'origine : salon, mosquee, tableau, ablutions, chambre, carte
+lieux.py              NOUVEAUX DÉCORS (57) + places conseillées des personnages (SPOTS)
+objets.py             74 icônes (tableaux, bulles de pensée)
+animaux.py            ANIMAUX : chat, chien, cheval, âne, chameau, mouton, chèvre, pigeon (partie 13)
+pxv.py                moteur vidéo : dialogue, sous-titres + vignette, plans, caméra douce, filtre film, mixage, thèmes
+kit.py                plans prêts à l'emploi + thèmes de chaîne + mode maquette (sans voix) + commandes de rendu
+scene.py              MISE EN SCÈNE : personnages qui jouent (entrer, marcher, s'asseoir, donner…), réactions, meubles,
+                      porte, pluie, neige, voitures, passants, feu, SMS, notifications, cartons, caméra (partie 8)
+exemple_scene.py      une vraie scène complète, commentée (« Rentré trop tard »)
+scenario.py           ÉCRIRE UNE SCÈNE EN TEXTE → la vidéo se fait toute seule, plans choisis automatiquement (partie 9)
+scenarios\            les scénarios texte (exemple : le_passeport_de_papi.txt, et sa version 16:9)
+miniature.py          MINIATURE YouTube 1280x720 + couverture de Short 1080x1920, automatiques (partie 11)
+explique.py           EXPLICATIONS EN IMAGES : schémas animés qui apparaissent pile sur les mots (partie 15)
+demo_scenes.py        la démo de toutes les fonctions de mise en scène
+demo_nouveautes.py    la démo des nouveautés (ombres, lumière, gestes, bouche, regards, relief, animaux, décors)
+controle_vop.py       vérifie que les Shorts VOP n'ont pas changé après une modification du moteur
+controle_video.py     contrôle d'une vidéo finie (durée, volume, trous de son, planche) + copie légère
+voix.py               transcription des voix (faster-whisper) pour caler bouches et sous-titres
+modele_duo.py         MODÈLE À COPIER pour chaque nouveau Short (exemple complet : « Pourquoi le ciel est bleu ? »)
+demo_moteur.py        la vidéo de démonstration
+catalogue.py          refait les planches : python catalogue.py tout
+serie.py, vop06.py, vop_suite.py, textes_suite.py : les Shorts VOP (ne pas modifier)
+
+
+2. FAIRE UN NOUVEAU SHORT (n'importe quelle chaîne)
+--------------------------------------------------
+1) Copier modele_duo.py (ex. info01.py). Remplir : CODE, TITRE (sans apostrophe), DOSSIER, THEME, les 2 personnages, REPLIQUES.
+2) python info01.py sheet planche.png   -> planche de contrôle. Sans voix, c'est une MAQUETTE (durées estimées) : on règle
+   la mise en scène avant de payer ElevenLabs.
+3) python info01.py voix                -> les textes à générer : UNE génération par personnage, répliques séparées par
+   [long pause]. Enregistrer CODE_NOM.mp3 dans le dossier voix (ex. INFO01_ADO.mp3, INFO01_PAPI.mp3).
+4) python info01.py asr                 -> transcription (asr_CODE.json). Relancer sheet : tout se cale sur les vraies voix.
+5) Rendu : python info01.py tout   (toutes les images sur plusieurs cœurs, en priorité basse : le PC reste fluide, puis le
+   montage). L'ancienne méthode marche toujours : frames 0 4 / frames 1 4 … puis video.
+6) Contrôle : 1 image par seconde (planche) + transcription de l'audio final, comme pour les VOP.
+Règles de mouvement (voir mémoire) : glissés lents, fondus de 0,22 s, jamais de secousse ni de coupe sèche.
+
+
+3. LES PLANS DU KIT (kit.py)
+----------------------------
+kit.accroche(["LIGNE 1", "LIGNE 2"], kit.photo("rue", "ADO", face="choc"), THEME)   carte d'accroche (0 à 1,85 s)
+kit.duo_plan(t0, t1, "rue_nuit", "ADO", "PAPI", g=dict(pose=…, face=…), d=dict(…))   plan large, places conseillées du décor
+kit.gros_plan(t0, t1, "ADO", "rue_nuit", face="choc", bulle="!" | "?" | "...", pensee="ampoule")   fond flou, respiration
+kit.solo(t0, t1, "ADO", "parc", x=540)                                               un seul personnage
+kit.marche(t0, t1, "ADA", "rue", 200, 860)                                          traverse le décor en marchant
+kit.tableau_plan(t0, t1, kit.ecrit(lignes, icones, src="SRC …", style="craie"), gauche="ADO", droite="PAPI")
+    lignes = [(y, "TEXTE", taille, accent?)] ; icônes = [("argent", x, y, échelle)] ; zone d'écriture x 22-248, y 68-252
+    styles : craie (décor tableau), feutre (tableau_blanc), ecran (ecran_info), parchemin (tableau_parchemin)
+kit.fin(t0, t1, "parc", "ADO", "PAPI", THEME)                                        rire + « ABONNE-TOI POUR LA SUITE »
+Réglages d'un personnage dans un plan : pose, face, objet, assis=True, back=True (de dos), sweat (goutte), blush,
+larmes, mute=True (ne parle pas), noblink. Dans un Shot : tags=[("texte", t_in, t_out)], src="SRC …".
+
+
+4. LES THÈMES DE CHAÎNE (kit.THEMES)
+------------------------------------
+valable (VOP), neutre (sans bandeau), sketch, info (rouge), histoire (sépia), mystere (violet), science (bleu),
+argent (vert), podcast. Un thème règle : bandeau (texte et couleurs), filtre (grain, chaleur, vignette, lignes),
+couleur de la carte d'accroche, texte « abonne-toi », côté des vignettes (THEME.cotes = {"ADO": "right"}).
+Nouveau thème : pxv.Theme(bandeau="MA CHAÎNE", bandeau_fond=(r, g, b), bandeau_accent=…, carte="carte_rouge", …)
+
+
+5. LES PERSONNAGES
+------------------
+Troupe (nom à utiliser dans les plans) :
+  Quotidien : ADO, ADA, ENFANT, FILLETTE, MERE (hijab), MAMAN, PAPA, PAPI, MAMIE, TATA, TONTON, ETUDIANT, ETUDIANTE (hijab),
+              GAMER, LIVREUR, FOURBE, CAPUCHE, VOISIN, EPICIER, CUISINIER, COACH, FOOTEUX
+  Métiers : PROF, PROFE, MEDECIN, POLICIER, PATRON, VENDEUSE
+  Info / podcast : PRESENTATEUR, JOURNALISTE, EXPERT, PODCASTEUR
+  Histoire (génériques) : ROI, REINE, SULTAN, SAVANT, SCIENTIFIQUE, CHEVALIER, ROMAIN, PAYSAN, EXPLORATEUR, VOYAGEUR, SAGE
+  Mystère : DETECTIVE, OUVRIER
+  + le duo d'origine : P, G, S (sœur)
+Créer un personnage (dans troupe.py ou en haut du script du Short) :
+  cast.nouveau("NADIA", genre="f", taille="adulte", peau="brune", cheveux="queue", couleur_cheveux="noir",
+               haut="blouse", couleur="blanc", couleur2="bleu_ciel", bas="pantalon", couleur_bas="marine",
+               chaussures="baskets", couleur_chaussures="blanc", acc=["stethoscope", "badge"], cadre=(124, 182, 236))
+Options :
+  taille     enfant, ado, adulte, grand          genre  h, f          corpulence  mince, normal, fort       age  None, vieux (rides)
+  peau       claire, rosee, doree, mate, halee, brune, foncee, noire
+  cheveux    court, degrade, rase, meche, herisse, boucle, afro, long, carre, frange, queue, chignon, tresses, vieux, chauve
+  couleur_cheveux  noir, brun, chatain, blond, roux, gris, blanc, bleu, rose, violet, vert (ou (r, g, b))
+  barbe      courte, longue, bouc, moustache, 3j            couleur_barbe (sinon celle des cheveux)
+  haut       tshirt, polo, pull (col_roule=True), sweat, chemise, chemise_ouverte, costume, blazer, blouse, police, cuir,
+             doudoune, survet, maillot (numero=10), tablier, combinaison, qamis, djellaba, abaya, robe, robe_longue, toge,
+             tunique, armure, redingote          couleur (principale), couleur2 (dessous, cravate, rayures…), motif
+             (etoile, coeur, eclair, rond, logo, bande)
+  bas        jean, pantalon, jogging, cargo, short, jupe (collant=(r, g, b)), armure, costume     couleur_bas
+  chaussures baskets (couleur = détail), ville, bottes, sandales, talons         couleur_chaussures
+  chapeau    casquette, casquette_arriere, bonnet, chapeau, haut_de_forme, couronne, kufi, turban, keffieh, hijab, capuche,
+             casque_chantier, toque, casquette_police, bandeau, casque_audio, laurier, beret, bob         couleur_chapeau
+  lunettes   lunettes, soleil
+  acc        gilet, cravate, noeud, chaine, stethoscope, badge, medaille, echarpe, sac, cape, ceinture, boucles
+             couleurs_acc=dict(cape="rouge", cravate="bleu", sac="kaki", …)
+  cadre      couleur de la vignette des sous-titres ; cote "gauche" / "droite"
+Couleurs nommées : rouge, bordeaux, rose, rose_pale, orange, jaune, moutarde, vert, vert_fonce, kaki, olive, turquoise, bleu,
+  bleu_ciel, marine, violet, lilas, marron, camel, beige, creme, blanc, gris, gris_clair, anthracite, noir, or, argent, jean,
+  jean_clair, jean_noir (ou n'importe quel (r, g, b)).
+Poses (pose=) : neutre, explique, pointe, index, question, panique, bras_croises, salut, salut2, pouce, hanches, facepalm,
+  menton, haussement, victoire, tient, telephone, appel, micro, clavier, arret, montre, doua, priere, the
+Expressions (face=) : neutre, content, rire, choc, gene, malin, blase, enerve, cri, triste, pleure, peur, suspect, degoute,
+  clin, coeur, etoile, dodo, fier, bas, surpris, calme
+Objets en main (objet=) : telephone, tasse, verre_the, micro, livre, parchemin, ballon, manette, billets, stylo, epee, canne,
+  torche, loupe, fiole, sac_courses, passeport, valise (valise et sac : avec pose="neutre", bras le long du corps) ;
+  objet="aucun" = mains vides
+Autres : assis=True (voiture, studio, plateau), back=True (de dos), step=0..3 (marche), sweat, blush, larmes.
+Rappel IslamArcade : jamais de prophète, d'ange ni de Compagnon dessiné (règle de la chaîne).
+
+
+6. LES DÉCORS (Shot(…, "nom", …) ou kit.duo_plan(…, "nom", …))
+---------------------------------------------------------------
+Quotidien : cuisine (+ _soir, _nuit), rue (cité + snack, + _soir, _nuit), parc (+ _soir, _nuit), chambre_ado (gameur, nuit),
+  classe (+ _soir), bureau (open space, + _soir, _nuit), snack (+ _nuit), metro, supermarche, salle_sport, hopital (+ _nuit),
+  cafe (+ _soir), chambre (d'origine), salon (d'origine)
+Assis derrière un avant-plan : voiture (+ _soir, _nuit ; volant devant le conducteur), studio (podcast, micros),
+  plateau_tv (journal télévisé)
+Histoire / voyage : desert (+ _soir, _nuit avec feu de camp), palais (salle du trône), bibliotheque (+ _nuit), labo,
+  village (+ _soir), temple (antique, + _soir), plage (+ _soir)
+Mystère / science : toit (nuit, guirlande ; + _soir), foret (nuit + feu de camp ; + _jour), espace (station, Terre au hublot),
+  tribunal
+Tableaux : tableau (craie, d'origine), tableau_blanc, ecran_info, tableau_parchemin
+Cartes d'accroche : carte (d'origine), carte_rouge, carte_bleue, carte_violette, carte_sepia, carte_verte, carte_noire
+Voyage / ville (nouveaux) : aeroport (+ _nuit, tableau des départs, avions), avion (cabine, sièges ; + _nuit), stade (+ _nuit,
+  projecteurs), marche (étals ; + _soir, guirlandes), prison (+ _nuit ; prison_barreaux = barreaux devant les persos),
+  couloir_ecole (casiers), entree (+ _nuit), noir
+Islam (d'origine) : mosquee, ablutions
+Places conseillées : lieux.SPOTS[nom] (pieds en pixels écran, échelle, assis). Tout décor accepte aussi des places libres.
+
+
+8. MISE EN SCÈNE (scene.py) — de VRAIES scènes
+----------------------------------------------
+Démos : CATALOGUE/« Demo 2 - mise en scene.mp4 » (une fonction par chapitre, le nom de la commande à l'écran) et
+« Exemple - scene complete.mp4 » (sketch « Rentré trop tard », script : exemple_scene.py, très commenté).
+Un plan = une Scene. Les temps sont en secondes DANS le plan ; x, y = pieds du personnage en pixels écran (1080 x 1920).
+  sc = scene.Scene(t0, t1, "cuisine_nuit")
+  ado = sc.role("ADO", x=320)                 # aussi : place="gauche"/"droite", y=…, k=…, regard="gauche", pose=…, face=…
+  maman = sc.role("MAMAN", x=780, meuble="chaise", regard="gauche")     # assise sur une chaise
+  plan = sc.plan()                            # -> un plan comme les autres (à mettre dans la liste des plans)
+Jouer (Role) :
+  ado.a(2.0, pose="question", face="choc", objet="telephone")   change à l'instant 2,0 s (assis=True/False aussi)
+  ado.entre(0.3, 2.3, depuis="gauche")         entre en marchant (bruit de pas discret) ; ado.sort(t0, t1, vers="droite")
+  ado.marche(t0, t1, x, y)                     marche jusqu'à (x, y) ; ado.glisse(t0, t1, x, y) se déplace sans marcher
+  ado.tourne(t) / ado.regarde(t, "gauche")    se retourne / regarde d'un côté
+  ado.assoit(t) / ado.leve(t)                  s'assoit / se lève (mettre une chaise : sc.meuble("chaise", x))
+  ado.cache() + ado.apparait(t0, t1)           invisible au début puis apparaît en fondu ; ado.disparait(t0, t1)
+  ado.rit(t0, t1) / ado.sautille(t0, t1)      petits sauts doux ; ado.parle(t0, t1) : la bouche bouge sans voix
+Objets et meubles :
+  sc.donne(t0, t1, ado, maman, "sac_courses") l'objet passe de main en main (petite courbe)
+  sc.meuble("chaise" | "tabouret" | "fauteuil" | "table" | "bureau" | "lampe" | "plante" | "tele", x, regard=…)
+  sc.porte(410, 1272, t_ouvre=0.4, t_ferme=2.7)  porte qui s'ouvre (décor « entree » ou « entree_nuit »)
+  sc.ecran(x0, y0, x1, y1)                     écran (télé, ordi) dont l'image change doucement
+Réactions au-dessus de la tête : sc.effet(role, t0, t1, "coeurs" | "colere" | "idee" | "zzz" | "larmes" | "goutte" |
+  "etoiles" | "notes" | "points" | "brille") ; sc.bulle(role, t0, t1, "!") ; sc.pensee(role, t0, t1, "batterie")
+Décor vivant : sc.pluie(), sc.neige(), sc.feuilles(), sc.lucioles(), sc.oiseaux(), sc.voitures(phares=True),
+  sc.passants(n=3), sc.vapeur(x, y), sc.feu(x, y), sc.clignote(x, y), sc.lumiere(t, "cuisine_nuit") (le décor change)
+Son : sc.son(t, "dv_porte_bois", 0.15) ; sc.ambiance("amb_pluie", 0.6) — bruitages de _BRUITAGES, discrets sous la voix
+Caméra : sc.camera([(0, 1.0, (540, 1080)), (3.0, 1.15, (420, 1040)), …]) glisse doucement de clé en clé ;
+  sc.suit(D, "ADO", "MAMAN") dérive vers celui qui parle (lent : règle des mouvements doux)
+Écran : sc.notification(t0, t1, "MAMAN", "Tu rentres ?") ; sc.texte(fonction) ; sc.legende("TITRE", "code")
+Plans tout faits :
+  scene.sms(t0, t1, "MAMAN", [(0.7, "lui", "T'es où ?"), (3.2, "moi", "J'arrive")], bg="chambre_ado", avatar="MAMAN")
+  scene.carton(t0, t1, "LE LENDEMAIN…", sous="8 H 00")          carton de temps sur fond noir
+  scene.epaule(t0, t1, "rue", "ADO", "PAPI")                     par-dessus l'épaule (ADO de dos au premier plan)
+  scene.etablissement(t0, t1, "rue_nuit", cible=(300, 640))      plan d'ensemble : on s'approche lentement d'une fenêtre
+Dialogue : kit.dialogue(voix, code, repliques, avant={0: 7.6, 3: 3.2}) laisse des silences (plans muets, SMS) ;
+  kit.allonge(D, 1.8) rallonge la fin.
+Nouveaux décors : entree (+ _nuit : entrée d'appartement avec porte animée), noir (cartons).
+
+
+9. ÉCRIRE UNE SCÈNE EN TEXTE (scenario.py) — la vidéo se fait toute seule
+------------------------------------------------------------------------
+Exemple complet : scenarios\le_passeport_de_papi.txt (vidéo : CATALOGUE\Exemple - scenario texte (vertical).mp4).
+  python scenario.py scenarios\mon_sketch.txt sheet     planche de contrôle (sans voix : MAQUETTE, durées estimées)
+  python scenario.py scenarios\mon_sketch.txt voix      textes à donner à ElevenLabs (une génération par personnage)
+  python scenario.py scenarios\mon_sketch.txt asr       transcription, une fois les MP3 posés dans le dossier voix
+  python scenario.py scenarios\mon_sketch.txt tout      la vidéo (MP4 à côté du fichier texte)
+  python miniature.py scenarios\mon_sketch.txt          la miniature YouTube + la couverture du Short
+Le fichier (une ligne = une chose ; # = commentaire) :
+  TITRE: Le passeport de Papi        THEME: sketch (ou valable, info, histoire, mystere, science, argent, podcast, neutre)
+  FORMAT: vertical | horizontal       MUSIQUE: fond_espoir (ou aucune)       PERSONNAGES: ADA, PAPI (1er à gauche, 2e à droite)
+  MINIATURE: SON PASSEPORT / EST OÙ ?!    ICONE: question     (facultatif : texte et icône de la miniature)
+  DEMO: oui                          (facultatif) affiche le code de chaque schéma quand il apparaît (pour apprendre)
+  VOIX: dossier des MP3 (sinon « voix_CODE » à côté du fichier)        CODE: nom court des fichiers voix
+  == aeroport, passants, 1.2s        un DÉCOR + options : pluie, neige, feuilles, lucioles, voitures, passants, foule, oiseaux,
+                                     feu, 2s (plan muet au début), ensemble (540, 700) (la caméra s'approche de ce point),
+                                     texte "23 H 47" (grand texte au début du décor)
+  ADA entre à gauche, téléphone      une ACTION, au moment où elle est écrite dans le récit
+  ADA (choc, bulle !) : Comment ?!   une RÉPLIQUE ; entre parenthèses, ce qu'il fait en la disant
+  G : Le miroir {miroir ADA} t'inverse.   un SCHÉMA qui apparaît pile sur ce mot (partie 15 ; pas dit, pas sous-titré)
+  SMS MAMAN : Tu es où ? / > J'arrive        écran de téléphone (« > » = message envoyé)
+  NOTIF MAMAN : Tu rentres quand ?   notification en haut pendant la réplique suivante
+  CARTON : LE LENDEMAIN / 8 H 00     carton de temps         FIN : tout le monde rit + « abonne-toi » (2,6 s)
+  LEGENDE : TITRE / texte            légende de démonstration en haut (le dernier « / » sépare le titre du texte)
+Mots compris entre parenthèses (accents et majuscules sans importance) :
+  visages : content, sourit, rit, choc, surpris, gêné, malin, blasé, énervé, en colère, crie, triste, pleure, peur, suspect,
+            dégoûté, clin d'oeil, amoureux, émerveillé, dort, fier, calme, honteux / regarde en bas
+  gestes : explique, pointe, index, question, panique, bras croisés, salue, pouce, mains sur les hanches, facepalm,
+           réfléchit, hausse les épaules, victoire, au téléphone, tape, stop, présente, invoque, prie, boit
+           (un geste dure le temps de la réplique, puis le perso revient au repos tout seul)
+  effets : coeurs, colère, idée, zzz, larmes, goutte (transpire), étoiles, notes (chante), points, brille
+  objets : téléphone, livre, tasse, passeport, valise… ; « tient le livre », « donne le passeport à PAPI », « range »
+  mouvements : entre (à gauche / à droite / par la porte), sort (à gauche / à droite), s'approche, se retourne, apparaît,
+               assis (une chaise est posée), se lève, sautille
+  bulles et pensées : bulle ! / bulle ? / bulle … ; pense à batterie (n'importe quelle icône du catalogue)
+  plans : gros plan (plan serré pendant la réplique), plan moyen, plan large, épaule (champ / contre-champ forcé)
+  option de décor « serre » : plan à deux serré (on voit les deux visages, pas de champ / contre-champ)
+CHOIX AUTOMATIQUE DES PLANS (toujours des glissements doux, jamais de secousse) : plan d'ensemble qui se resserre au début
+  d'un décor ; la caméra glisse un peu vers celui qui parle ; elle se rapproche sur les répliques fortes (choc, cri, peur,
+  colère, larmes, bulle « ! ») et sur la chute avant FIN ; les autres regardent celui qui parle et RÉAGISSENT (partie 14) ;
+  CHAMP / CONTRE-CHAMP : quand les persos se répondent, la réplique est filmée par-dessus l'épaule de celui qui écoute
+  (2 d'affilée au plus, puis on revient au plan large ; jamais pour la 1re réplique d'un décor, la chute, un perso assis
+  ou qui marche) ; les SMS, cartons et gros plans coupent la scène en fondu, puis on y revient là où on en était.
+Un mot inconnu est signalé (« je ne connais pas … ») et ignoré ; un décor ou un personnage inconnu arrête tout avec la liste.
+
+
+10. FORMAT HORIZONTAL 16:9 (vidéos longues, 1920x1080)
+------------------------------------------------------
+Même script, une seule ligne change : THEME = pxv.Theme(…, format="paysage") (ou « FORMAT: horizontal » dans un scénario).
+Les décors sont redessinés plus larges (pas de miroir ni de doublon), les persos gardent leurs places, la caméra, les
+sous-titres, le bandeau, les SMS et les cartons s'adaptent. Exemple : CATALOGUE\Exemple - scenario texte (16-9).mp4.
+
+
+11. MINIATURES AUTOMATIQUES (miniature.py)
+------------------------------------------
+python miniature.py scenarios\mon_sketch.txt → « … - miniature.jpg » (YouTube 1280x720) et « … - couverture short.jpg »
+(1080x1920) : décor flou, persos en grand avec contour blanc et leur émotion la plus forte du scénario, titre en grosses
+lettres (en-tête MINIATURE:, sinon le TITRE), icône (en-tête ICONE:). Depuis Python :
+  miniature.youtube("aeroport", [("PAPI", dict(face="peur", sweat=True)), ("ADA", dict(face="choc"))],
+                    ["SON PASSEPORT", "EST OÙ ?!"], icone_nom="question", tampon="VRAI ?", fleche_vers=0, sortie="mini.jpg")
+  miniature.short(…mêmes réglages…, sortie="couverture.jpg")
+
+
+12. LUMIÈRE, OMBRES, RELIEF, JEU DES PERSOS (automatiques avec un thème)
+------------------------------------------------------------------------
+- Ombres au sol sous chaque perso (elles restent au sol quand il saute) ; Theme(ombres=False) pour les enlever.
+- Lumière : chaque décor a son ambiance (nuit bleutée, soir orangé) et ses sources (lampadaire, néon, feu, écran) qui
+  éclairent le bord des persos ; sc.feu(…), sc.meuble("lampe", …) et sc.lumiere_source(x, y, rayon, couleur, force) en
+  ajoutent. Theme(lumiere=False) pour couper.
+- Relief : le ciel et la ville au loin bougent moins que la scène quand la caméra glisse (rue, parc, désert, village, temple,
+  toit, forêt, plage, aéroport, stade, marché). Theme(parallaxe=False) pour couper.
+- Gestes en douceur : entre deux poses, une image intermédiaire (0,2 s) ; marche en 8 images avec balancement des bras.
+- Bouche : sa forme suit les lettres du mot prononcé (A, O, E, M, F) ; sourcils levés sur les mots qui finissent par « ! »
+  et froncés sur « ? » ; petit hochement de tête en parlant.
+- Regards : sc.regard_parleur(dialogue) : pendant chaque réplique, les autres se tournent vers celui qui parle.
+- Démo sans voix avec sous-titres et bouches : kit.Calee([(qui, texte, début, durée), …], durée_totale).
+Les Shorts VOP (sans thème) restent exactement comme avant.
+
+
+13. ANIMAUX (animaux.py)
+------------------------
+Noms : CHAT, CHAT_NOIR, CHAT_GRIS, CHIEN, CHIEN_NOIR, CHIEN_BLANC, CHEVAL, CHEVAL_BLANC, CHEVAL_NOIR, ANE, CHAMEAU, MOUTON,
+CHEVRE, PIGEON. Ils jouent comme les persos : sc.role("CHIEN", x=…) ; chien.marche(t0, t1, x) (pattes animées) ;
+chien.a(t, pose="assis") ; poses : debout, assis, couche, mange (+ vole pour le pigeon). Grands animaux : k=6 conseillé.
+Sons utiles : an_chameau, an_cloches_chameau, an_chevaux, an_mouton, an_chevre, an_colombes, amb_troupeau.
+
+
+14. DIALOGUE VIVANT : CHAMP / CONTRE-CHAMP ET RÉACTIONS (scene.py)
+--------------------------------------------------------------------
+Automatique dans un scénario texte (partie 9). Dans un script Python :
+  plans = sc.plans_auto(dialogue, band=False)     # plan large + champ / contre-champ + réactions, tout seul
+ou pièce par pièce :
+  sc.reactions(dialogue)                          celui qui écoute réagit pendant chaque réplique :
+       explication → il hoche la tête ; « ! » → sourcils levés ; question → il réfléchit (sourcils) à la fin ;
+       l'autre s'énerve → gêné + goutte ; l'autre est choqué → gêné ; l'autre rit → il sourit puis rit un peu ;
+       l'autre pleure → triste ; l'autre fait le malin → méfiant ; l'autre a peur → choqué.
+       Ce qui est écrit dans le script reste prioritaire (une réaction s'arrête dès que le script change ce réglage).
+  role.reagit(t0, t1, face="gene", sweat=True)    une réaction à la main (retour à l'état d'avant à t1)
+  sc.champs(dialogue)                             les répliques à filmer en champ / contre-champ [(t0, t1, parleur, écouteur)]
+  sc.plan_epaule(t0, t1, parleur, ecouteur)       le plan par-dessus l'épaule (chacun garde son jeu, sa bouche, ses réactions ;
+                                                  côté choisi comme dans le plan large : règle des 180°)
+  sc.decoupe([(t0, t1, plan), …])                 le plan large coupé par ces plans (on y revient là où on en était)
+
+
+15. EXPLICATIONS EN IMAGES (explique.py) — pour que l'explication montre TOUT
+---------------------------------------------------------------------------
+Exemple complet : scenarios\moche_en_photo.txt (« Pourquoi on est moche en photo » : miroir, photo, cerveau, téléphone
+qui s'approche puis recule, +30 %). Dans une réplique, on écrit l'élément entre accolades À L'ENDROIT EXACT du texte :
+  ETUDIANT (explique) : Le miroir {miroir ADA grain} te montre à l'envers. La photo, {photo ADA grain} à l'endroit.
+Les répliques qui ont des {…} et qui se suivent forment UN plan de schéma : la vidéo quitte la scène (décor flou et
+assombri), chaque élément apparaît en fondu au mot voulu, les éléments se rangent tout seuls (1 au centre, 2 côte à côte,
+3 en ligne ; un 4e remplace le plus ancien), la voix et les sous-titres continuent, puis on revient à la scène.
+Éléments :
+  {perso ADA} {perso ADA choc}     le visage d'un perso            {miroir ADA} / {photo ADA} (+ grain : grain de beauté)
+  {compare ADA}                    miroir + photo + flèche « INVERSÉ »
+  {icone cerveau}                  une des 74 icônes en grand      {chiffre +30 %}   un chiffre qui monte jusqu'à sa valeur
+  {texte "CE QUE LES AUTRES VOIENT"}  une phrase en gros           {source "WARD ET AL., 2018"}  la source (en haut à gauche)
+  {fleche} {fleche POURQUOI ?} {double-fleche INVERSÉ}   flèche entre les deux derniers éléments (dessous s'il manque
+                                   de la place)
+  {distance ADA 1,5 m -> 30 cm}    le téléphone s'approche (ou recule avec 30 cm -> 1,5 m) : la règle et la distance
+                                   changent, le visage se déforme de plus en plus près (effet « objectif trop près »)
+  {check} {croix}                  tampon vert / rouge sur le dernier élément
+  {efface}                         tout part en fondu (on recommence)          {fond tableau}  autre fond pour le schéma
+Didascalie « schéma » : la réplique reste sur le schéma sans nouvel élément. Une balise en fin de phrase apparaît sur le
+dernier mot, et le schéma reste au moins 1,1 s après son dernier élément.
+
+
+16. EXPLIQUER EN MONTRANT POUR DE VRAI (démonstrations jouées) — varier pour que personne ne s'ennuie
+------------------------------------------------------------------------------------------------------
+Règle d'or : à chaque explication, changer de façon de montrer (miroir, schéma, étiquette sur la scène, démonstration
+jouée, plan par-dessus l'épaule…). Exemple complet : scenarios\moche_en_photo.txt.
+DÉMONSTRATION JOUÉE (un vrai perso fait l'action pendant qu'il explique) :
+  {photographe ETUDIANT ADA 30 cm}   ETUDIANT tient le téléphone devant le visage d'ADA et prend la photo : règle au sol
+                                     avec la distance, pointillés téléphone / nez, écran du téléphone en encart (la photo
+                                     en direct : visage déformé de près), petit clic d'appareil
+  {recule 1,5 m}  {avance 30 cm}     il recule / avance pour de vrai (il marche sans se retourner) : la règle, la distance,
+                                     la caméra et la photo de l'encart suivent ; nouveau clic à l'arrivée
+  {chiffre +30 %}  {check}           dans cette démo : « +30 % » s'accroche au nez de l'encart (tant que c'est près) ;
+                                     ✓ sur l'encart quand il est loin
+MIROIR : {reflet ADA}                ADA de dos au premier plan, son reflet dans un grand miroir (inversé ; il parle,
+                                     cligne et change d'expression comme elle) ; + {texte "…"}, {source "…"}
+         {reflet ADA content}        avec une expression ; content / fier / coeur… : petites étincelles (elle se trouve belle)
+SELFIE : {selfie ADA}                elle se prend en selfie (bras tendu, pose="selfie") ; l'écran du téléphone en encart
+                                     montre le selfie raté (son expression, déformé de près) — parfait pour l'accroche
+COMPARAISON miroir ↔ photo : avec « grain », la flèche {double-fleche …} entoure aussi le grain de beauté en rouge
+                                     sur les deux images (on voit qu'il change de côté)
+FIN DE LA DÉMO PHOTO : quand il a fini de reculer, les deux photos restent côte à côte (« 30 CM » déformée avec un
+                                     cercle rouge, « 1,5 M » normale)
+SONS AUTOMATIQUES (discrets) : whoosh doux à l'entrée d'un schéma / miroir / selfie / démo ; papier pour une photo,
+  scintillement pour un miroir, tampon pour ✓ / ✗, petit « ting » pour les autres éléments et les étiquettes (jamais deux
+  sons à moins de 0,5 s) ; clic d'appareil à chaque photo.
+Didascalie « schéma » sur la réplique d'après : la réaction reste sur le schéma (ex. « Mon grain de beauté a changé de
+  côté ! » pendant que les cercles rouges le montrent).
+Un 3e perso dans un décor se place à côté du 2e (un groupe face au 1er).
+MONTRER DANS LA SCÈNE (ça suit les persos ; la réplique reste en plan large) :
+  {etiquette ADA "TOI"}              étiquette au-dessus d'un perso, avec une flèche vers sa tête
+  {mesure ADA PAPA}                  règle au sol entre deux persos, distance en mètres (taille d'un perso ≈ 1,65 m)
+  {projecteur ADA}                   tout s'assombrit sauf lui
+  {loupe ADA}                        son visage en grand dans un rond au-dessus de lui, relié à sa tête
+VOIX OFF : didascalie « voix off » (ou « hors champ ») : il parle sans être dans le décor. Sert à faire une SCÈNE
+  D'ILLUSTRATION ailleurs (un autre « == décor ») pendant que l'explication continue :
+    == rue
+    ADA marche…                      (actions de la petite scène)
+    ETUDIANT (voix off) : Imagine, tu marches dans la rue…
+Nouvelle pose : pose="photo" (téléphone tenu devant les yeux). Nouveau mouvement : role.recule(t0, t1, x).
+
+
+17. GARDER L'ATTENTION (TikTok, Shorts, Reels) — recherche du 31/10/2026
+-------------------------------------------------------------------------
+Ce qui revient dans toutes les sources (les chiffres précis des agences ne sont pas vérifiés : on garde les règles) :
+  1. L'accroche se joue dans les 1 à 3 premières secondes : la question choc dès le 1er mot, une image qui bouge,
+     et un texte à l'écran (TikTok conseille d'annoncer le sujet dans les 3 premières secondes).
+  2. Un changement d'image toutes les 2 à 4 s, mais utile (une preuve, un contraste, une nouvelle question), jamais
+     une décoration ; pas de plan figé plus de 4 s.
+  3. Une question ouverte au début, la réponse à la fin (« Deux raisons… ») et des relances au milieu.
+  4. Des sous-titres (étude Verizon / Publicis 2019 : 80 % disent finir plus souvent une vidéo sous-titrée ;
+     69 % regardent sans le son dans les lieux publics), avec les mots importants mis en valeur.
+  5. Rien d'important sous l'interface : ni en haut (≈ 200 px : onglets, recherche, LIVE), ni en bas (≈ 20 % :
+     légende, pseudo), ni à droite (≈ 150 px : boutons).
+  6. Une fin courte (micro-appel ou boucle), pas de longue conclusion.
+  7. Mesurer : YouTube Studio → « Combien ont choisi de regarder » (regardé / balayé) et la courbe de rétention ;
+     TikTok → rétention et temps de visionnage moyen. On compare à SES propres vidéos, pas à des chiffres d'agence.
+Dans le moteur :
+  ACCROCHE: BELLE AU MIROIR… / MOCHE EN PHOTO ?!   (en-tête) texte d'accroche visible dès la 1re image, 2,6 s
+                                     (à gauche si l'encart d'un selfie ou d'une photo est à droite)
+  {etape 1/2 "LE MIROIR"}            bandeau « RAISON 1/2 · LE MIROIR » 2,4 s en haut + whoosh doux (relance)
+  *mot*  ou  *groupe de mots*        en jaune dans les sous-titres (n'est pas envoyé à ElevenLabs)
+  python controle_video.py ma_video.mp4   donne aussi le RYTHME : changements d'image par seconde et passages figés
+                                     de plus de 4 s (à corriger : mouvement de caméra, nouvel élément, autre plan)
+  Démo photo : si la pose dure avant de reculer, la caméra se rapproche doucement (l'image ne reste jamais figée).
+
+
+18. OUTILS AJOUTÉS POUR LES SHORTS ISLAM (01/11/2026) — exemples : scenarios\islam_01 … islam_04
+------------------------------------------------------------------------------------------------
+PETIT / GRAND : le duo des VOP en version troupe (toutes les nouveautés). Objet « coran » (vert et or).
+{pensees PETIT} … {repousse PETIT}      nuages de pensées autour de la tête ; il fait « stop », ils s'envolent
+{etiquette ADO "…" rouge} {barre ADO}  étiquette en couleur, barrée au mot voulu ; {coche ADA} : ✓ vert
+{texte "« … » // explication"}         seuls avec {source} sur une réplique : citation SUR la scène (persos visibles)
+objet trottinette (620) + {pousse PETIT trottinette [continue|reste]}   objet par terre qu'un perso écarte du chemin
+{compteur 0 -> 100 "…"} {chrono 2:00 "…"} {lettres ا ل م}                 schémas animés (le plan attend qu'ils finissent)
+{ecume "TES PÉCHÉS"}                    décor plage : plan rapproché, écume étiquetée emportée par une vague
+{etape CAS 1/2 "…"}                     bandeau d'étape avec le mot choisi (RAISON, CAS, PARTIE ; ÉTAPE par défaut)
+didascalies : traverse (passe devant, quand les autres ont fini de bouger), place 380 (x au début du décor)
+Durée : ﷺ compte comme la phrase lue en entier (≈ 3 s) dans la maquette.
+
+
+19. 30 SECONDES MAXIMUM, VRAIES VOIX SANS TEMPS MORT, SOURCES AU BON MOMENT (01/11/2026)
+------------------------------------------------------------------------------------------
+Règle de l'utilisateur : un Short TikTok fait 30 s MAXIMUM (le temps de visionnage complet compte le plus).
+  Si le sujet ne tient pas sans couper une nuance religieuse : 2 Shorts, le 1er finit sur « … Partie 2. »
+  (exemple : islam_01_pensees.txt + islam_01b_oublie.txt). Vérifier la durée AVEC les vraies voix (après asr).
+DUREE_FIN: 2.0                          (en-tête) durée du plan « abonne-toi » (2 s par défaut : fin courte)
+Voix : les respirations et silences au début / à la fin de chaque réplique sont retirés tout seuls (scénarios
+  seulement ; les VOP ne changent pas). Exemple ISL2 : 1,1 s de respiration enlevée avant « Dis… ».
+Sources : une {source "…"} s'affiche pendant TOUTE sa réplique, même si la balise est en fin de phrase — sur la
+  scène, par-dessus l'épaule et dans le schéma ; si la réplique commence sur la scène avant son schéma, la source
+  est déjà là. Même source sur deux répliques de suite : elle reste (pas de clignotement). Si un bandeau d'étape
+  est à l'écran, elle glisse doucement dessous, puis remonte.
+Bandeau d'étape : il s'efface juste avant une citation {texte} en haut de l'écran (jamais de chevauchement) ; la
+  source d'un schéma ou de l'écume glisse aussi dessous quand il arrive pendant le schéma.
+Sous-titres (scénarios) : un guillemet ou une parenthèse fermante après une fin de phrase reste avec elle
+  (« … de Moi. » d'un bloc, jamais un « » » tout seul).
+{lettres ا ل م}                          chaque lettre arrive quand on ENTEND son nom (alif, lam, mim…) après la
+                                        balise, puis « = 30 BONNES ACTIONS » ; sinon une lettre toutes les 0,7 s
+{chiffre ×10}                            le schéma attend que le chiffre ait fini de monter + 1 s pour le lire
+« nouveau schéma » (didascalie)         ce schéma ne prolonge pas le précédent : on revoit la scène entre les deux
+                                        (islam_03 : ×10 → retour sur GRAND « Il a précisé… » → Alif Lam Mim)
+« plan moyen » sur une explication      la caméra se rapproche doucement de celui qui parle (évite le plan large
+                                        figé, surtout pendant ﷺ qui dure ≈ 2,5 s à l'oral)
+{va VOYAGEUR 470} {regarde VOYAGEUR bas} récit en voix off : il marche jusqu'à x = 470, il baisse les yeux
+Pendant ﷺ (≈ 2,5 s) : faire arriver un élément juste avant ou juste après (islam_01 : bulle → croix → cœur +
+  flèche → « C'EST LA FOI ÉVIDENTE » + coche), sinon l'image paraît figée.
+Voix générées par Claude (connecteur ElevenLabs) : creative_create_flow, puis creative_generate_speech
+  (eleven_v4, 1 prise, une génération par perso, répliques séparées par [long pause]), creative_get_flow_run_status
+  → lien content_url → téléchargement direct (curl) dans voix_<code>\CODE_PERSO.mp3 → python scenario.py … asr.
+Outils de vérification (dossier de travail de Claude, à refaire si besoin) : durée réelle de chaque Short et blancs
+  dans les voix = fabrique(scénario) puis max(plan.t1) et les mots de VID.dlg.lines.
+
+
+20. UN SEUL SHORT COMPLET, ACCROCHE CHOC, HADITH MONTRÉ EN IMAGE CONCRÈTE (01/11/2026, 2e version)
+-------------------------------------------------------------------------------------------------
+Demandes de l'utilisateur : jamais de « partie 2 » (un sujet = un Short complet de 30 s max) ; JAMAIS de « 1/2 »,
+« 2/2 », « PARTIE » à l'écran (« ça n'a aucun sens ») ; une 1re phrase CHOQUANTE ; et quand on explique un hadith,
+l'exemple en image doit être « vraiment plus explicatif et plus concret » (ex. donné : l'écume de la mer, « chaque
+petit péché qui est nettoyé vraiment »). Exemples : scenarios\islam_01_mecreant.txt … islam_04_branche.txt.
+{etape "TITRE"}                          bandeau-titre seul : le moteur n'affiche PLUS aucun numéro (même si on écrit
+                                        « RAISON 1/2 » : seul le titre entre guillemets s'affiche)
+Option de décor  orbes "DES COMPAGNONS" 3 (355, 1010) pensees   /   orbe "LE PROPHÈTE" (805, 930) dore grand
+                                        boules de lumière qui flottent (halo en paliers, scintillements), nom dessous ;
+                                        jamais de prophète ni de Compagnon dessiné ; « pensees » = un nuage noir « ! »
+                                        au-dessus de chacune, hors du halo, chassé par leur lumière quand arrive la
+                                        1re citation {texte} du décor (la réponse) ; jamais de « ? » (pas du doute)
+{peches PETIT}                           ses péchés : paquets d'écume SALE autour de lui (certains « PÉCHÉ »)
+{ecume "TES PÉCHÉS" sale} … {vague}       le rivage couvert d'écume sale (chaque paquet = un petit péché), badge
+                                        « 100 × SUBHAN ALLAH WA BIHAMDIH » ; à {vague}, 6 vagues l'une après l'autre
+                                        lavent les paquets UN PAR UN (éclat blanc + étincelles) ; la vague se brise sur
+                                        le rocher, qui reste
+{propre "…"}  {rocher "…"} {rocher "…"}  (réplique suivante, didascalie « schéma ») autocollant vert coché sur le
+                                        rivage propre ; nom du rocher, puis ce qu'il faut faire (orange)
+Option  objet rocher (640, 1185)         le même rocher dans la vue large (x, y) ; objet … (x, y) marche pour tous
+{coran} … {chiffre ×10}                  Coran ouvert en gros plan : la lumière suit la ligne de droite à gauche, « +1 »
+                                        par lettre lue, puis « +10 » et badge « ×10 » ; légende « EN ARABE · EN
+                                        PRONONÇANT » (la récompense par lettre : lecture en arabe, prononcée)
+{defile}                                 téléphone dont le fil défile très vite (« tu scrolles combien de lettres ? »)
+{lumiere VOYAGEUR}                       faisceau doré doux + étincelles qui descendent sur lui (pardon)
+{geste PETIT invoque}                    un geste (ou un visage) pile sur ce mot, même dans la réplique d'un autre
+{pousse PETIT trottinette mur}           il la range contre le mur (elle recule) : le passage est libre ;
+                                        {pousse PETIT trottinette 330} = jusqu'à x = 330
+{va MAMIE 560 devant}                    elle marche jusqu'à 560 en passant devant les autres
+Étiquettes successives sur un même perso : chaque {barre} / {coche} ne touche que l'étiquette affichée à ce moment.
+Citation {texte} : elle s'efface au début de « ABONNE-TOI » (jamais par-dessus) → la placer sur un mot du début de
+  la dernière réplique, pas après son dernier mot.
+En-tête DUREE_FIN: maintenant lu (avant, le « _ » empêchait de le lire : la fin restait à 2 s).
+Branche d'épines plus grosse et plus visible (objet branche).
+Décor rue_proche (+ _soir, _nuit) : la rue à l'échelle des persos (portes un peu plus hautes qu'eux, vitrine, grande
+  enseigne sous le texte « ABONNE-TOI », pas de petite voiture au premier plan) ; l'utilisateur trouvait les persos
+  « disproportionnés » dans « rue » (trois étages de haut). « rue » est gardée telle quelle pour les anciennes vidéos.
+Orbe : « @Prophète » dans l'option = il apparaît quand on entend ce mot (halo plus fort en apparaissant).
+Étiquette : elle reste affichée jusqu'à sa {barre} / sa {coche} (+ 1,3 s), même si c'est dans la réplique suivante.
+Voix : seules les nouvelles accroches ont été générées (≈ 360 crédits) ; les autres répliques sont celles déjà
+  enregistrées, découpées comme le moteur (pxv.split + pxv.resserre) et recollées avec 1,6 s de silence, volume des
+  neuves aligné (voix_isl1, voix_isl2b, voix_isl3b, voix_isl4b ; voix neuves brutes : voix_neuves_2026-11-01).
+
+7. CONTRÔLE QUALITÉ
+-------------------
+- python mon_short.py sheet planche.png (1 image/s) et still 3.5 image.png (une image en grand) : regarder AVANT le rendu.
+- Les décors se vérifient avec : python catalogue.py decors CATALOGUE rue_nuit studio (deux personnages posés dedans).
+- Après une modification du moteur : python controle_vop.py (doit répondre « OK : les VOP sont identiques »).
+- Vitesse : environ 0,24 s par image sur un cœur ; « tout » répartit les images sur plusieurs cœurs en priorité basse.
+- Vidéo finie : python controle_video.py ma_video.mp4 --leger → durée, volume, trous de son, planche 1 image/s
+  (… _qa.png) et une copie légère (… (leger).mp4) à envoyer ou regarder sur téléphone.
+- Sauvegarder le dossier dans _MOTEUR (zip daté) après chaque grosse modification validée.
+
+21. FILMS « L'HISTOIRE DES PROPHÈTES » (film.py, egypte.py — 01/11/2026) — skill film-pixel
+--------------------------------------------------------------------------------------------
+THEME: film (16:9 d'office) : pas de bandeau ni d'« abonne-toi », sous-titres de cinéma (une longue ligne, sans
+  vignette ; la voix du Coran en or pâle), référence en petit en haut à droite dans la bande noire, bandes noires de
+  cinéma (64 px), grain et chaleur de pellicule. Exemple : scenarios\film\test_film_orbes.txt.
+Voix sans corps : NARRATEUR (voix off) et CORAN (voix off). Les balises d'ElevenLabs ([dark], [pause]…) peuvent rester
+  dans le texte : elles partent dans « voix » mais sont retirées des sous-titres et du calage.
+ORBES qui jouent comme des persos (prophètes, figures vénérées : jamais dessinés) : MOUSSA, MOUSSA_ENFANT, MOUSSA_BEBE,
+  HAROUN_BEBE, SA_MERE, SA_SOEUR, ASIYA, MARYAM, VIEIL_HOMME, FILLE_1, FILLE_2, SA_FEMME, YAQOUB, YOUSSOUF (film.py :
+  orbe("NOM", "LABEL", "or_" | "bleu" | "rose" | "blanc" | "vert" | "ambre", r=…, hauteur=…) pour en ajouter).
+  Elles se placent et bougent comme des persos (place 300, {va MOUSSA 820}, entre, sort, apparaît…), flottent
+  doucement, gardent leur lumière la nuit, n'ont pas d'ombre, jamais en miroir ; nom net et petit sous la boule.
+  Poses : pale (lumière faible : peur, chagrin), intense (forte : joie, révélation) — « SA_MERE pale ».
+Décors de l'Égypte ancienne (egypte.py) : nil, nil_aube, nil_soir, nil_nuit (maison de briques, escalier, piquet,
+  palmiers sur deux rangées, palais au loin, brume à l'aube, papyrus au premier plan). D'autres suivent (palais
+  égyptien, ville, marché, puits de Madyan, montagne…).
+
+22. FILM « MOUSSA » (épisode 14) — DÉCORS, OBJETS, EFFETS (02/11/2026)
+------------------------------------------------------------------------
+Décors (16:9, toile x = -105 … 375, pieds y = 330 ; cache disque %TEMP%\ia501\decors_film, clé = empreinte des fichiers) :
+  decors_film2.py  maison au bord du Nil, rive, ruelle, couloir du palais, chambre d'Asiya, marché, avenue du palais,
+                   désert (+ _aube _soir _nuit), porte de la ville, palais dans le ciel, carte de Madyan
+  decors_madyan.py puits de Madyan, tente, collines (saisons), montagne la nuit, vallée de Touwa (arbre en feu)
+  decors_film3.py  porte du palais, esplanade de la fête, tour de Haman, cour au soleil
+  decors_film4.py  champs du Nil (+ secs, inondés), grenier, Nil de sang, terrasse, rivage, mer ouverte, village des
+                   idoles, camp au pied du mont (+ _aube _soir _nuit), montagne du Sinaï (+ _nuit _aube _effondre),
+                   mont brandi (camp_desert_mont), terre sainte (+ _soir)
+  decors_film5.py  confluent des deux mers (+ _soir), village au mur penché, demeure de Qaroun, place de Qaroun
+                   (palais_qaroun, _vide, _vide_aube), dune rouge, les cieux, montagne_sinai_soir ; tableaux
+Objets qui jouent comme des persos (film.py) : COFFRE, BERCEAU, PLATEAU, BRAISE, PIERRE, SEAU, BATON, VEAU (statue d'or),
+  TABLETTES (les Tables), ROCHER (douze sources), PANIER (porte / porte_vide), BATEAU (breche ; il flotte), CLES, CLES2,
+  CLES3 (trousseaux), TRESOR. Pose « porte » = à hauteur des mains : pour poser / reprendre en douceur, garder « porte »
+  et glisser y de 88 ({derive TABLETTES x 1374 0.6s}).
+Animaux : VACHE, VACHE_NOIRE, VACHE_BLANCHE, VACHE_ROUSSE, VACHE_GRISE, VACHE_JAUNE, VACHE_JAUNE_TACHES, VEAU_JEUNE,
+  TAUREAU, ANE_ROCHER (l'âne qui porte le rocher). Un animal regarde à gauche par défaut s'il n'est pas le 1er perso du
+  bloc : « ANE_ROCHER place 380, se retourne » pour le tourner vers la droite dès le début.
+Persos (troupe_egypte.py) : RICHE_ISRAEL, NEVEU, ENFANT_A, ENFANT_B, GARCON, FILLETTE_A, ORPHELIN, ORPHELIN2,
+  PERE_CROYANT, MERE_CROYANTE, PECHEUR, PECHEUR2, PORTEUR, PORTEUR2, PORTEUR3. Orbes : YOUCHA, KHIDR (vert), PROPHETE,
+  ANGE_MORT (« L'ANGE »).
+Chute en douceur : {geste X allonge} le fait tomber en 0,7 s ; {geste X debout} le relève en 0,7 s (pxv._incline).
+Annotations (posées sur un mot d'une réplique) :
+  {devient decor N}         le décor se change en un autre en N s (un seul par plan)
+  {derive X x [y] [Ns]}     glisse sans marcher ; {va X x [Ns]} marche (en N s) ; {court X x}
+  {apparait X [Ns]} {disparait X [Ns]}   fondus (0,8 s par défaut)
+  {noir}                    noir jusqu'à la fin du plan ; {noir 3s} : l'image revient après 3 s ; {noir 5} : fondu lent
+  {souvenir X decor dx dy Ns}   vignette sépia d'un lieu au-dessus de X
+  {tableau nom Ns}          tableau net à l'écran (decors_film5.TABLEAUX : bateau_roi, parents, tresor, taureau)
+  {cadre X} {gros X} {large}    cadrages (glissés doux de la caméra)
+  {danse X Ns} {foudre x} {cendres [x y]} {sources x y} {manne} {nuage} {cailles} {poisson x0 y0 x1 y1} {mur redresse}
+  {engloutit [Ns]} {lueur x y} {echelle [x]} {serpent …} {duel …} {fleau …} {vagues y} {poussiere} {main_blanche X}
+Options de bloc (« == decor, option, … ») : Ns (plan muet au début), emotion [b], ambiance son gain, cendres t d [x y],
+  noir t d (fondu lent), mur / mur_droit, demeure (Qaroun), lueur x y, echelle, etoiles v, armee, rassemblement,
+  chemin, chemin_retour, sauterelles / betes / grenouilles, arbre_feu, voiles, petales, patrouille, lumiere_monte…
+En-tête : « QUEUE: 6.5 » = secondes d'image après la dernière réplique (fin de film, fondu au noir lent).
+Outils : assemble_film.py sortie.mp4 p1.mp4 p2.mp4 … [--leger] (fondus au noir de 1 s, -14 LUFS) ;
+  controle_video.py (son, planche, passages figés — il ne compte que les changements nets, pas les glissés de caméra) ;
+  controle_vop.py après toute modification du moteur.
+
+23. VUE SUBJECTIVE : SHORTS « … TU FAIS QUOI ? » (pov.py — 02/11/2026)
+Pourquoi : mesure TikTok du 02/11/2026 = 11 s de visionnage moyen et 50 % des gens partis à 5 s (objectif : 70 %
+encore là à 5 s). Le Short qui a le mieux retenu, EXC 1 « Un serpent pendant ta prière… tu fais quoi ? », met le
+spectateur À LA PLACE de celui qui vit la scène (ses pieds sur le tapis), le sujet en grand avance vers lui dès la 1re
+image, la question est dite en 3-4 s et la réponse arrive vers 5 s. Jamais de plan large immobile de persos au début.
+Décors (pixel 270x480, x4) : tapis_pov (tes pieds sur le tapis de prière + un sac posé devant = la soutra),
+  porte_pov (sur le pas de ta porte la nuit, rue mouillée), remise_nuit (remise sombre, poteau, gamelle vide),
+  puits (désert, puits de pierre, sable mouillé), chevet_pov / chevet_pov_jour (vu depuis l'oreiller),
+  nuque_nuit / nuque_jour (il dort, tête vue de dos), chambre_aube (lever du soleil ; on peut y placer des persos).
+Balises (toutes commencent par « pov » ; une réplique qui en a une = plan en vue subjective jusqu'à la fin du décor) :
+  tapis_pov   {pov passant} {pov soutra} {pov repousse} {pov insiste} {pov repousse fort} {pov demon} {pov contourne}
+  porte_pov   {pov chat} {pov chat là} (déjà assis) {pov miaou} {pov gamelle}
+  remise_nuit {pov chatte} {pov jours} {pov porte} {pov enfer}
+  puits       {pov chien} {pov botte} {pov pardon}
+  chevet_pov  {pov reveil "05:47"} {pov manque}
+  nuque_*     {pov noeuds} {pov defait} (le nœud suivant) {pov dhikr} {pov eau} {pov priere} {pov oreille}
+  partout     {pov label "TEXTE"} (autocollant au milieu de l'écran, remplacé par le suivant) · {pov} (rien)
+  + {source "…"} (une à la fois, la suivante la remplace) et {texte "…"} (citation) s'affichent aussi.
+Voix : NARRATEUR (voix off) dans un Short = sous-titres sans vignette (pxv.subtitle_img).
+En-tête : « ACCROCHE_DUREE: 4.2 » = l'accroche reste le temps de la question (2,6 s par défaut).
+Bruitages propres à ces Shorts (hors _BRUITAGES) : SHORTS TU FAIS QUOI\bruitages (chat_miaou, chat_ronron,
+  chien_halete) ; pov._son(nom) ne les utilise que s'ils existent.
+Exemples complets : scenarios\tfq_01_passant.txt, tfq_02_chat.txt, tfq_03_fajr.txt.
+
+24. FILM « CONTE » (Moussa refait le 02/11/2026 : scenarios\film\ep14_conte\p01 … p24)
+------------------------------------------------------------------------------------------
+Demandes de l'utilisateur : une histoire racontée par UN conteur (plus de voix du Coran), « trop de zooms inutiles »,
+bruitages trop forts, mer ouverte « ignoble », sous-titres décalés, bâton de Moussa toujours avec lui.
+En-têtes :
+  CAMERA: calme        caméra posée : plans larges qui dérivent à peine (zoom 1,04 → 1,07), plan moyen 1,3, gros
+                       plan 1,5 ; elle ne bouge QUE sur {cadre X} / {gros X} / {large} ou sur la réplique d'un perso de
+                       2,5 s ou plus ; jamais deux mouvements à moins de 7 s (le début du décor compte : une balise
+                       posée avant 7 s est ignorée) ; glissés de 2,2 à 2,6 s. Une narration en voix off sans balise =
+                       plan fixe : sur une longue scène, poser 1 balise toutes les 15-30 s sur les moments clés.
+                       Vérifier avec FILM\EPISODE 14\_source\outils\debug_camera.py N (balises gardées / ignorées,
+                       plan par plan).
+  BATON_MOUSSA: oui    dans chaque décor où est l'orbe MOUSSA, son bâton de berger (objet BATON) est debout à côté
+                       et le suit partout (à droite, ou à gauche si quelqu'un est à moins de 170 à droite au début du
+                       décor). Un BATON placé à la main suit aussi ; {derive BATON …} dans le décor = ses propres
+                       mouvements (rocher frappé, frères au palais). {disparait BATON} / {apparait BATON} marchent
+                       (jeté → serpent). Option de décor « sans_baton » : pas de bâton (contrat chez le vieil homme,
+                       les cieux). À mettre à partir du moment où il est berger (parties 8 à 24).
+La mer (decors_mer.py) : mer_rivage (+ _jour, _corps), mer_face, mer_canyon, mer_fendue (12 chemins), mer_couloir,
+  sous_la_mer ; {mer_fend N} (la mer s'ouvre, crête qui monte, embruns) et {mer_referme N} (elle se referme) ;
+  options mer_vie (vagues, poissons, embruns selon le décor) et tribus (les douze tribus dans les chemins).
+Automatique en film : pxv.RELIEF_PROLONGE (plus de ligne noire sous l'horizon quand la caméra bouge) ; bruitages
+  ×0,5 et baissés sous la voix (ducking) ; référence en haut à droite.
+Voix : transcription mot à mot par ElevenLabs (flux de la voix, creative_transcribe_audio, 0 crédit, texte exact)
+  convertie avec FILM\EPISODE 14\_source\outils\asr_conte.py ; une voix sans flux passe par voix.py (faster-whisper).
+Contrôle des sous-titres : python controle_soustitres.py <scénario> <vidéo> (faster-whisper « small » sur le son final ;
+  OK si décalage médian < 0,25 s et > 85 % des mots retrouvés).
+Disque : une partie de film = ~58 Mb/s (grain du filtre film) et ~4 Go d'images temporaires (%TEMP%\ia501\…_frames) ;
+  supprimer ces images après chaque partie encodée (file_rendu.py le fait).
+Contrôle : planche des 5 premières secondes (toutes les 0,5 s) avant le rendu, en plus de la planche 1 image / s.
+Guillemets des sous-titres (03/11/2026) : un « » » qui suit une fin de phrase la ferme avec elle (le sous-titre
+  suivant ne commence plus par « » Et Allah leur a répondu : ») ; dans les vidéos à thème, « et » restent collés à
+  leurs mots par une espace insécable (jamais « » » seul sur la 2e ligne). Les VOP ne changent pas (controle_vop OK).
+  Avant le 03/11, 19 sous-titres sur 2 240 du film Moussa « conte » avaient ce défaut (parties 3, 4, 5, 7, 8, 9, 10, 13,
+  17, 22 et 24) : il ne disparaît qu'en refaisant le rendu de ces parties.
+Son du film assemblé : assemble_film.py (et outils\assemble_conte.py) passent le son dans un limiteur à -1,5 dBFS
+  après loudnorm (LIMITEUR) : loudnorm avait laissé un pic de +2 dBFS (20 ms, à 8:38 du film conte). Vérifier la crête
+  réelle (ebur128=peak=true) du film fini : elle doit rester sous -0,5 dBTP.
+
+25. QUATRE DÉMONSTRATIONS EN IMAGE POUR LES SHORTS DUO (explique.py — 03/11/2026)
+Pour 3 nouveaux Shorts duo sur le modèle de « Tes péchés effacés en 2 minutes ?! » (16 k vues sur TikTok) : le sens
+propre du hadith, montré en grand dès la 1re image. Démo légendée : scenarios\demo_5_radio_arbre_balance.txt
+(« Demo 5 - radio orteil arbre balance »). Exemples : scenarios\islam_05_aumones.txt, islam_06_orteil.txt,
+islam_07_monde.txt.
+  {radio PETIT}                 radiographie : squelette pixel (sa casquette passe aux rayons X), 32 articulations
+                                rouges qui battent, compteur « 0 / 360 AUMÔNES » (Mouslim 720 · 1007).
+  {radio articulations}         une vague passe sur les articulations + étiquette « 360 ARTICULATIONS ».
+  {radio +1 "SUBHAN ALLAH"}     une articulation passe au vert, « +1 » qui monte, « « SUBHAN ALLAH » = +1 ».
+  {radio reste}                 étiquette « ENCORE 357 ! » (360 moins les +1 déjà faits).
+  {radio tout "2 RAKATS DE DOUHA"}  une ligne verte descend : toutes au vert, « 360 / 360 », « ÇA SUFFIT ! », coche.
+  {orteil}                      gros plan : le pied (chaussette blanche) accélère et se cogne contre le pied du lit,
+                                étoile du choc, orteil rouge qui bat, traits de douleur, « AÏE ! » (son : imp_tambour).
+  {arbre "TES PÉCHÉS"}          un arbre ; 14 feuilles mortes sombres, 4 marquées « PÉCHÉ » (Boukhari 5660).
+  {feuilles}                    un coup de vent doux (tr_whoosh_vent) : elles tombent une à une en se balançant et
+                                s'effacent au sol (≈ 3,5 s) ; l'arbre reste vert et brille.
+  {balance "A" "B"}             balance dorée : à gauche le monde s'entasse (planète, voiture, argent, maison,
+                                téléphone, diamant, couronne, pièces) et l'emporte ; à droite Petit qui prie sur son
+                                tapis (halo doré). « B // ligne 2 » : 2e ligne plus petite sous l'étiquette.
+  {balance + manette}           un objet de plus tombe sur le monde (toute icône d'objets.py).
+  {balance pese}                la balance penche lentement (1,3 s) du côté de B ; étincelles, coche devant B.
+  {balance "A" "B" deja manette}  on revient à la balance (« nouveau schéma ») : le monde est déjà entassé.
+Première image d'un Short : quand une réplique commence par un grand schéma pendant le texte d'accroche (ACCROCHE:),
+  le schéma est là dès l'image 0 (pas de fondu d'entrée), il est décalé de 110 px vers le bas sous l'accroche puis
+  remonte doucement, et la source glisse entre l'accroche et le schéma (scenario.py : FILM["accroche_fin"]).
+Sons propres à un élément : méthode sons_el() (choc, vent, balance…), ajoutés par Schema.sons().
+Attention au rythme : un grand schéma figé plus de 4 s (pendant un ﷺ par exemple) : commencer la réplique sur la
+  scène (« plan moyen ») et faire arriver le schéma après « Le Prophète ﷺ a dit : ».
+
+26. SIX DÉMONSTRATIONS DU 04/11/2026 (explique_0411.py) — fièvre, forge, eau glacée, ablutions, cauchemar, gestes
+Pour 3 Shorts duo sur le modèle de « Tu t'es cogné le petit orteil ? » (a bien marché). Démo légendée :
+scenarios\demo_6_fievre_ablutions_cauchemar.txt (« Demo 6 - fievre forge glace ablutions cauchemar gestes »).
+Exemples : scenarios\islam_08_fievre.txt, islam_09_eau_glacee.txt, islam_10_cauchemar.txt. Les classes sont dans
+explique_0411.py ; explique.Schema les appelle (CLES_0411, import tardif) et scenario._fin_anim leur laisse le temps.
+  {fievre PETIT}            gros plan : Petit malade sous sa couverture, thermomètre en bouche et en grand qui monte de
+                            37,0 à 39,5 °C (avant le mot : « negatif »), sueur, frissons (traits, l'image ne bouge pas).
+  {forge "A // B"}          une forge : le fer couvert de croûtes noires (4 marquées « PÉCHÉ »), soufflet, hotte, braises ;
+  {soufflet}                3 coups de soufflet (0,75 s chacun), le feu monte, les croûtes s'envolent en cendres une à une,
+                            le fer chauffe puis ressort propre et brille (Mouslim 2575). Sons : feu, souffle, scintillement.
+  {glace}                   gros plan : le robinet givré de la salle des ablutions, l'eau glacée tombe dans sa main (elle
+                            arrive avant le mot), la main recule un peu et rougit, « BRRR ! », frissons.
+  {ablutions PETIT}         le visage (yeux fermés) avec un voile sombre « PÉCHÉ » ; {ablutions yeux|mains|pieds} : l'eau
+                            CLAIRE coule (visage ; main jusqu'au coude ; pied jusqu'au talon), le voile part en lumière,
+                            la partie lavée brille ; légende « TES YEUX // CE QU'ILS ONT REGARDÉ »… (Mouslim 244).
+                            Jamais d'eau noire : les péchés ne sont pas des corps qui sortent (an-Nawawi 3/133).
+  {cauchemar PETIT}         chambre de nuit : Petit couché (sprite assis tourné de 90°), bulle de cauchemar (il tombe dans
+                            le vide), il se redresse en 0,35 s, « ! », la bulle s'efface.
+  {gestes PETIT}            Petit assis dans son lit VU DE DOS (sa gauche = gauche de l'écran) ; {gestes souffle} 3 souffles
+                            « 1 2 3 », {gestes refuge} bulle « A'OUDHOU BILLAHI MINA CH-CHAYTAN WA MIN CHARRIHA ×3 »,
+                            {gestes tourne} il se recouche sur le côté (flèche), {gestes chut} bulle barrée, {gestes protege}
+                            lumière douce + « zzz » ; légende numérotée en haut (Mouslim 2261 · 2262, Boukhari 7044).
+Une seule source à la fois dans un schéma (04/11) : quand une 2e source arrive, la 1re s'efface (fondu 0,25 s) ; avant,
+  les deux restaient l'une sur l'autre et la fin de la plus longue dépassait. Les VOP ne changent pas (controle_vop OK).
+Outils : scenarios\outils_duo_04-11\asr_shorts_duo.py (temps des mots ElevenLabs → asr_ISL8/9/10.json).
+
+27. NEUF DÉMONSTRATIONS DU 04/11/2026 SOIR (explique_0411b.py) — cent, chemin, Coran, téléphone, tombe, soleil, Enfer
+Pour 6 Shorts duo : 3 « buzz » (islam_11_cent, islam_12_coran, islam_13_telephone) et 3 sur l'après-mort, dans l'ordre
+(islam_14_tombe, islam_15_soleil, islam_16_enfer). Démo légendée : scenarios\demo_7_cent_coran_telephone_tombe_soleil_enfer.txt
+(« Demo 7 - cent chemin coran telephone tombe soleil braises datte »). Les classes sont dans explique_0411b.py ;
+explique.Schema les appelle (CLES_0411B, import tardif) et scenario._fin_anim leur laisse le temps (fin_anim).
+Aucun prophète, Compagnon ni ange dessiné (les anges = boules de lumière) ; rien de sanglant (ni meurtre, ni coup).
+  {cent}                    accroche : l'homme (VOYAGEUR) de dos devant sa ville la nuit, « 100 » rouge, on s'approche.
+  {chemin}                  la route : SA VILLE (la nuit, « UNE TERRE DU MAL ») → LE BON PAYS (l'aube, « ON Y ADORE
+                            ALLAH ») ; le savant (SAGE) montre le chemin. Étapes : {chemin part} il marche ; {chemin mort}
+                            il tombe à mi-chemin, la poitrine vers le bon pays ; {chemin anges} 2 lumières « ANGES DU
+                            CHÂTIMENT » / « ANGES DE LA MISÉRICORDE » ; {chemin rapproche} le bon pays avance, la ville
+                            recule (flèches) ; {chemin mesure} 2 cordes, « PLUS PROCHE D'UN EMPAN (≈ 22 CM) » ;
+                            {chemin pardon} lumière dorée « PARDONNÉ », la lumière de la miséricorde l'emporte.
+  {bute PETIT}              accroche : Coran ouvert, la lumière avance par à-coups, « ? » ; Petit gêné, gouttes.
+  {double}                  le Coran lu en butant ; {double lit} « +1 : TU LIS », {double dur} « +1 : C'EST DUR POUR
+                            TOI », {double x2} « ×2 » + « 2 RÉCOMPENSES » ; {double anges} (nouveau plan) : lecture
+                            fluide, 5 lumières, « CELUI QUI LE MAÎTRISE EST AVEC LES ANGES NOBLES ET PIEUX ».
+  {ecran}                   accroche vue d'en haut (à ta place) : le téléphone tombe entre tes baskets (il rapetisse en
+                            s'éloignant, l'ombre se resserre), rebond doux, l'écran se fend, éclats, « CRAC ! ».
+  {dua}                     le téléphone fendu qui flotte ; {dua inna} « INNA LILLAHI / WA INNA ILAYHI RAJI'OUN » ;
+                            {dua recompense} « ALLAHOUMMA-JOURNI FI MOUSSIBATI » + médaille « LA RÉCOMPENSE » ;
+                            {dua mieux} « WA AKHLIF LI KHAYRAN MINHA » + cadeau « MIEUX » « ? » ; {dua iphone} bulle
+                            téléphone « ? » ; {dua choisit} « C'EST ALLAH QUI CHOISIT », le cadeau brille (Mouslim 918).
+  {tombeau}                 la tombe en coupe, la nuit : linceul dans la niche, les jambes de ceux qui repartent en
+                            surface, « TAC… » ; {tombeau anges} 2 lumières descendent, il s'assoit, bulle « QUE
+                            DISAIS-TU DE CET HOMME ? (MOUHAMMAD) » ; {tombeau paradis} « LE CROYANT », « J'ATTESTE… »,
+                            « SA PLACE EN ENFER » se ferme, « SA PLACE AU PARADIS » s'ouvre ; {tombeau cri}
+                            « L'HYPOCRITE ET LE MÉCRÉANT », « JE NE SAIS PAS… », niche rouge sombre ; {tombeau crie}
+                            ondes du cri, oiseaux qui s'envolent, chat qui sursaute, passants qui n'entendent rien,
+                            « TOUT CE QUI L'ENTOURE L'ENTEND… SAUF LES HUMAINS ET LES DJINNS » (Boukhari 1374).
+  {chaleur PETIT}           accroche : Petit en nage au stade, soleil de plomb, sweat trempé, vapeur.
+  {soleil}                  le Jour du Jugement : le soleil descend tout près, 4 silhouettes ; {soleil mile} « 1 MILE »
+                            + « OU UN BÂTONNET DE KHÔL ? (LE RAPPORTEUR HÉSITE) » ; {soleil chevilles|genoux|taille|
+                            bouche} la sueur monte jusque-là, « SELON SES ACTES » (Mouslim 2864) ; {soleil ombre} (nouveau
+                            plan) : une ombre douce à part, « 7 SORTES DE GENS À L'OMBRE CE JOUR-LÀ » ; {soleil jeune}
+                            le jeune (ADO) et « DONT LE JEUNE QUI A GRANDI EN ADORANT ALLAH » (Boukhari 660).
+  {brulure}                 accroche : le doigt de Petit touche le bord de la poêle chaude avant le mot, recule, rougit,
+                            vapeur, « AÏE ! ».
+  {braises}                 le moins puni de l'Enfer : silhouette sombre sans visage, lueur rouge derrière, 2 braises
+                            sous la plante des pieds, chaleur qui monte, bulles au-dessus de la tête, marmite qui bout
+                            (Boukhari 6562) ; {braises pense} bulle « PERSONNE N'EST PLUS PUNI QUE MOI » puis « … ET
+                            C'EST LE MOINS PUNI » (Mouslim 213).
+  {datte}                   une datte se coupe, une moitié part dans une main tendue, un bouclier de lumière repousse le
+                            feu, « PROTÈGE-TOI DU FEU / MÊME AVEC LA MOITIÉ D'UNE DATTE » (Boukhari 1417) ; {datte tacos}
+                            la moitié de datte devient une moitié de tacos, « UNE AUMÔNE AUSSI » ; {datte parole} bulle
+                            « UNE BONNE PAROLE » (Boukhari 6540).
+Piège trouvé le 04/11 : ImageDraw ne mélange pas les couleurs sur une image RGBA. Une forme semi-transparente dessinée
+  directement sur l'image y fait un trou (on voit le fond flou à travers : traits sombres). Toujours dessiner les
+  transparences sur un calque (explique_0411b._translucide) puis alpha_composite.
+Durée : quand un Short dépasse 30 s, couper une longue réplique en plusieurs lignes aux « … » (même personnage) : le
+  moteur resserre les silences de chaque ligne, sans nouvelle voix. Une partie sans balise prend « (schéma) ».
+Outils : scenarios\outils_duo_04-11_soir\ (telecharge_voix.py, asr_shorts_duo.py → asr_ISL11…16.json).
+
+28. SIX DÉMONSTRATIONS DU 07/11/2026 — FORMAT « CONSIGNE » (explique_0611.py + 6 modules)
+Pour 6 Shorts duo au format consigne (un ORDRE dès le début : « … ? Dis ça », « Ne fais JAMAIS ça ») :
+islam_17_jurer, islam_18_eternuement, islam_19_colere, islam_20_maison, islam_21_dette, islam_22_dormir.
+Démo légendée : scenarios\demo_8_jurer_eternuement_colere_maison_dette_sommeil.txt (« Demo 8 - jurer eternuement colere
+maison dette sommeil »). Chaque élément vit dans son module (explique_0611_serment / _eternue / _colere / _maison /
+_dette / _sommeil.py) ; explique_0611.py les réunit ; explique.Schema les appelle (CLES_0611, import tardif) et
+scenario._fin_anim leur laisse le temps (fin_anim). Aucun prophète, ange, Compagnon ni Chaytan dessiné (texte seulement),
+Allah jamais représenté, aucun trait sur le mot ALLAH.
+  {jure PETIT}              accroche : couloir de lycée, Petit main levée, cahier « DEVOIRS » coché (il dit vrai), bulle
+                            « SUR LA TÊTE DE MA MÈRE ! », panneau STOP qui glisse (u = 1.0).
+  {serment}                 tableau noir : {serment pere} {serment mere} barrés ; {serment allah} « PAR ALLAH » en or ;
+                            {serment frere} « SUR TON FRÈRE » / « SUR TA VIE » apparaissent puis sont barrés ;
+                            {serment tais} « … OU TU TE TAIS » sous PAR ALLAH ; {serment vrai} « « NE JUREZ PAR ALLAH QUE
+                            SI VOUS DITES VRAI » » + ABOU DAWOUD 3248.
+  {atchoum PETIT}           accroche : salon, Petit éternue DANS SON COUDE, « ATCHOUM ! » étouffé qui glisse vers toi.
+  {chaine}                  bulles qui se répondent (petits bustes) : {chaine aime} carte « LE PROPHÈTE (PAIX ET SALUT SUR
+                            LUI) : « ALLAH AIME L'ÉTERNUEMENT » » ; {chaine hamd} AL-HAMDOULILLAH ; {chaine reponse}
+                            YARHAMOUKA-LLÂH ; {chaine retour} YAHDÎKOUMOULLÂH WA YOUSLIHOU BÂLAKOUM (avec traductions) ;
+                            {chaine rien} bulle vide « … », « PAS D'AL-HAMDOULILLAH / PAS DE RÉPONSE ».
+  {rhume}                   Petit, mouchoirs, ATCHOUM + AL-HAMDOULILLAH ; {rhume reponse} YARHAMOUKA-LLÂH ; {rhume deux}
+                            « YAHDÎKOU… » coupé par le 2e ATCHOUM ; {rhume enrhume} « LE PROPHÈTE … : « L'HOMME EST
+                            ENRHUMÉ » », et à part, en blanc, « QU'ALLAH TE GUÉRISSE » / « DOU'A CONSEILLÉE PAR LES
+                            SAVANTS », mouchoir tendu, thermomètre.
+  {enerve PETIT}            accroche : chambre le soir, télé « PERDU », Petit tout rouge, manette, vapeur neutre.
+  {colere}                  jauge « COLÈRE » + Petit debout : {colere refuge} « A'OÛDHOU BILLÂHI MINA CH-CHAYTÂNI
+                            R-RAJÎM » + traduction, la jauge descend PENDANT qu'il le dit ; {colere fort} « LE PROPHÈTE
+                            … : LE FORT : CELUI QUI SE MAÎTRISE DANS LA COLÈRE » + trophée ; {colere gg} notification
+                            « GG EZ », la jauge remonte un peu, bulle « A'OÛDHOU BILLÂH », elle redescend, pouce.
+  {porte}                   accroche vue à ta place, la nuit : la clé tourne, la porte s'ouvre (vers l'intérieur),
+                            l'enseigne « CHAMBRE LIBRE » s'allume au-dessus.
+  {maison}                  la maison la nuit + enseigne à 2 tubes : {maison entre} « BISMILLAH = AU NOM D'ALLAH » à la
+                            porte ; {maison mange} la fenêtre du repas + BISMILLAH ; {maison pas} « PAS DE CHAMBRE / PAS
+                            DE DÎNER » rouge + « LE CHAYTAN, AUX SIENS : « NI NUIT NI DÎNER POUR VOUS ! » » ; {maison
+                            libre} seul le Bismillah de la porte s'efface : « CHAMBRE LIBRE » vert / « PAS DE DÎNER »
+                            rouge, « « VOUS AVEZ TROUVÉ OÙ PASSER LA NUIT ! » » (Mouslim 2018, 2e cas exactement).
+  {sms}                     accroche vue à ta place : ton téléphone, Karim réclame « TU ME RENDS MES 5 € ? », le
+                            calendrier tourne jusqu'à « 3 MOIS ».
+  {dette}                   parchemin « LE PROPHÈTE … : MÊME LE MARTYR : » : {dette efface} les PÉCHÉ partent en lumière ;
+                            {dette reste} « LA DETTE » reste, « SAUF LA DETTE / = LE DROIT DES AUTRES » ; {dette
+                            injustice} « JE LUI RENDS DEMAIN… » + tampon « INJUSTICE / SI TU PEUX PAYER ».
+  {carnet}                  carnet : « 5 € — À RENDRE LE 14/11 » s'écrit, puis « « QUAND VOUS CONTRACTEZ UNE DETTE À
+                            ÉCHÉANCE DÉTERMINÉE, METTEZ-LA PAR ÉCRIT » » (Coran 2:282, Hamidullah, extrait) + « CONSEILLÉ
+                            SELON LA MAJORITÉ DES SAVANTS ».
+  {lit PETIT}               accroche : la nuit, Petit au lit, le visage éclairé par son téléphone, réveil « 01:12 ».
+  {sommeil}                 la chambre vue de côté, Petit couché sur le côté DROIT, la main sous la joue (Boukhari 6314),
+                            grande vitre de nuit, lune : « BISMIKA-LLÂHOUMMA AMOÛTOU WA AHYÂ » + traduction + « SUNNA » ;
+                            {sommeil verset} carte « « ALLAH SAISIT LES ÂMES… AU COURS DE LEUR SOMMEIL. » » (Coran 39:42,
+                            extrait) ; {sommeil nuit} il dort, « Z » ; {sommeil reveil} l'aube SANS soleil levé (Fajr)
+                            et l'invocation du réveil (Boukhari 6324). Jamais d'âme dessinée.
+Méthode du 07/11 : les 6 éléments ont été dessinés en parallèle par 6 agents (un fichier chacun, planche_el.py pour les
+  tests), puis retouchés après la relecture religieuse. Planche d'un module : python scenarios\outils_duo_07-11\planche_el.py <module> spec.json out.png — une ligne par mode, une case par instant u.
+Durée : le moteur découpe la voix par blocs séparés de silences, PAS mot par mot : retirer un mot d'une réplique décale
+  les répliques suivantes. Pour gagner 2-3 s sans nouvelle voix : accélérer les MP3 du Short avec ffmpeg atempo (1.05 à
+  1.10, la hauteur reste la même), garder les originaux à part (voix_isl18\originales (vitesse 1.0)\) et diviser les
+  temps de l'asr par le même facteur (fait pour ISL18 : 32,3 s → 29,9 s à 1,09).
+Fin d'un Short : un schéma peut déborder jusqu'à 1,4 s (fin_anim) sur la carte « ABONNE-TOI », et les deux textes se
+  mélangent. Si la dernière carte doit se lire (un verset, une invocation), ajouter une courte dernière réplique en
+  « (schéma) » : le schéma reste pendant qu'elle est dite, et la fin arrive après. Fait le 07/11 : ISL21 « Bon… je
+  signe ! », ISL22 « Al-hamdoulillah… » (générées à part, collées au bout de la voix de Petit avec 1,2 s de silence par
+  scenarios\outils_duo_07-11\ajoute_replique.py, temps des mots recalés ; originaux dans voix_islNN\originales (avant ajout)\).
+Outils : scenarios\outils_duo_07-11\ (textes_voix.py, generations_07-11.json, voix_urls.json, telecharge_voix.py,
+  gen_map.json, transcriptions_07-11.json, asr_shorts_duo.py → asr_ISL17…22.json).
+
+
+29. BRIQUES RÉUTILISABLES ET COMMANDES DE LOT (briques.py, lot.py, sources.py — 09/11/2026)
+Pourquoi : le lot du 08/11 (9 Shorts) a coûté ≈ 1,6 milliard de tokens, surtout parce que chaque Short avait son
+  animation sur mesure (≈ 50 Ko de code, 17 fichiers explique_0*.py = 866 Ko). Depuis le 09/11, un nouveau sujet se
+  règle depuis le scénario avec 8 briques ; le sur-mesure est réservé à l'accroche, avec l'accord de l'utilisateur.
+Briques (détail des options : en-tête de briques.py ; démo : scenarios\demo_9_briques.txt) :
+  {liste …} lignes au tableau, barrées / cochées / en or        {citation …} parole citée dans un cadre doré
+  {jauge …} tube qui monte ou descend, visage qui suit          {focus …} gros plan sur un objet, endroit entouré
+  {versus …} deux cartes, la mauvaise et la bonne               {bulles …} formules qui se répondent
+  {trajet …} route entre deux endroits, étapes                  {grille …} N cases à cocher ou barrer
+  + {<brique> lueur rouge|or|vert|bleu|fin} sur toutes.
+  La 1re balise crée la brique, les suivantes ({brique action …}) la font évoluer ; après un retour à la scène elle
+  reprend où elle en était (briques._MEMO). Branchement : explique.CLES_BRIQUES → briques.ordre / briques.fin_anim.
+  Nouvel objet pour focus / versus / trajet : fonction décorée @objet("nom") dans briques.py.
+Commandes :
+  python lot.py verifie | planches | voix | rendu | controle  scenarios\islam_3*.txt
+      verifie : durée, balises inconnues, brique modifiée avant d'être créée, citation sans source, accroche, texte
+      figé modifié ; planches : + une image « … - controle.png » par Short (5 premières secondes à 2 images / s, puis
+      1 image / s) ; voix : coût, textes dans un seul fichier, textes figés (scenarios\_textes_figes.json) ; rendu :
+      ancienne version gardée en (vN), rendu, contrôle final, copie légère.
+  python sources.py [cherche "boukhari 163"]   base des sources déjà vérifiées : sources\sources_verifiees.md (index)
+      et sources\fiches\<CODE>.md (une fiche par Short ; celles d'avant le 09/11 sont la copie de l'en-tête du scénario).
+  python sauve_moteur.py <sujet>               zip daté du moteur + du skill dans ..\_MOTEUR (jamais d'écrasement).
+  python controle_avant_apres.py [zip]         anciens Shorts identiques au pixel près (remplace controle_vop.py tant
+      que le dossier « SHORTS VALABLE OU PAS\voix » n'est plus sur le Bureau).
+  python controle_briques.py [planche x.png]   chaque brique dessinée à 30 images / s : aucune ne doit planter.
+Relevé des vues TikTok : stats\tiktok_vues_<date>.md ; coût de chaque lot : stats\cout_lots.md.
+
+30. FILM HORS-SÉRIE « GOG ET MAGOG » (decors_gog.py, decors_gog2.py — 10/11/2026) — skill film-pixel
+------------------------------------------------------------------------------------------------------
+Scénarios : scenarios\film\gog\p01 … p09 (écrits par FILM\HORS SERIE - GOG ET MAGOG\_source\outils\ecrit_scenarios.py :
+  c'est LUI la source des textes ; le modifier puis le relancer). Voix : FILM\HORS SERIE - GOG ET MAGOG\voix.
+Fenêtre visible d'un décor de film : y ≈ 116 … 354 (pixels du dessin, bandes de cinéma comprises) : tout ce qui doit
+  se voir au premier plan tient entre y = 300 et 354 (les pieds des persos sont à 330).
+Décors (heures : rien = jour, _soir, _nuit, _fin = ciel rouge de la fin des temps) :
+  gog_col / gog_barrage_fer / gog_barrage   le passage entre les deux montagnes : ouvert / blocs de fer / fer + cuivre
+  gog_derriere        l'autre côté du barrage, la nuit           gog_mur_pres   le métal de tout près (petit trou)
+  gog_hauteurs        collines à perte de vue (fin des temps)    gog_forteresse ville fortifiée, porte fermée
+  gog_lac (+ _fin)    le lac, dessiné asséché (option « lac » = plein)
+  gog_tour_nuit / _aube   vu du Mont : la corniche, la plaine en bas       gog_rempart_aube   vu du rempart
+  gog_plaine_aube / gog_plaine, gog_miroir (la terre lavée), gog_benie (la grenade immense), gog_couchant, gog_levant,
+  gog_medine_nuit, gog_mille (fond sombre des tableaux), gog_kaaba
+Options de bloc : passage (foule de silhouettes au premier plan) · passage loin · colonne (l'armée du roi, au loin) ·
+  contourne (autour de la ville) · plaine_horde / plaine_fige (plaine couverte vue d'en haut) · bande (bande sombre
+  au loin) · lac · tawaf · escalade · horde_hauteurs · effondre (le barrage tombe dès le début du plan : mettre « 7s »
+  de plan muet avant la première réplique) · feu_camp
+Annotations (sur un mot) : {barrage_monte N} {barrage_feu N} {barrage_cuivre N} {barrage_tombe N} {lac_bu N}
+  {fleches N} {trou} {part_feu N} (mille petits hommes, 999 s'assombrissent) {mille N} (1 contre 1 000, compteur)
+  {dix N} (dix lampes) {oiseaux_emportent N} {horde_fige} {horde_hauteurs}
+Orbes : DHOUL_QARNAYN, ISSA, ZAYNAB (PROPHETE existait). Voix sans corps : UN_DES_LEURS (comme NARRATEUR).
+Ya'jouj et Ma'jouj : toujours en foule de silhouettes sombres (classes Maree, Flux, Coulees, Plaine, Hauteurs),
+  jamais un visage ni un trait inventé ; leur mort n'est pas montrée (ils cessent de bouger, au loin).
+Cache des décors : decors_gog.py et decors_gog2.py sont dans l'empreinte (egypte._empreinte) ; tout nouveau fichier de
+  décors doit y être ajouté, sinon l'ancienne image reste en cache.
+Outils du film (FILM\HORS SERIE - GOG ET MAGOG\_source\outils) : ecrit_scenarios.py, telecharge_voix.py, asr_gog.py
+  (transcription ElevenLabs → asr_GOGPn.json), planches_gog.py N [pas] [t0 t1], file_rendu_gog.py 6 4 1 …
+controle_vop.py ne tourne plus depuis le ménage des voix des VOP (asr_VOP06.json absent) : à réparer à part.
+
+
+AMÉLIORATIONS DU 11/11/2026 (Shorts à scénario)
+---------------------------------------------------------------
+Mesuré avant de modifier : un Short de 25 s = 5 min de rendu, dont 74 s d'images, 141 s d'encodage, 53 s de copie
+légère ; le volume sortait à -15,6 LUFS ; la maquette se trompait de -3 à +6 s sur la durée.
+1. DURÉE DE MAQUETTE : estime.py. Français et arabe translittéré comptés à part, aux vitesses mesurées sur les vraies
+   voix (GRAND 19 caractères / s et 3,6 syllabes d'arabe / s ; PETIT 17,5 et 4,6 ; + 0,45 s par réplique). Écart sur un
+   Short : de -2,5 à +2,1 s (avant : de +0,1 à +6,2 s, et en dessous pour les longues formules arabes). Les autres
+   voix (films, VOP, P / G) gardent 15 caractères / s. Refaire la mesure après quelques lots : python estime.py mesure
+   (--voir : les mots d'arabe repérés) puis recopier « meilleur réglage » dans VITESSES.
+   lot.py verifie prévient quand la maquette dépasse 27,5 s (30 - 2,5 de marge) : resserrer AVANT de payer les voix.
+2. LISIBILITÉ : lot.py verifie dessine une fois chaque brique (briques.controle) et signale, sans planche :
+   carte / liste sous 46 px (« ? ») ou sous 38 px (« ! »), texte réduit à moins de 74 % pour tenir en largeur (titre,
+   note), bandeau {texte} de plus de 4 lignes (ou 4 + 2 de sous-texte), {citation qui "…"} seule (carte vide).
+   Corrigé dans briques.py : un « QUI » à l'intérieur du texte cité n'est plus pris pour le mot-clé `qui` ; le TITRE
+   d'une carte {citation} passe sur deux lignes quand il serait réduit de plus de 20 % (« LE PROPHÈTE (PAIX ET SALUT
+   SUR LUI) / A DIT : » : avant, il sortait à 58-78 % de sa taille sur presque toutes les cartes).
+3. VOLUME : pxv.volume_exact (après loudnorm : gain + limiteur à -1,5 dB, mesuré, 3 essais au plus) → cible à 0,5 LUFS
+   près. Actif quand VID.volume_exact est vrai (posé par scenario.fabrique hors film).
+4. ENCODAGE : x264 « veryfast crf 18 » au lieu de « slow crf 18 » quand VID.encodage_rapide est vrai (posé par
+   scenario.fabrique hors film) : 28 s au lieu de 121 s sur ISL43, même fidélité (SSIM 0,970 contre 0,969), 142 Mo
+   contre 136. Les films (veryfast crf 16) et les VOP (slow crf 18) ne changent pas. Essayé et écarté : la carte
+   graphique (h264_nvenc), 13 s mais nettement moins fidèle (SSIM 0,915).
+5. TRANSCRIPTION : voix.transcrire(…, textes={perso: texte}) donne le texte connu en indice au modèle (scenario.py … asr
+   le fait tout seul) : plus de première réplique sautée ni de formule arabe remplacée (ISL39 : 80 % → 100 % du texte
+   retrouvé). Si l'indice fait moins bien que l'écoute simple, l'écoute simple est gardée ; sous 90 %, « À ÉCOUTER ».
+   lot.py verifie signale ensuite les répliques de 4 mots ou plus retrouvées à moins de 50 % (L["retrouve"]).
+6. GRADES : python sources.py grades [CODE] (et dans lot.py verifie) : tout hadith hors de Boukhari et Mouslim dont la
+   fiche ne cite ni al-Arna'out ni Ahmad Chakir. À lancer AVANT d'écrire le scénario (leçon de Tirmidhi 3563).
+Contrôles après ces changements : controle_avant_apres.py OK (ISL13, 17, 23 identiques), controle_briques.py OK,
+controle_moteur.py verifie demo,short : 42 images identiques.
+Ce qui n'a PAS été fait : le calcul des images (74 s) n'a pas été accéléré (228 s de processeur réparties sur 8
+processus : le gain possible est faible et le risque de changer un pixel réel).

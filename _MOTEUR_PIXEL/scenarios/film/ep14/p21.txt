@@ -1,0 +1,92 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 21 : LA TERRE SAINTE
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P21). Voix : E14P21_CORAN, _FILS_D_ISRAEL, _NARRATEUR
+# Moussa, Haroun, Youcha' : orbes ; leurs paroles : la voix du Coran. Le second des deux hommes pieux (5:23) : dessiné
+# (HOMME_PIEUX), sans voix (le verset est lu par la voix du Coran).
+TITRE: Moussa - partie 21 - La terre sainte
+CODE: E14P21
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tristesse
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# ENTREZ ! — au bord de la terre verte, les murailles au loin ; Moussa face au peuple ; deux hommes s'avancent ; le peuple
+# recule et s'assoit par terre
+== terre_sainte, ambiance amb_vent_doux 0.2
+HAROUN place 20
+MOUSSA place 150
+YOUCHA place 560
+HOMME_PIEUX place 680
+FILS_D_ISRAEL place 820
+ISRAELITE place 940
+ISRAELITE_F place 1060
+GENS place 1180
+VIEILLARD place 1300
+CORAN (voix off, plan large) : Lorsque Moussa dit à son peuple : « Ô mon peuple ! Rappelez-vous le bienfait d'Allah sur vous, lorsqu'Il a désigné parmi vous des Prophètes. Et Il a fait de vous des {cadre MOUSSA} rois. Ô mon peuple ! Entrez dans la terre sainte {large} qu'Allah vous a prescrite. Et ne revenez point sur vos pas car vous retourneriez perdants. » {source "CORAN 5:20-21 (EXTRAIT)"}
+FILS_D_ISRAEL (peur, sur FILS_D_ISRAEL) : [afraid] Ô Moussa ! Il y a là un peuple redoutable. Jamais nous n'y entrerons jusqu'à ce qu'ils en sortent. S'ils en sortent, alors nous y entrerons. {source "CORAN 5:22"}
+CORAN (voix off, plan large) : Deux hommes {derive YOUCHA 380 1320 2.5s} {va HOMME_PIEUX 480} d'entre ceux qui craignaient Allah et qui étaient comblés par Lui de bienfaits {regarde HOMME_PIEUX droite} dirent : « Entrez chez eux par la porte ; puis, quand vous y serez entrés, vous serez les {geste HOMME_PIEUX pointe} vainqueurs. Et c'est en Allah qu'il faut avoir confiance, si vous êtes croyants. » {source "CORAN 5:23"}
+FILS_D_ISRAEL (fier, bras croises, plan large) : [arrogant] {geste HOMME_PIEUX neutre} Ô Moussa ! Nous n'y entrerons {derive ISRAELITE 1000 1300 1.6s} {derive ISRAELITE_F 1130 1300 1.6s} {derive GENS 1250 1300 1.6s} jamais, aussi longtemps qu'ils y seront. Va donc, toi et ton Seigneur, et combattez tous deux. Nous restons là où nous sommes. {source "CORAN 5:24"}
+FILS_D_ISRAEL assis par terre
+ISRAELITE assis par terre
+GENS assis par terre
+VIEILLARD assis par terre
+CORAN (voix off, sur MOUSSA) : Il dit : « Seigneur ! Je n'ai de pouvoir, vraiment, que sur moi-même et sur mon {cadre HAROUN} frère : sépare-nous donc de ce peuple {large} pervers ! » Allah dit : « Eh bien, ce pays leur sera interdit pendant quarante ans, durant lesquels ils erreront sur la terre. Ne te tourmente donc pas pour ce peuple pervers ! » {source "CORAN 5:25-26"}
+
+# QUARANTE ANS — à l'aube, la caravane se met en marche ; le soir tombe ; et le soir, ils sont exactement au même endroit
+== desert_aube, 2.5s, ambiance amb_vent_desert 0.3
+VIEILLARD place -200, se retourne
+ISRAELITE_F place -60, se retourne
+ISRAELITE3 place 80, se retourne
+GENS place 220, se retourne
+ANE_ROCHER place 380, se retourne
+ISRAELITE place 560, se retourne
+MOUSSA place 720
+NARRATEUR (voix off, plan large) : [sad] Quarante ans. Chaque matin, ils se mettent en {va VIEILLARD 500 7s} {va ISRAELITE_F 640 7s} {va ISRAELITE3 780 7s} {va GENS 920 7s} {va ANE_ROCHER 1080 7s} {va ISRAELITE 1260 7s} {derive MOUSSA 1420 1320 7s} marche. Et chaque {devient desert_soir 2.5} soir, ils ne sont arrivés nulle part. {source "TAFSIR IBN KATHIR (5:26, IBN 'ABBAS)"}
+
+# … AU MÊME ENDROIT — plan muet : le soir, la caravane est revenue à la même place, près du même rocher
+== desert_soir, 4.5s, ambiance amb_vent_desert 0.3
+VIEILLARD place -200, assis par terre, se retourne
+ISRAELITE_F place -60, assis par terre, se retourne
+ISRAELITE3 place 80, se retourne
+GENS place 220, assis par terre, se retourne
+ANE_ROCHER place 380, se retourne
+ISRAELITE place 560, se retourne
+MOUSSA place 720
+
+# LES DOUZE SOURCES — le désert brûlant, le peuple assoiffé ; on décharge le rocher ; Moussa le frappe : douze sources ;
+# chaque tribu court vers la sienne
+== desert, ambiance amb_vent_desert 0.25
+ANE_ROCHER place 790
+ANE place 790
+ROCHER place 600 1250
+BATON place 230 1316
+MOUSSA place 160
+ISRAELITE3 place 920, assis par terre
+ISRAELITE_F place 1030, triste
+GENS place 1140, assis par terre
+VIEILLARD place 1250, assis par terre
+ISRAELITE place 1350, triste
+NARRATEUR (voix off, plan large) : [warmly] Et pourtant, même dans ce désert, Allah ne les {apparait ANE} {apparait ROCHER} {disparait ANE_ROCHER} abandonne pas. {source "TAFSIR IBN KATHIR (2:57)"}
+CORAN (voix off, plan large) : Et quand Moussa demanda de l'eau pour désaltérer son peuple, c'est {derive MOUSSA 420 1320 2s} {derive BATON 490 1316 2s} alors que Nous dîmes : « Frappe le rocher avec ton {derive BATON 560 1300 0.5s} {son imp_marteau_pierre_1 0.05} bâton ! » Et tout d'un coup, {sources 600 1240} {son amb_source_eau 0.12} douze sources en {va ISRAELITE_F 690} {va ISRAELITE 520} jaillirent, et certes, chaque tribu sut où {geste ISRAELITE3 content} s'abreuver ! {source "CORAN 2:60 (EXTRAIT)"}
+
+# LA CARAVANE — au soleil couchant, l'âne porte le rocher avec eux
+== desert_soir, ambiance amb_vent_desert 0.25
+ANE_ROCHER place -300
+VIEILLARD place -460
+ISRAELITE_F place -620
+MOUSSA place -120
+NARRATEUR (voix off, plan large) : [warmly] {va ANE_ROCHER 700 6s} {va VIEILLARD 540 6s} {va ISRAELITE_F 380 6s} {derive MOUSSA 880 1320 6s} Ils emportent avec eux un rocher, porté par une bête. À chaque halte, Moussa le frappe… et l'eau jaillit. {source "TAFSIR IBN KATHIR (5:26 · 2:60)"}
+
+# LE NUAGE, LA MANNE ET LES CAILLES — au camp : un nuage immense étend son ombre ; une rosée blanche couvre le sol ; des
+# cailles se posent par dizaines ; puis la plainte
+== camp_desert, ambiance amb_vent_doux 0.2
+MOUSSA place 160
+ISRAELITE3 place 420
+ISRAELITE_F place 560
+FILS_D_ISRAEL place 760
+GENS place 900
+VIEILLARD place 1040
+ISRAELITE place 1180
+CORAN (voix off, plan large) : Et Nous vous couvrîmes de {nuage} l'ombre d'un nuage, et fîmes descendre sur vous la {manne} manne et les {cailles} cailles : « Mangez des délices que Nous vous avons {geste ISRAELITE3 content} {geste ISRAELITE_F content} attribués ! » {source "CORAN 2:57 (EXTRAIT)"}
+FILS_D_ISRAEL (enerve, sur FILS_D_ISRAEL) : [annoyed] Ô Moussa, nous ne pouvons plus tolérer une seule nourriture. Prie donc ton Seigneur pour qu'Il nous fasse sortir de la terre ce qu'elle fait pousser, de ses légumes, ses concombres, son ail, ses lentilles et ses oignons ! {source "CORAN 2:61"}
+CORAN (voix off, sur MOUSSA) : Il vous répondit : « Voulez-vous échanger le meilleur pour le moins bon ? » {source "CORAN 2:61 (EXTRAIT)"}

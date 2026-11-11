@@ -1,0 +1,129 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 4 : DANS LE PALAIS DE PHARAON
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P4). Voix : E14P4_NARRATEUR, _CORAN, _PHARAON, _GARDE, _SERVANTE
+TITRE: Moussa - partie 4 - Dans le palais de Pharaon
+CODE: E14P4
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: ASIYA, COFFRE
+
+# LE COUVERCLE — la chambre d'Asiya : le couvercle s'ouvre, la lumière dorée ; Asiya s'illumine (MOMENT FORT)
+== chambre_asiya, voiles, emotion, ambiance amb_vent_doux 0.12
+ASIYA place 360
+COFFRE place 580 1290, ferme
+NARRATEUR (voix off, sur COFFRE, gros plan) : [softly] Asiya {geste COFFRE ouvert} {son dv_porte_bois_1 0.05} ouvre le coffre. [pause] À l'intérieur, un bébé. Le plus beau bébé qu'elle ait jamais vu. {source "TAFSIR IBN KATHIR (28:7)"}
+NARRATEUR (voix off, sur ASIYA) : [warmly] Et au moment même où elle le regarde, Allah met dans son {geste ASIYA intense} {son sa_lumiere_1 0.06} cœur un amour pour lui… comme elle n'en a jamais ressenti pour personne. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [calm] Des années plus tard, Allah le rappellera à Moussa : {source "CORAN 20:39"}
+CORAN (voix off, sur COFFRE) : Et J'ai répandu sur toi une affection de Ma part, afin que tu sois élevé sous Mon œil. {source "CORAN 20:39 (EXTRAIT)"}
+
+# LES HOMMES AUX LAMES — le couloir : des hommes armés arrivent, une torche à la main ; Asiya se place devant le coffre
+== couloir_palais, ambiance amb_temple_echo 0.25
+ASIYA place 160
+COFFRE place 300 1290, ouvert
+SOLDAT place 1420, tient la lance
+SOLDAT2 place 1580, tient la torche
+GARDE place 1740, tient la lance
+NARRATEUR (voix off, plan large) : [dark] Mais la nouvelle fait vite le tour du palais. Un bébé garçon ! [pause] {va SOLDAT 780} {va SOLDAT2 940} {va GARDE 1100} {son dv_pas_pierre_1 0.1} Les hommes aux lames arrivent, prêts à l'égorger. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur ASIYA) : [calm] {derive ASIYA 500 1300 2.5s} Asiya les arrête : « Laissez-le. Un seul bébé de plus ne changera rien. Je vais le demander à Pharaon. S'il me le donne, tant mieux. S'il ordonne qu'on le tue… je ne vous en voudrai pas. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# DEVANT PHARAON — la salle du trône : Pharaon se lève et toise l'enfant ; Asiya le défend ; Pharaon se rassoit, méprisant
+== palais_egypte, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 780
+ASIYA place 200
+MOUSSA_BEBE place 300 1236
+SOLDAT place 1020, tient la lance
+SOLDAT2 place 1180, tient la lance
+PHARAON se lève, suspect
+NARRATEUR (voix off, plan large) : [dark] Elle va trouver Pharaon. Quand il voit l'enfant, il veut le tuer : et si c'était un des fils d'Israël ? {source "TAFSIR IBN KATHIR (28:9)"}
+NARRATEUR (voix off, sur ASIYA) : [softly] Alors Asiya le {geste ASIYA intense} défend, de toutes ses forces. {source "TAFSIR IBN KATHIR (28:9)"}
+CORAN (voix off, sur ASIYA) : Et la femme de Pharaon dit : « Cet enfant réjouira mon œil et le tien ! Ne le tuez pas. Il pourrait nous être utile ou le prendrons-nous pour enfant. » Et ils ne pressentaient rien. {source "CORAN 28:9"}
+NARRATEUR (voix off, sur ASIYA) : [calm] Asiya n'a pas d'enfant. Ce bébé, elle le veut comme un fils. {source "TAFSIR IBN KATHIR (28:9)"}
+PHARAON s'assoit, blase
+NARRATEUR (voix off, sur PHARAON) : [dark] Pharaon répond : {source "TAFSIR IBN KATHIR (28:9)"}
+PHARAON (blase) : [arrogant] Pour toi, oui. [pause] Pour moi… non. Je n'en ai pas besoin. {source "TAFSIR IBN KATHIR (28:9) · IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [mysterious] Et c'est exactement ce qui arrivera. Par cet enfant, Allah guidera {cadre ASIYA} Asiya. [pause] Et par cet enfant, Allah fera tomber {cadre PHARAON} Pharaon. {source "TAFSIR IBN KATHIR (28:9)"}
+CORAN (voix off, plan large) : Alors, les gens de Pharaon le recueillirent, pour qu'il leur soit un ennemi et une source d'affliction ! Pharaon, Haman et leurs soldats étaient fautifs. {source "CORAN 28:8"}
+
+# ASIYA, DES SIÈCLES PLUS TARD — l'orbe d'Asiya rayonne dans le ciel au-dessus du palais endormi ; Maryam apparaît près d'elle
+== palais_ciel, emotion b, ambiance amb_nuit_desert 0.2
+ASIYA place 420 900, intense
+MARYAM place 660 900
+NARRATEUR (voix off, plan large) : [warmly] Asiya deviendra l'une des plus grandes femmes de l'histoire. Des siècles plus tard, le Prophète, que la paix et le salut d'Allah soient sur lui, dira : « Beaucoup d'hommes ont atteint la perfection. Mais parmi les femmes, seules l'ont atteinte Asiya, la femme de Pharaon, et {apparait MARYAM} Maryam, fille d'Imran. » {source "BOUKHARI 3411 (EXTRAIT)"}
+
+# LES NOURRICES — une salle du palais : les nourrices s'approchent du berceau l'une après l'autre et repartent ; le jour baisse
+== chambre_asiya, voiles, ambiance amb_vent_doux 0.12
+ASIYA place 300
+BERCEAU place 520 1290
+NOURRICE place 1000
+NOURRICE2 place 1160 1290
+NOURRICE3 place 1320 1290
+NARRATEUR (voix off, plan large) : [dark] {va NOURRICE 660} Mais un autre danger arrive. {son dv_bebe_pleure_1 0.05} Le bébé a faim… et il refuse de boire. {source "TAFSIR IBN KATHIR (28:11)"}
+NOURRICE triste
+NARRATEUR (voix off, plan large) : [calm] {va NOURRICE 1640} On fait venir toutes les nourrices du palais. {va NOURRICE2 680} Puis toutes les femmes qui ont du lait. [pause] Il les refuse {geste ASIYA pale} toutes. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NOURRICE2 triste
+CORAN (voix off, sur BERCEAU) : {va NOURRICE2 1640} {va NOURRICE3 700} Et Nous lui avions interdit auparavant le sein des nourrices. {devient chambre_asiya_nuit 3} {source "CORAN 28:12 (EXTRAIT)"}
+
+# LE MARCHÉ — un marché bondé ; des servantes traversent la foule avec le berceau ; au fond, la sœur regarde de loin
+== marche_egypte, ambiance amb_marche_foule 0.3
+EGYPTIEN place -120
+ANE place 80
+EGYPTIENNE place 1180
+EGYPTIEN2 place 1340
+SERVANTE place 240
+SERVANTE2 place 520
+BERCEAU place 380 1322, porte
+SA_SOEUR place 900 1250
+NARRATEUR (voix off, plan large) : [sad] {va SERVANTE 460} {va SERVANTE2 740} {derive BERCEAU 600 1322 1.5s} Asiya a peur qu'il meure de faim. Alors on l'emmène au marché, là où se rassemble la foule, dans l'espoir de trouver une femme qu'il acceptera. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [mysterious] Et dans cette foule… quelqu'un le reconnaît aussitôt. {cadre SA_SOEUR} *Sa sœur*. {source "TAFSIR IBN KATHIR (28:11)"}
+NARRATEUR (voix off, sur SA_SOEUR) : [mysterious] Elle ne montre rien. Elle le regarde de loin, comme si cet enfant ne l'intéressait pas. {source "TAFSIR IBN KATHIR (28:11, QATADA)"}
+NARRATEUR (voix off, plan large) : [calm] Puis, quand elle voit que plus personne ne sait quoi faire, elle parle : {derive SA_SOEUR 860 1300 2s} {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+CORAN (voix off, sur SA_SOEUR) : Elle dit donc : « Voulez-vous que je vous indique les gens d'une maison qui s'en chargeront pour vous tout en étant bienveillants à son égard ? » {source "CORAN 28:12 (EXTRAIT)"}
+
+# L'INTERROGATOIRE — deux hommes du palais entourent la sœur ; plan serré ; puis ils s'écartent
+== marche_egypte, ambiance amb_foule_murmure 0.2
+SA_SOEUR place 560 1300
+GARDE place 380, tient la lance
+SOLDAT place 760, tient la lance
+SERVANTE place 1000
+BERCEAU place 1080 1322, porte
+NARRATEUR (voix off, sur SA_SOEUR) : [dark] Aussitôt, les gens du palais l'attrapent. {va GARDE 450} {va SOLDAT 680} {source "TAFSIR IBN KATHIR (28:12, IBN 'ABBAS)"}
+GARDE (suspect, sur GARDE) : [menacing] Comment sais-tu qu'ils seront bons avec lui ? Tu les connais ? Tu connais cet enfant ? {source "TAFSIR IBN KATHIR (28:12, IBN 'ABBAS) · TAFSIR AT-TABARI (28:12, AS-SOUDDI)"}
+NARRATEUR (voix off, sur SA_SOEUR) : [calm] Elle répond : « Ils seront bons avec lui… parce qu'ils voudront plaire au roi, et recevoir ses récompenses. » {va GARDE 300} {va SOLDAT 840} {source "TAFSIR IBN KATHIR (28:12, IBN 'ABBAS)"}
+
+# LES RETROUVAILLES — la maison de la mère : le berceau près de la mère, les deux lumières se rejoignent ; une servante court au palais (MOMENT FORT)
+== maison_nil_jour, emotion, ambiance amb_oasis_oiseaux 0.15
+SA_MERE place 300
+BERCEAU place 470 1290
+SERVANTE place 760
+SERVANTE2 place 900
+NARRATEUR (voix off, plan large) : [warmly] On la laisse partir, et elle part aussitôt prévenir sa mère. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur SA_MERE) : [softly] Et quand la mère pose le bébé contre elle… il se jette sur son sein. {geste SA_MERE intense} Il boit, et boit encore… jusqu'à être rassasié. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [warmly] Tout le monde est fou de joie. Une servante court au palais : {va SERVANTE 1500} {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+SERVANTE2 content
+== chambre_asiya, voiles, ambiance amb_vent_doux 0.12
+ASIYA place 360
+SERVANTE place 1000
+SERVANTE (entre à droite, content) : [excited] Nous avons trouvé une nourrice pour ton fils ! {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# L'ACCORD — la chambre d'Asiya : Asiya et la mère face à face, le berceau entre elles ; des servantes apportent des étoffes
+== chambre_asiya, voiles, ambiance amb_vent_doux 0.12
+ASIYA place 240
+SA_MERE place 720
+BERCEAU place 480 1290
+SERVANTE place 1000, panier
+SERVANTE2 place 1160, jarre
+NARRATEUR (voix off, sur ASIYA) : [calm] Asiya fait venir la mère : « Reste ici, au palais, pour l'allaiter. Je n'ai jamais rien aimé comme j'aime cet enfant. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur SA_MERE) : [calm] Mais la mère répond : « Je ne peux pas quitter ma maison et mes enfants. Si tu veux bien me le confier, je l'emmène chez moi… et je prendrai soin de lui. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [warmly] Asiya accepte. [pause] Le jour même, la mère rentre chez elle avec son fils. [pause] Et c'est le palais de Pharaon qui la paie pour l'allaiter ! {source "TAFSIR IBN KATHIR (28:12) · IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LA PROMESSE TENUE — le fleuve au coucher du soleil, la maison ; puis dedans, la mère et le bébé à la lumière de la lampe (MOMENT FORT)
+== nil_soir, emotion b, ambiance amb_source_eau 0.2
+SA_MERE place 300
+CORAN (voix off, plan large) : Ainsi Nous le rendîmes à sa mère, afin que son œil se réjouisse, qu'elle ne s'affligeât pas et qu'elle sût que la promesse d'Allah est vraie. Mais la plupart d'entre eux ne savent pas. {source "CORAN 28:13"}
+== maison_nil_soir, emotion b, ambiance amb_grillons_nuit 0.15
+SA_MERE place 300, intense
+BERCEAU place 470 1290
+NARRATEUR (voix off, sur SA_MERE) : [softly] Elle avait vu son bébé partir sur le fleuve, le cœur vide. [pause] Et entre cette peur et cette joie… il ne s'est passé qu'un jour et une nuit, à peu près. {source "TAFSIR IBN KATHIR (28:12)"}
+NARRATEUR (voix off, plan large) : [mysterious] Allah a tenu Sa première promesse : Nous te le rendrons. [pause] Reste la *deuxième*. {source "CORAN 28:7"}

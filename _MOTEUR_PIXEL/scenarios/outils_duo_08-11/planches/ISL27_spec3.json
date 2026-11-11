@@ -1,0 +1,6 @@
+[
+ {"nom": "soleilbas", "classe": "Asr", "args": ["soleilbas PETIT", "soleilbas", "PETIT"], "u": [0.0, 0.6, 1.4, 2.4]},
+ {"nom": "carte", "classe": "Asr", "args": ["asr", "carte"], "t": {"famille": 5.4, "biens": 6.2, "vide": 7.4}, "u": [0.0, 1.2, 4.2, 6.0, 7.0, 8.0, 9.2]},
+ {"nom": "frise", "classe": "Asr", "args": ["asr rater", "frise"], "t": {"jaune": 2.3}, "u": [0.0, 0.5, 1.6, 3.2, 4.6]},
+ {"nom": "court", "classe": "Asr", "args": ["asr court", "court"], "u": [0.2, 1.4, 2.6]}
+]

@@ -1,0 +1,25 @@
+# ISLAMARCADE — Short duo « Tu es angoissé ? Dis ça » — format CONSIGNE (incident + parole à dire), 30 s max (09/11/2026)
+# Image 0 : la jauge « ANGOISSE » monte à 100 %, le visage de Petit la suit (brique jauge). L'invocation de la détresse
+# ligne par ligne (brique citation), puis son sens (brique liste). La jauge ne redescend PAS : le texte ne promet rien.
+# Sources : Boukhari 6346, Mouslim 2730, vérifiées sur sunnah.com le 09/11/2026. Détails : sources\fiches\ISL37.md
+
+TITRE: Tu es angoisse dis ca
+CODE: ISL37
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU ES ANGOISSÉ ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TU ES ANGOISSÉ ? / DIS ÇA !
+ICONE: coeur
+DUREE_FIN: 1.5
+
+== chambre_ado
+PETIT (peur) : [anxious] {jauge "ANGOISSE" 40 -> 100 PETIT %} J'ai une boule au *ventre*…
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Dans la détresse, le Prophète ﷺ disait : {citation "DANS LA DÉTRESSE, DIS :" "« LA ILAHA ILLA ALLAH, AL-'ADHIM AL-HALIM."} « La ilaha illa Allah, al-'Adhim al-*Halim*. {source "BOUKHARI 6346 · MOUSLIM 2730"}
+GRAND (schéma) : {citation + "LA ILAHA ILLA ALLAH, RABB AL-'ARCH AL-'ADHIM."} La ilaha illa Allah, Rabb al-'arch al-*'adhim*. {source "BOUKHARI 6346 · MOUSLIM 2730"}
+GRAND (schéma) : {citation "LA ILAHA ILLA ALLAH, RABB AS-SAMAWATI WA RABB AL-ARD, WA RABB AL-'ARCH AL-KARIM. »"} La ilaha illa Allah, Rabb as-samawati wa Rabb al-ard, wa Rabb al-'arch al-*karim*. » {source "BOUKHARI 6346 · MOUSLIM 2730"}
+GRAND (explique, nouveau schéma) : [warmly] {liste titre "POINT DE DIVINITÉ À PART ALLAH" "L'IMMENSE, LE LONGANIME"} Point de divinité à part Allah : l'Immense… {liste + "SEIGNEUR DES CIEUX"} {liste + "ET DE LA TERRE"} {liste + "SEIGNEUR DU TRÔNE // IMMENSE ET NOBLE"} le Seigneur des cieux, de la terre et du *Trône*. {source "BOUKHARI 6346 · MOUSLIM 2730"}
+PETIT (calme) : [exhales] La ilaha illa *Allah*…
+FIN

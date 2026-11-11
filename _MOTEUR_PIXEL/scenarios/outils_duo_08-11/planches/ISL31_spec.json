@@ -1,0 +1,8 @@
+[
+ {"nom": "coucher", "classe": "Coucher", "args": ["coucher PETIT", "coucher", "PETIT"], "u": [0, 0.5, 1.0, 2.0, 3.0]},
+ {"nom": "crepuscule", "classe": "Coucher", "args": ["crepuscule", "crepuscule"], "t": {"tombe": 1.0, "repandent": 2.4}, "u": [0, 0.7, 1.4, 2.2, 3.2, 4.6]},
+ {"nom": "porte", "classe": "Coucher", "args": ["crepuscule porte", "porte"], "t": {"fermee": 1.8}, "u": [0, 0.5, 1.0, 1.4, 2.0, 3.4]},
+ {"nom": "claque", "classe": "Coucher", "args": ["crepuscule claque", "claque"], "u": [0, 0.3, 0.6, 0.9, 1.3]},
+ {"nom": "nuit", "classe": "Coucher", "args": ["crepuscule nuit", "nuit"], "u": [0, 0.5, 1.0, 1.5, 2.5]},
+ {"nom": "fermee_seule", "classe": "Coucher", "args": ["crepuscule fermee", "porte", "PETIT", true], "t": {"fermee": 0.0}, "u": [0, 1.5]}
+]

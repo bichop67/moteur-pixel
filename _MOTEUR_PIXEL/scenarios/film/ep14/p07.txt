@@ -1,0 +1,86 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 7 : LE PUITS DE MADYAN
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P7). Voix : E14P7_NARRATEUR, E14P7_CORAN
+# Le vieil homme, ses filles : orbes (le Coran ne nomme pas le père ; avis divergents) ; aucune voix de personnage.
+TITRE: Moussa - partie 7 - Le puits de Madyan
+CODE: E14P7
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_desert
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, FILLE_1
+
+# MADYAN — la plaine à l'aube : le puits, l'abreuvoir, les bergers et leurs troupeaux ; à l'écart, les deux sœurs ; Moussa arrive, faible
+== puits_madyan, 2s, ambiance amb_troupeau 0.3
+CHAMEAU place -220
+BERGER place 40, tient le baton
+BERGER2 place 300
+MOUTON place 560
+CHEVRE place 690
+BERGER3 place 600 1290, tient le baton
+MOUTON place 760
+FILLE_1 place 1180
+FILLE_2 place 1330
+MOUTON place 1260 1290
+MOUSSA place -260, pale
+NARRATEUR (voix off, plan large) : [calm] Madyan. Une ville du désert, la ville du peuple de Chou'ayb. Et au milieu de la plaine, un puits, où les bergers viennent abreuver leurs troupeaux. {source "TAFSIR AT-TABARI (28:22, QATADA) · TAFSIR IBN KATHIR (28:23)"}
+CORAN (voix off, plan large) : {derive MOUSSA 960 1340 7s} Et quand il fut arrivé au point d'eau de Madyan, il y trouva un attroupement de gens abreuvant leurs bêtes et il trouva aussi deux femmes se tenant à {cadre FILLE_1} l'écart et retenant leurs bêtes. Il dit : « Que voulez-vous ? » Elles dirent : « Nous n'abreuverons que quand les bergers seront partis ; et notre père est fort âgé. » {source "CORAN 28:23"}
+NARRATEUR (voix off, sur FILLE_1) : [softly] « Nous ne sommes pas assez fortes pour nous frayer un passage parmi les bergers, expliquent-elles. Alors nous attendons ce qui reste d'eau dans leurs abreuvoirs. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [softly] Deux femmes, seules, qui retiennent leurs moutons, pour qu'ils ne se mêlent pas aux troupeaux des bergers. [pause] Moussa, épuisé, affamé… a pitié {cadre MOUSSA} d'elles. {source "TAFSIR IBN KATHIR (28:23)"}
+
+# LA PIERRE — les bergers remettent l'énorme pierre sur le puits et repartent ; Moussa la fait glisser seul ; un seul seau ; le troupeau boit
+== puits_madyan_jour, ambiance amb_troupeau 0.2
+BERGER place 300, tient le baton
+BERGER2 place 640
+PIERRE place 560 1300
+FILLE_1 place 1080
+FILLE_2 place 1240
+MOUTON place 1160 1290
+MOUSSA place 920
+NARRATEUR (voix off, plan large) : [dramatic] Les bergers ont fini. Ils remettent {derive PIERRE 440 1240 3s} {son imp_pierres_chute_1 0.05} sur le puits une énorme pierre. {va BERGER -400} {va BERGER2 1700} [pause] Une pierre si lourde… qu'il faut *dix hommes* pour la soulever. {source "TAFSIR IBN KATHIR (28:24, 'OUMAR)"}
+SEAU place 440 1196
+NARRATEUR (voix off, plan large) : [dramatic] {derive MOUSSA 600 1320 2s} Moussa s'approche. Il soulève la pierre… {derive PIERRE 250 1300 2.5s} tout seul. [pause] Il puise un {apparait SEAU} {derive SEAU 440 1108 1.4s} seul seau. Un seul. Et tout le troupeau {va MOUTON 760} boit, jusqu'à n'avoir plus soif. {source "TAFSIR IBN KATHIR (28:24, 'OUMAR)"}
+
+# SOUS L'ACACIA — Moussa à l'ombre du grand acacia, sa lumière faible ; sa prière ; puis une lueur douce l'entoure (MOMENT FORT)
+== puits_madyan_jour, emotion, ambiance amb_vent_doux 0.25
+MOUSSA place 1150 1300, pale
+NARRATEUR (voix off, sur MOUSSA) : [sad] Il n'a rien mangé depuis des jours. Son ventre est collé à son dos. [pause] On voit presque le vert des herbes qu'il a mangées… à travers sa peau. {source "TAFSIR IBN KATHIR (28:24, IBN 'ABBAS)"}
+NARRATEUR (voix off, sur MOUSSA) : [softly] Il aurait besoin… ne serait-ce que d'une moitié de datte. {source "TAFSIR IBN KATHIR (28:24, IBN 'ABBAS)"}
+CORAN (voix off, plan large) : Il abreuva les bêtes pour elles, puis retourna à l'ombre et dit : « Seigneur ! J'ai grand besoin du bien que Tu feras descendre vers moi. » {source "CORAN 28:24"}
+NARRATEUR (voix off, sur MOUSSA) : [softly] Seul, sous un acacia, dans un pays étranger. Pas un mot de plainte. Juste une demande… à son Seigneur. {source "TAFSIR IBN KATHIR (28:24, AS-SOUDDI)"}
+NARRATEUR (voix off, plan large) : [warmly] Et la réponse… {lumiere MOUSSA} {geste MOUSSA intense} est déjà en chemin.
+
+# LE VIEIL HOMME — la maison au bord de la plaine ; les deux sœurs rentrent tôt avec le troupeau repu ; le vieil homme sur le seuil
+== maison_madyan, ambiance amb_troupeau 0.2
+VIEIL_HOMME place 120
+FILLE_1 place 1300
+FILLE_2 place 1440
+MOUTON place 1380 1290
+NARRATEUR (voix off, plan large) : [calm] {derive FILLE_1 420 1320 5s} {derive FILLE_2 560 1320 5s} {va MOUTON 1060} Les deux sœurs rentrent chez elles, avec leurs moutons repus, bien plus tôt que d'habitude. Leur père s'étonne : « Que vous est-il arrivé aujourd'hui ? » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [calm] Elles lui racontent tout. Alors il envoie l'une d'elles chercher {derive FILLE_1 1500 1320 5s} l'étranger. {source "TAFSIR IBN KATHIR (28:25)"}
+== puits_madyan_soir, ambiance amb_vent_doux 0.2
+MOUSSA place 1150 1300
+FILLE_1 place -200
+CORAN (voix off, plan large) : {derive FILLE_1 800 1320 7s} Puis, l'une des deux femmes vint à lui, d'une démarche timide, et lui dit : « Mon père t'appelle pour te récompenser pour avoir abreuvé pour nous. » {source "CORAN 28:25 (EXTRAIT)"}
+NARRATEUR (voix off, sur FILLE_1) : [softly] Elle avance avec pudeur, son vêtement ramené devant son visage. {source "TAFSIR IBN KATHIR (28:25, 'OUMAR)"}
+
+# LE CHEMIN — le sentier, lumière rasante ; elle marche devant lui ; puis elle passe derrière
+== collines_madyan_soir, ambiance amb_vent_doux 0.2
+FILLE_1 place 480
+MOUSSA place 220
+NARRATEUR (voix off, plan large) : [calm] {derive FILLE_1 700 1320 3s} {derive MOUSSA 440 1320 3s} Sur le chemin, elle marche devant lui. Moussa lui dit : « Marche derrière moi. {derive MOUSSA 1000 1320 6s} {derive FILLE_1 760 1300 6s} Si je me trompe de route, lance un petit caillou pour m'indiquer le chemin. » {source "TAFSIR IBN KATHIR (28:26)"}
+
+# TU AS ÉCHAPPÉ — dans la maison, à la lampe : le vieil homme et Moussa face à face ; ses souvenirs passent ; il est enfin en sécurité
+== maison_madyan_int, ambiance amb_grillons_nuit 0.15
+VIEIL_HOMME place 300
+MOUSSA place 700
+FILLE_1 place 1010 1290
+FILLE_2 place 1150 1290
+NARRATEUR (voix off, plan large) : [calm] Ils arrivent chez son père, un vieil homme. Beaucoup, parmi les anciens, disaient que c'était Chou'ayb, le prophète de Madyan. Le Coran, lui, ne dit pas son nom. {source "TAFSIR IBN KATHIR (28:25)"}
+NARRATEUR (voix off, plan large) : [calm] Moussa lui raconte toute son histoire : le {souvenir MOUSSA palais_egypte} palais, l'homme {souvenir VIEIL_HOMME ruelle} tué, la {souvenir FILLE_1 desert_nuit} fuite. {source "TAFSIR IBN KATHIR (28:25)"}
+CORAN (voix off, sur VIEIL_HOMME) : Et quand il fut venu auprès de lui et qu'il lui eut raconté son histoire, il dit : « N'aie aucune crainte ! Tu as échappé aux gens injustes. » {source "CORAN 28:25 (EXTRAIT)"}
+NARRATEUR (voix off, sur MOUSSA) : [warmly] Ici, Pharaon n'a aucun pouvoir. [pause] Pour la première fois depuis des jours… Moussa est en {geste MOUSSA intense} *sécurité*. {source "TAFSIR IBN KATHIR (28:25)"}
+
+# FORT ET DIGNE DE CONFIANCE — une des filles parle à son père ; souvenirs : la pierre, le chemin
+CORAN (voix off, sur FILLE_1) : L'une d'elles dit : « Ô mon père ! Engage-le à ton service moyennant salaire, car le meilleur à engager, c'est celui qui est fort et digne de confiance. » {source "CORAN 28:26"}
+NARRATEUR (voix off, sur VIEIL_HOMME) : [calm] Son père lui demande : « Comment sais-tu qu'il est fort, et digne de confiance ? » {source "TAFSIR IBN KATHIR (28:26)"}
+NARRATEUR (voix off, sur FILLE_1) : [warmly] Elle répond : « Fort ? Il a soulevé seul la {souvenir FILLE_1 puits_madyan_jour} pierre du puits, celle qu'il faut dix hommes pour soulever. Digne de confiance ? Il m'a demandé de marcher {souvenir FILLE_1 collines_madyan_soir} derrière lui. » {source "TAFSIR IBN KATHIR (28:26)"}

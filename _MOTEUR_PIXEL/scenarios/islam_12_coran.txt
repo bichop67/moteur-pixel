@@ -1,0 +1,32 @@
+# ISLAMARCADE — Short duo « Tu galères à lire le Coran ? Double récompense » — 30 s maximum (04/11/2026, soir)
+# Thème « buzz », formule de l'orteil : une gêne de tous les jours → la bonne nouvelle d'un hadith, montrée en grand dès
+# l'image 0 (Petit, gêné, lit en butant : la lumière avance par à-coups, « ? ») → « +1 TU LIS », « +1 C'EST DUR POUR
+# TOI », « ×2 » → la chute : celui qui le maîtrise est avec les anges (lumières, jamais dessinés). Petit ne récite rien.
+# Sources vérifiées sur sunnah.com le 04/11/2026 :
+#   Mouslim 798a ('Aïcha) : « الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ وَالَّذِي يَقْرَأُ الْقُرْآنَ وَيَتَتَعْتَعُ فِيهِ
+#   وَهُوَ عَلَيْهِ شَاقٌّ لَهُ أَجْرَانِ » ; Boukhari 4937 (« وَهْوَ يَتَعَاهَدُهُ وَهْوَ عَلَيْهِ شَدِيدٌ، فَلَهُ أَجْرَانِ »).
+# Relecture indépendante du 04/11/2026 : « TU GALÈRES » plutôt que « TU LIS MAL » (les deux récompenses viennent de
+# l'effort : une pour la lecture, une pour la difficulté — an-Nawawi, Charh Mouslim 6/85) ; « si tu continues » ;
+# « celui qui le maîtrise » (الماهر) ; « les anges nobles et pieux » (السفرة الكرام البررة, 6/84) ; « il reste meilleur » :
+# al-Qadi 'Iyad, cité par an-Nawawi (6/85).
+
+TITRE: Tu galeres a lire le Coran
+CODE: ISL12
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU GALÈRES À LIRE LE CORAN ? / DOUBLE RÉCOMPENSE !
+ACCROCHE_DUREE: 3.2
+MINIATURE: TU GALÈRES À LIRE LE CORAN ? / DOUBLE RÉCOMPENSE !
+ICONE: livre
+DUREE_FIN: 1.6
+
+== mosquee
+PETIT (honteux, tient le coran) : [embarrassed] {bute PETIT} Je galère trop à lire le *Coran*… j'ai la honte.
+GRAND (content) : [warmly] Bonne nouvelle : si tu continues, t'as *deux* récompenses !
+PETIT (choc, bulle ?) : [surprised] Deux ?!
+GRAND (explique, plan moyen) : [calm] Le Prophète ﷺ a dit : {double} celui qui {double lit} lit le Coran en butant, et que c'est {double dur} dur pour lui… a {double x2} *deux* récompenses. {source "MOUSLIM 798 · BOUKHARI 4937"}
+PETIT (malin, index) : [mischievously] Donc j'ai *plus* que toi !
+GRAND (rit) : [amused] {double anges} Celui qui le maîtrise est avec les anges nobles et pieux. *Entraîne-toi* ! {source "MOUSLIM 798 · AN-NAWAWI 6/85"}
+FIN

@@ -1,0 +1,8 @@
+[
+ {"nom": "repas", "classe": "Droite", "args": ["repas PETIT", "repas"], "t": {"stop": 1.8, "chaytan": 2.6},
+  "u": [0.0, 0.8, 1.7, 2.4, 3.0, 3.4, 3.9, 4.6]},
+ {"nom": "recit", "classe": "Droite", "args": ["maindroite recit", "recit"], "t": {"refus": 1.2, "orgueil": 2.4, "plus": 3.6, "fleche": 5.4},
+  "u": [0.1, 1.0, 1.8, 2.8, 4.2, 5.8, 6.6, 8.0]},
+ {"nom": "avis", "classe": "Droite", "args": ["maindroite avis", "avis"], "t": {"echange": 2.6, "coche": 3.6},
+  "u": [0.0, 0.3, 1.2, 2.0, 2.9, 3.3, 3.8, 4.6]}
+]

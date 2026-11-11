@@ -1,0 +1,8 @@
+# Bibliothèques Python du moteur pixel (versions du PC d'origine, Python 3.10, relevées le 11/11/2026)
+pillow==10.2.0
+numpy==1.26.4
+soundfile==0.14.0
+imageio-ffmpeg==0.6.0
+faster-whisper==1.2.1
+arabic-reshaper==3.0.1
+python-bidi==0.6.12

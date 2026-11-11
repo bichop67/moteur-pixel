@@ -1,0 +1,13 @@
+TITRE: Test palais
+CODE: TPAL
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: ROI, SAVANT
+
+== palais_egypte, 1s
+ROI place 540
+SAVANT place 820
+NARRATEUR (voix off) : Ce Pharaon est plein d orgueil.
+== palais_egypte_nuit
+NARRATEUR (voix off) : La nuit, au palais.

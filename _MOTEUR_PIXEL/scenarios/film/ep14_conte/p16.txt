@@ -1,0 +1,26 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 16 : DANS LE DÉSERT
+# Un seul conteur ; FILS_D_ISRAEL : ses paroles du Coran dites en mots simples (NOUVELLE voix à générer).
+# Racontés : 7:138 (début), 7:138-140 (paroles de Moussa). Idoles : statues sans visage.
+TITRE: Moussa conte - partie 16 - Dans le desert
+CODE: E14P16
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_desert
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# LES IDOLES — la colonne passe près d'un village où l'on se prosterne devant des statues ; des fils d'Israël s'arrêtent, fascinés
+== village_idoles, ambiance amb_vent_doux 0.18
+EGYPTIEN2 place 640 1300, prosterne, se retourne
+GENS place 900 1300, prosterne, se retourne
+MOUSSA place -170
+HAROUN place -300
+FILS_D_ISRAEL place -420
+ISRAELITE place -560
+ISRAELITE_F place -700
+NARRATEUR (voix off) : [calm] {derive MOUSSA 360 1340 8s} {derive HAROUN 230 1340 8s} {va FILS_D_ISRAEL 80 8s} {va ISRAELITE -40 8s} {va ISRAELITE_F -160 8s} Les fils d'Israël avaient traversé la mer. Et en chemin, ils sont passés près d'un peuple qui adorait des idoles. Et là, ils ont dit : {source "CORAN 7:138"}
+FILS_D_ISRAEL (content, pointe) : [excited] Ô Moussa ! Fais-nous un dieu, comme leurs dieux à eux ! {source "CORAN 7:138"}
+NARRATEUR (voix off) : [calm] Moussa leur a dit : « Vous êtes vraiment des gens ignorants. {cadre MOUSSA} Le culte de ces gens-là va être détruit… et tout ce qu'ils font ne vaut rien. Est-ce que je vais vous chercher un autre dieu qu'Allah… alors que c'est Lui qui vous a préférés à tous les peuples de votre époque ? » {source "CORAN 7:138-140"}
+NARRATEUR (voix off, plan large) : [sad] Ils venaient de voir la mer s'ouvrir {souvenir FILS_D_ISRAEL mer_canyon 0 -10 3s} devant eux. {source "CORAN 7:138"}

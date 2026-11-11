@@ -1,0 +1,40 @@
+# EXEMPLE « EXPLIQUER EN MONTRANT » + « GARDER L'ATTENTION » (voir LISEZMOI_MOTEUR.txt, parties 16 et 17).
+# - accroche : question choc dès le 1er mot + selfie raté + texte d'accroche à l'écran (ACCROCHE:) ;
+# - question ouverte : « Deux raisons. » puis bandeaux RAISON 1/2, 2/2 (relancent l'attention au milieu) ;
+# - un changement d'image toutes les 2 à 4 s, une façon de montrer différente à chaque passage ;
+# - mots importants en jaune dans les sous-titres (*entre étoiles*) ; fin courte.
+# (DEMO: oui affiche en plus le code de chaque élément quand il apparaît ; l'enlever pour la vraie vidéo)
+#   python scenario.py scenarios\moche_en_photo.txt tout
+# Sources : Mita, Dermer & Knight 1977 (on préfère son image du miroir, nos proches préfèrent la vraie) ;
+#           Ward et al. 2018, JAMA Facial Plastic Surgery (portrait à 30 cm : nez environ 30 % plus large qu'à 1,5 m).
+
+TITRE: Pourquoi on est moche en photo
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: ADA, ETUDIANT
+ACCROCHE: BELLE AU MIROIR… / MOCHE EN PHOTO ?!
+MINIATURE: BELLE AU MIROIR / MOCHE EN PHOTO ?!
+ICONE: question
+DEMO: oui
+
+== salon
+ADA (degoute) : {selfie ADA} Pourquoi je suis belle dans le miroir, mais *moche* en photo ?!
+ETUDIANT (explique) : Deux raisons. {etape RAISON 1/2 "LE MIROIR"} Chaque matin, {reflet ADA content} tu te vois dans le miroir. {texte "TOUS LES MATINS"}
+ETUDIANT (explique) : Mais il t'*inverse* : {miroir ADA grain} la photo, {photo ADA grain} non. {double-fleche INVERSÉ}
+ADA (choc, schéma) : Mon grain de beauté a changé de côté !
+ETUDIANT (explique) : {efface} Ton *cerveau* {icone cerveau} préfère la tête qu'il voit chaque jour. {icone coeur} {source "MITA ET AL., 1977"}
+
+== couloir_ecole
+ADA entre à gauche, content
+ADO content
+ETUDIANTE content
+ETUDIANT (voix off) : Tes potes, eux, {etiquette ADO "TES POTES"} voient {etiquette ADA "TA VRAIE TÊTE"} ta *vraie tête*, à l'endroit.
+
+== salon
+ADA (gene) : {etape RAISON 2/2 "TON TÉLÉPHONE"} Et mes *selfies* ?
+ETUDIANT (explique) : Bouge pas. {photographe ETUDIANT ADA 30 cm} À trente centimètres, ton nez paraît {chiffre +30 %} *trente pour cent* plus large. {source "WARD ET AL., 2018"}
+ETUDIANT (explique) : Je recule… {recule 1,5 m} et il reprend sa taille. {check}
+ADA (malin) : Donc je suis pas moche ?
+ETUDIANT (rit) : Si. Mais *moins*.
+FIN

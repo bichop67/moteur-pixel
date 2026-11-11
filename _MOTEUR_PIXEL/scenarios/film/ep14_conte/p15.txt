@@ -1,0 +1,129 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 15 : LA MER
+# Un seul conteur ; voix des personnages : HERAUT, FILS_D_ISRAEL, PHARAON. Plus de voix du Coran.
+# Détails des savants : Tafsir Ibn Kathir (26:52-66, 10:90-92, 44:24) — vérifiés le 02/11/2026 avec l'outil de tafsir.
+# Nouvelle mer (decors_mer.py, 02/11/2026) : mer_rivage (vue de côté, la poursuite), mer_face (vue de face, la mer
+# fermée) + {mer_fend N} (la mer se fend et se dresse en murailles), mer_fendue (douze chemins, tribus au loin),
+# mer_couloir (dans un chemin, vue de côté), {mer_referme N} (les murailles s'écroulent), sous_la_mer (sous les flots),
+# mer_rivage_corps (la mer calme, le corps au loin sur une hauteur).
+TITRE: Moussa conte - partie 15 - La mer
+CODE: E14P15
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_tempete
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, HAROUN
+
+# LE DÉPART DE NUIT — le quartier se vide en silence ; une longue colonne sort sous la lune, derrière Moussa
+== quartier_nuit, ambiance amb_grillons_nuit 0.15
+ISRAELITE2 place 140
+ISRAELITE_F place 300
+MOUSSA place 440
+HAROUN place 580
+ISRAELITE3 place 720
+ISRAELITE place 860
+ISRAELITE4 place 1000
+NARRATEUR (voix off) : [mysterious] Après tout ça, Allah a ordonné à Moussa de faire sortir les fils d'Israël d'Égypte. De nuit. Parce qu'ils allaient être poursuivis. {source "CORAN 26:52 · TAFSIR IBN KATHIR (26:52)"}
+NARRATEUR (voix off) : [softly] {va ISRAELITE2 1700} {va ISRAELITE_F 1800} {derive MOUSSA 1900 1320 15s} {derive HAROUN 2000 1320 15s} {va ISRAELITE3 2100} {va ISRAELITE 2200} {va ISRAELITE4 2300} Alors une nuit, au lever de la lune, tout le quartier s'est vidé, en silence. Les familles, les vieux, les enfants… tout le monde est parti avec Moussa. {source "TAFSIR IBN KATHIR (26:52)"}
+
+# LE MATIN — le quartier vide ; un crieur dans l'avenue du palais ; l'armée se met en marche
+== avenue_palais, ambiance amb_vent_doux 0.15
+HERAUT place 540
+SOLDAT place 300, tient la lance
+SOLDAT2 place 780, tient la lance
+GARDE place 960, tient la lance
+NARRATEUR (voix off) : [dark] Le lendemain matin, Pharaon découvre que le quartier est vide. Plus personne. Et là, il devient fou de rage. Il envoie des crieurs dans toutes les villes, pour rassembler son armée. {source "TAFSIR IBN KATHIR (26:53)"}
+HERAUT (crie, pointe) : [shouting] Ces gens-là, ce n'est qu'une petite bande ! Mais ils nous ont mis en colère ! Et nous, nous sommes tous sur nos gardes ! {source "CORAN 26:54-56"}
+NARRATEUR (voix off) : [dark] Et Pharaon est parti derrière eux, avec une armée immense. {va SOLDAT 1700} {va SOLDAT2 1800} {va GARDE 1900} Ses ministres, ses chefs, ses soldats… Tous ceux qui avaient du pouvoir en Égypte sont venus avec lui. {source "TAFSIR IBN KATHIR (26:60 · 10:90)"}
+
+# LA POURSUITE — au lever du soleil : la mer immense devant eux ; derrière, la poussière de l'armée à perte de vue
+== mer_rivage, armee 0.5, mer_vie, ambiance amb_vagues_mer 0.2
+MOUSSA place 560
+HAROUN place 420
+ISRAELITE place 220, peur
+ISRAELITE_F place 100, peur
+FILS_D_ISRAEL place -20, peur
+ISRAELITE2 place -140, peur
+NARRATEUR (voix off) : [dramatic] Au lever du soleil, l'armée les avait presque rattrapés. {son an_chevaux_1 0.05} Les fils d'Israël sont arrivés au bord de la mer… et derrière eux, il y avait l'armée de Pharaon. {source "CORAN 26:60-61 · TAFSIR IBN KATHIR (26:61)"}
+NARRATEUR (voix off) : [dramatic] Devant eux, la mer. Derrière eux, l'armée. Aucune issue. [pause] Et là, ils ont paniqué : {source "CORAN 26:61"}
+FILS_D_ISRAEL (crie, peur) : [shouting] Ils vont nous rattraper ! [pause] Comment on va s'en sortir ? {source "CORAN 26:61 · TAFSIR IBN KATHIR (10:90)"}
+NARRATEUR (voix off) : [calm] Moussa leur a répondu : « C'est par ici que mon Seigneur m'a ordonné de passer. » {geste MOUSSA intense} [pause] Et il a dit : « Jamais ! Mon Seigneur est avec moi. Il va me guider. » {source "TAFSIR IBN KATHIR (10:90) · CORAN 26:62"}
+NARRATEUR (voix off) : [dark] Et l'armée se rapprochait… de plus en plus près. {source "TAFSIR IBN KATHIR (26:62)"}
+
+# LA MER S'OUVRE — vue de face : la mer immense ; Moussa (orbe) au bord ; la mer se fend et se dresse (MOMENT FORT)
+== mer_face, emotion b, mer_vie, ambiance amb_vagues_mer 0.2
+MOUSSA place 540, intense
+HAROUN place 380
+ISRAELITE place 200
+ISRAELITE_F place 60
+FILS_D_ISRAEL place 760
+ISRAELITE2 place 900
+NARRATEUR (voix off) : [dramatic] Et là, Allah a ordonné à Moussa de frapper la mer avec son bâton. {source "CORAN 26:63"}
+NARRATEUR (voix off) : [dramatic] Moussa a frappé… {son imp_grondement_1 0.05} {mer_fend 6} [pause] et la mer s'est fendue ! Chaque mur d'eau s'est dressé comme une énorme montagne. {source "CORAN 26:63"}
+
+# DOUZE CHEMINS — la mer ouverte vue de haut : les murailles d'eau, les chemins secs, les tribus qui marchent au loin
+== mer_fendue, emotion b, tribus, ambiance amb_vent_fort 0.12
+NARRATEUR (voix off) : [dramatic] Et pas un seul chemin : douze. Un pour chaque tribu des fils d'Israël. {source "TAFSIR IBN KATHIR (26:63, IBN 'ABBAS)"}
+NARRATEUR (voix off) : [calm] Allah a envoyé le vent sur le fond de la mer… et le sol est devenu sec, dur comme la terre. {source "TAFSIR IBN KATHIR (26:63, AS-SOUDDI)"}
+
+# LES FENÊTRES — dans un des chemins, vue de côté : dans la muraille, des fenêtres ; on voit marcher la tribu voisine
+== mer_couloir, mer_vie, ambiance amb_vent_fort 0.1
+NARRATEUR (voix off) : [calm] Et dans les murs d'eau, il y avait comme des fenêtres, pour que chaque tribu puisse voir les autres… et sache qu'elles étaient en vie. {source "TAFSIR IBN KATHIR (26:63, AS-SOUDDI · 10:90)"}
+
+# LA TRAVERSÉE — la tribu arrive par la gauche et traverse
+HAROUN place -480
+ISRAELITE place -620
+ISRAELITE_F place -760
+MOUSSA place -900
+ISRAELITE3 place -1040
+ISRAELITE4 place -1180
+NARRATEUR (voix off) : [calm] {derive HAROUN 1500 1320 16s} {va ISRAELITE 1640} {va ISRAELITE_F 1780} {derive MOUSSA 1920 1320 16s} {va ISRAELITE3 2060} {va ISRAELITE4 2200} Alors les fils d'Israël ont traversé. À pied sec… au milieu de la mer. {source "CORAN 20:77"}
+NARRATEUR (voix off) : [calm] Et quand le dernier est arrivé de l'autre côté, Moussa a voulu frapper la mer encore une fois, pour qu'elle se referme derrière eux. Mais Allah lui a dit de la laisser comme elle était… ouverte. Parce que cette armée allait y être noyée. {source "TAFSIR IBN KATHIR (44:24) · CORAN 44:24"}
+
+# PHARAON AU BORD DE LA MER — vue de face : l'armée arrive ; Pharaon voit les murailles, il a peur ; il s'élance
+== mer_fendue, ambiance amb_vent_fort 0.12
+PHARAON place 420, enerve
+CHEVAL_NOIR place 280
+SOLDAT place 120, tient la lance
+SOLDAT2 place -20, tient la lance
+GARDE place 640, tient la lance
+NARRATEUR (voix off) : [dark] Et Pharaon est arrivé au bord de la mer, avec toute son armée. Il a vu ces murs d'eau… et il a eu peur. Il a voulu faire demi-tour. {source "TAFSIR IBN KATHIR (10:90)"}
+NARRATEUR (voix off) : [dark] Mais là, l'ange Jibril est arrivé sur une jument… et il est entré dans la mer. Le cheval de Pharaon s'est lancé derrière lui… {va CHEVAL_NOIR 1700} {va PHARAON 1640} et Pharaon ne pouvait plus l'arrêter. Alors, devant ses chefs, il a fait le courageux : {source "TAFSIR IBN KATHIR (10:90)"}
+PHARAON (voix off) : [arrogant] Les fils d'Israël n'ont pas plus de droit que nous sur cette mer ! {source "TAFSIR IBN KATHIR (10:90)"}
+NARRATEUR (voix off) : [dark] Et toute son armée {va SOLDAT 1800} {va SOLDAT2 1700} {va GARDE 1900} s'est lancée derrière lui. {source "TAFSIR IBN KATHIR (10:90) · CORAN 20:78"}
+
+# LA MER SE REFERME — vue de côté : l'armée dans le chemin ; les murailles s'écroulent sur elle
+== mer_couloir, mer_vie, ambiance amb_vent_fort 0.12
+PHARAON place -120, enerve
+CHEVAL_NOIR place -260
+SOLDAT place -400, tient la lance
+SOLDAT2 place -540, tient la lance
+GARDE place -680, tient la lance
+NARRATEUR (voix off) : [dark] {va PHARAON 760} {va CHEVAL_NOIR 620} {va SOLDAT 480} {va SOLDAT2 340} {va GARDE 200} Et quand ils ont tous été à l'intérieur… et que les premiers allaient sortir de l'autre côté… Allah a ordonné à la mer de se {mer_referme 4.5} refermer. {source "TAFSIR IBN KATHIR (10:90)"}
+NARRATEUR (voix off) : [dark] Les murs d'eau se sont écroulés sur eux. Pas un seul n'en est sorti vivant. {source "TAFSIR IBN KATHIR (10:90) · CORAN 26:66"}
+
+# SOUS LES FLOTS — sous l'eau : la lumière tremble au-dessus, des bulles montent ; on n'y voit personne
+== sous_la_mer, mer_vie, ambiance amb_vagues_mer 0.08
+NARRATEUR (voix off) : [dark] Et Pharaon, au milieu des vagues… au moment de mourir… il a crié : {source "CORAN 10:90 · TAFSIR IBN KATHIR (10:90)"}
+PHARAON (voix off) : [shouting] Je crois qu'il n'y a pas d'autre divinité que Celui en qui ont cru les fils d'Israël ! Et je fais partie des soumis ! {source "CORAN 10:90"}
+NARRATEUR (voix off) : [dark] Mais c'était trop tard. Allah lui a répondu : « Maintenant ? Alors qu'avant, tu as désobéi… et que tu semais le désordre ! » {source "CORAN 10:91"}
+
+# LE RIVAGE — la mer redevenue calme ; au loin, sur une hauteur, le corps rejeté par la mer ; les fils d'Israël regardent
+== mer_rivage_corps, mer_vie, oiseaux, ambiance amb_vagues_mer 0.18
+ISRAELITE place -160
+ISRAELITE_F place -300
+ISRAELITE2 place -40
+NARRATEUR (voix off) : [softly] {va ISRAELITE 220 9s} {va ISRAELITE_F 80 9s} {va ISRAELITE2 340 9s} Après… il y a eu le silence. La mer est redevenue calme.
+NARRATEUR (voix off) : [softly] Certains fils d'Israël n'arrivaient pas à croire que Pharaon était mort. Alors Allah a ordonné à la mer de rejeter son corps sur le rivage, sur une hauteur… pour que tout le monde le voie. {source "TAFSIR IBN KATHIR (10:92, IBN 'ABBAS) · CORAN 10:92"}
+NARRATEUR (voix off) : [softly] Le roi qui se prenait pour un dieu… n'était plus qu'un corps, rejeté par la mer. Un signe, pour tous ceux qui viendraient après lui. {source "CORAN 10:92"}
+
+# 'ACHOURA — l'aube sur le désert ; Moussa et les siens, sauvés
+== desert_aube, emotion, oiseaux, ambiance amb_vent_doux 0.15
+MOUSSA place 560, intense
+HAROUN place 400
+ISRAELITE place 1500
+ISRAELITE_F place 1640
+ISRAELITE2 place -420
+NARRATEUR (voix off) : [warmly] {va ISRAELITE 780 10s} {va ISRAELITE_F 900 10s} {va ISRAELITE2 220 10s} Et tu sais quel jour c'était ? Des siècles plus tard, à Médine, le Prophète ﷺ a trouvé les juifs en train de jeûner ce jour-là. Ils lui ont expliqué : « C'est le jour où Allah a sauvé Moussa et noyé les gens de Pharaon. Moussa l'a jeûné, pour remercier Allah. » {source "BOUKHARI 3397"}
+NARRATEUR (voix off) : [warmly] Alors le Prophète a dit : « Je suis plus proche de Moussa qu'eux. » Il l'a jeûné, et il a demandé aux musulmans de le jeûner aussi. [pause] Ce jour-là… c'est le jour d'*Achoura*. {source "BOUKHARI 3397"}

@@ -1,0 +1,33 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 7 : ILS COUVRENT LA TERRE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 7 - Ils couvrent la terre
+CODE: GOGP7
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# LA VILLE FORTIFIÉE — les musulmans rentrent avec leurs bêtes ; la marée contourne les murs
+== gog_forteresse, 1s, contourne, ambiance amb_marche_foule 0.25
+CROYANT place 1500
+VACHE place 1640
+MERE_CROYANTE place 1760
+NARRATEUR (voix off) : [dark] {va CROYANT 640 7s} {va VACHE 800 7s} {va MERE_CROYANTE 940 7s} Ils couvrent la terre. Et devant eux, les musulmans reculent. Ils se réfugient dans leurs villes et dans leurs forteresses… avec leurs *troupeaux*. {source "IBN MAJAH 4079"}
+
+# LE LAC DE TIBÉRIADE — plein, puis bu
+== gog_lac, 1s, lac, passage, ambiance amb_marche_foule 0.25
+NARRATEUR (voix off) : [calm] Ya'jouj et Ma'jouj, eux, avancent. Et les premiers arrivent au lac de *Tibériade*. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [mysterious] {lac_bu 9} Ils boivent. Ils boivent… [pause] Et l'eau baisse… baisse… jusqu'à ce qu'il n'en reste *rien*. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [dark] Et quand les derniers passent à leur tour… ils disent : {source "MOUSLIM 2937"}
+UN_DES_LEURS (voix off) : [low] Il y a eu de l'eau ici… autrefois. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [calm] Tu te souviens ? C'est la scène du début. [pause] Un lac entier… bu par des gens qui ne faisaient que *passer*.
+
+# LA MONTAGNE DE JÉRUSALEM — ils dévalent les collines ; les flèches vers le ciel
+== gog_hauteurs, horde_hauteurs, ambiance amb_marche_foule 0.25
+NARRATEUR (voix off) : [dark] Ensuite ils marchent jusqu'à une montagne, à Jérusalem. Et là, ils disent : {source "MOUSLIM 2937"}
+UN_DES_LEURS (voix off) : [arrogant] On a tué ceux qui sont sur la terre. Allez… tuons ceux qui sont dans le ciel ! {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [dramatic] {fleches 9} {son tr_whoosh_vent_1 0.1} Et ils tirent leurs flèches vers le ciel. [pause] Et Allah leur renvoie leurs flèches… tachées de *sang*. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [calm] Ce sang… c'est une épreuve, et une tentation. [pause] Et ils disent : {source "MOUSNAD AHMAD (TAFSIR IBN KATHIR, 21:96)"}
+UN_DES_LEURS (voix off) : [shouting] On a tué les gens du ciel ! {source "IBN MAJAH 4079"}
+NARRATEUR (voix off) : [dark] Ils se croient vainqueurs. [pause] Ils ont *tort*.

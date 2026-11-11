@@ -1,0 +1,41 @@
+# DÉMO 9 (09/11/2026) — les 8 BRIQUES RÉUTILISABLES (briques.py), avec leur code à l'écran : focus, liste, citation,
+# jauge, versus, bulles, trajet, grille, et la lueur commune. Une brique se règle depuis le scénario : aucun code par
+# sujet. La liste montre aussi la REPRISE (retour à la scène, puis la brique revient où elle en était).
+# Maquette sans voix.
+
+TITRE: Demo 9 - briques reutilisables
+CODE: DEMO9
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: aucune
+PERSONNAGES: PETIT, GRAND
+DEMO: oui
+DUREE_FIN: 1.0
+
+== salon
+LEGENDE : FOCUS / {focus telephone "…"} {focus entoure haut "FENDU"} {focus ok "…"} {focus lueur or}
+GRAND (nouveau schéma) : {focus telephone "TON TÉLÉPHONE"} Un gros plan sur un objet, {focus entoure haut "FENDU"} on entoure un endroit, {focus ok "DIS : INNA LILLAHI"} on valide, {focus lueur or} et une lumière descend.
+== salon
+LEGENDE : LISTE / {liste titre "…" "A" "B" "C"} {liste barre 1 2} {liste or 3} puis, après la scène, {liste + "…"} {liste note "…"}
+GRAND (nouveau schéma) : {liste titre "TU JURES SUR…" "TON PÈRE" "TA MÈRE" "ALLAH"} Une liste au tableau, {liste barre 1 2} on barre deux lignes, {liste or 3} on en met une en or.
+PETIT (malin, bulle ?) : Et sur la vie de mon frère ?
+GRAND : {liste + "LA VIE DE TON FRÈRE"} La liste revient où elle en était, avec une ligne de plus, {liste barre 4} barrée elle aussi, {liste note "… OU TU TE TAIS"} et une note en bas.
+== salon
+LEGENDE : CITATION / {citation "QUI" "« … »"} {citation lueur rouge} {citation note "…"} + {source "…"}
+GRAND (nouveau schéma) : {citation "LE PROPHÈTE ﷺ A DIT :" "« MALHEUR AUX TALONS… À CAUSE DU FEU ! »"} Une parole citée dans son cadre, {citation lueur rouge} une lueur rouge monte pour un avertissement, {citation note "= LAVE TOUT LE PIED"} et une note l'explique. {source "BOUKHARI 163 · MOUSLIM 241"}
+== salon
+LEGENDE : JAUGE / {jauge "COLÈRE" 100 -> 35 PETIT %} {jauge -> 0} {jauge fin "CALME"}
+GRAND (nouveau schéma) : {jauge "COLÈRE" 100 -> 35 PETIT %} Une jauge qui descend, le visage de Petit la suit, {jauge -> 0} elle tombe à zéro, {jauge fin "CALME"} et le résultat s'affiche.
+== salon
+LEGENDE : VERSUS / {versus titre "…" pouce_bas "A" pouce "B"} {versus non} {versus oui}
+GRAND (nouveau schéma) : {versus titre "TU MANGES AVEC…" pouce_bas "LA MAIN GAUCHE" pouce "LA MAIN DROITE"} Deux cartes côte à côte, {versus non} la mauvaise est refusée, {versus oui} la bonne est validée.
+== salon
+LEGENDE : BULLES / {bulles PETIT "…"} {bulles GRAND content "…"} {bulles PETIT or "…"} {bulles GRAND vide}
+GRAND (nouveau schéma) : {bulles PETIT "AL-HAMDOU LILLAH"} Des formules qui se répondent, {bulles GRAND content "YARHAMOUKA ALLAH"} l'autre répond, {bulles PETIT or "YAHDIKOUMOU ALLAH"} la bonne formule en or, {bulles GRAND vide} et une bulle vide quand il n'y a pas de réponse.
+== salon
+LEGENDE : TRAJET / {trajet titre "…" "A" -> "B" PETIT} {trajet avance 45} {trajet etape 45 "…"} {trajet stop "…"} {trajet arrive}
+GRAND (nouveau schéma) : {trajet titre "LE VOYAGE" "SA VILLE" -> "LE BON PAYS" PETIT} Une route entre deux endroits, {trajet avance 45} il avance, {trajet etape 45 "MI-CHEMIN"} on marque une étape, {trajet stop "IL S'ARRÊTE ICI"} il s'arrête, {trajet arrive} puis il arrive au bout. {trajet lueur or}
+== salon
+LEGENDE : GRILLE / {grille 40 "JOURS" "TA PRIÈRE"} {grille barre 40} {grille vide} {grille coche 12}
+GRAND (nouveau schéma) : {grille 40 "JOURS" "TA PRIÈRE"} Quarante cases à compter pour de vrai, {grille barre 40} elles se barrent une par une, {grille vide} on les vide, {grille coche 12} et on en coche douze.
+FIN

@@ -1,0 +1,30 @@
+# EXEMPLE DE SCÉNARIO : écris ta scène comme ça, puis :
+#   python scenario.py scenarios\le_passeport_de_papi.txt sheet    (planche de contrôle)
+#   python scenario.py scenarios\le_passeport_de_papi.txt tout     (la vidéo)
+# Sans voix, la vidéo est une MAQUETTE (durées estimées, sous-titres) : pratique pour régler la mise en scène.
+# Pour les vraies voix : python scenario.py … voix  → textes à coller dans ElevenLabs, puis MP3 dans le dossier voix.
+
+TITRE: Le passeport de Papi
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: ADA, PAPI
+MINIATURE: SON PASSEPORT / EST OÙ ?!
+ICONE: question
+
+== aeroport, passants, 1.2s
+ADA entre à gauche, téléphone
+PAPI entre à droite, valise
+
+ADA (explique) : Papi, on embarque dans dix minutes. T'as ton passeport ?
+PAPI (fier, pouce) : Évidemment ! Moi, je suis organisé.
+PAPI (gros plan, peur, goutte) : … Il était dans ma poche.
+ADA (choc, bulle !) : Comment ça, il ÉTAIT ?!
+PAPI (calme, explique) : Pas de panique. Je l'ai mis en lieu sûr.
+ADA (suspect, hanches) : Quel lieu sûr ?
+
+SMS MAMAN : Papi a laissé son passeport dans le frigo / > On est À L'AÉROPORT
+
+PAPI (gene, haussement) : Au frais. Comme ça, il s'abîme pas.
+ADA (facepalm, colère) : Papiii !
+FIN

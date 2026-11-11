@@ -1,0 +1,55 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 14 : LES FLÉAUX
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P14). Voix : E14P14_CORAN, _CONSEILLERS, _NARRATEUR
+TITRE: Moussa - partie 14 - Les fleaux
+CODE: E14P14
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tempete
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: PHARAON, MOUSSA
+
+# LA SÉCHERESSE — les champs desséchés, craquelés ; des arbres sans fruits ; des paysans regardent le ciel vide ; puis les notables, hostiles
+== champs_nil_secs, ambiance amb_vent_desert 0.3
+EGYPTIEN2 place 300, regarde en bas
+EGYPTIENNE place 520, triste
+ISRAELITE3 place 900
+CORAN (voix off, plan large) : Nous avons éprouvé les gens de Pharaon par des années de {cadre EGYPTIENNE} disette et par une diminution des fruits afin qu'ils se {large} rappellent. Et quand le bien-être leur vint, ils {cadre EGYPTIEN2} {geste EGYPTIEN2 fier} dirent : « Cela nous est dû » ; et si un mal les {large} atteignait, ils voyaient en Moussa et ceux qui étaient avec lui un {regarde EGYPTIEN2 droite} {regarde EGYPTIENNE droite} {geste EGYPTIEN2 pointe} {geste EGYPTIENNE pointe} {geste ISRAELITE3 triste} mauvais augure. {source "CORAN 7:130-131 (EXTRAIT)"}
+== palais_egypte, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse, blase
+CONSEILLERS place 940
+CONSEILLER2 place 1090
+MOUSSA place 240
+HAROUN place 90
+CONSEILLERS (fier, pointe, sur CONSEILLERS) : [arrogant] Quel que soit le miracle que tu nous apportes pour nous fasciner, nous ne croirons pas en toi ! {source "CORAN 7:132"}
+
+# LES CINQ FLÉAUX — l'inondation, les sauterelles, les petites bêtes, les grenouilles, le sang ; à chaque fois ils viennent supplier
+== champs_nil_inondes, pluie, ambiance amb_pluie 0.4
+EGYPTIEN place 420, peur
+CORAN (voix off, plan large) : Et Nous avons alors envoyé sur eux l'inondation, les {cadre EGYPTIEN} sauterelles, les poux, les grenouilles et le sang, comme signes {large} explicites. Mais ils s'enflèrent d'orgueil et demeurèrent un peuple {gros EGYPTIEN} criminel. {source "CORAN 7:133"}
+NARRATEUR (voix off, plan large) : [dark] D'abord, des pluies sans fin, qui noient les champs et les récoltes. {source "TAFSIR IBN KATHIR (7:133, IBN 'ABBAS)"}
+== champs_nil, ambiance amb_vent_fort 0.25
+EGYPTIEN2 place 360, peur
+EGYPTIENNE place 640, peur
+NARRATEUR (voix off, plan large) : [dark] Puis les sauterelles, {fleau sauterelles} qui dévorent tout ce qui reste. {fleau stop sauterelles} {devient grenier 1.5} {fleau betes} Puis de petites bêtes qui rongent le blé jusque dans les greniers. {geste EGYPTIENNE degoute} {source "TAFSIR IBN KATHIR (7:133, IBN 'ABBAS)"}
+== chambre_pharaon, ambiance amb_grillons_nuit 0.15
+EGYPTIEN place 640, sur un tabouret, peur
+NARRATEUR (voix off, plan large) : [dark] Puis les {fleau grenouilles} grenouilles. Partout. Un homme s'assoit, et les grenouilles lui montent jusqu'au menton. Il ouvre la bouche pour parler… une grenouille lui saute dedans. {source "TAFSIR IBN KATHIR (7:133)"}
+== nil, ambiance amb_source_eau 0.25
+EGYPTIEN place 520, jarre
+NARRATEUR (voix off, plan large) : [dark] Puis le {devient nil_sang 3.5} sang. L'eau qu'ils puisent dans le fleuve, dans les puits, dans leurs jarres… devient du sang. {geste EGYPTIEN choc} {source "TAFSIR IBN KATHIR (7:133)"}
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône, tient la crosse, peur
+CONSEILLERS place 700, peur
+CONSEILLER2 place 840, peur
+MOUSSA place 300
+HAROUN place 140
+NARRATEUR (voix off, plan large) : [calm] Et à chaque fois, ils reviennent supplier Moussa : {va CONSEILLERS 520} {va CONSEILLER2 660} {source "CORAN 7:134"}
+CONSEILLERS (peur, doua, sur CONSEILLERS) : [trembling voice] Ô Moussa ! Invoque pour nous ton Seigneur en vertu de l'engagement qu'Il t'a donné. Si tu éloignes de nous le châtiment, nous croirons certes en toi et laisserons partir avec toi les enfants d'Israël. {source "CORAN 7:134"}
+CORAN (voix off, plan large) : Et quand Nous eûmes ôté d'eux le châtiment jusqu'au terme fixé qu'ils devaient atteindre, voilà qu'ils {geste CONSEILLERS fier} {geste CONSEILLER2 fier} {geste PHARAON blase} violèrent l'engagement. {source "CORAN 7:135"}
+
+# L'INVOCATION DE MOUSSA — de nuit, sur une terrasse au bord du Nil ; Moussa et Haroun face au ciel ; au loin, le palais illuminé
+== terrasse_nuit, ambiance amb_grillons_nuit 0.2
+MOUSSA place 420
+HAROUN place 260
+NARRATEUR (voix off, plan large) : [calm] Pharaon et ses notables ont vu tous les signes… et ils refusent {souvenir MOUSSA palais_egypte 0 -10 3s} toujours. Moussa sait maintenant qu'il n'y a plus rien de bon à {cadre MOUSSA} attendre d'eux. {source "TAFSIR IBN KATHIR (10:88)"}
+CORAN (voix off, plan large) : Et Moussa dit : « Ô notre Seigneur ! Tu as accordé à Pharaon et ses notables des {souvenir MOUSSA avenue_palais 0 -10 3s} parures et des biens dans la vie présente, et voilà, ô notre Seigneur, qu'avec cela ils égarent les gens {large} loin de Ton sentier. Ô notre Seigneur ! Anéantis leurs {souvenir MOUSSA grenier 0 -10 3s} biens et endurcis leurs {cadre MOUSSA} cœurs, afin qu'ils ne croient pas, jusqu'à ce qu'ils aient vu le châtiment {large} douloureux. » Il dit : « Votre prière est {geste MOUSSA intense} {geste HAROUN intense} {gros MOUSSA} exaucée. Restez tous deux sur le droit {large} chemin, et ne suivez point le sentier de ceux qui ne savent pas ! » {source "CORAN 10:88-89"}

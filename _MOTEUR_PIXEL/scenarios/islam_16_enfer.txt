@@ -1,0 +1,33 @@
+# ISLAMARCADE — Short duo « Le plus petit châtiment de l'Enfer » — 30 s maximum (04/11/2026, soir)
+# Série « après la mort » (3 : l'Enfer). Image 0 = dans la cuisine, le doigt de Petit touche la poêle chaude (« AÏE ! ») ;
+# le moins puni de l'Enfer MONTRÉ sans rien de sanglant : une silhouette sombre sans visage, deux braises sous la plante
+# des pieds, la chaleur qui monte, des bulles au-dessus de la tête, la marmite qui bout ; puis la protection : une
+# datte coupée en deux, la moitié donnée, un bouclier de lumière devant le feu ; la chute : la moitié d'un tacos.
+# Sources vérifiées sur sunnah.com le 04/11/2026 : Boukhari 6562 (an-Nou'man) : « إِنَّ أَهْوَنَ أَهْلِ النَّارِ عَذَابًا يَوْمَ
+# الْقِيَامَةِ رَجُلٌ عَلَى أَخْمَصِ قَدَمَيْهِ جَمْرَتَانِ يَغْلِي مِنْهُمَا دِمَاغُهُ، كَمَا يَغْلِي الْمِرْجَلُ وَالْقُمْقُمُ » ; Mouslim 213b :
+# « مَا يَرَى أَنَّ أَحَدًا أَشَدُّ مِنْهُ عَذَابًا وَإِنَّهُ لأَهْوَنُهُمْ عَذَابًا » ; Boukhari 1417 (« اتَّقُوا النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ ») ;
+# Boukhari 6540 (« … فَمَنْ لَمْ يَجِدْ فَبِكَلِمَةٍ طَيِّبَةٍ »). Mouslim 212 nomme Abou Talib : non dit dans le Short.
+# Relecture indépendante du 04/11/2026 : rien à corriger ; « LA MOITIÉ D'UNE DATTE » reste à l'écran pendant le tacos (le
+# hadith ne parle pas de tacos ; une moitié de tacos donnée reste une aumône).
+
+TITRE: Le plus petit chatiment de l Enfer
+CODE: ISL16
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_tension
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: LE PLUS PETIT CHÂTIMENT / DE L'ENFER ?!
+ACCROCHE_DUREE: 3.0
+MINIATURE: LE PLUS PETIT CHÂTIMENT / DE L'ENFER
+ICONE: feu
+DUREE_FIN: 1.6
+
+== cuisine
+PETIT (pleure) : [crying] {brulure} Aïe ! Je me suis *brûlé* !
+GRAND (calme, plan moyen, nouveau schéma) : [dark] Le Prophète ﷺ a dit : {braises} le moins puni de l'Enfer… a deux *braises* sous les pieds… et son cerveau bout. {source "BOUKHARI 6562"}
+PETIT (choc, schéma) : [shocked] Le *moins* puni ?!
+GRAND : [dark] {braises pense} Et il croit que personne n'est plus puni que *lui*. {source "MOUSLIM 213"}
+GRAND (index) : [calm] {datte} Il a dit aussi : protégez-vous du Feu… même avec une moitié de *datte*. {source "BOUKHARI 1417"}
+PETIT (malin) : [mischievously] {datte tacos} J'ai pas de datte… je donne la moitié de mon *tacos* !
+GRAND (rit) : [amused] {datte parole} Et si t'as rien : une bonne *parole* ! {source "BOUKHARI 6540"}
+FIN

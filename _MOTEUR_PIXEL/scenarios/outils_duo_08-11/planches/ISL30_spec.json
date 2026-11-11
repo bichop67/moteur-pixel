@@ -1,0 +1,9 @@
+[
+ {"nom": "astro", "classe": "Horoscope", "args": ["astro", "astro", "PETIT"], "u": [-0.2, 0.0, 0.5, 1.2, 2.5]},
+ {"nom": "nuits", "classe": "Horoscope", "args": ["q", "quarante"], "t": {"lunes": 1.6, "arrete": 5.1, "prie": 7.5, "avenir": 11.5, "supprime": 15.0},
+  "u": [0.1, 1.2, 2.6, 3.6, 4.8]},
+ {"nom": "suite", "classe": "Horoscope", "args": ["q", "quarante"], "t": {"lunes": 1.6, "arrete": 5.1, "prie": 7.5, "avenir": 11.5, "supprime": 15.0},
+  "u": [5.6, 7.75, 8.4, 9.5, 11.75]},
+ {"nom": "fin", "classe": "Horoscope", "args": ["q", "quarante"], "t": {"lunes": 1.6, "arrete": 5.1, "prie": 7.5, "avenir": 11.5, "supprime": 15.0},
+  "u": [12.6, 14.5, 15.4, 16.0, 17.0]}
+]

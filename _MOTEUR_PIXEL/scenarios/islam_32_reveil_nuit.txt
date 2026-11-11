@@ -1,0 +1,24 @@
+# ISLAMARCADE — Short duo « Tu te réveilles la nuit ? Dis ça » — format CONSIGNE (incident + gros gain), 30 s max (09/11/2026)
+# Image 0 : {lit PETIT} (animation du 07/11 : la nuit, Petit éveillé dans son lit). Puis la formule complète dans un
+# cadre (brique citation), en deux temps, et la promesse en note. Aucun code nouveau.
+# Source : Boukhari 1154 ('Oubada ibn as-Samit), vérifiée sur sunnah.com le 09/11/2026. Détails : sources\fiches\ISL32.md
+
+TITRE: Tu te reveilles la nuit dis ca
+CODE: ISL32
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_mystere
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU TE RÉVEILLES LA NUIT ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: RÉVEILLÉ LA NUIT ? / DIS ÇA !
+ICONE: lune
+DUREE_FIN: 1.5
+
+== chambre_ado
+PETIT (blasé) : [sleepy] {lit PETIT} Encore *réveillé* ?!
+GRAND (content, index) : [warmly] *Bonne nouvelle* !
+GRAND (explique, plan moyen) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« CELUI QUI SE RÉVEILLE LA NUIT ET DIT :"} celui qui se réveille la nuit et dit : {citation "LA ILAHA ILLA ALLAH, WAHDAHOU LA CHARIKA LAH,"} « La ilaha illa Allah, wahdahou la charika lah, {citation "LAHOU L-MOULK WA LAHOU L-HAMD, WA HOUWA 'ALA KOULLI CHAY'IN QADIR."} lahou l-moulk wa lahou l-hamd, wa houwa 'ala koulli chay'in *qadir*. {source "BOUKHARI 1154"}
+GRAND (schéma) : {citation "AL-HAMDOU LILLAH, WA SOUBHAN ALLAH, WA LA ILAHA ILLA ALLAH,"} Al-hamdou lillah, wa soubhan Allah, wa la ilaha illa Allah, {citation "WA ALLAHOU AKBAR, WA LA HAWLA WA LA QOUWWATA ILLA BILLAH. »"} wa Allahou akbar, wa la hawla wa la qouwwata illa *billah*. » {source "BOUKHARI 1154"}
+GRAND (schéma) : [warmly] {citation "PUIS IL DIT :" "« Ô ALLAH, PARDONNE-MOI », OU IL INVOQUE : IL EST EXAUCÉ. »"} {citation lueur or} Puis il invoque… il est *exaucé* ! {source "BOUKHARI 1154"}
+FIN

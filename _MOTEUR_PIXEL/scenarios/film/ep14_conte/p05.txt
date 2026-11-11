@@ -1,0 +1,113 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 5 : LE PRINCE DU PALAIS
+# Un seul conteur ; CONSEILLERS, PHARAON et EGYPTIEN gardent leur réplique (voix déjà enregistrées, textes identiques).
+# Racontés par le conteur : 28:14, 28:15, 28:16, 28:17. Le coup de poing n'est JAMAIS montré : {noir} sur « coup ».
+TITRE: Moussa conte - partie 5 - Le prince du palais
+CODE: E14P5
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_epique
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: PHARAON, ASIYA
+
+# LES CADEAUX — l'enfant a grandi chez sa mère ; puis l'allée du palais : on le couvre de cadeaux, des pétales tombent
+== maison_nil_jour, ambiance amb_oasis_oiseaux 0.12
+SA_MERE place 300
+MOUSSA_ENFANT place 470
+NARRATEUR (voix off) : [calm] L'enfant a grandi chez sa mère, à l'abri. Et quand il a été un peu plus grand, Asiya a demandé à le voir. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+== avenue_palais, petales, ambiance amb_foule_lointaine 0.18
+SERVANTE place -60, panier
+EGYPTIEN place 120
+NOURRICE place 1000
+SERVANTE2 place 1180, jarre
+EGYPTIENNE place 1340
+MOUSSA_ENFANT place 200 1300
+SA_MERE place 60 1300
+NARRATEUR (voix off) : [warmly] {derive MOUSSA_ENFANT 820 1300 9s} {derive SA_MERE 680 1300 9s} Ce jour-là, elle a ordonné à tout son palais : « Que chacun accueille mon fils avec un cadeau ! » [pause] Et tout au long du chemin, de la petite maison jusqu'au palais, on l'a couvert de {geste NOURRICE content} {geste SERVANTE content} *cadeaux*. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LA BARBE DE PHARAON — Pharaon assis, l'enfant sur ses genoux ; la barbe tirée vers le sol ; les conseillers bondissent
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône, tient la crosse
+MOUSSA_ENFANT place 600 1180
+ASIYA place 220
+HAMAN place 780
+CONSEILLERS place 940
+CONSEILLER2 place 1100
+NARRATEUR (voix off) : [calm] Ensuite, Asiya l'a emmené voir Pharaon. Et Pharaon a pris l'enfant sur ses genoux. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur PHARAON) : [dramatic] Et là… l'enfant a attrapé la barbe de Pharaon, et il l'a {geste PHARAON bas} tirée vers le sol. {geste PHARAON choc} {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, plan large) : [dark] Les conseillers de Pharaon se sont écriés : {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+CONSEILLERS (enerve, pointe) : [angry] Tu ne vois pas ? C'est lui ! Celui de la promesse faite à Ibrahim ! Il va prendre ta place… et te jeter à terre ! {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+PHARAON se lève, enerve
+SOLDAT place 1460, tient la lance
+SOLDAT2 place 1620, tient la lance
+NARRATEUR (voix off) : [dark] Du coup, Pharaon a fait appeler les hommes aux lames. {va SOLDAT 1240} {va SOLDAT2 1380} [pause] Encore une fois, l'enfant allait mourir. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# ASIYA ET PHARAON — Asiya arrive ; Pharaon, debout, furieux, montre l'enfant du doigt
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône
+MOUSSA_ENFANT place 640 1240
+ASIYA place -100, intense
+SOLDAT place 1240, tient la lance
+SOLDAT2 place 1380, tient la lance
+PHARAON se lève, enerve
+NARRATEUR (voix off) : [calm] {derive ASIYA 300 1320 2.5s} Mais Asiya est arrivée : « Qu'est-ce qui te prend ? C'est l'enfant que tu m'as donné ! » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+PHARAON (enerve, pointe) : [angry] Tu ne vois pas ? Il prétend me jeter à terre… et me dominer ! {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off) : [calm] Alors Asiya lui a proposé une épreuve : « Pose devant lui des perles… et des braises. S'il prend les perles, c'est qu'il comprend ce qu'il fait. S'il prend les braises… c'est qu'il n'est qu'un enfant, qui ne comprend rien. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LES PERLES ET LES BRAISES — le plateau devant l'enfant ; il prend une braise ; Pharaon détourne la tête
+== palais_egypte, ambiance amb_temple_echo 0.2
+PHARAON place trone, sur le trône, blase
+ASIYA place 280
+PLATEAU place 620 1290
+MOUSSA_ENFANT place 760 1290
+BRAISE place 660 1262
+NARRATEUR (voix off, sur PLATEAU) : [mysterious] On a posé devant lui les perles qui brillent… et les braises rouges. [pause] L'enfant a tendu la main… {geste PLATEAU prise} {apparait BRAISE} il a pris une *braise*… {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur PLATEAU) : [mysterious] {derive BRAISE 744 1190 1.6s} et il l'a portée à sa {disparait BRAISE} bouche. {source "TAFSIR IBN KATHIR (28:34) · TAFSIR AT-TABARI (28:15, IBN ZAYD)"}
+MOUSSA_ENFANT pale
+NARRATEUR (voix off) : [calm] Sa langue a été brûlée. [pause] Et depuis ce jour, il avait du mal à parler. {source "TAFSIR IBN KATHIR (20:27 · 28:34) · TAFSIR AT-TABARI (28:15, IBN ZAYD)"}
+NARRATEUR (voix off, plan large) : [calm] « Tu vois ? a dit Asiya. Ce n'est qu'un enfant. » [pause] Et Allah a détourné Pharaon de l'idée de le tuer. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LE FILS DE PHARAON — des années plus tard : le cortège au bord du Nil, Moussa sur un cheval paré ; puis une rue où l'on n'ose plus maltraiter les fils d'Israël
+== nil, ambiance amb_vent_doux 0.15
+SOLDAT place -80, tient la lance
+CHEVAL_BLANC place 120
+MOUSSA place 120 1342
+SOLDAT2 place -260, tient la lance
+NARRATEUR (voix off) : [calm] {va SOLDAT 820} {va CHEVAL_BLANC 1020} {derive MOUSSA 1020 1342 6s} {va SOLDAT2 620} {son an_chevaux_1 0.04} Les années ont passé. Moussa a grandi, et il vivait comme un prince. [pause] Il montait les chevaux de Pharaon, il portait les mêmes habits que lui. On l'appelait même : *Moussa, fils de Pharaon*. {source "TAFSIR AT-TABARI (28:15, AS-SOUDDI)"}
+== ville_matin, ambiance amb_foule_lointaine 0.15
+ISRAELITE place 640, briques, peur
+EGYPTIEN place 860, enerve, pointe
+MOUSSA place -160
+NARRATEUR (voix off) : [warmly] Et quand il est devenu un homme, {derive MOUSSA 380 1320 3s} plus aucun Égyptien n'osait maltraiter un fils d'Israël {va EGYPTIEN 1560} devant lui. {geste ISRAELITE content} [pause] Les gens pensaient qu'il les protégeait à cause de sa nourrice, qui était des leurs. Au palais, personne ne connaissait la vérité. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off) : [warmly] Et quand il a été adulte, dans toute sa force, Allah lui a donné la sagesse et le {lumiere MOUSSA} savoir. C'est comme ça qu'Allah récompense ceux qui font le bien. {source "CORAN 28:14"}
+
+# MEMPHIS À MIDI — la ville à l'heure de la sieste : rues vides, étals fermés ; Moussa entre ; au loin, deux hommes se battent
+== ville_midi, 1s, ambiance amb_vent_doux 0.2
+MOUSSA place -200
+EGYPTIEN place 1100, enerve, pointe
+ISRAELITE place 1260, panier, peur
+NARRATEUR (voix off) : [calm] Un jour, Pharaon est parti sans lui. {derive MOUSSA 400 1320 6s} Moussa est parti le rejoindre, et il est arrivé à Memphis au milieu de la journée, à l'heure de la sieste. [pause] Les marchés étaient fermés. Les rues, vides. {source "TAFSIR AT-TABARI (28:15, AS-SOUDDI)"}
+NARRATEUR (voix off) : [dark] Personne ne faisait attention. Et là, il a vu {apparait EGYPTIEN} {apparait ISRAELITE} deux hommes qui se battaient : l'un était de son peuple… l'autre, de ses ennemis. {source "CORAN 28:15 (EXTRAIT)"}
+
+# LE COUP — l'Égyptien force l'homme des fils d'Israël à porter sa charge ; il ricane ; le coup n'est jamais montré (noir)
+== ruelle, ambiance amb_vent_doux 0.2
+ISRAELITE place 440, panier, peur
+EGYPTIEN place 640, enerve, pointe
+MOUSSA place -160
+NARRATEUR (voix off) : [dark] L'Égyptien forçait l'homme des fils d'Israël à porter une charge pour lui. {derive MOUSSA 160 1320 3s} Moussa lui a dit : « Laisse-le partir. » [pause] Mais l'Égyptien lui a lancé : {source "TAFSIR AT-TABARI (28:15, SA'ID IBN JOUBAYR)"}
+EGYPTIEN (malin) : [mocking] Toi aussi, j'avais bien envie de te la faire porter ! {source "TAFSIR AT-TABARI (28:15, SA'ID IBN JOUBAYR)"}
+NARRATEUR (voix off) : [dark] L'homme de son peuple a appelé Moussa au secours contre son ennemi. {geste ISRAELITE peur} Et Moussa lui a donné un {noir} coup de poing… qui l'a tué. {source "CORAN 28:15 (EXTRAIT)"}
+== ruelle, 0.5s, ambiance amb_vent_doux 0.15
+EGYPTIEN place 700, allonge
+ISRAELITE place 1000, peur
+MOUSSA place 300, pale
+NARRATEUR (voix off) : [dark] Un seul coup de poing. Un seul. [pause] L'homme s'est effondré… {va ISRAELITE 1160} et il ne s'est plus relevé. {source "TAFSIR IBN KATHIR (28:15, MOUJAHID)"}
+NARRATEUR (voix off) : [sad] Moussa ne voulait pas le tuer. Mais l'homme était mort. {source "TAFSIR AT-TABARI (28:15, QATADA)"}
+
+# LE REPENTIR — Moussa seul dans la ruelle vide ; une lumière douce descend sur lui : le pardon (MOMENT FORT)
+== ruelle, emotion, ambiance amb_vent_doux 0.15
+MOUSSA place 540, pale
+ISRAELITE place 1240, peur
+NARRATEUR (voix off) : [softly] Moussa a dit : « C'est l'œuvre du Diable. C'est un ennemi, qui égare les gens, c'est évident. » [pause] Et il s'est tourné vers son Seigneur : « Seigneur, je me suis fait du tort à moi-même… *pardonne-moi*. » {source "CORAN 28:15-16"}
+NARRATEUR (voix off) : [softly] Et Allah {lumiere MOUSSA} {geste MOUSSA intense} lui a pardonné. C'est Lui, le Pardonneur, le Miséricordieux. [pause] Alors Moussa a dit : « Seigneur, avec tous les bienfaits que Tu m'as donnés… jamais je n'aiderai les criminels. » {source "CORAN 28:16-17"}
+NARRATEUR (voix off, plan large) : [mysterious] Personne ne les avait vus… {apparait ISRAELITE} à part Allah, et l'homme qu'il avait défendu. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}

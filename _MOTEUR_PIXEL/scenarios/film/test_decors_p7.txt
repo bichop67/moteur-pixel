@@ -1,0 +1,60 @@
+TITRE: Test decors P7
+CODE: TP7
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: MOUSSA, FILLE_1
+
+== puits_madyan
+BERGER place 160, tient le baton
+BERGER2 place 640
+MOUTON place 300
+MOUTON place 420
+CHEVRE place 760
+CHAMEAU place -200
+FILLE_1 place 1020
+FILLE_2 place 1120
+MOUTON place 1200
+MOUSSA place -60
+NARRATEUR (voix off) : Madyan, le puits, l'abreuvoir, le grand acacia.
+== puits_madyan_soir
+MOUSSA place 1290 1300, pale
+NARRATEUR (voix off) : Le soir, sous l'acacia.
+== maison_madyan
+VIEIL_HOMME place 120
+FILLE_1 place 400
+FILLE_2 place 520
+MOUTON place 1100
+MOUTON place 1240
+NARRATEUR (voix off) : La maison du vieil homme, au soir.
+== maison_madyan_int
+VIEIL_HOMME place 300
+MOUSSA place 700
+FILLE_1 place 1000 1290
+FILLE_2 place 1110 1290
+NARRATEUR (voix off) : Dans la maison, la nuit, à la lampe.
+== collines_madyan, feuilles
+MOUSSA place 400
+MOUTON place 600
+MOUTON place 720
+CHEVRE place 860
+NARRATEUR (voix off) : Les collines au printemps.
+== collines_madyan_ete
+MOUSSA place 400
+MOUTON place 600
+NARRATEUR (voix off) : Les collines en été.
+== collines_madyan_pluie, pluie
+MOUSSA place 400
+MOUTON place 600
+NARRATEUR (voix off) : Les collines sous la pluie.
+== montagne_nuit, pluie
+MOUSSA place 120
+SA_FEMME place 240
+MOUTON place 420
+NARRATEUR (voix off) : La nuit entre les montagnes. {devient montagne_nuit_feu 1.5} Un feu, au loin.
+== vallee_tuwa, arbre_feu
+MOUSSA place 560
+NARRATEUR (voix off) : L'arbre où flambe le feu, sans qu'il brûle.
+== vallee_tuwa_aube
+MOUSSA place 560, intense
+NARRATEUR (voix off) : L'aube derrière la montagne.

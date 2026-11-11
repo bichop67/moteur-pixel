@@ -1,0 +1,27 @@
+# ISLAMARCADE — Short duo « On t'a fait du mal ? Bonne nouvelle » — format CONSIGNE (incident + bonne nouvelle), 30 s max (10/11/2026)
+# Image 0 : Petit en larmes en gros plan (brique focus). Le hadith de l'invocation de l'opprimé (brique citation, lueur
+# dorée), puis le malentendu de Petit et le verset du pardon en bandeau sur la scène.
+# Sources : Boukhari 2448, Coran 42:40 (Hamidullah), vérifiées le 10/11/2026. Détails : sources\fiches\ISL42.md
+
+TITRE: On t a fait du mal bonne nouvelle
+CODE: ISL42
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: ON T'A FAIT DU MAL ? / BONNE NOUVELLE !
+ACCROCHE_DUREE: 3.0
+MINIATURE: ON T'A FAIT DU MAL ? / BONNE NOUVELLE !
+ICONE: coeur_brise
+DUREE_FIN: 1.5
+
+== couloir_ecole
+PETIT (pleure) : [crying] {focus PETIT pleure "ILS T'ONT HUMILIÉ ?"} Ils m'ont humilié… devant *tous* !
+GRAND (content, index) : [warmly] *Bonne nouvelle* !
+PETIT (énervé, bulle ?) : [annoyed] Bonne *nouvelle* ?!
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« CRAINS L'INVOCATION DE L'OPPRIMÉ,"} crains l'invocation de l'opprimé : {citation + "CAR IL N'Y A PAS DE VOILE ENTRE ELLE ET ALLAH. »"} {citation lueur or} il n'y a pas de voile entre elle et *Allah* ! {source "BOUKHARI 2448"}
+GRAND (pointe) : [warmly] L'opprimé… c'est *toi*. Invoque !
+PETIT (malin) : [mischievously] Qu'il glisse sur une *banane* ?!
+GRAND (facepalm) : [amused] Demande justice à Allah, sans *exagérer* !
+GRAND (content) : [warmly] {texte "« QUICONQUE PARDONNE ET RÉFORME, SON SALAIRE INCOMBE À ALLAH » // CORAN 42:40 (EXTRAIT)"} Et si tu pardonnes et fais la paix, ton salaire incombe à *Allah* ! {source "CORAN 42:40"}
+FIN

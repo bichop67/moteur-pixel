@@ -1,0 +1,18 @@
+TITRE: Test palais 2
+CODE: TPAL2
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: PHARAON, HAMAN, SOLDAT, SOLDAT2, CONSEILLER, MOUSSA
+
+== palais_egypte, 1s
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 760
+SOLDAT place 1180, tient la lance
+SOLDAT2 place -100, tient la lance
+CONSEILLER place 980
+MOUSSA place 120
+NARRATEUR (voix off) : Ceci est un essai du palais avec les nouveaux personnages, en plan large.
+NARRATEUR (voix off, sur PHARAON) : Et maintenant la caméra va doucement sur Pharaon, assis sur son trône.
+PHARAON (énervé, pointe) : Ceci est une phrase d essai pour voir le cadrage.
+NARRATEUR (voix off, sur MOUSSA) : Et la caméra glisse vers l orbe.

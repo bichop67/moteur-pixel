@@ -1,0 +1,34 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 17 : QUARANTE NUITS SUR LA MONTAGNE
+# Un seul conteur. Allah n'est JAMAIS représenté : on ne voit que le mont qui s'effondre en poussière
+# ({devient montagne_sinai_effondre}, {poussiere}) ; aucune lumière, aucun éclair à cet instant.
+# Racontés : 7:142, 7:143, 7:144-145, 20:83-85.
+TITRE: Moussa conte - partie 17 - Quarante nuits sur la montagne
+CODE: E14P17
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, HAROUN
+
+# LE RENDEZ-VOUS — le camp au pied de la montagne ; Moussa confie le peuple à Haroun, puis monte seul ; les nuits passent
+== camp_desert, ambiance amb_vent_doux 0.15
+MOUSSA place 560
+HAROUN place 400
+ISRAELITE place 160
+ISRAELITE_F place 40
+ISRAELITE2 place 820
+NARRATEUR (voix off) : [calm] Ensuite, Allah a donné rendez-vous à Moussa sur la montagne. Trente nuits… puis dix de plus. Quarante nuits en tout. Et avant de partir, Moussa a dit à son frère Haroun : « Remplace-moi auprès de mon peuple. Fais le bien, et ne suis pas le chemin de ceux qui sèment le {derive MOUSSA 1600 1260 7s} désordre. » {source "CORAN 7:142"}
+== montagne_sinai_nuit, 4s, etoiles 0.09, ambiance amb_vent_fort 0.12
+MOUSSA place 120 1290
+
+# MONTRE-TOI À MOI — sur la montagne, Moussa minuscule face à un mont immense ; le mont se pulvérise ; Moussa s'effondre (MOMENT FORT)
+== montagne_sinai_aube, emotion b, ambiance amb_vent_fort 0.12
+MOUSSA place 120 1290, intense
+TABLETTES place 214 1330, porte
+NARRATEUR (voix off) : [mysterious] Et quand Moussa est venu au rendez-vous, et que son Seigneur lui a parlé… il a dit : « Ô mon Seigneur, montre-Toi à moi, que je Te voie ! » Allah lui a répondu : « Tu ne Me verras pas. Mais regarde la montagne : si elle reste à sa place, alors tu Me verras. » {source "CORAN 7:143"}
+NARRATEUR (voix off) : [dramatic] Et quand son Seigneur S'est manifesté à la montagne… Il l'a réduite en {son imp_grondement_1 0.06} {devient montagne_sinai_effondre 2.5} {poussiere} poussière. Et Moussa est tombé, {geste MOUSSA pale} {derive MOUSSA 120 1330 1s} évanoui. [pause] Quand il est revenu à lui, {geste MOUSSA intense} il a dit : « Gloire à Toi ! Je me repens à Toi. Et je suis le premier des croyants. » {source "CORAN 7:143"}
+NARRATEUR (voix off, plan large) : [calm] Dans cette vie, personne ne peut voir Allah. Mais au Paradis, les croyants Le verront. {source "TAFSIR IBN KATHIR (7:143)"}
+NARRATEUR (voix off) : [warmly] Et Allah lui a dit : « Ô Moussa, Je t'ai choisi parmi tous les hommes, en te donnant Mes messages et en te parlant. Prends ce que Je te donne, et sois reconnaissant. » Et Allah a écrit pour lui, sur des {apparait TABLETTES 1.5s} {son sa_scintillement_1 0.03} tablettes, des conseils sur toute chose, et l'explication de toute chose. {source "CORAN 7:144-145 (EXTRAIT)"}
+NARRATEUR (voix off) : [dark] Et Allah lui a demandé : « Pourquoi t'es-tu dépêché de laisser ton {souvenir MOUSSA camp_desert 0 -10 3s} peuple, ô Moussa ? » Moussa a répondu : « Ils sont juste derrière moi. Et je me suis dépêché vers Toi, Seigneur, pour que Tu sois satisfait. » Et Allah lui a dit : « Nous avons mis ton peuple à l'épreuve après ton départ. Et le Samiri les a {geste MOUSSA pale} égarés. » {source "CORAN 20:83-85"}

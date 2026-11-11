@@ -1,0 +1,24 @@
+# ISLAMARCADE — Short duo « Un endroit te fait peur ? Dis ça » — format CONSIGNE (incident + parole à dire), 30 s max (10/11/2026)
+# Image 0 : Petit apeuré en gros plan, la nuit en forêt (brique focus). L'invocation de la halte ligne par ligne
+# (brique citation, lueur dorée sur la promesse), puis son sens (brique liste). Petit la répète à la fin.
+# Source : Mouslim 2708 (version « 2708a » de sunnah.com), vérifiée le 10/11/2026. Détails : sources\fiches\ISL43.md
+
+TITRE: Un endroit te fait peur dis ca
+CODE: ISL43
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: CET ENDROIT TE FAIT PEUR ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: UN ENDROIT TE FAIT PEUR ? / DIS ÇA !
+ICONE: bouclier
+DUREE_FIN: 1.5
+
+== foret, lucioles
+PETIT (peur) : [scared] {focus PETIT peur "CET ENDROIT TE FAIT PEUR ?"} Cet endroit… me fait trop *peur* !
+GRAND (calme, index) : [calm] Dis *ça* en arrivant.
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« CELUI QUI FAIT HALTE QUELQUE PART ET DIT :"} celui qui fait halte quelque part et dit : {citation "A'OUDHOU BI KALIMATI-LLAHI T-TAMMATI MIN CHARRI MA KHALAQ,"} « A'oudhou bi kalimati-llahi t-tammati min charri ma *khalaq* », {citation "RIEN NE LUI NUIRA JUSQU'À CE QU'IL QUITTE CET ENDROIT. »"} {citation lueur or} rien ne lui nuira tant qu'il est *là*. {source "MOUSLIM 2708"}
+GRAND (nouveau schéma) : [warmly] {liste titre "JE CHERCHE REFUGE" "DANS LES PAROLES" "PARFAITES D'ALLAH"} Je cherche refuge dans les paroles parfaites d'Allah, {liste + "CONTRE LE MAL"} contre le mal {liste + "DE CE QU'IL A CRÉÉ"} de ce qu'Il a *créé*. {source "MOUSLIM 2708"}
+PETIT (calme) : [whispering] A'oudhou bi kalimati-*llahi*…
+FIN

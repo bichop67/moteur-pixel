@@ -1,0 +1,82 @@
+<!-- copie automatique de l'en-tête du scénario : ne pas modifier ici, modifier le scénario -->
+# ISL30 — Tu lis ton horoscope arrete
+Scénario : scenarios\islam_30_horoscope.txt
+
+TEXTE FIGÉ LE 08/11/2026 (relectures religieuse et format faites)
+TEXTE FIGÉ LE 08/11/2026 (deux relectures religieuse et format faites ; 8 répliques après la 2e relecture)
+ISLAMARCADE — Short duo « Tu lis ton horoscope ? ARRÊTE ! » — format CONSIGNE + AVERTISSEMENT, 30 s maximum (08/11/2026)
+Image 0 : vue à ta place, chambre le soir : TON téléphone monte vers toi, l'appli « TON HOROSCOPE DU JOUR » défile
+(« TU SERAS RICHE ! », aucun signe réel), carte de tarot et boule de cristal petites et floues (reflet fixe). Puis le
+tapis de prière sous un ciel de nuit : les 40 croissants passent un par un, un ✓ « PRIÈRE FAITE » à chaque nuit mais
+le compteur « RÉCOMPENSE » reste à 0 ; le tapis reste GRIS ; « VALABLE, MAIS SANS RÉCOMPENSE » et en vert « TU DOIS
+QUAND MÊME PRIER » ; le parchemin « QUI CONNAÎT TON AVENIR ? » (27:65) ; l'appli glisse vers la corbeille et
+« REPENS-TOI » (42:25). AUCUN devin, djinn, Chaytan, prophète ni ange dessiné.
+Sources vérifiées sur sunnah.com le 08/11/2026 :
+  Mouslim 2230 (Safiyya, d'une épouse du Prophète ﷺ) : « مَنْ أَتَى عَرَّافًا فَسَأَلَهُ عَنْ شَىْءٍ لَمْ تُقْبَلْ لَهُ صَلاَةٌ أَرْبَعِينَ
+  لَيْلَةً » ; chapitre : « بَابُ تَحْرِيمِ الْكِهَانَةِ وَإِتْيَانِ الْكُهَّانِ ».
+  Abou Dawoud 3904 (Abou Hourayra, sahih selon al-Albani) : « مَنْ أَتَى كَاهِنًا » — version de Moussa : « فَصَدَّقَهُ بِمَا
+  يَقُولُ » — « … فَقَدْ بَرِئَ مِمَّا أَنْزَلَ اللَّهُ عَلَى مُحَمَّدٍ » (le hadith cite aussi deux autres actes : non dits ici).
+  Tirmidhi 135 (même chaîne Hakim al-Athram, hasan selon Darussalam) : « فَقَدْ كَفَرَ بِمَا أُنْزِلَ عَلَى مُحَمَّدٍ » ; at-Tirmidhi :
+  « وَضَعَّفَ مُحَمَّدٌ هَذَا الْحَدِيثَ مِنْ قِبَلِ إِسْنَادِهِ » (al-Boukhari a jugé la chaîne faible) → authenticité discutée : PAS DIT dans le Short (description seulement).
+  Mouslim 537a : « وَإِنَّ مِنَّا رِجَالاً يَأْتُونَ الْكُهَّانَ . قَالَ فَلاَ تَأْتِهِمْ » (interdiction directe, dans la description).
+  Abou Dawoud 3905 (hasan, al-Albani) = Ibn Majah 3726 (hasan, Darussalam) (Ibn 'Abbas) : « مَنِ اقْتَبَسَ عِلْمًا مِنَ
+  النُّجُومِ اقْتَبَسَ شُعْبَةً مِنَ السِّحْرِ زَادَ مَا زَادَ » (l'astrologie, dans la description).
+  Coran 27:65 (Hamidullah, extrait) : « Nul de ceux qui sont dans les cieux et sur la Terre ne connaît l'Inconnaissable,
+  à part Allah. » ; Coran 42:25 (Hamidullah, extrait) : « C'est Lui qui agrée de Ses serviteurs le repentir ».
+Décisions religieuses : consulter devin / voyant / tarot / horoscope = INTERDIT (chapitre de Mouslim « تحريم », Mouslim
+537 « ne va pas les voir ») → « Arrête ! » ; l'horoscope entre dans la divination selon de nombreux savants : Comité
+permanent (Fatawa al-Lajna ad-Dâ'ima 1/203, signé Ibn Baz, Âl ach-Cheikh, al-Fawzan, Bakr Abou Zayd, Ibn Ghoudayyan,
+cité par islamqa.info n° 336588) : les horoscopes « يحرم نشرها، والنظر فيها، وترويجها », y croire est une branche de
+mécréance ; Ibn Taymiyya RAPPORTE (« qad qîla ») que 'arrâf englobe le devin, l'astrologue… (réf. à revérifier :
+Majmou' 35/173 selon alsunna.net — jamais écrite ni dite avant vérification).
+« Pas acceptée » = pas de récompense, mais la prière obligatoire reste due, valable, et ne se refait pas (an-Nawawi,
+Charh Mouslim, sur 2230, cité dans al-Arba'oun al-'aqadiyya 1/93 : « لا ثواب له فيها وإن كانت مجزئة » ; « العلماء متفقون
+على أنه لا يلزم من أتى العراف إعادة صلوات أربعين ليلة ») → « Tu dois quand même prier » OBLIGATOIRE dans le Short.
+Croire le devin → menace plus grave (AD 3904, grade discuté : laissé à la description ; le Short dit seulement le
+verset 27:65, sûr). Jamais « tu es mécréant ». « Ton avenir, Allah seul le connaît » = phrase de Grand, appuyée sur
+27:65 (pas une citation) ; le verset exact s'affiche à l'écran (EXTRAIT).
+Relectures indépendantes du 08/11/2026 (religion + format) :
+- Appliquer les 40 nuits à la simple LECTURE de l'horoscope est l'avis de nombreux savants (islamqa 147232 : « if he
+  reads these things for fun… Allah will not accept any prayer from him for forty days »), pas un avis unanime
+  (islamqa 336588 : lire = interdit et « قريب من سؤالهم » ; Dar al-Ifta d'Égypte n° 16019 : simple lecture = makrouh) → carte : « LIRE TON HOROSCOPE = INTERROGER UN DEVIN /
+  (SELON DE NOMBREUX SAVANTS) », bien lisible pendant toute la réplique du hadith ; nuance dans la description.
+  « C'est un devin ! » n'est plus DIT par Grand (l'assimilation reste écrite à l'écran, avec sa nuance).
+- Rythme : « C'est un devin ! » et « Pour rigoler ! » retirés ; l'ordre « Arrête ! » et le hadith sont dans la 2e
+  réplique → la menace tombe vers 9-12 s au lieu de 11,5-15 s ; 7 répliques, durée ≈ 26 s.
+- {quarante lunes} montre le SENS d'an-Nawawi : ✓ « PRIÈRE FAITE » à chaque nuit, compteur « RÉCOMPENSE » figé à 0 ;
+  dans {quarante prie} le tapis RESTE gris, sans halo (continuer à prier n'annule pas les 40 nuits).
+- Carte du hadith : « LE PROPHÈTE (PAIX ET SALUT SUR LUI) : » + « AUCUNE PRIÈRE NE LUI EST ACCEPTÉE » (traduction
+  fidèle de « لم تقبل له صلاة »). Parchemin : « QUI CONNAÎT TON AVENIR ? » (27:65 gardé : il dit « à part Allah »).
+- Fin sur l'espoir : « REPENS-TOI » + Coran 42:25 (extrait) à l'écran, sans laisser croire que les 40 nuits s'effacent.
+- Image 0 : pas de prédiction pour un vrai signe (« TU SERAS RICHE ! »), boule et tarot flous, reflet fixe.
+2e relecture du 08/11/2026 (religion + format, planche rendue) — décisions :
+- Réplique 2 : « nouveau schéma » ajouté (sans lui, {astro} restait figé de 3 à 7 s sous « Arrête ! Le Prophète ﷺ
+  a dit : »). On voit Grand faire « stop », la caméra s'approche pendant le ﷺ, puis {quarante} arrive après « a dit : »
+  (balises.md : « schéma après « a dit : » », comme islam_16_enfer). Proposition format de mettre {quarante} juste
+  après « Arrête ! » NON retenue : grand schéma figé pendant le ﷺ, contraire à balises.md ; la version retenue a été
+  testée sur planche par la relecture religieuse.
+- Fin : la source 42:25 n'est plus sous « Je supprime ! » ; nouvelle réplique courte de Grand « Et repens-toi ! » +
+  {source "CORAN 42:25"} : « REPENS-TOI » et l'extrait se lisent seuls sous sa voix, puis « ABONNE-TOI » arrive sur
+  un écran propre ({quarante repens} fait s'effacer le texte avant la fin, par sécurité).
+- Réplique 6 : [amused] seulement sur « Musulman ! », [calm] sur « Ton avenir, Allah seul le connaît » (une phrase
+  de foi ne doit pas sonner moqueuse ; procédé d'islam_21).
+- {quarante prie} : le bandeau vert descend à la place du compteur « RÉCOMPENSE : 0 », qui s'efface dessous (il était
+  à moitié caché) ; le bandeau ne cache plus la 4e rangée de lunes. {quarante lunes} : sous « 40 NUITS », petite ligne
+  « (= 40 JOURS DE PRIÈRES) » (أربعين ليلة = quarante jours ; al-Fawzan cite « أربعين يوماً وليلة »), pour qu'on ne
+  croie pas que seules les prières de nuit sont concernées. Boîte « SUPPRIMER ? » plus longue (OUI ✓ lisible ≈ 0,4 s).
+- Lecture de l'horoscope = interroger un devin : recoupé par islamweb 408259 (« وهذا يدخل في حكم إتيان العرافين ») et
+  234760 (Ibn 'Uthaymin, al-Fawzan ; avis contraires : al-Qari « على وجه التصديق », Dar al-Ifta d'Égypte n° 16019 :
+  simple lecture = makrouh) → « (SELON DE NOMBREUX SAVANTS) » gardé à l'écran ; nuance dans la description.
+- Gardé : « Mon horoscope : je serai riche ! » (raccourcir était facultatif ; le téléphone, sujet en grand qui bouge,
+  reste ainsi sous toute l'accroche) ; « Je supprime ! » sans ajout (durée ≤ 28 s).
+Contre-vérification du 08/11/2026 (texte dit INCHANGÉ, empreinte 999da9e450185305) — corrections à l'écran :
+- « Je supprime ! » porte {source "CORAN 42:25"} : sans elle, l'étiquette « CORAN 27:65 » restait sous la citation de
+  42:25 (≈ 0,45 s). Une source vaut pour toute sa réplique (scenario.py : elle s'affiche dès le début de la réplique).
+  « Et repens-toi ! » garde la même source. Le parchemin 27:65 et « TON SIGNE : MUSULMAN » s'effacent maintenant en
+  0,3 s (au lieu de 0,4) : ils sont partis quand l'étiquette passe à 42:25 et avant que « REPENS-TOI » n'entre.
+- Réplique 4 : {source "MOUSLIM 2230 · AN-NAWAWI, CHARH MOUSLIM"} : la carte du hadith reste à l'écran pendant les
+  répliques 4 et 5, elle ne doit pas rester sans son numéro.
+- Module : « REPENS-TOI » entre à +0,25 s, la citation à +0,35 s ; T_REPENS_OUT = 0,6 (fondu fini à « repens » + 0,95 s,
+  avant « ABONNE-TOI »). À revoir sur la planche avec les vraies voix.
+- Les MP3 de voix_isl30 (08/11, 06:06) viennent d'un texte plus ancien (GRAND sans « Et repens-toi ! ») : refaire au
+  moins la voix de GRAND avant toute planche ou tout rendu.

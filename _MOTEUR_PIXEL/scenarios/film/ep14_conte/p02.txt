@@ -1,0 +1,135 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 2 : L'ÉGYPTE DE PHARAON
+# Un seul conteur (NARRATEUR) ; les répliques de PHARAON, DEVIN, VIEILLARD et CONSEILLERS sont celles de la version
+# précédente, mot pour mot (leurs voix déjà enregistrées sont réutilisées). Plus de voix du Coran : 28:4 et 28:5-6
+# sont racontés par le conteur avec des mots simples.
+TITRE: Moussa conte - partie 2 - L'Egypte de Pharaon
+CODE: E14P2
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: PHARAON, HAMAN
+
+# AU TEMPS DE YOUSSOUF — souvenir : la caravane de Yaqoub entre en Égypte au coucher du soleil
+== route_egypte_souvenir, 1.5s, ambiance amb_vent_desert 0.2
+CHAMEAU place -60
+YAQOUB place 120
+YOUSSOUF place 330
+ISRAELITE4 place 520
+CHAMEAU place 700
+NARRATEUR (voix off) : [warmly] Pour bien comprendre, il faut remonter loin en arrière. Tu te souviens de Youssouf ? Le garçon que ses frères avaient jeté au fond d'un puits… et qui est devenu ministre d'Égypte.
+NARRATEUR (voix off) : [warmly] Eh bien, à ce moment-là, son père Yaqoub et ses frères {derive YAQOUB 300 6s} sont venus vivre en Égypte, auprès de lui. {source "CORAN 12:99"}
+
+# Le quartier se remplit, de génération en génération
+== quartier_aube, ambiance amb_vent_doux 0.15
+ISRAELITE2 place 80
+ISRAELITE_F place 860
+NARRATEUR (voix off) : [calm] Et Yaqoub, il avait un autre nom : *Israël*. C'est pour ça que ses descendants, on les appelle les fils d'Israël. {source "TAFSIR IBN KATHIR (2:40)"}
+== quartier, ambiance amb_foule_lointaine 0.15
+ISRAELITE place -40
+ISRAELITE3 place 200
+ISRAELITE_F place 460
+ISRAELITE4 place 760
+ISRAELITE2 place 1040
+NARRATEUR (voix off) : [calm] Les années ont passé… puis les générations. Et les fils d'Israël sont devenus tout un peuple. [pause] Mais en Égypte, il y avait maintenant un nouveau roi. Les rois d'Égypte, à cette époque, on les appelait *Pharaon*. {source "TAFSIR IBN KATHIR (2:49)"}
+
+# PHARAON — la salle du trône, Haman à sa droite, les gardes en rang
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 760
+SOLDAT place -160, tient la lance
+SOLDAT2 place 40, tient la lance
+GARDE place 1080, tient la lance
+SOLDAT place 1260, tient la lance
+NARRATEUR (voix off) : [dark] Et ce Pharaon-là, il était plein d'orgueil. Il se croyait au-dessus de tout le monde. [pause] À côté de lui, son ministre, Haman. Et partout autour, ses soldats. {source "CORAN 28:4 · 28:6 · TAFSIR IBN KATHIR (28:38)"}
+NARRATEUR (voix off, sur PHARAON) : [dark] Il avait divisé les gens de son pays en groupes. Et il y en avait un qu'il écrasait : il égorgeait leurs garçons… et il laissait vivre leurs filles. [pause] Cet homme-là était de ceux qui sèment le désordre. {source "CORAN 28:4"}
+
+# LES ESCLAVES — le chantier écrasé de soleil, puis la nuit
+== chantier, ambiance amb_chantier 0.25
+ISRAELITE place -200, briques
+ISRAELITE3 place 120, panier
+ISRAELITE4 place 420, briques
+CONTREMAITRE place 1000, tient le baton
+NARRATEUR (voix off) : [sad] Ce groupe-là, c'étaient les fils d'Israël. {va ISRAELITE 300} [pause] Pharaon en avait fait ses *esclaves*. {va ISRAELITE3 640} Jour et nuit, ils faisaient pour lui et pour son peuple les travaux les plus durs, et les plus humiliants. {source "TAFSIR IBN KATHIR (28:4)"}
+== chantier_nuit, ambiance amb_grillons_nuit 0.25
+ISRAELITE2 place 100, briques
+ISRAELITE place 400, panier
+NARRATEUR (voix off) : [mysterious] Mais pourquoi il égorgeait leurs bébés ? [pause] À cause d'une peur. Une peur qui ne le lâchait plus.
+
+# LE RÊVE — vision : le feu sort de Jérusalem, traverse le pays, entre dans les maisons des Égyptiens
+== reve_feu, ambiance amb_grand_feu 0.2
+NARRATEUR (voix off) : [dark] Pharaon avait fait un rêve qui l'avait terrifié. [pause] Il avait vu un {feu_reve} feu sortir de Jérusalem, au loin… traverser tout le pays… et entrer dans les maisons des Égyptiens. Dans toutes leurs maisons. [pause] Sauf dans celles des fils d'Israël. {source "TAFSIR IBN KATHIR (2:49) · TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+== chambre_pharaon, 2.5s
+PHARAON place lit, sur le lit, peur
+
+# LES DEVINS — la salle du trône à la lueur des braseros
+== palais_egypte_nuit, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône, suspect
+DEVIN place 140
+MAGICIEN place -60
+MAGICIEN2 place -200
+NARRATEUR (voix off) : [dark] Du coup, il a fait venir ses magiciens, ses devins… tous ceux qui disaient pouvoir lire l'avenir. {source "TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+PHARAON (peur) : [dark] J'ai vu un feu venir de Jérusalem. Il brûlait les maisons des Égyptiens… et il épargnait celles des fils d'Israël. [pause] Que veut dire ce rêve ? {source "TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+DEVIN : [mysterious] Du pays d'où sont venus les fils d'Israël… sortira un homme. [pause] Et par lui, l'Égypte sera détruite. {source "TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+
+# LA PROMESSE D'IBRAHIM — une maison des fils d'Israël, le soir ; une patrouille passe dans la rue
+== maison_israelite, patrouille
+VIEILLARD place 380, sur un tabouret
+ISRAELITE place 760, sur un tabouret
+ISRAELITE4 place 60, sur un tabouret
+NARRATEUR (voix off) : [mysterious] Et on raconte aussi autre chose. Chez les fils d'Israël, on se répétait une vieille promesse, qui venait du prophète Ibrahim. {source "TAFSIR IBN KATHIR (2:49 · 28:4)"}
+VIEILLARD : [softly] De la descendance d'Ibrahim naîtra un homme… [pause] et par lui, le roi d'Égypte tombera. {source "TAFSIR IBN KATHIR (28:4)"}
+NARRATEUR (voix off) : [dark] Ces paroles sont arrivées jusqu'au palais. Et là, Pharaon n'a plus attendu. {source "TAFSIR IBN KATHIR (28:4)"}
+
+# L'ORDRE — Pharaon se lève et tend le bras ; les soldats sortent
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône
+HAMAN place 760
+SOLDAT place 980, tient la lance
+SOLDAT2 place 1160, tient la lance
+PHARAON (se lève, pointe, enerve) : [menacing] Chaque garçon qui naîtra chez les fils d'Israël… égorgez-le. [pause] Les filles, laissez-les vivre. {source "TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+SOLDAT sort à droite
+SOLDAT2 sort à droite
+PHARAON (explique) : [arrogant] Et faites rentrer vos serviteurs. Les travaux les plus sales… ce sont les fils d'Israël qui les feront. {source "TAFSIR AT-TABARI (28:4, AS-SOUDDI)"}
+
+# Les sages-femmes passent de maison en maison
+== quartier_soir, ambiance amb_vent_doux 0.15
+EGYPTIENNE place -80, tient le parchemin
+SERVANTE2 place 120
+NARRATEUR (voix off) : [dark] Alors des sages-femmes égyptiennes {va EGYPTIENNE 520} passaient de maison en maison. {va SERVANTE2 700} Dès qu'une femme attendait un enfant, on notait son nom. [pause] Le jour de la naissance, si c'était une fille, on la laissait vivre. Si c'était un garçon… les hommes aux lames entraient. {source "TAFSIR IBN KATHIR (28:7)"}
+== quartier_nuit, ambiance amb_grillons_nuit 0.2
+NARRATEUR (voix off) : [sad] Tu imagines ? Des mères qui attendent leur bébé pendant des mois… en sachant que si c'est un garçon, le jour de sa naissance sera le jour de sa mort.
+
+# LES ÉGYPTIENS INQUIETS — les conseillers devant Pharaon
+== palais_egypte, ambiance amb_temple_echo 0.25
+PHARAON place trone, sur le trône
+CONSEILLERS place 220
+CONSEILLER2 place 40
+HAMAN place 760
+NARRATEUR (voix off) : [calm] Les années ont passé comme ça. Les vieux des fils d'Israël mouraient… et les bébés garçons étaient tués. [pause] Du coup, ce sont les Égyptiens eux-mêmes qui ont commencé à s'inquiéter. Ils sont allés voir Pharaon : {source "TAFSIR IBN KATHIR (28:7)"}
+CONSEILLERS (enerve, explique) : [angry] Si ça continue, il ne restera plus un seul homme chez les fils d'Israël ! Et tout leur travail… c'est nous qui devrons le faire ! [pause] Tue leurs garçons une année… et laisse-les vivre l'année suivante. {source "TAFSIR IBN KATHIR (28:7) · IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off) : [calm] Et Pharaon a accepté. Une année, on tuerait les bébés garçons. Et l'année d'après, on les laisserait vivre. {source "TAFSIR IBN KATHIR (28:7)"}
+
+# HAROUN — la maison au grand jour, puis la même maison un an plus tard
+== quartier, ambiance amb_oasis_oiseaux 0.2
+SA_MERE place 470
+HAROUN_BEBE place 560
+ISRAELITE3 place -40
+NARRATEUR (voix off) : [warmly] Une année où on laissait vivre les bébés, une femme des fils d'Israël a mis au monde un garçon. Au grand jour, sans avoir peur. [pause] Ce bébé, c'était Haroun. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+== quartier_soir, ambiance amb_vent_fort 0.12
+SA_MERE place 470, pale
+SOLDAT place 1240, tient la lance
+NARRATEUR (voix off) : [dark] Mais l'année d'après… l'année où on tuait… cette même femme attendait de nouveau un enfant. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off) : [mysterious] Et chez elle, pas comme chez les autres femmes… la grossesse ne se voyait pas. Les sages-femmes n'ont rien remarqué. {source "TAFSIR IBN KATHIR (28:7)"}
+
+# LA PROMESSE D'ALLAH — une lumière dorée se lève sur le chantier ; puis le palais dans l'ombre
+== chantier, lumiere_monte 0.5, ambiance amb_vent_doux 0.15
+ISRAELITE place 200, briques
+ISRAELITE2 place 480, panier
+ISRAELITE3 place 760
+NARRATEUR (voix off) : [mysterious] Mais Allah, Lui, avait décidé autre chose. Ces gens que Pharaon écrasait… Allah voulait leur faire une grâce. En faire des chefs. En faire les héritiers. Et les rendre puissants sur la terre. [pause] Et faire voir à Pharaon, à Haman et à leurs soldats… exactement ce qu'ils redoutaient. {source "CORAN 28:5-6"}
+== quai_palais_soir, ambiance amb_vent_doux 0.15
+SOLDAT place 1060, tient la lance
+SOLDAT2 place 1290, tient la lance
+NARRATEUR (voix off) : [mysterious] Pharaon avait tout prévu. Ses soldats, ses lames, ses sages-femmes. [pause] Mais ce qu'il ne savait pas… c'est que le garçon qu'il redoutait allait grandir dans sa propre maison. Manger à sa table. Et dormir sous son toit. {source "TAFSIR IBN KATHIR (28:6)"}

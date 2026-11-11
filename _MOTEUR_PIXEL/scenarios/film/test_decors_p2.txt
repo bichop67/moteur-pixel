@@ -1,0 +1,38 @@
+TITRE: Test decors P2
+CODE: TP2
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: ISRAELITE, ISRAELITE2
+
+== quartier
+ISRAELITE place 200
+ISRAELITE2 place 700
+NARRATEUR (voix off) : Le quartier des fils d'Israël, en plein jour.
+== quartier_nuit
+SOLDAT place 300, tient la lance
+SOLDAT2 place 520, tient la lance
+NARRATEUR (voix off) : Le même quartier, la nuit. Une patrouille passe.
+== chantier
+ISRAELITE place 100
+ISRAELITE3 place 400
+CONTREMAITRE place 900, tient le baton
+NARRATEUR (voix off) : Le chantier écrasé de soleil.
+== chantier_nuit
+ISRAELITE4 place 300
+NARRATEUR (voix off) : La nuit tombe sur le chantier. Ils travaillent encore.
+== route_egypte_souvenir
+CHAMEAU place 200
+YAQOUB place 420
+YOUSSOUF place 600
+CHAMEAU place 860
+NARRATEUR (voix off) : Au temps de Youssouf, la caravane entre en Égypte.
+== reve_feu
+NARRATEUR (voix off) : Le rêve. Un feu sort de Jérusalem.
+== chambre_pharaon
+PHARAON place lit, sur le lit
+NARRATEUR (voix off) : Pharaon se réveille en sueur.
+== maison_israelite
+VIEILLARD place 300, sur un tabouret
+ISRAELITE place 760, sur un tabouret
+NARRATEUR (voix off) : Le soir, dans une maison des fils d'Israël.

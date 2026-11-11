@@ -1,0 +1,34 @@
+# ISLAMARCADE — Short duo « Ne jamais insulter ta fièvre » — 30 s maximum (04/11/2026)
+# Modèle : « Tu t'es cogné le petit orteil ? » (03/11, a bien marché) et « Tes péchés effacés en 2 minutes ?! » (16 k vues).
+# Image 0 = gros plan : Petit malade, le thermomètre qui monte à 39,5 °C ; la réponse (« elle efface tes péchés ») à ~2 s ;
+# le hadith MONTRÉ : une forge, le soufflet souffle, les croûtes noires du fer partent une à une, le fer ressort propre.
+# Sources vérifiées sur sunnah.com le 04/11/2026 :
+#   Mouslim 2575 (Jabir) : Oumm as-Sa'ib tremblait de fièvre et avait dit « qu'Allah ne la bénisse pas » ; le Prophète ﷺ :
+#   « لا تسبي الحمى فإنها تذهب خطايا بني آدم كما يذهب الكير خبث الحديد » ; الكير = le soufflet ou le fourneau du forgeron,
+#   خبث الحديد = la saleté (les scories) du fer (an-Nihaya d'Ibn al-Athir) ;
+#   Boukhari 5675 (« اشف وأنت الشافي ») ; Boukhari 5678 (« ما أنزل الله داء إلا أنزل له شفاء ») ;
+#   petits péchés : avis de la majorité (Ibn Hajar, Fath al-Bari 10/108 : « الجمهور خصوا ذلك بالصغائر »).
+# Relecture indépendante du 04/11/2026 : « AVIS MAJORITAIRE » sur l'étiquette des petits péchés, pas sur la citation ;
+# « Merci la fièvre » remplacé par « Al-hamdoulillah » (c'est Allah qui efface les péchés).
+
+TITRE: Ne jamais insulter ta fievre
+CODE: ISL8
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TA FIÈVRE ?! / NE L'INSULTE JAMAIS !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TA FIÈVRE ? / NE L'INSULTE JAMAIS !
+ICONE: thermometre
+DUREE_FIN: 1.6
+
+== chambre
+PETIT (enerve, transpire) : [annoyed] {fievre PETIT} Saleté de *fièvre* !
+GRAND (choc, stop) : [alarmed] Ne l'insulte pas ! Elle efface tes *péchés* !
+PETIT (choc, bulle ?!) : [confused] Ma fièvre ?!
+GRAND (explique, plan moyen) : [calm] Le Prophète ﷺ a dit : {forge "TES PETITS PÉCHÉS // AVIS MAJORITAIRE"} n'insulte pas la fièvre, car elle enlève les *péchés*… comme le {soufflet} soufflet du forgeron enlève la *saleté* du fer. {source "MOUSLIM 2575"}
+PETIT (choc, schéma) : [surprised] Donc elle me {texte "LES GRANDS : IL FAUT SE REPENTIR"} *nettoie* ?!
+GRAND (index) : [warmly] Oui ! Mais demande la *guérison* à Allah… et prends ton médicament. {source "BOUKHARI 5675 · 5678"}
+PETIT (gene, transpire) : [sheepishly] *Al-hamdoulillah*… mais pars quand même, la fièvre !
+FIN

@@ -1,0 +1,275 @@
+BIBLIOTHÈQUE DE BRUITAGES ISLAMARCADE — générée sur ElevenLabs (Sound Effects v2) le 18/10/2026
+========================================================================================
+
+Règles : uniquement des BRUITAGES générés sur ElevenLabs (jamais de voix, jamais de bruitages synthétisés par code).
+Avant de générer un nouveau son, chercher ici s'il existe déjà. Un son ajouté = un fichier dans le bon dossier + une ligne ici.
+Nommage : amb_* = ambiance en boucle sans couture (20 s, normalisée à -24 LUFS) ; autres = son ponctuel normalisé à -1 dBFS.
+Plusieurs prises d'un même son : nom_1, nom_2 (le moteur en choisit une au hasard pour éviter la répétition).
+Moteur : film5/sfxlib.py (smp(nom) = son ponctuel, loop(nom, durée) = ambiance) ; dossier lu : variable ISLAMARCADE_SFX.
+Projet ElevenLabs (Flux) : « IslamArcade — Bibliothèque de bruitages » (les consignes exactes y sont gardées).
+
+[AMBIANCES]
+- amb_vent_desert.mp3  (20.0 s, boucle)
+    usage : vent léger du désert (fond de toutes les scènes de désert)
+    consigne : Gentle desert wind over sand dunes, soft hiss of blowing sand, calm and steady
+- amb_tempete_sable.mp3  (20.0 s, boucle)
+    usage : tempête de sable violente (châtiment par le vent)
+    consigne : Violent sandstorm, roaring howling wind, sand blasting against rocks, intense and continuous
+- amb_vent_fort.mp3  (20.0 s, boucle)
+    usage : rafales de vent froid
+    consigne : Strong cold wind gusts howling across an open plain, whistling
+- amb_pluie.mp3  (20.0 s, boucle)
+    usage : pluie régulière
+    consigne : Steady rain falling on dry earth and rocks outdoors, no thunder
+- amb_source_eau.mp3  (20.0 s, boucle)
+    usage : source / ruisseau / oasis
+    consigne : Small spring of water trickling and bubbling over stones, close, calm
+- amb_nuit_desert.mp3  (20.0 s, boucle)
+    usage : nuit dans le désert (grillons)
+    consigne : Crickets chirping steadily at night in the desert, clear and close, soft breeze
+- amb_feu_camp.mp3  (20.0 s, boucle)
+    usage : feu de camp
+    consigne : Crackling campfire, close-mic, occasional pop
+- amb_vagues_mer.mp3  (20.0 s, boucle)
+    usage : vagues, mer calme (Nouh, Moussa, Younous…)
+    consigne : Ocean waves rolling onto a sandy shore, steady, calm sea
+- amb_foule_lointaine.mp3  (20.0 s, boucle)
+    usage : rumeur de foule au marché (sans paroles)
+    consigne : Distant murmur of an outdoor crowd in an old market, indistinct chatter, no clear words
+
+[IMPACTS]
+- imp_boom_grave_1.mp3, imp_boom_grave_2.mp3  (4.0 s)
+    usage : impact grave cinématique (révélation, sentence)
+    consigne : Deep low boom impact with a long rumbling tail
+- imp_tampon_1.mp3, imp_tampon_2.mp3  (1.0 s)
+    usage : tampon qui s'abat (tampons à l'écran)
+    consigne : Loud heavy stamp slammed down on a wooden table, single punchy thud, close-mic
+- imp_tambour_1.mp3, imp_tambour_2.mp3  (2.0 s)
+    usage : coup de tambour sourd (tension)
+    consigne : Single deep frame drum hit, dry, resonant
+- imp_marteau_pierre_1.mp3, imp_marteau_pierre_2.mp3  (1.5 s)
+    usage : marteau sur pierre (construction)
+    consigne : Loud iron hammer striking a stone block, single sharp clank with short echo, close-mic
+- imp_pierres_chute_1.mp3, imp_pierres_chute_2.mp3  (4.0 s)
+    usage : chute de pierres / ruines
+    consigne : Rocks and stones tumbling down and falling, rubble settling
+- imp_tonnerre_1.mp3, imp_tonnerre_2.mp3  (7.0 s)
+    usage : coup de tonnerre proche
+    consigne : Close powerful thunder clap, sharp crack followed by a rolling rumble
+- imp_grondement_1.mp3, imp_grondement_2.mp3  (6.0 s)
+    usage : tonnerre lointain / grondement menaçant
+    consigne : Distant rolling thunder, low ominous rumble
+
+[TRANSITIONS]
+- tr_whoosh_doux_1.mp3, tr_whoosh_doux_2.mp3  (1.5 s)
+    usage : transition douce entre deux scènes
+    consigne : Soft airy whoosh, smooth and subtle pass-by
+- tr_whoosh_vent_1.mp3, tr_whoosh_vent_2.mp3  (2.0 s)
+    usage : transition rapide, rafale (cartes de chapitre)
+    consigne : Fast gust of wind sweeping past, whoosh
+
+[SACRE]
+- sa_scintillement_1.mp3, sa_scintillement_2.mp3  (3.5 s)
+    usage : lumière, orbe, moment sacré
+    consigne : Soft ethereal shimmer, gentle sparkling glow sound fading in and out, calm
+- sa_carillon_1.mp3, sa_carillon_2.mp3  (3.0 s)
+    usage : cloche douce (verset, révélation)
+    consigne : Single soft bell chime, clear tone, long gentle decay
+- sa_ting_1.mp3, sa_ting_2.mp3  (1.0 s)
+    usage : petit tintement (liste, point clé)
+    consigne : Tiny bright metallic ting, small bell tap
+
+[FOULE]
+- fo_moquerie_1.mp3, fo_moquerie_2.mp3  (4.0 s)
+    usage : groupe d'hommes qui se moquent (sans paroles)
+    consigne : Group of men laughing mockingly and jeering outdoors, no words
+- fo_joie_1.mp3, fo_joie_2.mp3  (4.0 s)
+    usage : foule en joie (sans paroles)
+    consigne : Crowd of people cheering joyfully outdoors, excited shouts, no words
+- fo_panique_1.mp3, fo_panique_2.mp3  (4.0 s)
+    usage : foule qui crie et fuit
+    consigne : Crowd screaming in panic and running away
+
+[ANIMAUX]
+- an_cloches_chameau_1.mp3, an_cloches_chameau_2.mp3  (8.0 s)
+    usage : caravane de chameaux avec clochettes
+    consigne : Camel caravan walking slowly, bells jingling on the camels, soft footsteps on sand
+- an_chameau_1.mp3, an_chameau_2.mp3  (3.0 s)
+    usage : blatèrement de chameau
+    consigne : Camel grunting and groaning
+- an_chevaux_1.mp3, an_chevaux_2.mp3  (4.0 s)
+    usage : galop de chevaux sur le sable
+    consigne : Horses galloping on sand, passing by
+
+[DIVERS]
+- dv_pas_sable_1.mp3, dv_pas_sable_2.mp3  (4.0 s)
+    usage : pas lents dans le sable
+    consigne : Slow footsteps walking on sand
+- dv_gravure_1.mp3, dv_gravure_2.mp3  (2.0 s)
+    usage : burin qui grave la pierre
+    consigne : Chisel scratching and carving into a stone tablet
+- dv_clic.mp3  (0.5 s)
+    usage : petit clic (fin de vidéo, bouton)
+    consigne : Soft wooden click, single
+- dv_parchemin_1.mp3, dv_parchemin_2.mp3  (2.0 s)
+    usage : parchemin qu'on déroule
+    consigne : Old parchment paper rustling, unrolling a scroll
+
+
+AJOUTS DU 20/10/2026 (films épisodes 5-7) — fichiers dans « Nouveaux bruitages 20-10.zip » (à extraire ici : chaque son va dans son dossier)
+====================================================================================================
+
+[AMBIANCES]
+- amb_vent_doux.mp3  (20.0 s, boucle)
+    usage : brise douce du désert, calme
+    consigne : Gentle soft desert breeze, calm light wind, no gusts, ambience
+- amb_foule_murmure.mp3  (20.0 s, boucle)
+    usage : foule qui murmure sur une place, sans paroles
+    consigne : Crowd of people murmuring quietly in an ancient town square, indistinct chatter, no clear words, calm
+- amb_grillons_nuit.mp3  (20.0 s, boucle)
+    usage : nuit calme avec grillons
+    consigne : Calm night ambience with crickets chirping in a warm desert oasis, very peaceful
+- amb_temple_echo.mp3  (20.0 s, boucle)
+    usage : intérieur d'un grand temple en pierre
+    consigne : Quiet ambience inside a large ancient stone temple hall, soft reverberant room tone, faint distant echoes, still air
+- amb_oasis_oiseaux.mp3  (20.0 s, boucle)
+    usage : oasis de jour, petits oiseaux
+    consigne : Peaceful oasis daytime ambience, small birds chirping, light breeze through palm leaves
+- amb_grand_feu.mp3  (20.0 s, boucle)
+    usage : immense brasier qui gronde (le feu d'Ibrahim)
+    consigne : Huge bonfire roaring and crackling, deep rumble of large flames, continuous
+- amb_marche_foule.mp3  (20.0 s, boucle)
+    usage : marché ancien animé, sans paroles
+    consigne : Ancient desert market ambience, busy crowd chatter indistinct with no clear words, distant goats, pottery clinks
+- amb_chantier.mp3  (20.0 s, boucle)
+    usage : tailleurs de pierre au loin
+    consigne : Distant stonemasons working, chisels tapping on stone, ancient construction site ambience, calm
+- amb_troupeau.mp3  (20.0 s, boucle)
+    usage : troupeau de chèvres et moutons
+    consigne : Herd of goats and sheep grazing outdoors, occasional distant soft bleats, small bells
+
+[ANIMAUX]
+- an_oiseaux_envol_1.mp3  (3.0 s)
+    usage : oiseaux qui s'envolent
+    consigne : Flock of small birds taking off together, wings flapping, outdoors
+- an_colombes_1.mp3  (2.5 s)
+    usage : colombes qui roucoulent
+    consigne : Doves cooing softly, peaceful
+- an_mouton_1.mp3  (2.0 s)
+    usage : bélier qui bêle
+    consigne : A single ram bleating, one sheep bleat, outdoors
+- an_aigle_1.mp3  (2.0 s)
+    usage : aigle au loin
+    consigne : An eagle crying in the distance, high in the sky
+- an_chevre_1.mp3, an_chevre_2.mp3  (2.0 s)
+    usage : chèvre qui bêle
+    consigne : A single goat bleating softly, outdoors, natural, close, no other sounds
+
+[DIVERS]
+- dv_pas_pierre_1.mp3  (2.5 s)
+    usage : pas de sandales sur la pierre
+    consigne : Footsteps of leather sandals walking slowly on a stone floor, a few steps
+- dv_tissu_1.mp3  (1.5 s)
+    usage : froissement de tissu, de robe
+    consigne : Soft cloth fabric robe rustle, a person moving
+- dv_porte_bois_1.mp3  (2.5 s)
+    usage : vieille porte en bois qui grince
+    consigne : Old heavy wooden door creaking open slowly
+- dv_eau_puits_1.mp3  (3.0 s)
+    usage : seau tiré d'un puits
+    consigne : Wooden bucket of water drawn up from a stone well, water splashing and pouring
+- dv_poterie_1.mp3  (1.5 s)
+    usage : jarres en terre qui s'entrechoquent
+    consigne : Clay pottery jars clinking together gently
+- dv_feu_allumage_1.mp3  (2.5 s)
+    usage : feu qu'on allume
+    consigne : A fire igniting with a soft whoosh, then gentle crackling flames
+- dv_eau_jaillit_1.mp3  (4.0 s)
+    usage : eau qui jaillit du sol (Zamzam)
+    consigne : Fresh water springing up from sandy ground, bubbling and gushing gently
+- dv_course_sable_1.mp3  (3.0 s)
+    usage : course dans le sable
+    consigne : Footsteps of a person running on soft sand, breathless hurry
+- dv_bois_empile_1.mp3  (2.5 s)
+    usage : bûches qu'on empile
+    consigne : Wooden logs being dropped and stacked on a pile
+- dv_bebe_pleure_1.mp3  (3.0 s)
+    usage : bébé qui pleure doucement au loin (Ismaïl)
+    consigne : A baby crying softly in the distance, gentle, desert outdoors
+
+[FOULE]
+- fo_murmure_surpris_1.mp3  (3.0 s)
+    usage : foule surprise, murmure
+    consigne : Small crowd reacting with a quiet surprised murmur and soft gasp, no words
+- fo_foule_grogne_1.mp3  (3.0 s)
+    usage : foule mécontente qui grogne, sans paroles
+    consigne : Crowd of men grumbling with discontent in low voices, indistinct, no words, not shouting
+
+[IMPACTS]
+- imp_statue_brise_1.mp3  (2.5 s)
+    usage : statue de pierre qui se brise
+    consigne : Stone statue cracking and breaking apart, stone pieces falling on a stone floor
+- imp_cri_ciel_1.mp3  (4.0 s)
+    usage : le Cri : souffle immense venu du ciel (sans voix)
+    consigne : One immense deep blast from the sky, low rumbling shockwave rolling across a valley, ominous, no human voice
+- imp_secousse_1.mp3  (4.0 s)
+    usage : tremblement de terre
+    consigne : Earthquake rumble, ground shaking, deep low rumble with small rocks rattling
+
+[SACRE]
+- sa_lumiere_1.mp3  (3.0 s)
+    usage : lumière douce qui apparaît (orbe)
+    consigne : Soft warm magical shimmer swell, gentle ethereal light appearing, calm and subtle
+
+
+AJOUTS DU 22/10/2026 (sketch « Elle a mal parlé à sa mère ») — sons modernes, ElevenLabs Sound Effects v2
+====================================================================================================
+- DIVERS/dv_porte_claque_1.mp3  (0.5 s)
+    usage : porte de chambre qui claque
+    consigne : Interior wooden bedroom door slammed shut hard, single loud bang, close-mic
+- IMPACTS/imp_vaisselle_brise_1.mp3  (2.0 s)
+    usage : assiettes et verre qui tombent et se brisent dans une cuisine
+    consigne : Ceramic plates and a glass falling and shattering on a kitchen tile floor, single crash, indoors
+- DIVERS/dv_moniteur_hopital_1.mp3  (1.0 s, un bip : le répéter toutes les ~1,5 s)
+    usage : moniteur cardiaque d'hôpital
+    consigne : Hospital heart rate monitor beeping slowly and steadily in a quiet room at night, soft air hum
+- DIVERS/dv_musique_telephone_1.mp3  (4.0 s, à répéter)
+    usage : musique électronique sans paroles qui sort d'un téléphone (scène de tournage TikTok)
+    consigne : Upbeat electronic dance beat with bass playing loudly from a small phone speaker in a living room, no vocals
+- DIVERS/dv_pas_course_maison_1.mp3  (1.0 s)
+    usage : pas paniqués qui courent dans une maison
+    consigne : Quick panicked footsteps running on a wooden floor inside a house, short
+- DIVERS/dv_sonnerie_telephone_1.mp3  (1.0 s, à répéter)
+    usage : téléphone qui sonne
+    consigne : Smartphone ringing with a simple ringtone and vibration on a table, two rings, indoors
+- DIVERS/dv_notifications_1.mp3  (1.0 s, à répéter)
+    usage : notifications de messages en rafale
+    consigne : Rapid series of smartphone message notification pings, many messages arriving one after another
+- DIVERS/dv_sirene_ambulance_1.mp3  (1.0 s, à répéter)
+    usage : sirène d'ambulance
+    consigne : European ambulance siren approaching at night, two-tone, with city ambience
+
+
+AJOUTS DU 22/10/2026 (sketchs 06 à 15) — générés sur ElevenLabs Sound Effects v2, normalisés à -1 dBFS
+====================================================================================================
+[DIVERS]
+- dv_moto_cross_1.mp3  (1.0 s, à répéter)
+    usage : moto de cross qui accélère (rodéo urbain)
+    consigne : Dirt bike motorcycle engine revving loudly, then accelerating fast past the listener in a concrete parking lot, close
+- dv_coups_mur_1.mp3  (1.0 s)
+    usage : coups de canne contre un mur (voisin âgé)
+    consigne : Three slow heavy knocks of a walking cane against an apartment wall, muffled through the wall, indoors
+- dv_train_depart_1.mp3  (2.0 s)
+    usage : portes de train qui se ferment, train qui part (gare la nuit)
+    consigne : Train doors closing beep at a quiet night station, then the train slowly pulling away
+- dv_ballon_1.mp3  (4.0 s)
+    usage : ballon qui rebondit puis roule seul
+    consigne : A single soccer ball bouncing twice then rolling slowly on asphalt, outdoors, quiet
+[IMPACTS]
+- imp_porte_enfoncee_1.mp3  (5.0 s)
+    usage : porte enfoncée par les pompiers
+    consigne : Apartment door forced open with a battering ram, loud wooden crash and splintering, single hit
+[FOULE]
+- fo_match_tele_1.mp3  (2.0 s)
+    usage : match de foot à la télé dans un bar à paris (foule étouffée)
+    consigne : Football match crowd roar from a TV in a small betting bar, muffled stadium cheering, no words

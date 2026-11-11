@@ -1,0 +1,39 @@
+MUSIQUES ISLAMARCADE — générées sur ElevenLabs Music v2.5 (18/10/2026)
+=====================================================================
+Musiques générées par nous sur ElevenLabs : pas de licence à acheter (ne jamais utiliser un titre d'un label ou d'une autre chaîne).
+Règle d'or (demande du 19/10) : la musique et les bruitages restent DOUX, jamais dérangeants. La voix est toujours devant.
+
+1) NASHEEDS ÉMOTION (dossier _MUSIQUES)
+- emotion_nasheed_A_mercy_in_the_stillness.mp3 (3 min 30) : nasheed vocal sans paroles, chœur d'hommes qui fredonne, très doux, dense.
+- emotion_nasheed_B_heartsong_in_the_quiet.mp3 (3 min 30) : même ambiance, phrases plus espacées (respirations), plus intime.
+Consigne utilisée (anglais) : « Emotional a cappella nasheed, vocals only: a warm, soft male voice humming a slow heartfelt melody,
+layered with gentle choir harmonies and soft ooh pads. No instruments, no percussion, no drums. Minor key, slow tempo around 70 BPM,
+lots of reverb, intimate, melancholic yet hopeful, made to touch the heart. » (vocalises « hmm / ooh / aah », aucune parole).
+- Seulement sur les passages touchants (miséricorde, le Prophète, la fin, l'épilogue), quelques minutes par film, pas en continu.
+- Entrée en fondu 3,5 s, sortie en fondu 4,5 s ; la musique de fond s'efface sous elle pendant ce temps.
+- Niveau : TRÈS bas (EMO_G 0.025, baissé de 85 % quand quelqu'un parle, encore -45 % sous les versets) = environ 25 à 30 dB sous la voix.
+- Épisode 4 : chapitre 11 (piste B), chapitre 13 jusqu'au verset 41:13 (piste A), puis jusqu'à la fin de l'épilogue (piste B à partir de 40 s).
+
+2) MUSIQUES DE FOND (dossier _MUSIQUES\FOND) — instrumentales, 1 min 30 chacune, une par ambiance, bouclées sans coupure
+- fond_desert.mp3     : le désert (ambiances earthy / desert / dry)
+- fond_mystere.mp3    : le mystère (sea / cosmic_soft / mystic / wonder)
+- fond_tension.mp3    : la tension retenue (tension / sinister / dark / teaser)
+- fond_espoir.mp3     : l'espoir (hope / angelic)
+- fond_tristesse.mp3  : la tristesse (sad)
+- fond_tempete.mp3    : la tempête (gale)
+- fond_epique.mp3     : la majesté, calme (epic / title)
+Règles du moteur (film5/audio5.py, MOOD_TRACK) :
+- Une ambiance de moins de 9 s est absorbée par la précédente ; fondu enchaîné de 3 s entre deux ambiances.
+- Toutes les pistes au même volume (TRIM_DB : desert -1,5 dB, tension -1,5, epique -1, mystere +0,5, tempete +0,5).
+- Creux de -4 dB à 2,6 kHz (la zone de la voix) + coupe au-dessus de 8 kHz : la musique ne gêne pas la parole.
+- Niveau MUS_G 0.15 quand personne ne parle, baissée de 55 % quand quelqu'un parle (courbe lente : montée 0,12 s, maintien 0,5 s,
+  retour 1,4 s, donc PAS de pompage entre les mots) = environ 21 à 23 dB sous la voix.
+
+3) BRUITAGES (dossier _BRUITAGES, voir CATALOGUE.txt)
+- Les ambiances (vent, pluie, tempête) sont sur une piste à part : moitié moins fortes que les bruitages, coupées au-dessus de 4,5 kHz
+  (pas de souffle aigu), baissées de 75 % quand quelqu'un parle = environ 25 à 35 dB sous la voix.
+- Bruitages ponctuels baissés de 45 % sous la voix, coupés au-dessus de 7,5 kHz. Pas de cris de panique, tonnerres rares et lointains.
+
+4) VOLUME FINAL
+- Un seul gain fixe pour atteindre -14 LUFS + un limiteur transparent (pas de loudnorm dynamique : il faisait remonter le fond dans les pauses).
+- Dossiers lus par le moteur : ISLAMARCADE_MUS (nasheeds), ISLAMARCADE_FOND (musiques de fond), ISLAMARCADE_SFX (bruitages).

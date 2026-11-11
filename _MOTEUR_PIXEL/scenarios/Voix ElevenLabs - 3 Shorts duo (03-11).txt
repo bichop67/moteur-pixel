@@ -1,0 +1,32 @@
+VOIX ELEVENLABS — 3 Shorts duo IslamArcade (PETIT / GRAND) — 03/11/2026
+=========================================================================
+Générées par Claude avec le connecteur ElevenLabs, flow « Shorts duo islam 03-11 (aumones, orteil, 2 rakats) »
+(ck4msBw8uP3yGWQtV9Ay). Modèle eleven_v4, une seule prise par génération. Textes ci-dessous = textes EXACTS envoyés.
+PETIT = Lucas - Dynamic, young, fresh (QEZnlKYcLy9N2ierwPEc)      GRAND = Quentin (43TArLZXN5r3L8mJ6AGR)
+Coût réel : 1 333 crédits pour les 6 générations. Temps des mots : transcription ElevenLabs du flux (0 crédit),
+convertie en asr_ISL5/6/7.json (outil : asr_shorts_duo.py, copie dans _MOTEUR_PIXEL\scenarios\outils_duo_03-11).
+Orthographe choisie pour la prononciation : « Douha », « Soubhan Allah ».
+
+
+######## SHORT 1 — Tu dois 360 aumônes chaque matin ?!     islam_05_aumones.txt   (voix_isl5)
+--- ISL5_GRAND.mp3 (20,6 s)
+[mischievously] Chaque matin, tu dois trois cent soixante aumônes. [long pause] [calm] Le Prophète ﷺ a dit : une par articulation. [long pause] Mais chaque « Soubhan Allah »… chaque « Alhamdoulillah »… chaque « Allahou akbar »… c'est une aumône. [long pause] [warmly] Ou deux rakats de Douha, une sunna : ça suffit.
+
+--- ISL5_PETIT.mp3 (7,0 s)
+[panicked] J'ai même pas trois euros ! [long pause] [shocked] Trois cent soixante fois ?! [long pause] [excited] Demain matin, je prie Douha !
+
+
+######## SHORT 2 — Tu t'es cogné le petit orteil ? Bonne nouvelle     islam_06_orteil.txt   (voix_isl6)
+--- ISL6_PETIT.mp3 (10,0 s)
+[crying] Aïe ! Mon petit orteil ! [long pause] [annoyed] Bonne nouvelle ?! [long pause] [surprised] Même pour un orteil ?! [long pause] [mischievously] Alors je me recogne exprès !
+
+--- ISL6_GRAND.mp3 (19,2 s)
+[warmly] Bonne nouvelle ! [long pause] [calm] Le Prophète ﷺ a dit : quand un musulman a mal… Allah fait tomber ses péchés, comme un arbre perd ses feuilles. [long pause] Même pour une épine qui le pique. [long pause] [exasperated] Non ! On ne cherche pas le mal : on demande la santé à Allah.
+
+
+######## SHORT 3 — 2 rakats qui valent plus que le monde entier ?!     islam_07_monde.txt   (voix_isl7)
+--- ISL7_GRAND.mp3 (16,8 s)
+[mischievously] Deux rakats… qui valent plus que le monde entier. [long pause] [calm] Le Prophète ﷺ a dit : les deux rakats avant la prière du Fajr valent mieux que le monde et tout ce qu'il contient. [long pause] [mischievously] Mets ton réveil cinq minutes plus tôt.
+
+--- ISL7_PETIT.mp3 (8,2 s)
+[shocked] Plus que toutes les PS5 ?! [long pause] [sheepishly] Moi, je prie le Fajr à la dernière minute… [long pause] [excited] Réglé !

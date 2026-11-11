@@ -1,0 +1,90 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 6 : LA FUITE
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P6).
+# Voix : E14P6_NARRATEUR, _CORAN, _CONSEILLERS, _PHARAON, _ISRAELITE, _DELATEUR, _MESSAGER
+TITRE: Moussa - partie 6 - La fuite
+CODE: E14P6
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: PHARAON, MOUSSA
+
+# LA PLAINTE — la salle du trône : les Égyptiens en colère devant Pharaon ; Pharaon, froid, lève un doigt
+== palais_egypte, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 780
+CONSEILLERS place 960, enerve
+CONSEILLER2 place 1110, enerve
+EGYPTIEN2 place 1260, enerve
+NARRATEUR (voix off, plan large) : [dark] Le lendemain, une seule nouvelle court : un Égyptien a été tué ! [pause] Les gens de Pharaon viennent réclamer justice : {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+CONSEILLERS (enerve, pointe) : [angry] Ce sont les fils d'Israël ! Venge-nous ! Et ne leur fais aucune grâce ! {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur PHARAON) : [dark] Pharaon répond : {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+PHARAON (calme, index) : [menacing] Trouvez-moi celui qui l'a tué. Et quelqu'un qui l'a vu faire. Alors, je vous rendrai justice. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+== quartier_soir, ambiance amb_vent_doux 0.2
+SOLDAT place -160, tient la lance
+SOLDAT2 place 1460, tient la torche
+ISRAELITE_F place 860, peur
+NARRATEUR (voix off, plan large) : [mysterious] {va SOLDAT 360} {va SOLDAT2 1040} {son dv_porte_bois_1 0.08} Les soldats fouillent toute la ville. Ils ne trouvent rien. Pas un seul témoin. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LE LENDEMAIN MATIN — une rue au matin ; Moussa avance, craintif ; au carrefour, le même homme se bat avec un autre Égyptien
+== ville_matin, ambiance amb_foule_lointaine 0.2
+EGYPTIENNE place -40
+MOUSSA place -200
+ISRAELITE place 900, peur
+DELATEUR place 1080, enerve, pointe
+CORAN (voix off, plan large) : {derive MOUSSA 240 1320 4s} Le lendemain matin, il se trouva en ville, craintif et regardant autour de lui, {derive MOUSSA 330 1320 2s} quand voilà que celui qui lui avait demandé secours la veille, l'appela à grands {cadre ISRAELITE} cris. Moussa lui dit : « Tu es certes un provocateur déclaré ! » {source "CORAN 28:18"}
+NARRATEUR (voix off, plan large) : [dark] Le même homme ! Il se bat encore, cette fois avec un autre Égyptien. [pause] Moussa veut arrêter {derive MOUSSA 660 1320 2s} l'Égyptien… mais l'homme des fils d'Israël prend peur. Il croit que c'est lui que Moussa va frapper. {source "TAFSIR IBN KATHIR (28:18-19)"}
+CORAN (voix off, sur ISRAELITE) : Quand il voulut porter un coup à leur ennemi commun, il dit : {source "CORAN 28:19 (EXTRAIT)"}
+ISRAELITE (peur, sur ISRAELITE) : [trembling voice] Ô Moussa ! Veux-tu me tuer comme tu as tué un homme hier ? Tu ne veux être qu'un tyran sur Terre ; et tu ne veux pas être parmi les réconciliateurs. {source "CORAN 28:19 (EXTRAIT)"}
+
+# LE SECRET — l'Égyptien a entendu ; il recule puis court au palais ; Pharaon se lève, furieux ; les soldats partent au pas
+== ville_matin, ambiance amb_foule_lointaine 0.15
+MOUSSA place 660
+ISRAELITE place 900, peur
+DELATEUR place 1080, choc
+NARRATEUR (voix off, sur DELATEUR, gros plan) : [dramatic] Le secret vient d'éclater. [pause] L'Égyptien a tout entendu. {court DELATEUR 1700} Il file au palais. {source "TAFSIR IBN KATHIR (28:19)"}
+== palais_egypte, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 780
+SOLDAT place 1180, tient la lance
+SOLDAT2 place 1330, tient la lance
+DELATEUR place 980
+DELATEUR (crie, sur DELATEUR) : [shouting] C'est Moussa ! C'est Moussa qui a tué notre homme ! Je l'ai entendu de mes propres oreilles ! {source "TAFSIR IBN KATHIR (28:19)"}
+PHARAON se lève, enerve
+NARRATEUR (voix off, sur PHARAON) : [dark] Cette fois, Pharaon sait. Sa colère explose. {source "TAFSIR IBN KATHIR (28:19)"}
+PHARAON (enerve, pointe) : [menacing] Trouvez Moussa. [pause] Et tuez-le. {source "TAFSIR IBN KATHIR (28:19) · IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+== avenue_palais, ambiance amb_vent_doux 0.2
+SOLDAT place -200, tient la lance
+SOLDAT2 place -360, tient la lance
+GARDE place -520, tient la lance
+NARRATEUR (voix off, plan large) : [calm] {va SOLDAT 700} {va SOLDAT2 540} {va GARDE 380} Ses hommes partent le chercher, par la grande route, sans se presser. Ils sont sûrs de le trouver. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# L'HOMME QUI COURT — un homme court dans les ruelles, sous le linge qui sèche ; il arrive avant eux, devant Moussa
+== ruelle, ambiance amb_vent_doux 0.2
+MESSAGER place 1560
+NARRATEUR (voix off, plan large) : [dramatic] Mais un homme prend un raccourci. {court MESSAGER -300} Il court, à travers les ruelles… et arrive avant eux. {source "TAFSIR IBN KATHIR (28:20)"}
+== ruelle_aube, ambiance amb_vent_doux 0.2
+MOUSSA place 300
+MESSAGER place 1560
+CORAN (voix off, plan large) : {court MESSAGER 560} Et c'est alors qu'un homme vint du bout de la ville en courant et dit : {source "CORAN 28:20 (EXTRAIT)"}
+MESSAGER (sur MESSAGER) : [whispers] Ô Moussa ! Les notables sont en train de se concerter à ton sujet pour te tuer. Quitte la ville. C'est le conseil que je te donne. {source "CORAN 28:20 (EXTRAIT)"}
+
+# LE DÉPART — Moussa sort seul par la porte de la ville, au crépuscule ; puis la carte : de l'Égypte vers Madyan
+== porte_ville, ambiance amb_vent_desert 0.25
+MOUSSA place 60 1226
+NARRATEUR (voix off, plan large) : [sad] {derive MOUSSA 420 1320 5s} Il faut partir. Tout de suite. [pause] Lui qui a grandi dans le confort d'un palais… part seul. Sans provisions. Sans monture. Sans même des sandales. {source "TAFSIR IBN KATHIR (28:21) · TAFSIR AT-TABARI (28:22)"}
+CORAN (voix off, sur MOUSSA) : {derive MOUSSA 900 1320 9s} Il sortit de là, craintif, regardant autour de lui. Il dit : « Seigneur ! Sauve-moi de ce peuple injuste ! » {source "CORAN 28:21"}
+== carte_madyan, chemin 0.6 11, ambiance amb_vent_desert 0.2
+NARRATEUR (voix off, plan large) : [calm] Il prend la direction de Madyan, de l'autre côté du désert. Mais il ne connaît pas le chemin. {source "TAFSIR AT-TABARI (28:22)"}
+CORAN (voix off, plan large) : Et lorsqu'il se dirigea vers Madyan, il dit : « Il se peut que mon Seigneur me guide sur la voie droite. » {source "CORAN 28:22"}
+
+# LE DÉSERT — Moussa seul entre les dunes ; le jour, la nuit, puis l'aube ; près d'un arbuste, sa lumière faiblit (MOMENT FORT)
+== desert, emotion, ambiance amb_vent_desert 0.3
+MOUSSA place -120
+NARRATEUR (voix off, plan large) : [sad] {derive MOUSSA 520 1320 8s} Huit nuits de marche. [pause] Et pour toute nourriture… des feuilles d'arbres et des herbes. {source "TAFSIR AT-TABARI (28:22, IBN 'ABBAS) · TAFSIR IBN KATHIR (28:24, IBN 'ABBAS)"}
+== desert_nuit, emotion, ambiance amb_nuit_desert 0.3
+MOUSSA place 300, pale
+NARRATEUR (voix off, sur MOUSSA) : [sad] {derive MOUSSA 620 1320 7s} Il marche pieds nus. Quand il arrive enfin… la peau sous ses pieds est partie. {source "TAFSIR AT-TABARI (28:22, SA'ID IBN JOUBAYR)"}
+== desert_aube, emotion, ambiance amb_vent_desert 0.25
+MOUSSA place 760, pale
+NARRATEUR (voix off, plan large) : [softly] {derive MOUSSA 920 1320 6s} Hier encore, il vivait dans un palais. [pause] Aujourd'hui, il n'a plus rien. Ni maison, ni pays. Il ne connaît même pas la route. [pause] Il n'a qu'une seule chose : sa {geste MOUSSA intense} *confiance* en son Seigneur. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}

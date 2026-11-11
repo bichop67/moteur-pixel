@@ -1,0 +1,31 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 10 : LE RETOUR EN ÉGYPTE
+# Un seul conteur. Racontés : 20:42-44 (paroles d'Allah), 20:45-46 (paroles des deux frères, puis d'Allah).
+TITRE: Moussa conte - partie 10 - Le retour en Egypte
+CODE: E14P10
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_epique
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, HAROUN
+
+# DEUX FRÈRES — l'aube sur le désert : Moussa, sa famille et son troupeau ; Haroun vient à sa rencontre ; leurs halos se rejoignent (MOMENT FORT)
+== desert, emotion, ambiance amb_vent_doux 0.15
+MOUTON place -260
+SA_FEMME place -120
+MOUSSA place 40
+HAROUN place 1560
+NARRATEUR (voix off) : [warmly] {derive HAROUN 800 1320 9s} Pendant ce temps, en Égypte, Allah a révélé à Haroun qu'il devait aller à la rencontre de son frère. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off) : [softly] {derive MOUSSA 600 1320 4s} {derive SA_FEMME 420 1320 4s} {va MOUTON 280} Deux frères, séparés depuis plus de dix ans. Et les voilà {geste MOUSSA intense} {geste HAROUN intense} réunis, sur la route de l'Égypte. {source "TAFSIR IBN KATHIR (20:10)"}
+NARRATEUR (voix off) : [calm] Allah avait dit à Moussa : « Pars, toi et ton frère, avec Mes signes, et ne vous lassez pas de vous souvenir de Moi. Allez trouver {souvenir MOUSSA palais_egypte 0 -10 3s} Pharaon : il a dépassé toutes les limites. Et parlez-lui gentiment. Peut-être qu'il va se rappeler… ou craindre Allah. » {source "CORAN 20:42-44"}
+NARRATEUR (voix off) : [calm] Parler gentiment. Au roi qui égorgeait les {souvenir MOUSSA quartier_nuit -60 0 2.6s} bébés. Au roi qui se prenait pour un {souvenir HAROUN palais_egypte 60 0 2.6s} dieu. {source "CORAN 20:44"}
+NARRATEUR (voix off) : [calm] Les deux frères ont dit : « Seigneur, on a peur qu'il s'en prenne à nous, ou qu'il dépasse les limites. » Et Allah leur a répondu : « N'ayez pas peur. Je suis avec vous : J'entends, et Je vois. » {source "CORAN 20:45-46"}
+
+# LA PORTE DU PALAIS — les portes géantes, gardées ; les deux frères attendent longtemps ; enfin les battants s'ouvrent
+== porte_palais, ambiance amb_vent_doux 0.18
+GARDE place 380, tient la lance
+SOLDAT place 700, tient la lance
+MOUSSA place 120
+HAROUN place -40
+NARRATEUR (voix off) : [calm] Les deux frères sont arrivés devant le palais de Pharaon. On les a fait attendre devant la porte. Longtemps. [pause] Et puis, enfin, la porte {devient porte_palais_ouverte 2.5} {son dv_porte_bois_1 0.05} s'est ouverte. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}

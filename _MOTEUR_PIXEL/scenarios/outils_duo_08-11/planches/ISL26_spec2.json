@@ -1,0 +1,5 @@
+[
+ {"nom": "carte", "classe": "Ane", "args": ["ane", "carte"], "t": {"ombre": 5.5, "oreilles": 7.5}, "u": [0.3, 1.5, 3.6, 4.5]},
+ {"nom": "carte2", "classe": "Ane", "args": ["ane", "carte"], "t": {"ombre": 5.5, "oreilles": 7.5}, "u": [5.2, 8.6, 10.0]},
+ {"nom": "suivre", "classe": "Ane", "args": ["ane suivre", "suivre"], "u": [0.4, 1.4, 2.6, 3.8]}
+]

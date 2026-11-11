@@ -1,0 +1,100 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 3 : LE COFFRE SUR LE NIL
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P3). Voix : E14P3_NARRATEUR, E14P3_CORAN, E14P3_SERVANTE
+TITRE: Moussa - partie 3 - Le coffre sur le Nil
+CODE: E14P3
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tristesse
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: SA_MERE, BERCEAU
+
+# LA NAISSANCE — la pièce de la maison au bord du Nil, la nuit, une seule lampe ; la mère et le couffin (MOMENT FORT)
+== maison_nil, 1.5s, emotion, ambiance amb_grillons_nuit 0.2
+SA_MERE place 300
+BERCEAU place 470 1290
+NARRATEUR (voix off, plan large) : [softly] Et le jour arrive. Elle met au monde un garçon. [pause] Un garçon… l'année où l'on tue les garçons. {source "TAFSIR IBN KATHIR (28:7)"}
+NARRATEUR (voix off, sur SA_MERE) : [softly] Elle l'aime d'un amour immense. Et en même temps, elle tremble de peur pour lui. {source "TAFSIR IBN KATHIR (28:7)"}
+NARRATEUR (voix off, sur BERCEAU) : [warmly] Car ce bébé a quelque chose de particulier : tous ceux qui le voient… se mettent à l'aimer. {source "TAFSIR IBN KATHIR (28:7)"}
+
+# LA MENACE — la ruelle, la nuit : une patrouille avance lentement et s'arrête devant la porte ; la lumière sous la porte s'éteint
+== ruelle_nuit, ambiance amb_grillons_nuit 0.2
+SOLDAT place 1300, tient la lance
+SOLDAT2 place 1470, tient la lance
+NARRATEUR (voix off, plan large) : [dark] {va SOLDAT 560} {va SOLDAT2 760} Mais combien de temps pourra-t-elle le cacher ? {son dv_pas_pierre_1 0.08} Un cri… un seul pleur entendu depuis la rue… et les hommes aux lames {devient ruelle_nuit_eteinte 1.2} entreront.
+
+# L'INSPIRATION — dans la maison, une lumière douce descend sur la mère ; le Coran ; les deux promesses (MOMENT FORT)
+== maison_nil, emotion, ambiance amb_grillons_nuit 0.15
+SA_MERE place 300
+BERCEAU place 470 1290
+NARRATEUR (voix off, sur SA_MERE) : [calm] Alors Allah lui {lumiere SA_MERE} inspire, au fond du cœur, ce qu'elle doit faire. {source "TAFSIR IBN KATHIR (28:7)"}
+SA_MERE intense
+CORAN (voix off, plan large) : Et Nous révélâmes à la mère de Moussa : « Allaite-le ! Et quand tu craindras pour lui, jette-le dans le flot ! Et n'aie pas peur et ne t'attriste pas ! Nous te le rendrons et ferons de lui un Messager. » {source "CORAN 28:7"}
+NARRATEUR (voix off, sur SA_MERE) : [softly] Jeter son bébé dans le fleuve. [pause] Pour n'importe quelle mère, c'est impossible. [pause] Mais Allah lui a fait *deux promesses*. Nous te le rendrons. Et Nous ferons de lui un Messager. {source "CORAN 28:7"}
+
+# LE COFFRE ET LA CORDE — de jour, elle prépare le coffre ; puis la rive au matin : le coffre flotte, retenu par la corde
+== maison_nil_jour, ambiance amb_oasis_oiseaux 0.15
+SA_MERE place 300
+COFFRE place 470 1290, ouvert
+NARRATEUR (voix off, plan large) : [calm] Sa maison est au bord du Nil. Elle prend un petit {cadre COFFRE} coffre, et elle y prépare un petit lit. {source "TAFSIR IBN KATHIR (28:7)"}
+== rive_maison_corde, ambiance amb_source_eau 0.25
+SA_MERE place 220
+COFFRE place 600 1284
+NARRATEUR (voix off, plan large) : [calm] Elle allaite son fils. Et chaque fois que quelqu'un de dangereux entre chez elle, elle le couche dans le coffre, le pose sur l'eau… et le retient par une {cadre COFFRE} corde, attachée près d'elle. {source "TAFSIR IBN KATHIR (28:7)"}
+
+# LE JOUR OÙ LA CORDE… — un soldat s'avance jusqu'à la porte ; sur la rive, la corde n'est pas attachée ; le courant emporte le coffre
+== ruelle, ambiance amb_vent_doux 0.2
+SOLDAT place 1000, tient la lance
+NARRATEUR (voix off, plan large) : [dark] Et un jour, {va SOLDAT 560} quelqu'un qu'elle redoute {son dv_porte_bois_1 0.12} entre dans la maison. {source "TAFSIR IBN KATHIR (28:7)"}
+== rive_maison, ambiance amb_source_eau 0.3
+SA_MERE place 220, pale
+COFFRE place 600 1284, corde
+NARRATEUR (voix off, plan large) : [dramatic] Elle couche l'enfant dans le coffre. Elle le pose sur l'eau. [pause] Et, troublée, elle oublie d'attacher {gros COFFRE} la *corde*. {source "TAFSIR IBN KATHIR (28:7)"}
+NARRATEUR (voix off, plan large) : [mysterious] Le courant prend le petit coffre. {derive COFFRE 1500 1250 10s} Il glisse entre les roseaux… s'éloigne… et disparaît. {source "TAFSIR IBN KATHIR (28:7)"}
+== nil_aube, ambiance amb_source_eau 0.3
+SA_MERE place 300, pale
+NARRATEUR (voix off, plan large) : [sad] Sur le fleuve, il n'y a plus rien. Plus de coffre. Plus de bébé. Seulement l'eau… qui continue de couler.
+
+# LE CŒUR VIDE — la mère seule sur la rive ; les pensées noires tournent autour d'elle, puis une lumière douce les chasse (MOMENT FORT)
+== nil_soir, emotion b, ambiance amb_vent_doux 0.25
+SA_MERE place 300, pale
+CORAN (voix off, plan large) : Et le cœur de la mère de Moussa devint vide. Peu s'en fallut qu'elle ne divulguât tout, si Nous n'avions pas renforcé son cœur pour qu'elle restât du nombre des croyants. {source "CORAN 28:10"}
+NARRATEUR (voix off, sur SA_MERE) : [sad] *Vide*. Vide de tout… sauf de son fils. Elle ne peut plus penser à rien d'autre. {source "TAFSIR IBN KATHIR (28:10)"}
+NARRATEUR (voix off, sur SA_MERE) : [dark] Et le Diable vient semer le {pensees SA_MERE} doute en elle. Elle se dit : « Qu'ai-je fait de mon fils ? S'il avait été tué ici, j'aurais au moins pu l'enterrer… au lieu de le jeter aux poissons du fleuve. » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+NARRATEUR (voix off, sur SA_MERE) : [softly] Mais Allah {repousse SA_MERE} {lumiere SA_MERE} renforce son cœur. Et elle tient {geste SA_MERE intense} bon. {source "CORAN 28:10"}
+
+# LA SŒUR — sur la rive, la grande sœur près de la mère ; puis elle suit le coffre de loin, le long du fleuve
+== nil, ambiance amb_oasis_oiseaux 0.25
+SA_MERE place 330
+SA_SOEUR place 560
+NARRATEUR (voix off, sur SA_SOEUR) : [calm] Elle a une fille, la grande sœur de Moussa, assez grande pour comprendre ce qu'on lui demande. {source "TAFSIR IBN KATHIR (28:11)"}
+CORAN (voix off, plan large) : Elle dit à sa sœur : « Suis-le ! » Elle l'aperçut alors de loin sans qu'ils ne s'en rendent compte. {source "CORAN 28:11"}
+NARRATEUR (voix off, sur SA_MERE) : [softly] « Cherche-le partout, lui dit sa mère. Écoute ce qu'on raconte. Est-ce qu'il est encore vivant ? » {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+== nil, ambiance amb_oasis_oiseaux 0.25
+SA_SOEUR place 120
+COFFRE place 440 1150
+NARRATEUR (voix off, plan large) : [mysterious] {derive COFFRE 1120 1130 12s} {derive SA_SOEUR 780 1340 12s} La jeune fille suit le coffre de loin, sans se faire remarquer. [pause] Et le coffre, lui, flotte droit vers… le palais de Pharaon. {source "TAFSIR AT-TABARI (28:11, IBN JOURAYJ) · TAFSIR IBN KATHIR (28:7)"}
+
+# LE QUAI DU PALAIS — les servantes puisent de l'eau ; le coffre arrive au pied des marches ; elles le tirent hors de l'eau
+== quai_palais, ambiance amb_source_eau 0.25
+SERVANTE place 440, jarre
+SERVANTE2 place 600, jarre
+COFFRE place -320 1300
+NARRATEUR (voix off, plan large) : [calm] {derive COFFRE 80 1292 5s} Au bord de l'eau, les servantes de la femme de Pharaon viennent puiser de l'eau. Elles voient le coffre arriver… et le {derive COFFRE 330 1268 2s} tirent hors du fleuve. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+COFFRE ferme
+NARRATEUR (voix off, sur COFFRE) : [mysterious] Elles vont l'ouvrir… quand l'une d'elles les arrête : {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+SERVANTE : [whispers] Attendez ! Il y a sûrement un trésor là-dedans. Si on l'ouvre nous-mêmes, notre maîtresse ne nous croira jamais. {source "IBN 'ABBAS (AN-NASA'I, AL-KOUBRA)"}
+
+# LE COULOIR — elles portent le coffre fermé le long d'un couloir à colonnes, rais de soleil
+== couloir_palais, ambiance amb_temple_echo 0.25
+SERVANTE place -300
+SERVANTE2 place 20
+COFFRE place -140 1322, porte
+NARRATEUR (voix off, plan large) : [calm] {va SERVANTE 600} {va SERVANTE2 920} {derive COFFRE 760 1322 6s} Alors elles portent le coffre, bien fermé, jusqu'à leur maîtresse : la femme de Pharaon. {source "TAFSIR IBN KATHIR (28:7)"}
+
+# ASIYA — la chambre d'Asiya, voiles qui ondulent ; les servantes posent le coffre devant elle et reculent
+== chambre_asiya, voiles, ambiance amb_vent_doux 0.12
+ASIYA place 340
+COFFRE place 560 1290, ferme
+SERVANTE place 760
+SERVANTE2 place 900
+NARRATEUR (voix off, sur ASIYA) : [mysterious] Elle s'appelle *Asiya*. {va SERVANTE 980} {va SERVANTE2 1120} [pause] Et elle va ouvrir le {cadre COFFRE} coffre qui va changer sa vie. {source "TAFSIR IBN KATHIR (28:9)"}

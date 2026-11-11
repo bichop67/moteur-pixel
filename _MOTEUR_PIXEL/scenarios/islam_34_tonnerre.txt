@@ -1,0 +1,25 @@
+# ISLAMARCADE — Short duo « Le tonnerre gronde ? Dis ça » — format CONSIGNE (frayeur + parole à dire), 30 s max (09/11/2026)
+# Image 0 : un éclair en gros plan « BOUM ! » (brique focus), sous la pluie, la nuit. La parole du tonnerre vient d'un
+# COMPAGNON ('Abdallah ibn az-Zoubayr) : c'est dit dans la voix et écrit à l'écran, jamais attribué au Prophète.
+# La pluie : parole du Prophète (Boukhari 1032). Aucun ange dessiné. Détails et grades : sources\fiches\ISL34.md
+
+TITRE: Le tonnerre gronde dis ca
+CODE: ISL34
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_tension
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: LE TONNERRE GRONDE ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: LE TONNERRE GRONDE ? / DIS ÇA !
+ICONE: eclair
+DUREE_FIN: 1.5
+
+== rue_proche_nuit, pluie
+PETIT (peur, panique) : [scared] {focus eclair "BOUM !"} Aaah ! Le *tonnerre* !
+GRAND (calme, stop) : [calm] Chut… *dis ça*.
+GRAND (explique, plan moyen) : [calm] Au tonnerre, un Compagnon arrêtait de parler et disait : {citation "LE COMPAGNON 'ABDALLAH IBN AZ-ZOUBAYR :" "« SOUBHANA LLADHI YOUSABBIHOU R-RA'DOU BI-HAMDIHI,"} « Soubhana lladhi yousabbihou r-ra'dou bi-hamdihi, {citation + "WAL-MALA'IKATOU MIN KHIFATIH. »"} wal-mala'ikatou min *khifatih*. » {source "AL-ADAB AL-MOUFRAD 723 · PAROLE D'UN COMPAGNON"}
+GRAND (schéma) : [softly] {citation "CE QUI VEUT DIRE :" "« GLOIRE À CELUI QUE LE TONNERRE GLORIFIE PAR SA LOUANGE,"} Gloire à Celui que le tonnerre glorifie par Sa louange, {citation + "ET AUSSI LES ANGES, SOUS L'EFFET DE SA CRAINTE. »"} et aussi les Anges, sous l'effet de Sa *crainte*. {source "AL-ADAB AL-MOUFRAD 723 · MOTS DU CORAN 13:13"}
+PETIT (question, bulle ?) : [curious] Et la *pluie* ?
+GRAND (content, nouveau schéma) : [warmly] {focus pluie "LA PLUIE TOMBE ?"} Le Prophète ﷺ disait : {focus ok "« SAYYIBAN NAFI'AN » // = (QUE CE SOIT) UNE PLUIE BÉNÉFIQUE"} « *Sayyiban nafi'an* » : une pluie bénéfique ! {source "BOUKHARI 1032"}
+FIN

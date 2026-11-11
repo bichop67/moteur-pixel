@@ -1,0 +1,89 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 15 : LA MER
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P15).
+# Voix : E14P15_CORAN, _HERAUT, _FILS_D_ISRAEL, _NARRATEUR, _PHARAON
+# La mer qui s'ouvre : {devient mer_ouverte 4} ; qui se referme : {devient rivage_mer 2.5} ; les flots : {vagues 300}.
+TITRE: Moussa - partie 15 - La mer
+CODE: E14P15
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tempete
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, HAROUN
+
+# LE DÉPART DE NUIT — le quartier se vide en silence ; une longue colonne sort sous la lune, menée par Moussa et Haroun
+== quartier_nuit, ambiance amb_grillons_nuit 0.2
+MOUSSA place -60
+HAROUN place -200
+ISRAELITE2 place 140
+ISRAELITE_F place 300
+ISRAELITE3 place 440
+MOUTON place 560
+ISRAELITE place 680
+ISRAELITE4 place 840
+CORAN (voix off, plan large) : {derive MOUSSA 1600 1320 14s} {derive HAROUN 1460 1320 14s} {va ISRAELITE2 1700} {va ISRAELITE_F 1800} {va ISRAELITE3 1900} {va MOUTON 2000} {va ISRAELITE 2100} {va ISRAELITE4 2200} Et Nous révélâmes à Moussa : « Pars de nuit avec Mes serviteurs, car vous serez poursuivis. » Puis, Pharaon envoya des rassembleurs dire dans les villes : {source "CORAN 26:52-53"}
+== avenue_palais, ambiance amb_vent_doux 0.2
+HERAUT place 540
+SOLDAT place 300, tient la lance
+SOLDAT2 place 780, tient la lance
+GARDE place 960, tient la lance
+HERAUT (crie, pointe, sur HERAUT) : [shouting] Ce sont, en fait, une bande peu nombreuse, mais ils nous irritent. Cependant, nous sommes tous vigilants. {source "CORAN 26:54-56"}
+
+# LA POURSUITE — au lever du soleil : la mer immense devant eux ; derrière, la poussière de l'armée à perte de vue ; panique
+== rivage_mer, armee 0.5, ambiance amb_vagues_mer 0.3
+MOUSSA place 520
+HAROUN place 380
+YOUCHA place 640 1300
+ISRAELITE place 180, peur
+ISRAELITE_F place 60, peur
+FILS_D_ISRAEL place -60, peur
+ISRAELITE2 place -180, peur
+MOUTON place 280 1300
+CORAN (voix off, plan large) : Au lever du soleil, ils les poursuivirent. {son an_chevaux_1 0.08} Puis, quand les deux partis se virent, les compagnons de Moussa dirent : {source "CORAN 26:60-61"}
+FILS_D_ISRAEL (crie, sur FILS_D_ISRAEL) : [shouting] Nous allons être rejoints ! {source "CORAN 26:61"}
+CORAN (voix off, sur MOUSSA) : Il dit : « Jamais, car j'ai avec moi mon Seigneur qui va me guider. » {geste MOUSSA intense} {source "CORAN 26:62"}
+NARRATEUR (voix off, plan large) : [dramatic] Devant eux, la mer. Derrière eux, l'armée de Pharaon. Aucune issue. {source "CORAN 26:61-63"}
+NARRATEUR (voix off, sur YOUCHA) : [calm] Son jeune compagnon, Youcha', lui demande : « Ô prophète d'Allah, où ton Seigneur t'a-t-Il ordonné {cadre MOUSSA} d'aller ? » Moussa répond : « Il m'a ordonné de frapper la {large} mer. » « Alors, {cadre YOUCHA} frappe-la ! » {source "TAFSIR IBN KATHIR (26:63)"}
+
+# LA MER S'OUVRE — un grondement ; la mer se fend ; des murailles d'eau comme des montagnes ; douze chemins secs (MOMENT FORT)
+== rivage_mer, emotion b, ambiance amb_vagues_mer 0.35
+MOUSSA place 560, intense
+HAROUN place 400
+YOUCHA place 680 1300
+ISRAELITE place 200
+ISRAELITE_F place 80
+FILS_D_ISRAEL place -40
+CORAN (voix off, plan large) : Alors Nous révélâmes à Moussa : « Frappe la mer de ton bâton ! » Elle se {son imp_grondement_1 0.12} {devient mer_ouverte 4} fendit et alors chaque versant fut comme une énorme montagne. {source "CORAN 26:63"}
+== mer_ouverte, emotion b, ambiance amb_vent_fort 0.25
+MOUSSA place 600, intense
+HAROUN place 440
+YOUCHA place 760 1300
+ISRAELITE place 220
+ISRAELITE_F place 80
+FILS_D_ISRAEL place -60
+ISRAELITE2 place -200
+NARRATEUR (voix off, plan large) : [dramatic] La mer s'ouvre en douze chemins. Un pour chaque tribu des fils d'Israël. Le vent souffle sur le fond, et le sèche. Et dans les murs d'eau, des ouvertures, pour que chacun puisse voir les autres. {source "TAFSIR IBN KATHIR (26:63, IBN 'ABBAS, AS-SOUDDI)"}
+NARRATEUR (voix off, plan large) : [calm] {derive MOUSSA 1600 1320 9s} {derive HAROUN 1460 1320 9s} {derive YOUCHA 1700 1300 9s} {va ISRAELITE 1800} {va ISRAELITE_F 1900} {va FILS_D_ISRAEL 2000} {va ISRAELITE2 2100} Les fils d'Israël traversent. Et quand le dernier est passé, Moussa veut refrapper la mer pour la refermer. Mais Allah lui dit : {source "TAFSIR IBN KATHIR (44:24)"}
+CORAN (voix off, plan large) : Laisse la mer calme ; ce sont des armées vouées à la noyade. {source "CORAN 44:24"}
+
+# PHARAON DANS LA MER — Pharaon et son armée s'engouffrent dans les chemins ; les murailles se referment ; Pharaon seul dans les flots
+== mer_ouverte, ambiance amb_vent_fort 0.25
+PHARAON place -220, enerve
+CHEVAL_NOIR place -360
+SOLDAT place -480, tient la lance
+SOLDAT2 place -600, tient la lance
+GARDE place -720, tient la lance
+CORAN (voix off, plan large) : {va PHARAON 1100} {va CHEVAL_NOIR 940} {va SOLDAT 420} {va SOLDAT2 280} {va GARDE 140} Et Nous fîmes traverser la mer aux Enfants d'Israël. Pharaon et ses armées les poursuivirent avec acharnement et inimitié. Puis, quand la {son imp_grondement_1 0.12} {devient rivage_mer_jour 2.5} {disparait CHEVAL_NOIR} {disparait SOLDAT} {disparait SOLDAT2} {disparait GARDE} {vagues 286} noyade l'eut atteint, il dit : {source "CORAN 10:90"}
+PHARAON (peur, doua, sur PHARAON) : [shouting] Je crois qu'il n'y a d'autre divinité que Celui en qui ont cru les enfants d'Israël. Et je suis du nombre des soumis ! {source "CORAN 10:90"}
+CORAN (voix off, plan large) : Maintenant ? Alors qu'auparavant tu as désobéi et que tu as été du nombre des corrupteurs ! {disparait PHARAON} Nous allons aujourd'hui épargner ton corps, afin que tu deviennes un signe à tes successeurs. Cependant beaucoup de gens ne prêtent aucune attention à Nos signes. {source "CORAN 10:91-92"}
+
+# LE RIVAGE — la mer redevenue calme ; de loin, un corps rejeté par les vagues ; Moussa et les siens, sauvés ; 'Achoura
+== rivage_mer_jour, ambiance amb_vagues_mer 0.3
+PHARAON place 380 1268, allonge
+NARRATEUR (voix off, plan large) : [softly] Le roi qui se prenait pour un dieu… n'est plus qu'un corps rejeté par les vagues. {source "CORAN 10:92"}
+== desert_aube, emotion, ambiance amb_vent_doux 0.2
+MOUSSA place 560, intense
+HAROUN place 400
+ISRAELITE place 760
+ISRAELITE_F place 880
+ISRAELITE2 place 220
+NARRATEUR (voix off, plan large) : [warmly] Ce jour-là, Moussa jeûna pour remercier Allah. Des siècles plus tard, à Médine, le Prophète trouvera les juifs en train de jeûner ce jour-là. Il dira : « Je suis plus proche de Moussa qu'eux. » Et il jeûnera, lui aussi. C'est le jour de 'Achoura. {source "BOUKHARI 3397"}

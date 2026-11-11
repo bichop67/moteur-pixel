@@ -1,0 +1,24 @@
+# ISLAMARCADE — Short duo « Ton proche est malade ? Dis ça 7 fois » — format CONSIGNE (incident + parole à dire), 30 s max (10/11/2026)
+# Image 0 : Petit malade, le thermomètre monte ({fievre PETIT}, déjà fait). Grand lui rend visite et dit la formule :
+# le hadith ligne par ligne (brique citation), puis on COMPTE les 7 fois avec le sens (brique grille).
+# Sources : Abou Dawoud 3106 (sahih, al-Albani), Tirmidhi 2083, vérifiées sur sunnah.com le 10/11/2026. Détails : sources\fiches\ISL41.md
+
+TITRE: Ton proche est malade dis ca 7 fois
+CODE: ISL41
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TON PROCHE EST MALADE ? / DIS ÇA 7 FOIS !
+ACCROCHE_DUREE: 3.0
+MINIATURE: IL EST MALADE ? / DIS ÇA 7 FOIS !
+ICONE: thermometre
+DUREE_FIN: 1.5
+
+== chambre
+PETIT (pleure) : [weakly] {fievre PETIT} Je suis trop *malade*…
+GRAND (calme, index) : [warmly] Je dis *ça*, sept fois.
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« CELUI QUI VISITE UN MALADE DONT L'HEURE DE LA MORT N'EST PAS VENUE, ET DIT AUPRÈS DE LUI, SEPT FOIS :"} celui qui visite un malade, et dit sept fois : {citation "AS'ALOU ALLAHA AL-'ADHIM, RABBA AL-'ARCHI AL-'ADHIM, AN YACHFIYAK,"} « As'alou Allaha al-'Adhim, Rabba al-'archi al-'adhim, an *yachfiyak* »… {source "ABOU DAWOUD 3106"}
+GRAND (invoque, nouveau schéma) : [calm] {grille 7 "FOIS" "AUPRÈS DU MALADE"} Je demande à Allah {grille coche 2} l'Immense, Seigneur du Trône {grille coche 5} immense, de te {grille coche 7} *guérir*… {source "ABOU DAWOUD 3106"}
+GRAND (nouveau schéma) : [warmly] {citation "LE PROPHÈTE ﷺ A DIT :" "« … ALLAH LE GUÉRIT DE CETTE MALADIE. »"} {citation lueur or} Allah le guérit de cette maladie, si l'heure de sa mort n'est pas *venue* ! {source "ABOU DAWOUD 3106"}
+FIN

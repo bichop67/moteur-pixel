@@ -1,0 +1,51 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 9 : LA TERRE LAVÉE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 9 - La terre lavée
+CODE: GOGP9
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_espoir
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+QUEUE: 6.5
+
+== gog_plaine_aube, 1s, bande, ambiance amb_vent_doux 0.15
+ISSA place -320
+CROYANT place -460
+PERE_CROYANT place -600
+NARRATEUR (voix off) : [sad] {derive ISSA 420 8s} {va CROYANT 270 8s} {va PERE_CROYANT 130 8s} 'Issa et ses compagnons redescendent. Mais sur la terre… il n'y a pas un seul endroit, même grand comme la main, qui ne soit rempli de leur *odeur*. {source "MOUSLIM 2937"}
+ISSA intense
+NARRATEUR (voix off) : [warmly] {cadre ISSA} Alors ils implorent Allah, encore une fois. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [calm] {large} {oiseaux_emportent 10} {son an_oiseaux_envol_1 0.1} Et Allah envoie des oiseaux. Des oiseaux qui ressemblent à des cous de chameaux. Ils les emportent… et ils les jettent là où Allah *veut*. {source "MOUSLIM 2937"}
+
+# LA PLUIE — puis la terre comme un miroir
+== gog_plaine, pluie, ambiance amb_pluie 0.3
+NARRATEUR (voix off) : [calm] Puis Allah envoie une pluie. Une pluie dont rien ne protège : ni une maison, ni une {devient gog_miroir 6} tente. Elle lave la terre entière… jusqu'à la laisser comme un *miroir*. {source "MOUSLIM 2937"}
+
+# LA TERRE BÉNIE — la grenade immense
+== gog_benie, 1s, oiseaux, ambiance amb_oasis_oiseaux 0.25
+PERE_CROYANT place 1090
+MERE_CROYANTE place 1210
+ENFANT_A place 1010
+VACHE place 330
+NARRATEUR (voix off) : [warmly] Et il est dit à la terre : « Fais pousser tes fruits… et rends ta *bénédiction*. » {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [warmly] {cadre PERE_CROYANT} Alors là, écoute bien. Ce jour-là, tout un groupe mangera d'une seule *grenade*. Et ils s'abriteront à l'ombre de son écorce. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [warmly] {large} Le lait d'une seule chamelle suffira à une foule. Celui d'une vache, à une tribu. Et celui d'une brebis, à tout un clan. {source "MOUSLIM 2937"}
+
+# UN FEU, LA NUIT
+== desert_nuit, feu_camp, ambiance amb_feu_camp 0.25
+CROYANT place 330
+GENS place 760
+NARRATEUR (voix off) : [calm] Et les arcs, les flèches, les boucliers de Ya'jouj et Ma'jouj ? Les musulmans en feront du feu… pendant *sept ans*. {source "IBN MAJAH 4076"}
+
+== gog_kaaba, tawaf, ambiance amb_foule_murmure 0.15
+NARRATEUR (voix off) : [calm] Et après la sortie de Ya'jouj et Ma'jouj, on fera encore le pèlerinage et la 'oumra, à la Maison d'Allah. {source "BOUKHARI 1593"}
+
+== gog_benie, feuilles, ambiance amb_vent_doux 0.2
+NARRATEUR (voix off) : [softly] Puis, un jour, Allah enverra un vent agréable, qui prendra l'âme de chaque croyant. Il ne restera sur terre que les pires des gens. [pause] Et c'est sur eux que l'Heure se lèvera. {source "MOUSLIM 2937"}
+
+# LE BARRAGE, LA NUIT — dernière image, fondu au noir lent
+== gog_barrage_nuit, vent, ambiance amb_vent_fort 0.12
+NARRATEUR (voix off) : [calm] Voilà l'histoire de Ya'jouj et Ma'jouj, telle que la racontent le Coran… et le Prophète ﷺ.
+NARRATEUR (voix off) : [mysterious] Et le barrage ? [pause] Où est-il ? Le Coran ne le dit pas. Et le Prophète ne nous l'a pas dit non plus.
+NARRATEUR (voix off) : [dark] Mais souviens-toi de ce qu'a dit Dhoul-Qarnayn, devant son barrage de fer : [pause] « La promesse de mon Seigneur est {noir 5} *vérité*. » {source "CORAN 18:98"}

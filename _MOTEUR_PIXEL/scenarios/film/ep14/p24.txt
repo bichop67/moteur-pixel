@@ -1,0 +1,50 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 24 : LA FIN DE MOUSSA
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P24). Voix : E14P24_NARRATEUR, _CORAN
+# Moussa, Haroun, le Prophète (jamais ﷺ écrit à l'écran), l'ange : orbes. Rien d'autre n'est montré de la tombe qu'une
+# lumière douce. Fin : le Nil de la toute première image, la caméra recule, fondu au noir lent (5 s), QUEUE de 6,5 s.
+TITRE: Moussa - partie 24 - La fin de Moussa
+CODE: E14P24
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tristesse
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, HAROUN
+QUEUE: 6.5
+
+# HAROUN — au flanc de la montagne, un soir : l'orbe de Haroun s'éteint doucement ; Moussa près de lui (MOMENT FORT)
+== montagne_sinai_soir, emotion, ambiance amb_vent_doux 0.2
+MOUSSA place 360
+HAROUN place 540
+NARRATEUR (voix off, plan large) : [softly] Dans ce désert, Haroun {disparait HAROUN 4s} meurt le premier. Puis, trois ans plus tard, vient le tour de Moussa. {source "TAFSIR IBN KATHIR (5:26)"}
+
+# ALORS, MAINTENANT — au soleil couchant : l'ange vient à Moussa ; la vision du taureau ; « Alors… maintenant. »
+== desert_soir, emotion, ambiance amb_vent_doux 0.2
+MOUSSA place 420
+ANGE_MORT place 700
+NARRATEUR (voix off, plan large) : [softly] Un jour, l'ange de la {apparait ANGE_MORT 1.5s} mort vient à lui. Et Allah lui fait dire : « Pose ta main sur le dos d'un {tableau taureau 6s} taureau : pour chaque poil sous ta main, tu auras une année de vie. » {source "BOUKHARI 3407"}
+NARRATEUR (voix off, sur MOUSSA) : [softly] Moussa demande : « Seigneur… et ensuite ? » « Ensuite, la mort. » [pause] Alors Moussa répond : « Alors… {geste MOUSSA intense} maintenant. » {source "BOUKHARI 3407"}
+
+# PRÈS DE LA TERRE SAINTE — il demande à mourir près de la Terre sainte, à un jet de pierre
+== terre_sainte_soir, emotion b, ambiance amb_vent_doux 0.2
+MOUSSA place 260
+NARRATEUR (voix off, plan large) : [sad] {derive MOUSSA 480 1320 6s} Il demande seulement à Allah de mourir près de la Terre sainte, à un jet de pierre. {source "BOUKHARI 3407"}
+
+# LA DUNE ROUGE — la nuit, au bord de la route, sous la lune ; le Prophète passe ; une lumière douce monte de la tombe
+== dune_rouge, emotion b, ambiance amb_nuit_desert 0.25
+PROPHETE place -560 1300
+NARRATEUR (voix off, plan large) : [warmly] Des siècles plus tard, le Prophète ﷺ dira : « Si j'étais là-bas, je vous montrerais sa {lueur 680 1200} tombe, au bord de la route, sous la dune rouge. » {source "BOUKHARI 3407"}
+NARRATEUR (voix off, plan large) : [mysterious] La nuit du Voyage nocturne, le {derive PROPHETE 1000 1300 5.6s} Prophète passe près de cette dune rouge. Moussa est là… debout, en prière dans sa tombe. {source "MOUSLIM 2375"}
+
+# LES CIEUX — le ciel immense ; l'échelle de lumière ; Moussa et le Prophète se rencontrent ; « encore et encore »
+== cieux, echelle, emotion b, ambiance amb_vent_doux 0.1
+PROPHETE place 520 1150
+MOUSSA place 880 1150
+NARRATEUR (voix off, plan large) : [warmly] Puis, dans les cieux, Moussa lui demande : « Qu'est-ce qu'Allah a prescrit à ta communauté ? » « Cinquante prières. » « Retourne vers ton Seigneur, et demande-Lui d'alléger : ta communauté n'en sera pas capable. » {source "MOUSLIM 162"}
+NARRATEUR (voix off, plan large) : [softly] Et il le {derive PROPHETE 680 460 1.4s} renvoie, encore et encore… jusqu'à {derive PROPHETE 560 1150 1.6s} ce qu'il ne reste que cinq prières. Cinq, qui en valent {geste PROPHETE intense} {geste MOUSSA intense} cinquante. {source "BOUKHARI 349"}
+
+# LE FLEUVE, UNE DERNIÈRE FOIS — le Nil à l'aube, la brume, le petit coffre qui flotte avec sa minuscule orbe dorée ;
+# les souvenirs passent ; la caméra recule ; fondu au noir lent
+== nil_aube, emotion, oiseaux, ambiance amb_oasis_oiseaux 0.3
+COFFRE place 330 1150, ouvert
+NARRATEUR (voix off, sur COFFRE) : [softly] {derive COFFRE 640 1150 16s} Le bébé jeté au fleuve. Le prince {large} en {souvenir COFFRE desert_aube -90 22 7s} fuite. Le berger de {souvenir COFFRE collines_madyan -30 28 6.2s} Madyan. L'homme qui a parlé à son {souvenir COFFRE vallee_tuwa 30 22 4.6s} Seigneur… et devant qui la mer s'est {souvenir COFFRE mer_ouverte 90 28 3.4s} ouverte. {source "CORAN 28:7 · 20:39"}
+CORAN (voix off, plan large) : Nous te le rendrons et ferons de lui un {noir 5} Messager. {source "CORAN 28:7 (EXTRAIT)"}

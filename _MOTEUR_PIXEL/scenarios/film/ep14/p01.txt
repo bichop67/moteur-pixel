@@ -1,0 +1,28 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 1 : L'OUVERTURE (cold open)
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P1). Voix : E14P1_NARRATEUR.mp3
+TITRE: Moussa - partie 1 - L'ouverture
+CODE: E14P1
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: SA_MERE, COFFRE
+
+# LE FLEUVE — le Nil au lever du jour, la maison de briques, le coffre au bord de l'eau, la mère sur la rive
+== nil_aube, 3s, oiseaux, ambiance amb_oasis_oiseaux 0.35
+SA_MERE place 240
+COFFRE place 330 1150
+NARRATEUR (voix off, sur SA_MERE) : [dark] Une mère jette son bébé dans le fleuve. {source "CORAN 28:7"}
+NARRATEUR (voix off, sur COFFRE) : [softly] Elle l'a couché dans un petit coffre… elle l'a posé sur l'eau… et le courant {derive COFFRE 980 1150 10s} l'emporte. {source "CORAN 20:39 · TAFSIR IBN KATHIR (28:7)"}
+SA_MERE pale
+NARRATEUR (voix off, sur SA_MERE, gros plan) : [dark] Pas pour se débarrasser de lui. [pause] Pour le *sauver*. {source "CORAN 28:7"}
+NARRATEUR (voix off, plan large) : [dark] Car dans ce pays, chaque bébé garçon de son peuple est condamné à mourir. {source "CORAN 28:4"}
+
+# LE PALAIS AU LOIN — le coffre dérive vers le palais de Pharaon ; gardes immobiles ; gros plan sur la lueur du coffre
+== quai_palais_aube, ambiance amb_oasis_oiseaux 0.25
+COFFRE place -320 1176
+SOLDAT place 1060, tient la lance
+SOLDAT2 place 1290, tient la lance
+NARRATEUR (voix off, plan large) : [mysterious] Et le fleuve emporte ce petit coffre… {derive COFFRE 70 1262 11s} tout droit vers le palais de l'homme qui veut le tuer. {source "CORAN 20:39"}
+NARRATEUR (voix off, sur COFFRE, gros plan) : [mysterious] Comment ce bébé va-t-il survivre ? [pause] Et comment va-t-il devenir… l'homme que Pharaon redoute le plus au monde ? {source "CORAN 28:6"}
+NARRATEUR (voix off, plan large) : [calm] Ce bébé s'appelle *Moussa*. [pause] Voici son histoire, telle que la racontaient les savants d'autrefois.

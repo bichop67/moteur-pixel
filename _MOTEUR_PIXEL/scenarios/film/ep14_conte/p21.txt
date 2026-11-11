@@ -1,0 +1,93 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 21 : LA TERRE SAINTE
+# Un seul conteur ; FILS_D_ISRAEL : ses paroles du Coran dites en mots simples (NOUVELLE voix à générer).
+# Racontés : 5:20-21, 5:23 (les deux hommes pieux), 5:25-26, 2:60, 2:57, 2:61. Moussa, Haroun, Youcha' : orbes.
+TITRE: Moussa conte - partie 21 - La terre sainte
+CODE: E14P21
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_tristesse
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# ENTREZ ! — au bord de la terre verte, les murailles au loin ; Moussa face au peuple ; deux hommes s'avancent ; le peuple
+# recule et s'assoit par terre
+== terre_sainte, ambiance amb_vent_doux 0.15
+HAROUN place 20
+MOUSSA place 150
+YOUCHA place 560
+HOMME_PIEUX place 680
+FILS_D_ISRAEL place 820
+ISRAELITE place 940
+ISRAELITE_F place 1060
+GENS place 1180
+VIEILLARD place 1300
+NARRATEUR (voix off) : [calm] Moussa a dit à son peuple : « Ô mon peuple, souvenez-vous du bienfait d'Allah sur vous : Il a fait naître parmi vous des prophètes, et Il a fait de vous des rois. Ô mon peuple, entrez dans la terre sainte qu'Allah vous a destinée. Et ne revenez pas en arrière… sinon vous serez perdants. » {source "CORAN 5:20-21 (EXTRAIT)"}
+FILS_D_ISRAEL (peur) : [afraid] Ô Moussa ! Il y a là-bas un peuple redoutable. On n'y entrera jamais tant qu'ils y sont. S'ils en sortent… là, on entrera. {source "CORAN 5:22"}
+NARRATEUR (voix off) : [calm] Mais deux hommes {derive YOUCHA 380 1320 2.5s} {va HOMME_PIEUX 480} qui craignaient Allah, et qu'Allah avait comblés, ont {regarde HOMME_PIEUX droite} dit : « Entrez chez eux par la porte ! Une fois entrés, c'est vous qui {geste HOMME_PIEUX pointe} gagnerez. Et c'est en Allah qu'il faut avoir confiance, si vous êtes croyants. » {source "CORAN 5:23"}
+FILS_D_ISRAEL (fier, bras croises) : [arrogant] {geste HOMME_PIEUX neutre} Ô Moussa ! On n'y entrera {derive ISRAELITE 1000 1300 1.6s} {derive ISRAELITE_F 1130 1300 1.6s} {derive GENS 1250 1300 1.6s} jamais, tant qu'ils seront là. Vas-y, toi et ton Seigneur, et combattez tous les deux. Nous, on reste ici ! {source "CORAN 5:24"}
+FILS_D_ISRAEL assis par terre
+ISRAELITE assis par terre
+GENS assis par terre
+VIEILLARD assis par terre
+NARRATEUR (voix off) : [sad] Moussa a dit : « Seigneur, je n'ai de pouvoir que sur moi-même et sur mon frère. Sépare-nous de ces gens pervers ! » Et Allah a dit : « Eh bien, ce pays leur sera interdit pendant quarante ans. Ils vont errer sur la terre. Alors ne sois pas triste pour ces gens pervers. » {source "CORAN 5:25-26"}
+
+# QUARANTE ANS — à l'aube, la caravane se met en marche ; le soir tombe ; et le soir, ils sont exactement au même endroit
+== desert_aube, 2.5s, ambiance amb_vent_desert 0.2
+VIEILLARD place -200, se retourne
+ISRAELITE_F place -60, se retourne
+ISRAELITE3 place 80, se retourne
+GENS place 220, se retourne
+ANE_ROCHER place 380, se retourne
+ISRAELITE place 560, se retourne
+MOUSSA place 720
+NARRATEUR (voix off) : [sad] Quarante ans. Chaque matin, ils se mettaient en {va VIEILLARD 500 7s} {va ISRAELITE_F 640 7s} {va ISRAELITE3 780 7s} {va GENS 920 7s} {va ANE_ROCHER 1080 7s} {va ISRAELITE 1260 7s} {derive MOUSSA 1420 1320 7s} marche. Et chaque {devient desert_soir 2.5} soir… ils n'étaient arrivés nulle part. {source "TAFSIR IBN KATHIR (5:26, IBN 'ABBAS) · TAFSIR AT-TABARI (5:26, MOUJAHID)"}
+
+# … AU MÊME ENDROIT — plan muet : le soir, la caravane est revenue à la même place, près du même rocher
+== desert_soir, 4.5s, ambiance amb_vent_desert 0.2
+VIEILLARD place -200, assis par terre, se retourne
+ISRAELITE_F place -60, assis par terre, se retourne
+ISRAELITE3 place 80, se retourne
+GENS place 220, assis par terre, se retourne
+ANE_ROCHER place 380, se retourne
+ISRAELITE place 560, se retourne
+MOUSSA place 720
+
+# LES DOUZE SOURCES — le désert brûlant, le peuple assoiffé ; on décharge le rocher ; Moussa le frappe : douze sources ;
+# chaque tribu court vers la sienne
+== desert, ambiance amb_vent_desert 0.18
+ANE_ROCHER place 790
+ANE place 790
+ROCHER place 600 1250
+BATON place 230 1316
+MOUSSA place 160
+ISRAELITE3 place 920, assis par terre
+ISRAELITE_F place 1030, triste
+GENS place 1140, assis par terre
+VIEILLARD place 1250, assis par terre
+ISRAELITE place 1350, triste
+NARRATEUR (voix off) : [warmly] Et pourtant, même dans ce désert, Allah ne les a {apparait ANE} {apparait ROCHER} {disparait ANE_ROCHER} pas abandonnés. {source "TAFSIR IBN KATHIR (2:57)"}
+NARRATEUR (voix off) : [warmly] Quand Moussa a demandé de l'eau pour son peuple, {derive MOUSSA 420 1320 2s} {derive BATON 490 1316 2s} Allah lui a dit : « Frappe le rocher avec ton {derive BATON 560 1300 0.5s} {son imp_marteau_pierre_1 0.03} bâton ! » Et d'un coup… {sources 600 1240} {son amb_source_eau 0.08} douze sources ont {va ISRAELITE_F 690} {va ISRAELITE 520} jailli ! Et chaque tribu savait où aller {geste ISRAELITE3 content} boire. {source "CORAN 2:60 (EXTRAIT)"}
+
+# LA CARAVANE — au soleil couchant, l'âne porte le rocher avec eux
+== desert_soir, ambiance amb_vent_desert 0.18
+ANE_ROCHER place -300
+VIEILLARD place -460
+ISRAELITE_F place -620
+MOUSSA place -120
+NARRATEUR (voix off) : [warmly] {va ANE_ROCHER 700 6s} {va VIEILLARD 540 6s} {va ISRAELITE_F 380 6s} {derive MOUSSA 880 1320 6s} Ils emportaient avec eux un rocher, porté par une bête. À chaque halte, Moussa le frappait… et l'eau jaillissait. {source "TAFSIR IBN KATHIR (5:26 · 2:60)"}
+
+# LE NUAGE, LA MANNE ET LES CAILLES — au camp : un nuage immense étend son ombre ; une rosée blanche couvre le sol ; des
+# cailles se posent par dizaines ; puis la plainte
+== camp_desert, ambiance amb_vent_doux 0.15
+MOUSSA place 160
+ISRAELITE3 place 420
+ISRAELITE_F place 560
+FILS_D_ISRAEL place 760
+GENS place 900
+VIEILLARD place 1040
+ISRAELITE place 1180
+NARRATEUR (voix off) : [warmly] Allah les a couverts de {nuage} l'ombre d'un nuage. Il a fait descendre sur eux la {manne} manne, et les {cailles} cailles : « Mangez des bonnes choses que Nous vous avons {geste ISRAELITE3 content} {geste ISRAELITE_F content} données ! » {source "CORAN 2:57 (EXTRAIT)"}
+FILS_D_ISRAEL (enerve) : [annoyed] Ô Moussa ! On n'en peut plus de manger toujours la même chose ! Demande à ton Seigneur de nous faire pousser de la terre des légumes, des concombres, de l'ail, des lentilles et des oignons ! {source "CORAN 2:61"}
+NARRATEUR (voix off) : [calm] Et Moussa leur a répondu : « Vous voulez échanger ce qui est meilleur… contre ce qui est moins bon ? » {source "CORAN 2:61 (EXTRAIT)"}

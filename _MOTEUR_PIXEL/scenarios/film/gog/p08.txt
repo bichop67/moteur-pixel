@@ -1,0 +1,45 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 8 : LE SIÈGE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 8 - Le siège
+CODE: GOGP8
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_tristesse
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# SUR LE MONT, LA NUIT — l'orbe de 'Issa et les croyants ; en bas, la plaine couverte (MOMENT FORT)
+== gog_tour_nuit, 1.5s, plaine_horde, ambiance amb_foule_lointaine 0.3
+ISSA place 540
+CROYANT place 250
+PERE_CROYANT place 820
+MERE_CROYANTE place 950
+NARRATEUR (voix off) : [dark] Pendant ce temps, sur le Mont… 'Issa, le prophète d'Allah, et ses compagnons sont *assiégés*. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [sad] Et le siège est si dur… que le Prophète a dit à ses compagnons : une tête de taureau vaudra mieux, pour l'un d'eux, que cent pièces d'or pour l'un de vous aujourd'hui. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [dark] {large} En bas, des ennemis à perte de vue. Et personne n'a la force de les combattre. [pause] Alors qu'est-ce qu'il leur reste ? {source "MOUSLIM 2937"}
+ISSA intense
+NARRATEUR (voix off) : [warmly] {cadre ISSA} Il leur reste *Allah*. [pause] 'Issa et ses compagnons se tournent vers Lui… et ils L'implorent. {source "MOUSLIM 2937"}
+NARRATEUR (voix off) : [mysterious] Et Allah répond. [pause] Pas avec une armée. [pause] Avec… des *vers*. {source "MOUSLIM 2937"}
+
+# L'AUBE — plus rien ne bouge
+== gog_tour_aube, plaine_horde, ambiance amb_vent_doux 0.12
+ISSA place 540
+CROYANT place 250
+PERE_CROYANT place 820
+MERE_CROYANTE place 950
+NARRATEUR (voix off) : [dark] Des vers, qu'Allah envoie dans leurs cous. Et au {horde_fige} matin… Ya'jouj et Ma'jouj sont morts. Tous. D'un seul coup. Comme meurt une seule personne. {source "MOUSLIM 2937"}
+
+# LE REMPART D'UNE FORTERESSE — le silence
+== gog_rempart_aube, 2s, plaine_fige, ambiance amb_vent_doux 0.12
+CROYANT place 300
+GENS place 470
+MESSAGER place 800
+NARRATEUR (voix off) : [mysterious] Et dans les villes et les forteresses, au matin, les musulmans n'entendent plus rien. Plus un *bruit*. [pause] Alors ils disent : {source "IBN MAJAH 4079"}
+CROYANT (question) : [low] Qui est prêt à donner sa vie… pour aller voir ce qu'ils ont fait ? {source "IBN MAJAH 4079"}
+NARRATEUR (voix off) : [calm] {va MESSAGER 1750 6s} Un homme descend. Seul. Prêt à mourir. {source "IBN MAJAH 4079"}
+
+# LA PLAINE — il avance seul ; au loin, une longue bande sombre, immobile
+== gog_plaine_aube, bande, ambiance amb_vent_doux 0.12
+MESSAGER place -320
+NARRATEUR (voix off) : [mysterious] {va MESSAGER 620 7s} Et il les trouve… morts. Alors il crie vers les siens : {source "IBN MAJAH 4079"}
+MESSAGER (victoire) : [shouting] Réjouissez-vous ! Votre ennemi a péri ! {source "IBN MAJAH 4079"}

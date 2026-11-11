@@ -1,0 +1,6 @@
+[
+ {"nom": "profil", "classe": "Talon", "args": ["talons", "profil"], "t": {"feu": 1.2, "crie": 2.6}, "u": [0.8, 3.4]},
+ {"nom": "dessus", "classe": "Talon", "args": ["talons ongle", "dessus"], "t": {"refais": 1.3}, "u": [1.0, 3.2]},
+ {"nom": "ponce", "classe": "Talon", "args": ["talons ponce", "ponce"], "u": [0.3, 2.0]},
+ {"nom": "eau", "classe": "Talon", "args": ["talons eau", "eau"], "u": [0.7, 2.4]}
+]

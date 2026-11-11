@@ -1,0 +1,27 @@
+# ISLAMARCADE — Short duo « Un chien aboie la nuit ? Dis ça » — format CONSIGNE (frayeur + parole à dire), 30 s max (09/11/2026)
+# Image 0 : un chien en gros plan « OUAF ! OUAF ! » (brique focus, objet « chien »), la nuit. Le hadith dans un cadre
+# (brique citation). RIEN n'est dessiné de ce que les bêtes voient : le texte ne le dit pas pour les chiens.
+# Sources : Abou Dawoud 5103 (sahih, al-Albani), Boukhari 3303, vérifiées sur sunnah.com le 09/11/2026. Détails : sources\fiches\ISL36.md
+
+TITRE: Un chien aboie la nuit dis ca
+CODE: ISL36
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_mystere
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: UN CHIEN ABOIE LA NUIT ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: UN CHIEN ABOIE LA NUIT ? / DIS ÇA !
+ICONE: lune
+DUREE_FIN: 1.5
+
+== rue_proche_nuit
+PETIT (peur) : [scared] {focus chien "OUAF ! OUAF !"} Ce chien… il aboie *toute* la nuit !
+GRAND (calme, index) : [calm] Dis : *A'oudhou billah*.
+PETIT (choc, bulle ?) : [confused] Pour un *chien* ?!
+GRAND (explique, plan moyen) : [serious] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« QUAND VOUS ENTENDEZ LES CHIENS ABOYER ET LES ÂNES BRAIRE, LA NUIT,"} quand vous entendez les chiens aboyer et les ânes braire, la nuit, {citation "CHERCHEZ REFUGE AUPRÈS D'ALLAH,"} cherchez refuge auprès d'*Allah*… {source "ABOU DAWOUD 5103"}
+GRAND (schéma) : {citation + "CAR ILS VOIENT CE QUE VOUS NE VOYEZ PAS. »"} car ils voient ce que vous ne voyez *pas*. {source "ABOU DAWOUD 5103"}
+PETIT (peur, bulle !) : [nervous] Ils voient… *quoi* ?!
+GRAND (calme) : [calm] Ce que tu ne vois pas. Alors *dis-le* !
+PETIT (peur, nouveau schéma) : [whispering] {focus PETIT peur "A'OUDHOU BILLAHI // MINA CH-CHAYTANI R-RAJIM"} A'oudhou billahi mina ch-chaytani {focus ok} *r-rajim* ! {source "ABOU DAWOUD 5103"}
+FIN

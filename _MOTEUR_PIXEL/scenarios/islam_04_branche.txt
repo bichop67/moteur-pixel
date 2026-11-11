@@ -1,0 +1,43 @@
+# ISLAMARCADE — Short 4 : « Allah l'a pardonné pour une branche ?! » — 30 s maximum
+# Version du 01/11/2026 (l'ancienne « Il a pousse une branche » est dans le zip du moteur) : accroche choc dite par
+# GRAND, pas de « 1/2 » à l'écran, histoire MONTRÉE de près (la branche d'épines en travers du chemin, la lumière quand
+# Allah lui pardonne) et aujourd'hui : une grand-mère qui ne peut pas passer, PETIT dégage la trottinette, elle passe.
+# Sources vérifiées sur sunnah.com le 01/11/2026 : Boukhari 652 (« فشكر الله له فغفر له ») ; Boukhari 2989
+# (« ويميط الأذى عن الطريق صدقة »). L'homme de l'histoire est anonyme (ni prophète ni Compagnon) : on peut le dessiner.
+# Pas de pardon « garanti » (c'est une cause de pardon : HadeethEnc) → « elle pouvait te faire pardonner » ;
+# الأذى = ce qui peut blesser. Relecture du 01/11/2026 : « si c'est sincère » à l'écran (Ibn Taymiyya, Minhaj
+# as-Sunna : il a été pardonné pour la foi sincère qui l'animait ; Mouslim 1914c ; Coran 4:114).
+# Décor rue_proche : la rue à l'échelle des persos (dans « rue », ils faisaient trois étages de haut).
+# Voix : GRAND = accroche neuve + ses 4 autres répliques déjà enregistrées (ISL4) ; PETIT = « Pardonné ? Pour une
+# trottinette ?! » (ISL4).
+
+TITRE: Pardonne pour une branche
+CODE: ISL4B
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: ALLAH L'A PARDONNÉ / POUR UNE BRANCHE ?!
+MINIATURE: ALLAH L'A PARDONNÉ / POUR UNE BRANCHE ?!
+ICONE: coeur
+
+== rue_proche, objet trottinette (620)
+GRAND place 170
+PETIT place 860
+GRAND (index) : {va PETIT 400} Cette trottinette… elle pouvait te faire *pardonner*.
+PETIT (choc) : Pardonné ? Pour une *trottinette* ?!
+
+== desert, objet branche (600), ensemble (470, 1240)
+VOYAGEUR place 170
+GRAND (voix off) : {source "BOUKHARI 652"} Le Prophète ﷺ a raconté : un homme {va VOYAGEUR 420} trouva {regarde VOYAGEUR bas} une branche *épineuse* sur son chemin… {pousse VOYAGEUR branche reste} il l'écarta.
+GRAND (voix off) : Allah l'en remercia, {lumiere VOYAGEUR} {texte "« ET ALLAH LUI PARDONNA »"} et lui pardonna. {source "BOUKHARI 652"}
+
+== rue_proche, objet trottinette (640)
+GRAND place 170
+PETIT place 400
+MAMIE place 860
+MAMIE peur
+GRAND (explique, plan large) : Enlever ce qui peut {pousse PETIT trottinette mur} blesser les gens sur le chemin… {va MAMIE 560 devant} c'est une *aumône*. {source "BOUKHARI 2989"}
+MAMIE content, coeurs
+GRAND (rit) : Gratuit… {texte "SI C'EST SINCÈRE, POUR ALLAH"} et ça *compte*. {source "CF. CORAN 4:114"}
+FIN

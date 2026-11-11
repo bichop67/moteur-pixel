@@ -1,0 +1,7 @@
+[
+ {"nom": "imam", "classe": "Imam", "args": ["imam PETIT", "PETIT"], "u": [0.0, 0.5, 1.2, 2.2]},
+ {"nom": "carte", "classe": "Ane", "args": ["ane", "carte"], "t": {"ombre": 3.0, "oreilles": 5.0}, "u": [0.6, 2.0, 4.3, 6.8]},
+ {"nom": "carte_fin", "classe": "Ane", "args": ["ane", "carte"], "t": {"ombre": 3.0, "oreilles": 5.0}, "u": [7.8, 9.2]},
+ {"nom": "suivre", "classe": "Ane", "args": ["ane suivre", "suivre"], "u": [0.4, 1.4, 2.6, 3.8]},
+ {"nom": "colle", "classe": "Ane", "args": ["ane colle", "colle"], "u": [0.0, 1.0, 2.3]}
+]

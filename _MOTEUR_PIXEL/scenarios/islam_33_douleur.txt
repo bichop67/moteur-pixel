@@ -1,0 +1,28 @@
+# ISLAMARCADE — Short duo « Tu as mal ? Pose ta main et dis ça » — format CONSIGNE (incident + soulagement), 30 s max (09/11/2026)
+# Image 0 : gros plan sur Petit qui a mal à la tête (brique focus), l'endroit entouré ; puis on COMPTE pour de vrai :
+# 3 cases « Bismillah », 7 cases pour la formule (brique grille) ; le Compagnon guéri et « soignez-vous » en bandeau.
+# Sources : Mouslim 2202, Abou Dawoud 3891 et 3855, vérifiées sur sunnah.com le 09/11/2026. Détails : sources\fiches\ISL33.md
+
+TITRE: Tu as mal pose ta main et dis ca
+CODE: ISL33
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TU AS MAL ? / POSE TA MAIN ET DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TU AS MAL ? / POSE TA MAIN ET DIS ÇA !
+ICONE: pilule
+DUREE_FIN: 1.5
+
+== chambre_ado
+PETIT (pleure) : [groaning] {focus PETIT pleure "AÏE !"} Aïe… ma *tête* !
+GRAND (index, schéma) : [calm] {focus entoure haut "POSE TA MAIN ICI"} Pose ta *main* dessus, et dis ça.
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Un Compagnon souffrait. Le Prophète ﷺ lui a dit : {focus texte "LÀ OÙ TU AS MAL"} pose ta main là où tu as *mal*… {source "MOUSLIM 2202"}
+GRAND (nouveau schéma) : {grille 3 "FOIS" "DIS : « BISMILLAH »"} dis « *Bismillah* », {grille coche 3} trois fois… {source "MOUSLIM 2202"}
+GRAND (nouveau schéma) : {citation "PUIS DIS, 7 FOIS :" "« A'OUDHOU BILLAHI WA QOUDRATIHI MIN CHARRI MA AJIDOU WA OUHADHIR »"} puis sept fois : « A'oudhou billahi wa qoudratihi min charri ma ajidou wa *ouhadhir* ». {citation note "= JE CHERCHE REFUGE AUPRÈS D'ALLAH…"} {source "MOUSLIM 2202"}
+PETIT (question, bulle ?) : [curious] Et ça *marche* ?
+GRAND (content) : [warmly] {texte "« JE L'AI FAIT, ET ALLAH A ENLEVÉ CE QUE J'AVAIS » // LE COMPAGNON 'OUTHMAN IBN ABI AL-'AS"} Lui l'a fait… et Allah a enlevé son *mal* ! {source "ABOU DAWOUD 3891"}
+PETIT (malin) : [mischievously] Donc… pas de *médecin* !
+GRAND (facepalm) : [amused] {texte "« SOIGNEZ-VOUS » // LE PROPHÈTE (PAIX ET SALUT SUR LUI)"} Si ! Dis-le… et *soigne-toi* ! {source "ABOU DAWOUD 3855"}
+FIN

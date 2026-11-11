@@ -1,0 +1,51 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 19 : LA MONTAGNE AU-DESSUS D'EUX
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P19). Voix : E14P19_CORAN, _FILS_D_ISRAEL
+# Moussa : orbe, ses paroles lues par la voix du Coran. Allah n'est jamais représenté : la foudre = une lumière pâle
+# qui descend en douceur (pas d'éclair) ; les hommes tombent (chute en douceur), puis se relèvent un à un.
+TITRE: Moussa - partie 19 - La montagne au-dessus d'eux
+CODE: E14P19
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# LES SOIXANTE-DIX — Moussa et les hommes choisis sur la montagne ; ils exigent de voir Allah ; la foudre ; Moussa
+# reste seul debout et prie ; puis ils se relèvent un à un
+== montagne_sinai, ambiance amb_vent_fort 0.15
+MOUSSA place -200
+FILS_D_ISRAEL place 480 1282
+ISRAELITE place 615 1300
+SAGE_ISRAEL place 750 1282
+ISRAELITE2 place 885 1300
+GENS place 1020 1282
+VIEILLARD place 1155 1300
+ISRAELITE4 place 1290 1282
+CORAN (voix off, plan large) : {derive MOUSSA 200 1320 4s} Et Moussa choisit de son peuple soixante-dix hommes pour un rendez-vous avec Nous. {source "CORAN 7:155 (EXTRAIT)"}
+FILS_D_ISRAEL (fier, bras croises, sur FILS_D_ISRAEL) : [arrogant] Ô Moussa ! Nous ne te croirons qu'après avoir vu Allah clairement ! {source "CORAN 2:55"}
+CORAN (voix off, plan large) : Alors la {foudre 885} {son imp_tonnerre_1 0.05} foudre vous {geste FILS_D_ISRAEL allonge} {geste SAGE_ISRAEL allonge} saisit {geste ISRAELITE allonge} {geste GENS allonge} tandis que {geste ISRAELITE2 allonge} {geste ISRAELITE4 allonge} vous {geste VIEILLARD allonge} regardiez. {source "CORAN 2:55 (EXTRAIT)"}
+CORAN (voix off, sur MOUSSA) : Il dit : « Mon Seigneur ! Si Tu avais voulu, Tu les aurais détruits avant, et moi avec. Vas-Tu nous {large} détruire pour ce que des sots d'entre nous ont fait ? Tu es notre {cadre MOUSSA} Maître. Pardonne-nous et fais-nous miséricorde, car Tu es le Meilleur des {geste MOUSSA intense} pardonneurs ! » {source "CORAN 7:155 (EXTRAIT)"}
+CORAN (voix off, plan large) : Puis Nous vous {geste FILS_D_ISRAEL debout} ressuscitâmes {geste ISRAELITE debout} après {geste SAGE_ISRAEL debout} votre {geste ISRAELITE2 debout} mort {geste GENS debout} afin que {geste VIEILLARD debout} vous {geste ISRAELITE4 debout} soyez reconnaissants. {source "CORAN 2:56"}
+
+# LE MONT BRANDI — au camp : la montagne se soulève et reste suspendue au-dessus du peuple ; tous ont peur
+== camp_desert, ambiance amb_vent_doux 0.2
+MOUSSA place 200
+FILS_D_ISRAEL place 420
+ISRAELITE place 560
+ISRAELITE_F place 700
+GENS place 840
+ISRAELITE3 place 980
+VIEILLARD place 1120
+ISRAELITE2 place 1260
+CORAN (voix off, plan large) : Et quand Nous avons contracté un engagement avec vous et {son imp_grondement_1 0.1} {devient camp_desert_mont 3} brandi {geste FILS_D_ISRAEL peur} {geste ISRAELITE peur} sur {geste ISRAELITE_F peur} {geste GENS peur} vous {geste ISRAELITE3 peur} {geste VIEILLARD peur} le {geste ISRAELITE2 peur} Mont : « Tenez ferme ce que Nous vous avons donné et souvenez-vous de ce qui s'y trouve afin que vous soyez pieux ! » {source "CORAN 2:63"}
+
+# LE MONT REPOSÉ — plan muet : le mont est revenu à sa place, le camp respire
+== camp_desert, 3.5s, ambiance amb_vent_doux 0.2
+MOUSSA place 200
+FILS_D_ISRAEL place 420
+ISRAELITE place 560
+ISRAELITE_F place 700
+GENS place 840
+ISRAELITE3 place 980
+VIEILLARD place 1120
+ISRAELITE2 place 1260

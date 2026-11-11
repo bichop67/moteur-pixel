@@ -1,0 +1,30 @@
+# ISLAMARCADE — Short 1 (partie 2/2) : « Tu crois qu'Allah t'a oublié ? » (bonne opinion d'Allah)
+# Sources vérifiées le 01/11/2026 : Coran 19:64 (Hamidullah : « Et ton Seigneur n'oublie rien ») ; Boukhari 7405 (hadith
+# qudsi « Je suis selon l'opinion que Mon serviteur a de Moi ») ; sens : an-Nawawi (l'espoir du pardon).
+# Relecture indépendante : croire qu'Allah t'a oublié est faux → demander pardon (Ibn Baz) ; hadith qudsi annoncé comme
+# hadith (pas un verset).
+
+TITRE: Allah m a oublie
+CODE: ISL1B
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: « ALLAH M'A OUBLIÉ… » / VRAI OU FAUX ?
+MINIATURE: ALLAH T'A OUBLIÉ ? / FAUX !
+ICONE: question
+
+== chambre_ado
+PETIT (triste) : Je suis sûr qu'Allah m'a *oublié*…
+GRAND (calme, index) : Ça, c'est faux : {texte "« ET TON SEIGNEUR N'OUBLIE RIEN »"} ton Seigneur n'oublie rien. Demande-Lui pardon. {source "CORAN 19:64"}
+
+== classe
+ADO triste
+ADA calme
+GRAND (voix off) : {etape 1/2 "DEUX PENSÉES"} Même galère, deux pensées : {etiquette ADO "ALLAH M'A OUBLIÉ" rouge} « Allah m'a oublié »… {barre ADO} ou {etiquette ADA "ALLAH SAIT MIEUX" vert} « Allah sait mieux ». {coche ADA}
+GRAND (voix off) : {etape 2/2 "CE QU'ALLAH DIT"} Dans un hadith, Allah dit : {texte "« JE SUIS SELON L'OPINION QUE MON SERVITEUR A DE MOI » // = IL TE TRAITE SELON CE QUE TU ESPÈRES DE LUI"} « Je suis selon l'opinion que Mon serviteur a de Moi. » {source "BOUKHARI 7405 · SENS : AN-NAWAWI"}
+
+== chambre_ado
+PETIT (gene) : Donc… je dois penser du bien de Lui ?
+GRAND (content) : *Toujours*.
+FIN

@@ -1,0 +1,33 @@
+VOIX ELEVENLABS — 3 Shorts duo IslamArcade (PETIT / GRAND) — 04/11/2026
+=========================================================================
+Générées par Claude avec le connecteur ElevenLabs, flow « Shorts duo islam 04-11 (fievre, eau glacee, cauchemar) »
+(Cg9mrhtypYiEN3eVgP80). Modèle eleven_v4, une seule prise par génération. Textes ci-dessous = textes EXACTS envoyés.
+PETIT = Lucas - Dynamic, young, fresh (QEZnlKYcLy9N2ierwPEc)      GRAND = Quentin (43TArLZXN5r3L8mJ6AGR)
+Coût réel : 1 457 crédits pour les 6 générations. Temps des mots : transcription ElevenLabs du flux (0 crédit),
+convertie en asr_ISL8/9/10.json (outil : scenarios\outils_duo_04-11\asr_shorts_duo.py).
+Relecture religieuse indépendante faite AVANT les voix (corrections intégrées : « Al-hamdoulillah » au lieu de « Merci
+la fièvre », « pas d'eau chaude » dès la 1re réplique, « c'est par ça qu'Allah efface les péchés »).
+
+
+######## SHORT 1 — Ne jamais insulter ta fièvre     islam_08_fievre.txt   (voix_isl8)
+--- ISL8_PETIT.mp3 (9,5 s)
+[annoyed] Saleté de fièvre ! [long pause] [confused] Ma fièvre ?! [long pause] [surprised] Donc elle me nettoie ?! [long pause] [sheepishly] Al-hamdoulillah… mais pars quand même, la fièvre !
+
+--- ISL8_GRAND.mp3 (17,7 s)
+[alarmed] Ne l'insulte pas ! Elle efface tes péchés ! [long pause] [calm] Le Prophète ﷺ a dit : n'insulte pas la fièvre, car elle enlève les péchés… comme le soufflet du forgeron enlève la saleté du fer. [long pause] [warmly] Oui ! Mais demande la guérison à Allah… et prends ton médicament.
+
+
+######## SHORT 2 — L'eau est glacée ? Bonne nouvelle     islam_09_eau_glacee.txt   (voix_isl9)
+--- ISL9_PETIT.mp3 (8,6 s)
+[shouting] Aïe ! Y a pas d'eau chaude… elle est glacée ! [long pause] [annoyed] Bonne nouvelle ?! [long pause] [mischievously] Alors je prends que de l'eau glacée !
+
+--- ISL9_GRAND.mp3 (19,8 s)
+[warmly] Bonne nouvelle ! [long pause] [calm] Le Prophète ﷺ a dit : bien faire ses ablutions quand c'est pénible… c'est par ça qu'Allah efface les péchés. [long pause] Avec l'eau, les péchés de tes yeux… de tes mains… de tes pieds… s'en vont. [long pause] [exasperated] Non ! Si t'as de l'eau chaude, prends-la : c'est même mieux.
+
+
+######## SHORT 3 — Ne raconte jamais ton cauchemar     islam_10_cauchemar.txt   (voix_isl10)
+--- ISL10_PETIT.mp3 (6,6 s)
+[panicked] J'ai fait un cauchemar horrible ! [long pause] [confused] Pourquoi ?! [long pause] [excited] Trop fort ! Je le raconte à tout le monde !
+
+--- ISL10_GRAND.mp3 (21,7 s)
+[alarmed] Stop ! Ne le raconte pas ! [long pause] [calm] Le Prophète ﷺ a dit : le mauvais rêve vient de Shaytan. [long pause] Souffle légèrement trois fois à ta gauche… demande la protection d'Allah… change de côté… et ne le raconte à personne : il ne te fera aucun mal. [long pause] [exasperated] Le conseil, oui… le cauchemar, non !

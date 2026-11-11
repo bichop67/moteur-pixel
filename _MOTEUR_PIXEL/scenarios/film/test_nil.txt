@@ -1,0 +1,17 @@
+TITRE: Test nil
+CODE: TNIL
+THEME: film
+FORMAT: horizontal
+MUSIQUE: aucune
+PERSONNAGES: SA_MERE, MOUSSA_BEBE
+
+== nil_aube, 1s
+SA_MERE place 120
+MOUSSA_BEBE place 300
+NARRATEUR (voix off) : Une mère jette son bébé dans le fleuve. {source "CORAN 28:7"}
+== nil
+NARRATEUR (voix off) : Le jour.
+== nil_soir
+NARRATEUR (voix off) : Le soir.
+== nil_nuit
+NARRATEUR (voix off) : La nuit.

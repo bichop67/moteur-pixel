@@ -1,0 +1,78 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 13 : L'ORGUEIL DE PHARAON
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P13).
+# Voix : E14P13_NARRATEUR, _CONSEILLERS, _PHARAON, _CORAN, _FILS_D_ISRAEL, _CROYANT
+# Asiya : orbe ; les anges : petites orbes blanches ; rien de violent n'est montré.
+TITRE: Moussa - partie 13 - L'orgueil de Pharaon
+CODE: E14P13
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: PHARAON, MOUSSA
+
+# LES NOTABLES — la salle du trône, le soir : Pharaon furieux, les notables qui le poussent
+== palais_egypte_nuit, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse, enerve
+HAMAN place 780
+CONSEILLERS place 950
+CONSEILLER2 place 1100
+NARRATEUR (voix off, plan large) : [dark] Après le jour de la fête, Pharaon devient encore plus cruel. Et ses notables le poussent : {source "CORAN 7:127"}
+CONSEILLERS (enerve, pointe) : [angry] Laisseras-tu Moussa et son peuple commettre du désordre sur la Terre, et lui-même te délaisser, toi et tes divinités ? {source "CORAN 7:127"}
+PHARAON (enerve, pointe) : [menacing] Nous allons massacrer leurs fils et laisser vivre leurs femmes. Nous aurons le dessus sur eux et les dominerons. {source "CORAN 7:127"}
+== quartier_soir, ambiance amb_vent_doux 0.2
+MOUSSA place 540
+FILS_D_ISRAEL place 300, sur un tabouret, triste
+ISRAELITE2 place 160, sur un tabouret, triste
+ISRAELITE place 780, sur un tabouret, triste
+ISRAELITE_F place 920, triste
+CORAN (voix off, sur MOUSSA) : Moussa dit à son peuple : « Demandez aide auprès d'Allah et soyez {large} patients, car la Terre appartient à Allah. Il la donne en héritage à qui Il veut parmi Ses {cadre FILS_D_ISRAEL} serviteurs. Et la fin heureuse sera aux {gros MOUSSA} pieux. » {source "CORAN 7:128"}
+FILS_D_ISRAEL (triste, sur FILS_D_ISRAEL) : [sad] Nous avons été persécutés avant que tu ne viennes à nous, et après ton arrivée. {source "CORAN 7:129"}
+CORAN (voix off, plan large) : Il dit : « Il se peut que votre Seigneur détruise votre ennemi et vous donne la lieutenance sur Terre, et Il verra ensuite comment vous agirez. » {source "CORAN 7:129"}
+
+# LA TOUR DE HAMAN — l'immense chantier : fours, la tour qui monte ; Haman donne des ordres ; puis Pharaon devant une foule immense
+== tour_haman, ambiance amb_chantier 0.35
+HAMAN place 380, pointe
+ISRAELITE place 700, briques
+ISRAELITE3 place 860, panier
+ISRAELITE4 place -120, briques
+CONTREMAITRE place 1040, tient le fouet
+PHARAON (voix off, plan large) : [arrogant] Ô notables ! Je ne connais pas de divinité pour vous, autre que moi. Haman, allume-moi du feu sur l'argile, puis construis-moi une tour : peut-être alors monterai-je jusqu'au Dieu de Moussa. Et je pense plutôt qu'il est du nombre des menteurs. {va ISRAELITE 1000} {va ISRAELITE4 200} {source "CORAN 28:38"}
+== esplanade_fete, ambiance amb_foule_lointaine 0.4
+PHARAON place estrade, sur le trône, tient la crosse
+HAMAN place 120
+NARRATEUR (voix off, plan large) : [dark] Et un jour, devant tout son peuple rassemblé, il proclame : {source "CORAN 79:23-24"}
+PHARAON (se lève, crie, pointe) : [shouting] C'est moi votre Seigneur, le très-Haut ! {source "CORAN 79:24"}
+
+# LAISSEZ-MOI TUER MOUSSA — Pharaon debout, le doigt tendu ; un homme de sa famille se lève : le croyant
+== palais_egypte, ambiance amb_temple_echo 0.3
+PHARAON place trone, sur le trône, tient la crosse
+HAMAN place 780
+CONSEILLERS place 950
+CONSEILLER2 place 1100
+CROYANT place 1250, sur un tabouret
+PHARAON se lève, enerve
+PHARAON (pointe) : [menacing] Laissez-moi tuer Moussa. Et qu'il appelle son Seigneur ! Je crains qu'il ne change votre religion ou qu'il ne fasse apparaître la corruption sur terre. {source "CORAN 40:26"}
+CORAN (voix off, plan large) : Moussa dit : « Je cherche auprès de mon Seigneur et le vôtre, protection contre tout orgueilleux qui ne croit pas au jour du Compte. » {source "CORAN 40:27"}
+CROYANT se lève
+NARRATEUR (voix off, sur CROYANT) : [mysterious] Alors, dans le palais même de Pharaon, un homme se lève. Un homme de sa propre famille… qui cachait sa foi. {source "CORAN 40:28"}
+CROYANT (calme, explique) : [calm] Tuerez-vous un homme parce qu'il dit : « Mon Seigneur est Allah » ? Alors qu'il est venu à vous avec les preuves évidentes de la part de votre {cadre PHARAON} Seigneur. S'il est menteur, son mensonge sera à son détriment ; tandis que s'il est {large} véridique, alors une partie de ce dont il vous menace tombera sur {cadre CROYANT} vous. {source "CORAN 40:28"}
+CROYANT (calme) : [calm] Ô mon peuple, triomphant sur la terre, vous avez la {cadre PHARAON} royauté aujourd'hui. Mais qui nous secourra de la rigueur d'Allah si elle nous {cadre CROYANT} vient ? {source "CORAN 40:29"}
+PHARAON (fier) : [arrogant] Je ne vous indique que ce que je considère bon. Je ne vous guide qu'au sentier de la droiture. {source "CORAN 40:29"}
+CROYANT (triste) : [softly] Ô mon peuple, cette vie n'est que jouissance temporaire, alors que l'au-delà est vraiment la demeure de la stabilité. Ô mon peuple, mais qu'ai-je à vous appeler au salut, alors que vous m'appelez au Feu ? {source "CORAN 40:39 · 40:41"}
+CROYANT (calme) : [calm] Bientôt vous vous rappellerez ce que je vous dis ; et je confie mon sort à Allah. Allah est, certes, Clairvoyant sur les serviteurs. {source "CORAN 40:44"}
+CORAN (voix off, plan large) : Allah donc le protégea des méfaits de leurs ruses. {source "CORAN 40:45 (EXTRAIT)"}
+
+# ASIYA — la cour écrasée de soleil ; Asiya seule ; les bourreaux s'éloignent ; de petites orbes blanches (les anges) l'abritent (MOMENT FORT)
+== cour_soleil, emotion b, ambiance amb_vent_desert 0.15
+ASIYA place 540, pale
+SOLDAT place 300, tient la lance
+SOLDAT2 place 800, tient la lance
+ANGE_1 place 380 760
+ANGE_2 place 700 740
+ANGE_3 place 300 860
+ANGE_4 place 790 880
+NARRATEUR (voix off, sur ASIYA) : [softly] Et Asiya, la femme de Pharaon… a cru elle aussi. {source "TAFSIR IBN KATHIR (66:11)"}
+NARRATEUR (voix off, plan large) : [sad] Pharaon la fait torturer en plein soleil. Mais quand ses bourreaux {va SOLDAT -400} {va SOLDAT2 1500} s'éloignent, les {apparait ANGE_1} {apparait ANGE_2} {apparait ANGE_3} {apparait ANGE_4} anges {derive ANGE_1 440 1160 3s} {derive ANGE_2 640 1150 3s} {derive ANGE_3 470 1250 3s} {derive ANGE_4 610 1240 3s} viennent l'abriter de leurs ailes. {source "TAFSIR IBN KATHIR (66:11, SALMAN)"}
+NARRATEUR (voix off, sur ASIYA) : [softly] Et elle invoque son Seigneur : {source "CORAN 66:11"}
+CORAN (voix off, plan large) : Seigneur, construis-moi auprès de Toi une maison dans le Paradis, et sauve-moi de Pharaon et de son œuvre ; et sauve-moi des gens injustes. {source "CORAN 66:11 (EXTRAIT)"}
+NARRATEUR (voix off, sur ASIYA) : [warmly] Et déjà, elle {lumiere ASIYA} {geste ASIYA intense} voyait sa maison au Paradis. {source "TAFSIR IBN KATHIR (66:11, SALMAN)"}

@@ -1,0 +1,24 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 16 : DANS LE DÉSERT
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P16). Voix : E14P16_CORAN, _FILS_D_ISRAEL, _NARRATEUR
+# Les idoles : statues sans visage ; ceux qui s'y prosternent sont des gens du village (pose « prosterne »).
+TITRE: Moussa - partie 16 - Dans le desert
+CODE: E14P16
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_desert
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# LES IDOLES — la colonne passe près d'un village où l'on se prosterne devant des statues ; des fils d'Israël s'arrêtent, fascinés
+== village_idoles, ambiance amb_vent_doux 0.25
+EGYPTIEN2 place 520 1300, prosterne
+GENS place 760 1300, prosterne
+MOUSSA place -300
+HAROUN place -440
+FILS_D_ISRAEL place -160
+ISRAELITE place -40
+ISRAELITE_F place -560
+CORAN (voix off, plan large) : {derive MOUSSA 1100 1340 9s} {derive HAROUN 960 1340 9s} {va FILS_D_ISRAEL 260} {va ISRAELITE 140} {va ISRAELITE_F 20} Et Nous avons fait traverser la Mer aux enfants d'Israël. Ils passèrent auprès d'un peuple attaché à ses idoles et dirent : {source "CORAN 7:138"}
+FILS_D_ISRAEL (content, pointe, sur FILS_D_ISRAEL) : [excited] Ô Moussa ! Désigne-nous une divinité semblable à leurs dieux. {source "CORAN 7:138"}
+CORAN (voix off, sur MOUSSA) : Il dit : « Vous êtes certes des gens ignorants. Le culte, auquel ceux-là s'adonnent, est caduc ; et tout ce qu'ils font est nul et sans valeur. » Il dit : « Chercherai-je pour vous une autre divinité qu'Allah, alors que c'est Lui qui vous a préférés à toutes les créatures de leur époque ? » {source "CORAN 7:138-140"}
+NARRATEUR (voix off, plan large) : [sad] Ils venaient de voir la mer s'ouvrir {souvenir FILS_D_ISRAEL mer_ouverte 0 -10 3s} devant eux. {source "CORAN 7:138"}

@@ -1,0 +1,48 @@
+VOIX ELEVENLABS — 6 Shorts duo IslamArcade (PETIT / GRAND) — 04/11/2026 (soir)
+=================================================================================
+Générées par Claude avec le connecteur ElevenLabs, flow « Shorts duo islam 04-11 soir (cent, coran, telephone, tombe,
+soleil, enfer) » (19YCz4hsVZHurRdqf62r). Modèle eleven_v4, une seule prise par génération. Textes ci-dessous = textes
+EXACTS envoyés. PETIT = Lucas - Dynamic, young, fresh (QEZnlKYcLy9N2ierwPEc)      GRAND = Quentin (43TArLZXN5r3L8mJ6AGR)
+Coût réel : 2 863 crédits pour les 12 générations. Temps des mots : transcription ElevenLabs du flux (0 crédit),
+convertie en asr_ISL11…16.json (outils : scenarios\outils_duo_04-11_soir\).
+Relecture religieuse indépendante faite AVANT les voix (voir « 6 Shorts duo (04-11 soir) - textes a relire.md » et les
+en-têtes des scénarios islam_11 à islam_16).
+Après les voix (sans nouvelle génération) : les longues répliques de la tombe et du soleil sont coupées en plusieurs
+lignes dans les scénarios, pour que le moteur resserre les silences (durées : 27,9 s et 29,3 s).
+
+
+######## ISL11 — Il a tué 100 personnes… pardonné ?!     islam_11_cent.txt   (voix_isl11)
+--- ISL11_PETIT.mp3 (7,6 s)
+[shocked] Il a tué cent personnes… et Allah lui a pardonné ?! [long pause] [mischievously] Donc je me repens… et je déménage !
+--- ISL11_GRAND.mp3 (23,8 s)
+[calm] Oui. Le Prophète ﷺ l'a raconté : il voulait se repentir, de tout son cœur. [long pause] Un savant lui a dit : « Va dans tel pays : des gens y adorent Allah. » [long pause] Il meurt en chemin… Allah rapproche le bon pays… on mesure : plus proche d'un empan. Pardonné ! [long pause] [amused] Change surtout de potes… prends-en qui prient !
+
+######## ISL12 — Tu galères à lire le Coran ? Double récompense     islam_12_coran.txt   (voix_isl12)
+--- ISL12_PETIT.mp3 (7,5 s)
+[embarrassed] Je galère trop à lire le Coran… j'ai la honte. [long pause] [surprised] Deux ?! [long pause] [mischievously] Donc j'ai plus que toi !
+--- ISL12_GRAND.mp3 (17,4 s)
+[warmly] Bonne nouvelle : si tu continues, t'as deux récompenses ! [long pause] [calm] Le Prophète ﷺ a dit : celui qui lit le Coran en butant, et que c'est dur pour lui… a deux récompenses. [long pause] [amused] Celui qui le maîtrise est avec les anges nobles et pieux. Entraîne-toi !
+
+######## ISL13 — Ton téléphone est cassé ? Dis ça     islam_13_telephone.txt   (voix_isl13)
+--- ISL13_PETIT.mp3 (7,1 s)
+[shouting] Noooon ! Mon téléphone ! [long pause] [annoyed] Pour un téléphone ?! [long pause] [excited] Mieux ?! Le dernier iPhone ?!
+--- ISL13_GRAND.mp3 (21,5 s)
+[calm] Dis vite : inna lillahi. [long pause] [calm] Oui ! Le Prophète ﷺ a dit : quand un malheur te touche, dis : « Inna lillahi wa inna ilayhi raji'oun… Ô Allah, récompense-moi dans mon malheur, et donne-moi mieux à la place »… et Allah te donne mieux. [long pause] [amused] Mieux… c'est Allah qui choisit. Patiente !
+
+######## ISL14 — Dans ta tombe… tu entends leurs pas     islam_14_tombe.txt   (voix_isl14)
+--- ISL14_PETIT.mp3 (5,1 s)
+[scared] Quand on m'enterre… je sens plus rien ? [long pause] [panicked] Comment je me protège ?!
+--- ISL14_GRAND.mp3 (26,6 s)
+[dark] Le Prophète ﷺ a dit : tu entends leurs pas… deux anges t'assoient : « Que disais-tu de cet homme, Mouhammad ? » [long pause] Le croyant répond… et voit sa place au Paradis. [long pause] [dark] L'hypocrite et le mécréant : « Je sais pas… » Un marteau de fer… un cri qu'entend tout ce qui l'entoure, sauf les humains et les djinns. [long pause] [warmly] Avant le salam, demande à Allah de te protéger du châtiment de la tombe.
+
+######## ISL15 — Le soleil à 1 mile de toi ?!     islam_15_soleil.txt   (voix_isl15)
+--- ISL15_PETIT.mp3 (9,2 s)
+[panting] J'ai trop chaud… je suis trempé ! [long pause] [panicked] Et moi ?! [long pause] [proud] Jeune : check ! L'adoration… je commence demain !
+--- ISL15_GRAND.mp3 (23,9 s)
+[dark] Le Prophète ﷺ a dit : le Jour du Jugement, le soleil sera à un mile de toi. [long pause] [calm] Chacun dans sa sueur, selon ses actes : aux chevilles… aux genoux… à la taille… et jusqu'à la bouche. [long pause] [warmly] Allah abritera à Son ombre sept sortes de gens… dont le jeune qui a grandi en L'adorant. [long pause] [exasperated] Aujourd'hui !
+
+######## ISL16 — Le plus petit châtiment de l'Enfer     islam_16_enfer.txt   (voix_isl16)
+--- ISL16_PETIT.mp3 (9,4 s)
+[crying] Aïe ! Je me suis brûlé ! [long pause] [shocked] Le moins puni ?! [long pause] [mischievously] J'ai pas de datte… je donne la moitié de mon tacos !
+--- ISL16_GRAND.mp3 (21,9 s)
+[dark] Le Prophète ﷺ a dit : le moins puni de l'Enfer… a deux braises sous les pieds… et son cerveau bout. [long pause] [dark] Et il croit que personne n'est plus puni que lui. [long pause] [calm] Il a dit aussi : protégez-vous du Feu… même avec une moitié de datte. [long pause] [amused] Et si t'as rien : une bonne parole !

@@ -1,0 +1,30 @@
+# DÉMO 4 : CHAMP / CONTRE-CHAMP + RÉACTIONS DE CELUI QUI ÉCOUTE (tout est automatique, rien n'est réglé à la main)
+#   python scenario.py scenarios\demo_dialogue_vivant.txt tout
+
+TITRE: Demo 4 - dialogue vivant
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: ADO, PAPA, ADA, MAMAN
+
+== salon
+CARTON : DIALOGUE VIVANT / CHAMP, CONTRE-CHAMP, RÉACTIONS
+LEGENDE : CHAMP / CONTRE-CHAMP / automatique : par-dessus l'épaule de celui qui écoute
+ADO (explique) : Papa, il faut que je te dise un truc.
+PAPA : Vas-y, je t'écoute.
+ADO (gene) : Tu sais, ta voiture toute neuve…
+PAPA (suspect) : Oui… ma voiture ?
+ADO (gene, haussement) : Elle a une toute petite rayure.
+PAPA (choc, bulle !) : Une rayure ?!
+ADO (gene, regarde en bas) : Enfin… la porte est tombée.
+
+== cuisine, serre, 0.6s
+LEGENDE : CELUI QUI ÉCOUTE RÉAGIT / hoche la tête, sourcils, gêne, sourire (automatique)
+MAMAN (explique) : Alors, tu mets la farine, puis les oeufs, et tu mélanges doucement.
+ADA (content) : D'accord, ça a l'air facile.
+MAMAN (rit) : Et surtout, tu ne manges pas toute la pâte avant la cuisson !
+ADA (malin) : Promis… enfin, presque.
+MAMAN (enerve, pointe) : ADA ! C'est la troisième fois cette semaine !
+ADA (gene) : C'était juste pour goûter…
+MAMAN (calme, question) : Et le gâteau d'hier, il est passé où ?
+FIN

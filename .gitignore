@@ -1,0 +1,31 @@
+# Dépôt du MOTEUR PIXEL : on ne garde que le moteur, ses sons, les skills et les scripts d'installation.
+# Tout le reste du dossier (films, vidéos à publier, sauvegardes zip…) reste sur l'ordinateur.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/moteur.ps1
+!/_MOTEUR_PIXEL/
+!/_MUSIQUES/
+!/_BRUITAGES/
+!/skills/
+
+# dans le moteur : ni vidéos, ni planches de contrôle, ni caches, ni vieilles copies
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.avi
+*.mkv
+*_qa.png
+* - controle.png
+*planche*.png
+*planche*.jpg
+*.avant_*
+*.raw.wav
+_MOTEUR_PIXEL/controle_moteur_ecarts.png
+_MOTEUR_PIXEL/scenarios/**/originaux/
+_MOTEUR_PIXEL/scenarios/outils_duo_*/**/*.png
+_MOTEUR_PIXEL/scenarios/outils_duo_*/*.png
+*.zip

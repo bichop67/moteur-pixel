@@ -1,0 +1,92 @@
+VOIX ELEVENLABS — Shorts IslamArcade (duo PETIT / GRAND) — 4 sujets, 5 Shorts de 30 s maximum
+==============================================================================================
+VOIX GÉNÉRÉES le 01/11/2026 par Claude avec le connecteur ElevenLabs (flow Hm9GGKfrcVsFtgglPNLe), textes ci-dessous
+= textes EXACTS envoyés. Les MP3 sont déjà dans scenarios\voix_isl1a … voix_isl4 (+ transcription asr_CODE.json).
+Modèle : eleven_v4, une seule prise par génération.
+PETIT = Lucas - Dynamic, young, fresh (QEZnlKYcLy9N2ierwPEc)      GRAND = Quentin (43TArLZXN5r3L8mJ6AGR)
+Une génération par perso et par Short : répliques séparées par [long pause].
+Le symbole ﷺ est lu en entier par ElevenLabs (≈ 2,5 s). Aucune référence dans la voix (elles sont à l'écran).
+Coût réel : environ 2 180 crédits pour les 10 générations (≈ 1 crédit par caractère, balises comprises).
+Le sujet 1 est coupé en 2 Shorts (partie 1 : les pensées qu'on déteste ; partie 2 : croire qu'Allah t'a oublié)
+pour tenir dans 30 s sans couper la nuance religieuse.
+
+
+######## SHORT 1 (partie 1/2) — Des pensées horribles sur Allah     islam_01_pensees.txt   (voix_isl1a)
+--- ISL1A_PETIT.mp3
+[worried] Des pensées horribles sur Allah me viennent… je suis foutu ? [long pause] [surprised] C'est la foi ?!
+
+--- ISL1A_GRAND.mp3
+[calm] Des Compagnons n'osaient même pas les dire. Le Prophète ﷺ leur a dit : c'est la foi évidente. [long pause] Pas la pensée : c'est de la détester qui le montre. [long pause] Dis « je cherche refuge auprès d'Allah »… et lâche-la. [long pause] [mischievously] Et si tu penses vraiment du mal de Lui ? … Partie 2.
+
+
+######## SHORT 1 (partie 2/2) — Allah m'a oublié ?     islam_01b_oublie.txt   (voix_isl1b)
+--- ISL1B_PETIT.mp3
+[sad] Je suis sûr qu'Allah m'a oublié… [long pause] [hesitant] Donc… je dois penser du bien de Lui ?
+
+--- ISL1B_GRAND.mp3
+[calm] Ça, c'est faux : ton Seigneur n'oublie rien. Demande-Lui pardon. [long pause] Même galère, deux pensées : « Allah m'a oublié »… ou « Allah sait mieux ». [long pause] [warmly] Dans un hadith, Allah dit : « Je suis selon l'opinion que Mon serviteur a de Moi. » [long pause] Toujours.
+
+
+######## SHORT 2 — Tes péchés comme l'écume de la mer     islam_02_ecume.txt   (voix_isl2)
+--- ISL2_PETIT.mp3
+[sad] Mes péchés… ils sont grands comme la mer. [long pause] [surprised] Cent fois ?! [long pause] [excited] Je commence maintenant !
+
+--- ISL2_GRAND.mp3
+[mischievously] T'as deux minutes ? [long pause] Dis « Subhan Allah wa bihamdih »… cent fois dans ta journée. [long pause] [warmly] Le Prophète ﷺ a dit : tes péchés sont effacés… même s'ils sont comme l'écume de la mer. [long pause] Pour la plupart des savants : les petits péchés. Les grands, il faut s'en repentir.
+
+
+######## SHORT 3 — Une lettre du Coran     islam_03_lettre.txt   (voix_isl3)
+--- ISL3_PETIT.mp3
+[bored] Lire le Coran, ça rapporte quoi au juste ? [long pause] [amazed] Trente bonnes actions ?! [long pause] [sheepishly] … Je lis une page du Coran ce soir.
+
+--- ISL3_GRAND.mp3
+Le Prophète ﷺ a dit : chaque lettre que tu lis, c'est une bonne action… multipliée par dix. [long pause] Il a précisé : Alif Lam Mim, ce n'est pas une lettre : Alif est une lettre, Lam une lettre, Mim une lettre. [long pause] [mischievously] Et toi, tu scrolles combien de lettres par jour ?
+
+
+######## SHORT 4 — Il a poussé une branche     islam_04_branche.txt   (voix_isl4)
+--- ISL4_PETIT.mp3
+[annoyed] Qui laisse sa trottinette au milieu ?! [long pause] [surprised] Pardonné ? Pour une trottinette ?!
+
+--- ISL4_GRAND.mp3
+[mischievously] Tu viens de rater une chance d'être pardonné. [long pause] [calm] Le Prophète ﷺ a raconté : un homme trouva une branche épineuse sur son chemin… il l'écarta. [long pause] [warmly] Allah l'en remercia, et lui pardonna. [long pause] Enlever ce qui peut blesser les gens sur le chemin… c'est une aumône. [long pause] [laughs] Gratuit… et ça compte.
+
+
+RÉFÉRENCES À L'ÉCRAN (vérifiées le 01/11/2026 ; relecture indépendante faite, corrections appliquées)
+- Short 1, partie 1 : MOUSLIM 132 · SELON AN-NAWAWI (CHARH MOUSLIM) · BOUKHARI 3276
+- Short 1, partie 2 : CORAN 19:64 · BOUKHARI 7405 · SENS : AN-NAWAWI
+- Short 2 : BOUKHARI 6405 · SELON LA MAJORITÉ DES SAVANTS (HADEETHENC)
+- Short 3 : TIRMIDHI 2910
+- Short 4 : BOUKHARI 652 · BOUKHARI 2989
+Chaque source s'affiche pendant toute la phrase qu'elle justifie (moteur du 01/11/2026).
+
+
+==============================================================================================
+VERSION 2 (01/11/2026, après les retours de l'utilisateur) — 4 Shorts complets, accroches choc
+==============================================================================================
+Plus de « partie 2 » : le sujet 1 tient en un seul Short (voix_isl1). Seules les ACCROCHES (et la relance du Short 1)
+ont été générées (même flow, eleven_v4, 1 prise) ; toutes les autres répliques sont celles déjà enregistrées
+ci-dessus, recollées (voix_isl1, voix_isl2b, voix_isl3b, voix_isl4b). Coût réel : 153 + 76 + 68 + 66 ≈ 363 crédits.
+Fichiers bruts des voix neuves : voix_neuves_2026-11-01. Short 1 accéléré de 5 % (atempo, sans changer la hauteur)
+pour tenir dans 30 s (originaux gardés : « … (vitesse normale).mp3 »).
+
+--- Short 1 « Mécréant à cause d'une pensée ?! » — PETIT (Lucas), voix neuve, 2 répliques
+[scared] Des horreurs sur Allah me passent par la tête… [panicked] je suis devenu mécréant ?! [long pause] [worried] Et si je crois qu'Allah m'a oublié ?
+--- GRAND : ISL1A répliques 1-3 + ISL1B répliques 1 et 3 (textes ci-dessus).
+
+--- Short 2 « Tes péchés effacés en 2 minutes ?! » — accroche PETIT (Lucas), voix neuve
+[ashamed] Si les gens voyaient mes péchés… [sad] ils me cracheraient dessus.
+--- PETIT : + ISL2 répliques 2-3 ; GRAND : ISL2 tel quel.
+
+--- Short 3 « Lire le Coran sans comprendre, ça sert à rien ? » — accroche PETIT (Lucas), voix neuve
+[dismissive] Lire le Coran sans comprendre l'arabe ? Ça sert à rien.
+--- PETIT : + ISL3 répliques 2-3 ; GRAND : ISL3 tel quel.
+
+--- Short 4 « Allah l'a pardonné pour une branche ?! » — accroche GRAND (Quentin), voix neuve
+[dramatically] Cette trottinette… elle pouvait te faire pardonner.
+--- GRAND : + ISL4 répliques 2-5 ; PETIT : ISL4 réplique 2 (« Pardonné ? Pour une trottinette ?! »).
+
+RÉFÉRENCES À L'ÉCRAN (version 2, relecture indépendante du 01/11/2026 faite, corrections appliquées) :
+- Short 1 : MOUSLIM 132 · SELON AN-NAWAWI (CHARH MOUSLIM) · BOUKHARI 3276 · CORAN 19:64 · BOUKHARI 7405 · SENS : AN-NAWAWI
+- Short 2 : BOUKHARI 6405 · AVIS MAJORITAIRE · CF. MOUSLIM 233
+- Short 3 : TIRMIDHI 2910 · SELON IBN UTHAYMIN (ISLAMQA 4040)
+- Short 4 : BOUKHARI 652 · BOUKHARI 2989 · CF. CORAN 4:114

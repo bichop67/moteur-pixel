@@ -1,0 +1,6 @@
+[
+ {"nom": "oreille", "classe": "Ecoute", "args": ["oreille PETIT", "oreille"], "u": [0.0, 1.0, 2.2]},
+ {"nom": "console", "classe": "Ecoute", "args": ["oreille console", "console"], "u": [0.0, 0.7, 1.6]},
+ {"nom": "plomb", "classe": "Ecoute", "args": ["plomb", "plomb"], "t": {"carte": 1.2, "goutte": 3.6, "jour": 6.4}, "u": [0.6, 2.0, 4.5, 5.0, 5.6, 7.4]},
+ {"nom": "accident", "classe": "Ecoute", "args": ["plomb accident", "accident"], "u": [0.3, 1.0, 1.6, 2.4]}
+]

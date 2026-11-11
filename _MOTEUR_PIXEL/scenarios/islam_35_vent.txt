@@ -1,0 +1,25 @@
+# ISLAMARCADE — Short duo « Le vent souffle fort ? Dis ça » — format CONSIGNE (frayeur + parole à dire), 30 s max (09/11/2026)
+# Image 0 : gros plan sur Petit qui crie dans le vent (brique focus), feuilles qui volent. L'invocation dans un cadre
+# (brique citation) : translittération à l'écran, sens en français dans la voix. Chute : on n'insulte pas le vent.
+# Sources : Mouslim 899 (version b sur sunnah.com), Abou Dawoud 5097, vérifiées le 09/11/2026. Détails : sources\fiches\ISL35.md
+
+TITRE: Le vent souffle fort dis ca
+CODE: ISL35
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_tension
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: LE VENT SOUFFLE FORT ? / DIS ÇA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: LE VENT SOUFFLE FORT ? / DIS ÇA !
+ICONE: nuage
+DUREE_FIN: 1.5
+
+== rue_proche, feuilles
+PETIT (crie, panique) : [shouting] {focus PETIT crie "QUEL VENT !"} Wouah ! Ce *vent* !
+GRAND (calme, stop) : [calm] Calme… *dis ça*.
+GRAND (explique, plan moyen) : [calm] Quand le vent soufflait fort, le Prophète ﷺ disait : {citation "QUAND LE VENT SOUFFLE FORT :" "« ALLAHOUMMA INNI AS'ALOUKA KHAYRAHA,"} « Ô Allah, je Te demande son *bien*, {citation + "WA KHAYRA MA FIHA,"} le bien qu'il contient, {citation + "WA KHAYRA MA OURSILAT BIH,"} et le bien avec lequel il a été envoyé… {source "MOUSLIM 899"}
+GRAND (schéma) : {citation "WA A'OUDHOU BIKA MIN CHARRIHA,"} et je cherche refuge auprès de Toi contre son *mal*, {citation + "WA CHARRI MA FIHA,"} le mal qu'il contient, {citation + "WA CHARRI MA OURSILAT BIH. »"} et le mal avec lequel il a été envoyé. » {source "MOUSLIM 899"}
+PETIT (énervé) : [annoyed] Saleté de *vent* !
+GRAND (stop) : [firm] {texte "« LE VENT VIENT DE LA MISÉRICORDE D'ALLAH… NE L'INSULTEZ PAS »"} Stop ! Il a dit aussi : n'insultez pas le *vent* ! {source "ABOU DAWOUD 5097"}
+FIN

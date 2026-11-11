@@ -1,0 +1,40 @@
+# ISLAMARCADE — Short « Tu fais quoi ? » 3 : le réveil de Fajr sonne — 30 s maximum
+# Modèle : EXC 1 (vue subjective : ton téléphone qui sonne sur ta table de chevet, question à ~2 s, réponse à ~4 s).
+# Sources vérifiées (relecture indépendante du 02/11/2026) : Boukhari 1142 (les trois nœuds sur la nuque, قافية الرأس ;
+# « عليك ليل طويل فارقد » ; ذكر الله = « tu évoques Allah » ; فأصبح نشيطا = « ta journée commence pleine d'énergie ») ;
+# Boukhari 1144 (« Le Diable a uriné dans son oreille », أذنه au singulier) — la prière visée : celle de la nuit ou
+# l'obligatoire, les savants divergent (Fath al-Bari III/28 ; Mouslim 774) → affiché ; s'endormir sans négligence
+# n'est pas une faute (Mouslim 681) → affiché.
+
+TITRE: Le reveil de Fajr sonne
+CODE: TFQ3
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/SHORTS TU FAIS QUOI/voix
+PERSONNAGES: PETIT
+ACCROCHE: LE RÉVEIL DE FAJR SONNE / TU FAIS QUOI ?
+ACCROCHE_DUREE: 3.2
+MINIATURE: LE RÉVEIL DE FAJR / TU FAIS QUOI ?
+ICONE: horloge
+DUREE_FIN: 1.2
+
+== chevet_pov
+NARRATEUR (voix off) : {pov reveil "05:47"} [dramatic] Le réveil de *Fajr* sonne… tu fais quoi ?
+
+== nuque_nuit
+NARRATEUR (voix off) : {pov noeuds} [mysterious] Pendant que tu dormais, le Diable a noué trois *nœuds* sur ta nuque. {pov chuchote} [whispers] « La nuit est longue… dors. » {source "BOUKHARI 1142"}
+NARRATEUR (voix off) : {pov label "TU ÉVOQUES ALLAH"} {pov dhikr} [calm] Tu évoques Allah : {pov defait} un nœud se défait. {pov label "LES ABLUTIONS"} {pov eau} Les ablutions : {pov defait} le deuxième. {pov label "LA PRIÈRE"} {pov priere} La prière : {pov defait} le *troisième*. {source "BOUKHARI 1142"}
+
+== chambre_aube
+PETIT place 540
+PETIT content, étoiles
+NARRATEUR (voix off, sur PETIT) : [warmly] Et ta journée commence pleine d'*énergie*. {source "BOUKHARI 1142"}
+
+== chevet_pov_jour
+NARRATEUR (voix off) : {pov manque} [dark] Un homme a dormi jusqu'au matin sans se lever pour *prier*.
+
+== nuque_jour
+NARRATEUR (voix off) : {pov oreille} {pov label "LA PRIÈRE DE LA NUIT OU L'OBLIGATOIRE ? LES SAVANTS DIVERGENT"} [dark] Le Prophète ﷺ a dit : « Le Diable a uriné dans son *oreille*. » {source "BOUKHARI 1144"}
+NARRATEUR (voix off) : {pov label "S'ENDORMIR SANS NÉGLIGENCE N'EST PAS UNE FAUTE (MOUSLIM 681)"} [softly] Abonne-toi pour la suite.
+FIN

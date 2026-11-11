@@ -1,0 +1,87 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 22 : AL-KHIDR
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P22). Voix : E14P22_NARRATEUR, _CORAN
+# Moussa, Youcha', Al-Khidr (statut discuté) : orbes ; leurs paroles : la voix du Coran. Le garçon n'est JAMAIS montré au
+# moment où il est tué : l'image passe au noir ({noir 3s}) et, quand elle revient, les enfants ne sont plus là.
+# Explications (18:78-82) : trois tableaux à l'écran ({tableau bateau_roi | parents | tresor}).
+TITRE: Moussa - partie 22 - Al-Khidr
+CODE: E14P22
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, KHIDR
+
+# LE PLUS SAVANT — au camp, Moussa parle au peuple ; un homme lève la main : qui est le plus savant ?
+== camp_desert, ambiance amb_foule_murmure 0.15
+MOUSSA place 300
+FILS_D_ISRAEL place 560
+GENS place 680
+ISRAELITE_F place 800
+VIEILLARD place 920
+ISRAELITE place 1040
+ISRAELITE3 place 1160
+NARRATEUR (voix off, plan large) : [calm] Un jour, raconte le Prophète, on demande à Moussa : « Qui est {geste GENS question} l'homme le plus savant ? » Moussa {cadre MOUSSA} répond : « Moi. » Allah le lui {large} reproche, car il aurait dû répondre : « Allah sait mieux. » Et Allah lui révèle : un de Ses serviteurs, au {souvenir MOUSSA confluent 0 -10 3.2s} confluent des deux mers, est plus savant que lui. {source "BOUKHARI 3401"}
+
+# LE VOYAGE — le long de la côte : Moussa et Youcha', qui porte le panier où est le poisson
+== rivage_mer, ambiance amb_vagues_mer 0.3
+MOUSSA place -150
+YOUCHA place -330
+PANIER place -280 1322, porte
+NARRATEUR (voix off, plan large) : [calm] {derive MOUSSA 600 1320 7s} {derive YOUCHA 420 1320 7s} {derive PANIER 505 1322 7s} Moussa part avec son jeune serviteur, Youcha'. Ils emportent un {cadre PANIER} poisson. Là où le poisson disparaîtra, ils trouveront cet {large} homme. {source "BOUKHARI 3401"}
+
+# LE CONFLUENT — ils se reposent près du rocher ; le poisson saute du panier et file dans la mer ; ils repartent
+== confluent, ambiance amb_vagues_mer 0.3
+MOUSSA place -220
+YOUCHA place -340
+PANIER place -290 1322, porte
+CORAN (voix off, plan large) : {derive MOUSSA 560 1320 6s} {derive YOUCHA 680 1320 6s} {derive PANIER 760 1322 6s} Quand Moussa dit à son valet : « Je n'arrêterai pas avant d'avoir atteint le confluent des deux mers, dussé-je marcher de longues années. » Puis, lorsque tous deux eurent atteint le {derive PANIER 780 1364 1.2s} confluent, ils oublièrent leur poisson qui {geste PANIER porte_vide} {poisson 780 1220 600 1150} {son tr_whoosh_doux_1 0.04} prit alors librement son chemin dans la {cadre PANIER} mer. {source "CORAN 18:60-61"}
+
+# PLUS LOIN — ils ont dépassé l'endroit ; le déjeuner ; le panier est vide ; ils reviennent sur leurs pas
+== rivage_mer_jour, ambiance amb_vagues_mer 0.25
+MOUSSA place 360
+YOUCHA place 230
+PANIER place 300 1322, porte_vide
+CORAN (voix off, plan large) : Puis, lorsque tous deux eurent dépassé cet endroit, il dit à son valet : « Apporte-nous notre déjeuner : nous avons rencontré de la fatigue dans notre présent voyage. » Le valet lui dit : « Quand nous avons pris refuge près du {souvenir YOUCHA confluent 0 -10 3s} rocher, vois-tu, j'ai oublié le poisson, le Diable seul m'a fait oublier de te le rappeler, et il a curieusement pris son chemin dans la mer. » Moussa dit : « Voilà ce que nous {geste MOUSSA intense} cherchions. » Puis, ils retournèrent sur leurs pas, {derive MOUSSA -300 1320 5s} {derive YOUCHA -420 1320 5s} {derive PANIER -360 1322 5s} suivant leurs traces. {source "CORAN 18:62-64"}
+
+# L'HOMME DU CONFLUENT — près du rocher, une orbe verte : Al-Khidr ; Moussa s'approche
+== confluent, ambiance amb_vagues_mer 0.3
+KHIDR place 960
+MOUSSA place -200
+YOUCHA place -330
+CORAN (voix off, plan large) : {derive MOUSSA 620 1320 5s} {derive YOUCHA 470 1320 5s} Ils trouvèrent l'un de Nos serviteurs à qui Nous avions donné une grâce, de Notre part, et à qui Nous avions enseigné une science émanant de {cadre KHIDR} Nous. Moussa lui dit : « Puis-je suivre, à la condition que tu m'apprennes de ce qu'on t'a appris concernant une bonne {large} direction ? » L'autre dit : « Vraiment, tu ne pourras jamais être patient avec {cadre KHIDR} moi. Comment patienterais-tu sur des choses que tu n'embrasses pas par ta connaissance ? » Moussa lui dit : « Si Allah veut, tu me trouveras {cadre MOUSSA} patient ; et je ne désobéirai à aucun de tes ordres. » « Si tu me suis, dit l'autre, ne m'interroge sur rien tant que je ne t'en aurai pas fait {large} mention. » {source "CORAN 18:65-70"}
+NARRATEUR (voix off, plan large) : [calm] Cet homme, c'est {geste KHIDR intense} Al-Khidr. {source "BOUKHARI 3401"}
+
+# LE BATEAU — un petit bateau de pêcheurs pauvres ; ils montent à bord ; Al-Khidr arrache une planche
+== rivage_mer_jour, ambiance amb_vagues_mer 0.3
+BATEAU place 1150 1270
+PECHEUR place 1010 1240
+PECHEUR2 place 1268 1240
+MOUSSA place 300
+KHIDR place 440
+CORAN (voix off, plan large) : Alors les deux partirent. Et après qu'ils furent montés sur un {derive MOUSSA 1085 1250 3s} {derive KHIDR 1205 1250 3s} bateau, l'homme y fit une {geste BATEAU breche} {son imp_porte_enfoncee_1 0.04} brèche. Moussa lui dit : « Est-ce pour noyer ses occupants que tu l'as ébréché ? Tu as commis, certes, une chose {cadre MOUSSA} monstrueuse ! » L'autre répondit : « N'ai-je pas dit que tu ne pourrais pas garder patience en ma {cadre KHIDR} compagnie ? » « Ne t'en prends pas à moi, dit Moussa, pour un oubli de ma part ; et ne m'impose pas de grande difficulté dans mon {large} affaire. » {source "CORAN 18:71-73"}
+
+# LE GARÇON — sur un chemin, des enfants jouent ; Al-Khidr s'approche d'un garçon ; l'image passe au noir (rien n'est
+# montré) ; quand elle revient, il ne reste que les deux orbes
+== collines_madyan, ambiance amb_vent_doux 0.2
+ENFANT_A place 760
+ENFANT_B place 900
+GARCON place 1040
+MOUSSA place -200
+KHIDR place -60
+CORAN (voix off, plan large) : {derive MOUSSA 300 1320 4s} {derive KHIDR 440 1320 4s} {danse ENFANT_A 4s} {danse ENFANT_B 4s} Puis ils partirent tous deux ; et quand ils eurent {derive KHIDR 880 1320 2s} rencontré un enfant, {noir 3s} l'homme le {disparait GARCON 0.3s} {disparait ENFANT_A 0.3s} {disparait ENFANT_B 0.3s} tua. Alors Moussa lui dit : « As-tu tué un être innocent, qui n'a tué {cadre MOUSSA} personne ? Tu as commis certes, une chose affreuse ! » L'autre lui dit : « Ne t'ai-je pas dit que tu ne pourrais pas garder patience en ma {cadre KHIDR} compagnie ? » « Si, après cela, je t'interroge sur quoi que ce soit, dit Moussa, alors ne m'accompagne {large} plus. Tu seras alors excusé de te séparer de moi. » {source "CORAN 18:74-76"}
+
+# LE MUR — un village : les habitants leur ferment la porte ; au bout de la rue, un mur penché ; Al-Khidr le redresse
+== village_mur, mur, ambiance amb_vent_doux 0.2
+GENS place 464
+VIEILLARD place 836
+ISRAELITE_F place 104
+MOUSSA place -260
+KHIDR place -120
+CORAN (voix off, plan large) : {derive MOUSSA 200 1320 4s} {derive KHIDR 330 1320 4s} Ils partirent donc tous deux ; et quand ils furent arrivés à un village habité, ils demandèrent à manger à ses habitants ; mais ceux-ci {disparait GENS 1.2s} {disparait VIEILLARD 1.2s} {disparait ISRAELITE_F 1.2s} {son dv_porte_claque_1 0.05} refusèrent de leur donner l'hospitalité. Ensuite, ils y trouvèrent un mur sur le point de {derive KHIDR 1020 1320 2s} {derive MOUSSA 780 1320 2.5s} {cadre KHIDR} s'écrouler. L'homme le {mur redresse} {son imp_pierres_chute_1 0.04} redressa. Alors Moussa lui dit : « Si tu voulais, tu aurais bien pu réclamer pour cela un {large} salaire. » {source "CORAN 18:77"}
+
+# LES EXPLICATIONS — au bord de la mer, au soleil couchant : la séparation ; trois tableaux s'éclairent tour à tour
+== confluent_soir, emotion b, ambiance amb_vagues_mer 0.25
+MOUSSA place 420
+KHIDR place 700
+CORAN (voix off, plan large) : « Ceci marque la séparation entre toi et moi, dit l'homme. Je vais t'apprendre l'interprétation de ce que tu n'as pu supporter avec patience. Pour ce qui est du {tableau bateau_roi 9.8s} bateau, il appartenait à des pauvres gens qui travaillaient en mer. Je voulais donc le rendre défectueux, car il y avait derrière eux un roi qui saisissait de force tout bateau. Quant au {tableau parents 12s} garçon, ses père et mère étaient des croyants ; nous avons craint qu'il ne leur imposât la rébellion et la mécréance. Nous avons donc voulu que leur Seigneur leur accordât en échange un autre plus pur et plus affectueux. Et quant au {tableau tresor 14s} mur, il appartenait à deux garçons orphelins de la ville, et il y avait dessous un trésor à eux ; et leur père était un homme vertueux. Ton Seigneur a donc voulu que tous deux atteignent leur maturité et qu'ils extraient eux-mêmes leur trésor, par une miséricorde de ton Seigneur. Je ne l'ai d'ailleurs pas fait de mon propre chef. Voilà l'interprétation de ce que tu n'as pas pu endurer avec {geste KHIDR intense} patience. » {source "CORAN 18:78-82"}
+NARRATEUR (voix off, plan large) : [calm] Al-Khidr n'a rien fait de lui-même : c'est Allah qui le lui avait {geste KHIDR neutre} ordonné. {source "TAFSIR IBN KATHIR (18:82)"}

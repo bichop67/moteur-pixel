@@ -1,0 +1,34 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 3 : ENTRE LES DEUX MONTAGNES
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 3 - Entre les deux montagnes
+CODE: GOGP3
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# LE LEVANT — la terre nue, le soleil énorme ; des gens sans abri
+== gog_levant, 1.5s, ambiance amb_vent_desert 0.18
+DHOUL_QARNAYN place 1800
+GENS place 120
+BERGER place 260
+ISRAELITE_F place 400
+NARRATEUR (voix off) : [calm] {derive DHOUL_QARNAYN 760 9s} Il est allé jusqu'au bout des terres, du côté où le soleil se lève. Et là, il a trouvé un autre peuple. Des gens qui n'avaient *rien* pour se protéger du soleil. Pas une maison. Pas un arbre. {source "CORAN 18:90 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [mysterious] {derive DHOUL_QARNAYN 1850 8s} Puis il a pris une troisième route. [pause] Et c'est là que notre histoire commence vraiment. {source "CORAN 18:92"}
+
+# LE COL — les deux montagnes, le passage ouvert ; le peuple vient à lui
+== gog_col, ambiance amb_vent_doux 0.2
+DHOUL_QARNAYN place -360
+VIEILLARD place 1560
+GENS place 1700
+BERGER2 place 1820
+NARRATEUR (voix off) : [calm] {derive DHOUL_QARNAYN 240 8s} Il est arrivé entre deux montagnes. Deux montagnes, face à face. Et entre les deux… un *passage*. {source "CORAN 18:93 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [calm] {va VIEILLARD 820 6s} {va GENS 960 6s} {va BERGER2 1090 6s} Près de ces montagnes vivait un peuple. Des gens qui parlaient une langue si étrange… qu'ils ne comprenaient presque rien de ce qu'on leur disait. {source "CORAN 18:93 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [dark] Mais ces gens avaient peur. Et ils ont dit à Dhoul-Qarnayn :
+VIEILLARD (panique, pointe) : [afraid] Ô Dhoul-Qarnayn ! Ya'jouj et Ma'jouj sèment le désordre sur la terre ! {source "CORAN 18:94"}
+NARRATEUR (voix off) : [dark] {large} {horde_col 13} Ya'jouj et Ma'jouj. Ils vivaient de l'autre côté. Et par ce passage, entre les deux montagnes… ils sortaient. Et ils détruisaient les récoltes… et les *vies*. {source "TAFSIR IBN KATHIR (18:93-94)"}
+NARRATEUR (voix off) : [mysterious] Et qui étaient-ils, ces Ya'jouj et Ma'jouj ? Des monstres ? [pause] {cadre VIEILLARD} Non. Des êtres humains. Des descendants d'Adam, comme toi et moi. Mais tellement, tellement *nombreux*… {source "BOUKHARI 4741 · TAFSIR IBN KATHIR (18:93)"}
+NARRATEUR (voix off) : [calm] Alors le peuple a proposé quelque chose à Dhoul-Qarnayn :
+VIEILLARD (explique) : [pleading] Est-ce qu'on peut te payer… pour que tu construises un barrage, entre eux et nous ? {source "CORAN 18:94"}
+NARRATEUR (voix off) : [warmly] {cadre DHOUL_QARNAYN} Ils lui offraient de l'argent. Et lui, tu sais ce qu'il a répondu ? [pause] « Ce que mon Seigneur m'a donné vaut mieux. Aidez-moi avec force… et je construirai un *rempart* entre vous et eux. » {source "CORAN 18:95"}

@@ -1,0 +1,78 @@
+<!-- copie automatique de l'en-tête du scénario : ne pas modifier ici, modifier le scénario -->
+# ISL26 — Ne te releve jamais avant l imam
+Scénario : scenarios\islam_26_imam.txt
+
+TEXTE FIGÉ LE 08/11/2026 (relectures religieuse et format faites)
+TEXTE FIGÉ LE 08/11/2026 (relectures religieuse et format faites, révision de l'auteur appliquée)
+ISLAMARCADE — Short duo « Ne te relève JAMAIS avant l'imam… crains la tête d'âne ! » — format CONSIGNE + AVERTISSEMENT,
+30 s maximum (08/11/2026)
+Image 0 : vue à ta place, dans le rang, en prosternation : ton front quitte DÉJÀ le tapis (tes manches rouges en grand
+au premier plan), l'imam (homme ordinaire, de dos, étiqueté « L'IMAM ») et le rang sont encore PROSTERNÉS (calotte
+visible devant le dos : front au sol) ; flèche « TOI : DÉJÀ RELEVÉ ! ». Puis fondu vers la scène APRÈS la prière (salle
+vide). Puis la carte du hadith : l'imam étiqueté, encore prosterné, Petit (de dos) relève la tête ; son OMBRE sur le
+mur : des oreilles d'âne en POINTILLÉS (la menace, pas un fait) poussent lentement, « MENACE : / TÊTE D'ÂNE » au-dessus
+de Petit ; jamais son visage transformé ; Petit panique (« Mes oreilles ?! ») sur cette carte. Puis la frise « L'IMAM…
+PUIS TOI » en 4 temps (Mouslim 426 / Boukhari 722) ; la chute : Petit encore prosterné, seul, DE DOS dans le rang, face
+au mihrab, quand tout le monde est debout.
+Sources vérifiées sur sunnah.com le 08/11/2026 :
+  Mouslim 427a (Abou Hourayra) : « أَمَا يَخْشَى الَّذِي يَرْفَعُ رَأْسَهُ قَبْلَ الإِمَامِ أَنْ يُحَوِّلَ اللَّهُ رَأْسَهُ رَأْسَ حِمَارٍ » ;
+  Mouslim 427b : « مَا يَأْمَنُ … أَنْ يُحَوِّلَ اللَّهُ صُورَتَهُ فِي صُورَةِ حِمَارٍ » (= il n'est pas à l'abri) ; Boukhari 691
+  (bab « إِثْمِ مَنْ رَفَعَ رَأْسَهُ قَبْلَ الإِمَامِ ») : « أَمَا يَخْشَى أَحَدُكُمْ ـ أَوْ لاَ يَخْشَى أَحَدُكُمْ ـ إِذَا رَفَعَ رَأْسَهُ قَبْلَ الإِمَامِ أَنْ يَجْعَلَ
+  اللَّهُ رَأْسَهُ رَأْسَ حِمَارٍ أَوْ يَجْعَلَ اللَّهُ صُورَتَهُ صُورَةَ حِمَارٍ » (le « ou » = doute d'un transmetteur) ;
+  Abou Dawoud 623 (sahih, al-Albani) : « إِذَا رَفَعَ رَأْسَهُ وَالإِمَامُ سَاجِدٌ » (= relever la tête de la PROSTERNATION) ;
+  Mouslim 426a (Anas) : « أَيُّهَا النَّاسُ إِنِّي إِمَامُكُمْ فَلاَ تَسْبِقُونِي بِالرُّكُوعِ وَلاَ بِالسُّجُودِ وَلاَ بِالْقِيَامِ وَلاَ بِالاِنْصِرَافِ » ;
+  Boukhari 722 (Abou Hourayra) : « إِنَّمَا جُعِلَ الإِمَامُ لِيُؤْتَمَّ بِهِ … فَإِذَا رَكَعَ فَارْكَعُوا … وَإِذَا سَجَدَ فَاسْجُدُوا » ;
+  Mouslim 414a : « إِنَّمَا الإِمَامُ لِيُؤْتَمَّ بِهِ … فَإِذَا كَبَّرَ فَكَبِّرُوا وَإِذَا رَكَعَ فَارْكَعُوا … » ;
+  Boukhari 690 (al-Barâ', Compagnon) : personne ne se penchait « حَتَّى يَقَعَ النَّبِيُّ صلى الله عليه وسلم سَاجِدًا، ثُمَّ نَقَعُ سُجُودًا بَعْدَهُ » ;
+  Boukhari 757 (Abou Hourayra, l'homme qui priait mal) : « ثُمَّ ارْكَعْ حَتَّى تَطْمَئِنَّ رَاكِعًا، ثُمَّ ارْفَعْ حَتَّى تَعْتَدِلَ قَائِمًا،
+  ثُمَّ اسْجُدْ حَتَّى تَطْمَئِنَّ سَاجِدًا » (le redressement debout après l'inclinaison, avant la prosternation) ;
+  Mouwatta Malik 3/61 : par oubli, revenir à l'inclinaison / la prosternation sans attendre l'imam.
+Décisions religieuses : devancer l'imam exprès = INTERDIT (an-Nawawi, Charh Mouslim sur 426 : « فيه تحريم هذه الأمور وما
+في معناها » ; Ibn Hajar, Fath 2/183, pour le fait de lever la tête : « ظاهر الحديث يقتضي تحريم الرفع قبل الإمام ») →
+« c'est un péché » permis, pour celui qui le fait EXPRÈS. Validité : celui qui LÈVE LA TÊTE avant l'imam : pour la
+majorité il pèche et sa prière compte ; nulle selon Ibn Omar, un avis d'Ahmad et les zahirites (Fath 2/183) ; dire le
+premier « Allahou akbar » avant l'imam ou faire tout un mouvement avant lui exprès = plus grave selon les écoles →
+description seulement, jamais « ta prière ne compte pas » à l'écran. Le hadith de l'âne vise CELUI QUI LÈVE LA TÊTE de
+la PROSTERNATION avant l'imam (Abou Dawoud 623 ; Fath 2/183 : « إنما هو نص في السجود، ويلتحق به الركوع ») : la menace
+n'est dite que pour « te relever » ; « ne bouge jamais avant lui » (accroche, frise) = Mouslim 426, chaque texte sous
+sa propre source. « Ne craint-il pas » = reproche (« استفهام توبيخ », Fath 2/183) : il s'y EXPOSE, sans que ça arrive
+forcément (Ibn Daqîq al-'Îd, Fath 2/184 : « لا يلزم من التعرض للشيء وقوع ذلك الشيء ») ; sens propre ou figuré débattu,
+Ibn Hajar penche pour le sens propre (« يقوي حمله على ظاهره ») → oreilles en POINTILLÉS sur l'OMBRE, jamais le visage de
+Petit changé, jamais montré comme un fait arrivé. « فَارْكَعُوا » = juste APRÈS lui, une fois l'imam ARRIVÉ dans la
+position (Boukhari 690 ; Fath 2/182) → la chute (« pas trois heures après ») reste un conseil de Grand, sans « péché ».
+Le hadith « من رفع رأسه قبل الإمام … فلا صلاة له » est faible (munkar) : jamais utilisé.
+Relecture indépendante du 08/11/2026 (religion + format), décisions : 1re réplique au PASSÉ (« J'ai levé la tête
+avant l'imam ! », les mots mêmes du hadith) : Petit raconte APRÈS la prière, personne ne parle pendant la prière ;
+l'avertissement avancé dans l'ordre de Grand (« Ne te relève jamais avant lui… crains la tête d'âne ! » : « âne » vers
+6 s) ; {ane} avant « Le Prophète ﷺ » (la carte arrive dès le début de la réplique, le mur bouge pendant le ﷺ) ; la
+carte montre la PROSTERNATION (cas du texte) et l'étiquette « L'IMAM » ; « Le faire exprès : péché ! » (la condition
+« exprès » nette ; « Exprès, c'est un péché » s'entendait « c'est exprès ? ») ; la réplique chuchotée « Je bouge plus… »
+SUPPRIMÉE (Petit semblait parler EN PRIÈRE ; « plus » ambigu ; durée) : le gag passe par l'image {ane colle}, en
+« nouveau schéma » pendant toute la chute ; chute = l'action (« Juste après… pas trois heures après ! ») ; la frise en
+« nouveau schéma » (ne s'empile pas sur la carte) ; « TOI » ne bouge qu'une fois l'imam ARRIVÉ dans la position ;
+« MENACE : TÊTE D'ÂNE » sans gros « ? », aucun braiment ni bruitage comique. Menace dite seulement pour « te relever »
+(texte), l'ordre général « ne bouge jamais avant lui » reste à l'écran sous Mouslim 426.
+Révision du 08/11/2026 après les deux relectures (texte dit inchangé, seul l'ORDRE des répliques change) :
+  - BLOQUANT (religion) corrigé : la frise passait de l'inclinaison DIRECTEMENT à la prosternation (le redressement
+    debout, obligatoire, disparaissait). Elle a maintenant 4 temps : INCLINÉ → REDRESSÉ (debout) → PROSTERNÉ → RELEVÉ
+    (Boukhari 757 « ثُمَّ ارْفَعْ حَتَّى تَعْتَدِلَ قَائِمًا، ثُمَّ اسْجُدْ » ; Boukhari 690), plus rapide (0,75 s par temps) pour
+    tenir dans la réplique, « TOI » toujours APRÈS l'arrivée de l'imam et avant le temps suivant.
+  - L'imam de la frise n'est plus une silhouette blanche sans visage (la frise est sous Mouslim 426 / Boukhari 722, où
+    l'imam est le Prophète ﷺ : aucune ambiguïté permise) : pictogramme d'homme ordinaire (visage, collier de barbe,
+    calotte, qamis, mains et pieds nus).
+  - Plus de coche verte sur « TOI AVANT » : la version fausse est en bas à gauche (imam prosterné et TOI relevé côte à
+    côte sur le même sol, croix rouge à côté), les coches restent sous chaque pose de la frise.
+  - « MENACE : / TÊTE D'ÂNE » (orange, deux lignes de même taille) au-dessus de PETIT, loin de « L'IMAM » : la menace
+    vise celui qui lève la tête, jamais l'imam (Mouslim 427a).
+  - La chute : Petit prosterné DE DOS, DANS le rang (entre les fidèles vert et bleu), face au mihrab comme tous (la
+    qibla) ; plus de profil à 90° ; jamais seul derrière le rang ; chrono et « +5 S… » sous lui, sur le tapis vide.
+  - « Mes oreilles ?! » placé APRÈS la citation, en « schéma » : la carte arrive ≈ 1,3 s plus tôt (≈ 5,5-6 s) et les
+    oreilles en pointillés restent visibles pendant la panique de Petit (elles s'estompent 3,2 s après leur début).
+  - Oreilles d'âne longues et pointues (base large, pointe fine), écartées, attachées au crâne de l'ombre, toujours en
+    pointillés ; prosternés vus de dos : la calotte / la casquette dépasse devant le dos (« front au sol »).
+  - « TOI : DÉJÀ RELEVÉ ! » sur une seule ligne (lisible) ; un seul mot en jaune par réplique (*avant*, *âne*, *âne*,
+    *oreilles*, *péché*, *après*).
+  - Refusé : rien. Gardé : la coche sous chaque pose (Y_TOI + 50), plutôt qu'à droite (elle aurait touché la tête de
+    « TOI » prosterné).
+  - À contrôler sur la planche avec les vraies voix : fondu de l'accroche fini avant le 1er mot de Grand ; frise présente
+    dès « Le faire exprès » ; aucun plan vide de plus de 0,5 s.

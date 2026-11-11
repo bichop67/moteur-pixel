@@ -1,0 +1,26 @@
+# ISLAMARCADE — Short duo « Ta bouchée est tombée ? Ramasse-la ! » — format CONSIGNE (incident + geste), 30 s max (10/11/2026)
+# Image 0 : le morceau tombé par terre, en gros plan (brique focus). Le hadith ligne par ligne (brique citation), les
+# trois gestes cochés un par un (brique liste), puis la bénédiction en bandeau sur la scène.
+# Source : Mouslim 2033 (version « 2033b » de sunnah.com), vérifiée le 10/11/2026. Détails : sources\fiches\ISL38.md
+
+TITRE: Ta bouchee est tombee ramasse la
+CODE: ISL38
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: TA BOUCHÉE EST TOMBÉE ? / RAMASSE-LA !
+ACCROCHE_DUREE: 3.0
+MINIATURE: TOMBÉE PAR TERRE ? / RAMASSE-LA !
+ICONE: pizza
+DUREE_FIN: 1.5
+
+== cuisine
+PETIT (triste) : [disappointed] {focus pizza "TOMBÉE PAR TERRE…"} Oh non… mon dernier *morceau* !
+GRAND (calme, index) : [calm] *Ramasse-le* !
+PETIT (dégoûté, bulle ?) : [disgusted] Par *terre* ?! Beurk !
+GRAND (explique, plan moyen, nouveau schéma) : [calm] Le Prophète ﷺ a dit : {citation "LE PROPHÈTE ﷺ A DIT :" "« QUAND LA BOUCHÉE DE L'UN DE VOUS TOMBE, QU'IL LA PRENNE,"} quand la bouchée de l'un de vous tombe, qu'il la prenne, {citation "LE PROPHÈTE ﷺ A DIT :" "QU'IL ENLÈVE LA SALETÉ QUI S'Y TROUVE, ET QU'IL LA MANGE."} qu'il enlève la saleté, et qu'il la *mange* : {citation "QU'IL NE LA LAISSE PAS AU DIABLE. »"} {citation lueur rouge} qu'il ne la laisse pas au *diable* ! {source "MOUSLIM 2033"}
+GRAND (nouveau schéma) : [warmly] {liste titre "TA BOUCHÉE TOMBE ?" "RAMASSE-LA" "ENLÈVE LA SALETÉ" "MANGE-LA"} {liste coche 1} Ramasse, {liste coche 2} nettoie, {liste coche 3} *mange* ! {source "MOUSLIM 2033"}
+PETIT (question, bulle ?) : [curious] Pour une *bouchée* ?
+GRAND (content) : [warmly] {texte "« IL NE SAIT PAS DANS QUELLE PARTIE DE SA NOURRITURE SE TROUVE LA BÉNÉDICTION » // LE PROPHÈTE (PAIX ET SALUT SUR LUI)"} Tu ne sais pas où est la bénédiction… peut-être dans *celle-là* ! {source "MOUSLIM 2033"}
+FIN

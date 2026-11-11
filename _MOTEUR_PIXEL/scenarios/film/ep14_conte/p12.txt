@@ -1,0 +1,76 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 12 : LE JOUR DE LA FÊTE
+# Un seul conteur ; MAGICIENS et PHARAON : leurs paroles du Coran dites en mots simples (NOUVELLES voix à générer).
+# Paroles de Moussa et d'Allah (20:61, 20:66-69) rapportées par le conteur.
+# Le duel : {duel cordes|jette|happe|fin} (cordes et bâtons qui semblent ramper, puis le serpent qui happe tout).
+TITRE: Moussa conte - partie 12 - Le jour de la fete
+CODE: E14P12
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_epique
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: PHARAON, MOUSSA
+
+# LES MAGICIENS ARRIVENT — la carte : des lumières partent des villes et convergent vers la capitale ; puis l'esplanade de la fête
+== carte_madyan, 4s, rassemblement 0.2 3.6, ambiance amb_vent_doux 0.12
+== esplanade_fete, ambiance amb_foule_lointaine 0.25
+PHARAON place estrade, sur le trône, tient la crosse
+HAMAN place 50
+SOLDAT place -330, tient la lance
+MOUSSA place 330
+HAROUN place 215
+BATON place 380 1316
+MAGICIENS place 1500
+MAGICIEN2 place 1640
+MAGICIEN3 place 1780
+NARRATEUR (voix off) : [calm] {va MAGICIENS 760} {va MAGICIEN2 900} {va MAGICIEN3 1040} Le jour de la fête, les magiciens sont arrivés, de toutes les villes. Et on a dit aux gens : « Venez tous ! Comme ça, si ce sont les magiciens qui gagnent, on les suivra ! » Et quand les magiciens sont arrivés, ils ont demandé à Pharaon : {source "CORAN 26:38-41"}
+MAGICIENS (malin) : [mischievously] Est-ce qu'on aura une récompense, si c'est nous qui gagnons ? {source "CORAN 26:41"}
+PHARAON (fier) : [arrogant] Oui, bien sûr ! Et en plus, vous ferez partie de mes proches ! {source "CORAN 26:42"}
+
+# L'AVERTISSEMENT — les deux frères face aux magiciens ; les magiciens se regroupent et chuchotent ; la foule retient son souffle
+== esplanade_fete, ambiance amb_foule_murmure 0.15
+PHARAON place estrade, sur le trône, tient la crosse
+HAMAN place 50
+MOUSSA place 330
+HAROUN place 215
+BATON place 380 1316
+MAGICIENS place 760
+MAGICIEN2 place 900
+MAGICIEN3 place 1040
+NARRATEUR (voix off) : [calm] Moussa leur a dit : « Malheur à vous ! N'inventez pas de mensonge contre Allah, sinon Il vous détruira par un châtiment. Celui qui invente un mensonge a déjà perdu. » [pause] Alors les magiciens ont commencé à discuter entre eux… {va MAGICIEN2 830} {va MAGICIEN3 920} en secret. Ils se sont dit : {source "CORAN 20:61-62"}
+MAGICIENS (malin) : [whispers] Ces deux-là, ce sont des magiciens. Avec leur magie, ils veulent vous chasser de votre pays, et faire disparaître votre belle façon de vivre. Alors mettez toute votre ruse ensemble, et avancez en rangs serrés. Celui qui gagne aujourd'hui… il a tout gagné. {source "CORAN 20:63-64"}
+MAGICIENS (fier, pointe) : [arrogant] Ô Moussa ! Tu lances en premier… ou c'est nous qui lançons d'abord ? {source "CORAN 20:65"}
+NARRATEUR (voix off) : [calm] Et Moussa a dit : « Non. Lancez, vous. » {source "CORAN 20:66 (EXTRAIT)"}
+
+# LES SERPENTS — les cordes et les bâtons semblent ramper ; Moussa pâlit un instant ; il jette son bâton : le serpent happe tout
+== esplanade_fete, ambiance amb_foule_lointaine 0.25
+PHARAON place estrade, sur le trône, tient la crosse
+HAMAN place 50
+MOUSSA place 330
+HAROUN place 215
+BATON place 380 1316
+MAGICIENS place 760
+MAGICIEN2 place 860
+MAGICIEN3 place 960
+MAGICIENS (crie, pointe) : [shouting] Par la puissance de {duel cordes} {son fo_murmure_surpris_1 0.05} Pharaon… c'est nous qui allons gagner ! {source "CORAN 26:44"}
+NARRATEUR (voix off) : [dramatic] Et voilà que leurs cordes et leurs bâtons… semblaient ramper, à cause de leur magie. Moussa a ressenti un peu de peur en lui : peur que les gens se laissent tromper par leur magie. Et Allah lui a dit : « N'aie pas {geste MOUSSA intense} peur ! C'est toi qui auras le dessus. Jette ce qu'il y a dans ta main droite : ça va avaler tout ce qu'ils ont fabriqué. Ce qu'ils ont fait, ce n'est qu'une ruse de magicien. Et le magicien ne réussit jamais, où qu'il aille. » {source "CORAN 20:66-69 · TAFSIR IBN KATHIR (20:67)"}
+NARRATEUR (voix off, plan large) : [dramatic] Alors Moussa a jeté son {disparait BATON} {duel jette} bâton… et il est devenu un serpent immense, qui a {duel happe} avalé tout ce qu'ils avaient fabriqué. Les cordes. Les bâtons. Toute leur {duel fin} {apparait BATON} magie. {source "CORAN 26:45 · 7:117"}
+
+# LES MAGICIENS SE PROSTERNENT — le silence ; ils tombent prosternés ; Pharaon se lève, livide ; ils tiennent bon (MOMENT FORT)
+== esplanade_fete, emotion, ambiance amb_vent_doux 0.15
+PHARAON place estrade, sur le trône, tient la crosse
+HAMAN place 50
+MOUSSA place 330
+HAROUN place 215
+BATON place 380 1316
+MAGICIENS place 720, choc
+MAGICIEN2 place 930, choc
+MAGICIEN3 place 1140, choc
+NARRATEUR (voix off) : [softly] Et là, les magiciens ont compris. Eux, ils connaissaient la magie mieux que personne. Et ce qu'ils venaient de voir… ce n'était pas de la magie. {source "TAFSIR IBN KATHIR (20:69-70)"}
+NARRATEUR (voix off) : [softly] Ils sont tombés {geste MAGICIENS prosterne} {geste MAGICIEN2 prosterne} {geste MAGICIEN3 prosterne} prosternés, et ils ont dit : {source "CORAN 20:70"}
+MAGICIENS : [softly] On croit au Seigneur de Haroun et de Moussa ! {source "CORAN 20:70"}
+PHARAON (se lève, enerve, pointe) : [angry] Vous avez cru en lui avant que je vous le permette ?! C'est lui votre chef, c'est lui qui vous a appris la magie ! Je vais vous faire couper la main et le pied, de côtés opposés… et je vais vous faire crucifier sur des troncs de palmiers ! Et vous saurez qui de nous deux punit le plus fort… et le plus longtemps ! {source "CORAN 20:71"}
+MAGICIENS : [calm] Par Celui qui nous a créés… jamais on ne te préférera aux preuves claires qu'on a vues. Décide ce que tu veux ! Ton pouvoir, il ne touche que cette vie d'ici-bas. Nous, on croit en notre Seigneur, pour qu'Il nous pardonne nos fautes… et la magie que tu nous as forcés à faire. Et Allah est meilleur… et Il dure pour toujours. {source "CORAN 20:72-73"}
+MAGICIENS : [softly] Ô notre Seigneur… donne-nous la patience. Et fais-nous mourir entièrement soumis à Toi. {source "CORAN 7:126 (EXTRAIT)"}
+NARRATEUR (voix off, plan large) : [sad] Au début de ce jour, c'étaient des magiciens. [pause] Et à la fin de ce même jour… c'étaient des martyrs. {source "TAFSIR IBN KATHIR (7:126, IBN 'ABBAS)"}

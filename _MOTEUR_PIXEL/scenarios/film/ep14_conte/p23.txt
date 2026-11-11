@@ -1,0 +1,63 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 23 : QAROUN
+# Un seul conteur ; GENS, QAROUN et SAGES : leurs paroles du Coran dites en mots simples (NOUVELLES voix à générer).
+# Racontés : 28:76, 28:78-82. La demeure de Qaroun s'enfonce dans la terre ({engloutit}, décor palais_qaroun_vide +
+# option « demeure ») ; Qaroun s'enfonce et s'efface ; le lendemain, le terrain est vide.
+TITRE: Moussa conte - partie 23 - Qaroun
+CODE: E14P23
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: QAROUN, GENS
+
+# LE PLUS RICHE — la demeure : des coffres d'or partout ; des porteurs chargés d'énormes trousseaux de clés ; Qaroun
+# au milieu de ses trésors ; des hommes de son peuple viennent lui parler
+== demeure_qaroun, ambiance amb_temple_echo 0.18
+QAROUN place 620, fier
+PORTEUR place 900
+CLES place 960 1318, porte
+PORTEUR2 place 1060
+CLES2 place 1120 1318, porte
+PORTEUR3 place 1220
+CLES3 place 1280 1318, porte
+GENS place 200
+SAGE_ISRAEL place 60
+NARRATEUR (voix off) : [dark] Et puis, il y avait Qaroun. Il était du peuple de Moussa… mais il était injuste et arrogant envers eux. Allah lui avait donné tellement de trésors… que les clés de ses coffres étaient lourdes à porter, même pour toute une bande d'hommes forts. Les gens de son peuple lui {va GENS 380} ont dit : {source "CORAN 28:76"}
+GENS (calme, explique) : [calm] Ne fais pas le fier ! Allah n'aime pas ceux qui font les fiers. Avec ce qu'Allah t'a donné, cherche la demeure de l'au-delà… sans oublier ta part de cette vie. Fais le bien, comme Allah t'a fait du bien. Et ne cherche pas à semer le désordre sur la terre : Allah n'aime pas ceux qui sèment le désordre. {source "CORAN 28:76-77"}
+NARRATEUR (voix off) : [dark] Et Qaroun leur a répondu : {source "CORAN 28:78"}
+QAROUN (malin, bras croises) : [arrogant] Tout ça, je l'ai eu grâce à mon savoir à moi ! {source "CORAN 28:78"}
+
+# LE CORTÈGE — Qaroun sort de sa demeure dans tout son apparat : chevaux, serviteurs ; la foule regarde : les uns
+# envient, les sages secouent la tête
+== palais_qaroun, ambiance amb_foule_lointaine 0.25
+QAROUN place -260
+CHEVAL_BLANC place -480
+PORTEUR place -660
+SERVANTE place -840
+GENS place 1000, content
+FILS_D_ISRAEL place 1120, content
+ISRAELITE_F place 1240
+SAGES place 1360
+NARRATEUR (voix off) : [dark] {va QAROUN 520 7s} {va CHEVAL_BLANC 300 7s} {va PORTEUR 120 7s} {va SERVANTE -60 7s} Et puis, il est sorti devant son peuple, avec tout son {son imp_tambour_1 0.03} luxe. Et ceux qui aimaient la vie d'ici-bas {geste GENS pointe} ont dit : {source "CORAN 28:79"}
+GENS (content) : [excited] Ah, si seulement on avait ce qu'a reçu Qaroun ! Il a vraiment une chance immense ! {source "CORAN 28:79"}
+NARRATEUR (voix off) : [calm] Mais ceux qui avaient reçu le savoir {geste SAGES blase} ont dit : {source "CORAN 28:80"}
+SAGES (calme) : [calm] Malheur à vous ! La récompense d'Allah est bien meilleure, pour celui qui croit et qui fait le bien. {source "CORAN 28:80"}
+
+# LA TERRE L'ENGLOUTIT — devant sa demeure : la terre s'ouvre, la demeure s'enfonce, Qaroun aussi ; la poussière ;
+# puis il ne reste rien ; le lendemain, la même foule devant le terrain vide
+== palais_qaroun_vide, demeure, ambiance amb_vent_doux 0.15
+QAROUN place 560, fier
+GENS place 1000
+FILS_D_ISRAEL place 1120
+ISRAELITE_F place 1240
+SAGES place 1360
+NARRATEUR (voix off) : [dark] Alors Allah a fait que la terre {engloutit 5.5s} {son imp_grondement_1 0.06} {derive QAROUN 560 1380 4s} {disparait QAROUN 3.5s} {geste GENS peur} {geste FILS_D_ISRAEL peur} {geste ISRAELITE_F peur} l'avale, lui et sa maison. {son imp_pierres_chute_1 0.04} Et personne n'a pu le défendre contre Allah… et il n'a même pas pu se défendre lui-même. Et ceux qui, la veille, rêvaient d'être à sa {devient palais_qaroun_vide_aube 3} place… se sont mis à dire : {source "CORAN 28:81-82"}
+
+== palais_qaroun_vide_aube, ambiance amb_vent_doux 0.15
+GENS place 640, triste
+FILS_D_ISRAEL place 780, triste
+ISRAELITE_F place 920, triste
+SAGES place 1060
+GENS (triste) : [softly] Ah… c'est vrai : c'est Allah qui donne largement, à qui Il veut parmi Ses serviteurs, ou qui donne peu. Si Allah ne nous avait pas fait cette grâce… la terre nous aurait avalés, nous aussi. Ah… c'est vrai : ceux qui ne croient pas ne réussissent pas. {source "CORAN 28:82"}

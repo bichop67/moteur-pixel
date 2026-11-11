@@ -1,0 +1,5 @@
+[
+ {"nom": "oreille", "classe": "Ecoute", "args": ["oreille PETIT", "oreille"], "u": [0.0, 1.0, 2.2]},
+ {"nom": "console", "classe": "Ecoute", "args": ["oreille console", "console"], "u": [0.7, 1.6]},
+ {"nom": "accident", "classe": "Ecoute", "args": ["plomb accident", "accident"], "u": [0.8, 1.6, 2.4]}
+]

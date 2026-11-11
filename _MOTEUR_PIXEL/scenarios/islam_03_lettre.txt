@@ -1,0 +1,28 @@
+# ISLAMARCADE — Short 3 : « Lire le Coran sans comprendre, ça sert à rien ? » — 30 s maximum
+# Version du 01/11/2026 (l'ancienne « Une lettre du Coran » est dans le zip du moteur) : accroche choc, pas de « 1/2 »
+# à l'écran, hadith MONTRÉ : un Coran ouvert, la lumière suit la ligne, « +1 » par lettre lue puis « +10 » ; Alif Lam
+# Mim = 3 lettres = 30 ; le téléphone qui défile ; il prend le Coran.
+# Source vérifiée le 01/11/2026 : Tirmidhi 2910 (Abdallah ibn Mas'oud) — Tirmidhi : hasan sahih gharib ;
+# sunnah.com : Hasan (Darussalam). On s'en tient à l'exemple du hadith (Alif Lam Mim = 3 lettres = 30) : aucun total inventé.
+# La récompense par lettre vaut pour la lecture du Coran en ARABE (une traduction se récompense comme une lecture de
+# tafsir : IslamQA 2589) ; on est récompensé même sans comprendre, et on doit chercher le sens : Ibn Uthaymin (IslamQA 4040).
+# Voix : PETIT = accroche neuve + ses 2 répliques déjà enregistrées (ISL3) ; GRAND = ISL3 tel quel.
+
+TITRE: Lire le Coran sans comprendre
+CODE: ISL3B
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_espoir
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: LE CORAN SANS COMPRENDRE / ÇA SERT À RIEN ?!
+MINIATURE: SANS COMPRENDRE L'ARABE / ÇA SERT À RIEN ?!
+ICONE: livre
+
+== salon
+PETIT (telephone, blase) : Lire le Coran sans comprendre l'arabe ? Ça sert à *rien*.
+GRAND (malin, plan moyen) : Le Prophète ﷺ a dit : {coran} chaque lettre que tu lis, {source "TIRMIDHI 2910"} c'est une bonne action… {chiffre ×10} multipliée par *dix*.
+GRAND (explique, plan moyen, nouveau schéma) : Il a précisé : Alif Lam Mim, ce n'est pas une lettre : {lettres ا ل م} {source "TIRMIDHI 2910"} Alif est une lettre, Lam une lettre, Mim une lettre.
+PETIT (emerveille, schéma) : *Trente* bonnes actions ?!
+GRAND (pointe) : Et toi, {defile} tu scrolles combien de lettres par jour ?
+PETIT (gene, range, tient le coran) : … Je lis {texte "ÇA COMPTE MÊME SANS COMPRENDRE // MAIS CHERCHE SON SENS"} une page *du Coran* ce soir. {source "SELON IBN UTHAYMIN (ISLAMQA 4040)"}
+FIN

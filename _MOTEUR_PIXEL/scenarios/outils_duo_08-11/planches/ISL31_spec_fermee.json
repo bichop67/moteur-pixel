@@ -1,0 +1,4 @@
+[
+ {"nom": "porte", "classe": "Coucher", "args": ["crepuscule porte", "porte"], "t": {"fermee": 1.8}, "u": [2.6, 3.4]},
+ {"nom": "fermee_seule", "classe": "Coucher", "args": ["crepuscule fermee", "porte", "PETIT", true], "t": {"fermee": 0.0}, "u": [1.5]}
+]

@@ -1,0 +1,43 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 5 : L'AVERTISSEMENT
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 5 - L'avertissement
+CODE: GOGP5
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+== gog_barrage, 1s, oiseaux, ambiance amb_vent_doux 0.18
+NARRATEUR (voix off) : [calm] Les siècles ont {devient gog_barrage_soir 4} passé. Beaucoup de siècles. Et le barrage a tenu. {source "CORAN 18:97"}
+
+# MÉDINE, LA NUIT — l'orbe du Prophète entre ; l'orbe de Zaynab
+== gog_medine_nuit, ambiance amb_grillons_nuit 0.22
+ZAYNAB place 760
+PROPHETE place 1750
+NARRATEUR (voix off) : [mysterious] {derive PROPHETE 400 7s} Et puis un jour, le Prophète s'est réveillé de son sommeil. Il est entré chez son épouse Zaynab… *effrayé*. {source "BOUKHARI 3346 · MOUSLIM 2880"}
+NARRATEUR (voix off) : [dramatic] {cadre PROPHETE} Et il a dit : « Il n'y a de dieu qu'Allah ! Malheur aux Arabes… à cause d'un mal qui s'est approché ! Aujourd'hui, dans le barrage de Ya'jouj et Ma'jouj, il s'est ouvert… *comme ceci*. » [pause] {large} Et il a fait un cercle, avec son pouce et le doigt d'à côté. {source "BOUKHARI 3346 · MOUSLIM 2880"}
+
+# LE MUR DE PRÈS — un petit trou rond s'ouvre
+== gog_mur_pres, ambiance amb_vent_doux 0.15
+NARRATEUR (voix off) : [calm] {trou} {son imp_marteau_pierre_1 0.08} Une ouverture… grande comme un petit cercle.
+
+== gog_medine_nuit, ambiance amb_grillons_nuit 0.22
+ZAYNAB place 760
+PROPHETE place 400
+NARRATEUR (voix off) : [sad] {cadre ZAYNAB} Zaynab lui a demandé : « Ô Messager d'Allah, est-ce que nous allons périr… alors qu'il y a parmi nous des gens pieux ? » [pause] {cadre PROPHETE} Il a répondu : « Oui. Quand le mal se sera *multiplié*. » {source "BOUKHARI 3346 · MOUSLIM 2880"}
+
+# LE TABLEAU — mille petits hommes ; 999 s'assombrissent ; puis un seul, face à mille
+== gog_mille
+NARRATEUR (voix off) : [calm] Une autre fois, le Prophète a raconté ce qui se passera le Jour du Jugement. {part_feu 12} Allah dira à Adam : « Fais sortir, de ta descendance, la part du Feu. » Adam dira : « Et quelle est la part du Feu ? » [pause] « De chaque millier… neuf cent quatre-vingt-dix-neuf. » {source "BOUKHARI 3348 · 4741"}
+NARRATEUR (voix off) : [sad] Ses compagnons ont demandé : « Ô Messager d'Allah… et lequel d'entre nous sera ce seul-là ? » {source "BOUKHARI 3348"}
+NARRATEUR (voix off) : [warmly] Alors il leur a dit : « Réjouissez-vous. {mille 5} De vous, un homme… et de Ya'jouj et Ma'jouj, *mille*. » {source "BOUKHARI 3348 · MOUSLIM 222"}
+NARRATEUR (voix off) : [mysterious] Mille d'un côté… un seul de l'autre. [pause] Voilà à quel point ils sont nombreux.
+NARRATEUR (voix off) : [warmly] Et il a ajouté : « J'espère que vous serez la *moitié* des gens du Paradis. » {source "BOUKHARI 3348"}
+
+# DIX LAMPES — dix signes
+== gog_mille
+NARRATEUR (voix off) : [calm] {dix 5} Et le Prophète a prévenu : l'Heure n'arrivera pas avant que l'on voie dix signes. Et Ya'jouj et Ma'jouj… c'est l'un des *dix*. {source "MOUSLIM 2901"}
+
+== gog_barrage_nuit, ambiance amb_vent_fort 0.14
+NARRATEUR (voix off) : [dark] Alors… quand est-ce qu'ils sortiront ?

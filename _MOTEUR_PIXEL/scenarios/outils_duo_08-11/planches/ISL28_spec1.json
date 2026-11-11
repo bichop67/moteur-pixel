@@ -1,0 +1,8 @@
+[
+ {"nom": "tel", "classe": "Ghiba", "args": ["ghiba PETIT", "tel", "PETIT"], "t": {"stop": 1.6}, "u": [0.0, 0.6, 1.4, 2.0, 2.6]},
+ {"nom": "verset", "classe": "Ghiba", "args": ["chair", "verset"], "t": {"cloche": 1.2, "beurk": 2.6}, "u": [0.1, 0.8, 2.0, 2.8, 3.6]},
+ {"nom": "ping", "classe": "Ghiba", "args": ["chair vrai", "ping"], "t": {"calomnie": 1.0}, "u": [0.1, 0.5, 1.0, 1.4, 2.5]},
+ {"nom": "ongles", "classe": "Ghiba", "args": ["chair ongles", "ongles"], "t": {"ceux": 2.4}, "u": [0.0, 0.6, 1.5, 2.6, 3.4]},
+ {"nom": "efface", "classe": "Ghiba", "args": ["chair efface", "efface"], "u": [0.0, 0.3, 0.6, 1.0, 1.4]},
+ {"nom": "defend", "classe": "Ghiba", "args": ["chair defend", "defend"], "u": [0.0, 0.5, 1.0, 1.8, 3.0]}
+]

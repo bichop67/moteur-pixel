@@ -1,0 +1,31 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 2 : LE ROI QUI VOYAGEAIT
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 2 - Le roi qui voyageait
+CODE: GOGP2
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_desert
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# LA ROUTE — le désert ; l'orbe du roi avance, son armée suit au loin
+== desert, 1.5s, colonne, ambiance amb_vent_desert 0.2
+DHOUL_QARNAYN place 200
+NARRATEUR (voix off) : [calm] Tout commence il y a très, très longtemps. Avec un roi. [pause] On l'appelait *Dhoul-Qarnayn*. {source "CORAN 18:83 · TAFSIR IBN KATHIR (18:84)"}
+NARRATEUR (voix off) : [warmly] {derive DHOUL_QARNAYN 760 12s} Et ce roi-là, tu sais, il n'était pas comme les autres. Il croyait en Allah. Il était juste. Et Allah lui avait donné un pouvoir immense sur la terre… {cadre DHOUL_QARNAYN} et le moyen d'arriver à tout ce qu'il voulait. {source "CORAN 18:84 · TAFSIR IBN KATHIR"}
+
+== desert_soir, colonne, ambiance amb_vent_desert 0.2
+DHOUL_QARNAYN place -260
+NARRATEUR (voix off) : [calm] {derive DHOUL_QARNAYN 700 11s} Alors il a pris une route. Vers l'ouest. Et il a avancé… jusqu'au bout des terres. Là où il n'y a plus que la mer. {source "CORAN 18:85-86 · TAFSIR IBN KATHIR"}
+
+# LE COUCHANT — le rivage de vase, l'eau sombre, le soleil qui semble s'y enfoncer ; un peuple près de ses huttes
+== gog_couchant, ambiance amb_vagues_mer 0.2
+DHOUL_QARNAYN place 820
+GENS place 60
+BERGER2 place 190
+MERE_CROYANTE place -70
+NARRATEUR (voix off) : [mysterious] Et là, depuis le rivage, il a vu le soleil se coucher… comme s'il s'enfonçait dans une eau sombre et *boueuse*. {source "CORAN 18:86 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [calm] {derive DHOUL_QARNAYN 560 6s} Près de cette eau vivait un peuple. Et Allah a laissé le choix à Dhoul-Qarnayn : « Ou bien tu les punis… ou bien tu es bon avec eux. » {source "CORAN 18:86"}
+NARRATEUR (voix off) : [calm] {cadre DHOUL_QARNAYN} Le choix était entre ses mains. {source "CORAN 18:86"}
+NARRATEUR (voix off) : [warmly] Et Dhoul-Qarnayn a dit : « Celui qui est injuste, nous le punirons. Ensuite il retournera vers son Seigneur, qui le punira d'un châtiment terrible. [pause] {large} Mais celui qui croit et qui fait le bien… il aura la plus belle récompense. {geste GENS content} {geste BERGER2 content} Et nous ne lui demanderons que des choses *faciles*. » {source "CORAN 18:87-88"}
+NARRATEUR (voix off) : [calm] Voilà quel roi c'était. [pause] {derive DHOUL_QARNAYN 1700 9s} Puis il est reparti. Par une autre route. Vers l'est, cette fois. {source "CORAN 18:89 · TAFSIR IBN KATHIR"}

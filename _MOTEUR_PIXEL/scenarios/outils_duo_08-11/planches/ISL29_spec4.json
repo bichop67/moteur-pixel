@@ -1,0 +1,4 @@
+[
+ {"nom": "plomb", "classe": "Ecoute", "args": ["plomb", "plomb"], "t": {"carte": 3.4, "goutte": 5.7, "jour": 7.7}, "u": [2.0, 6.4, 7.6]},
+ {"nom": "accident", "classe": "Ecoute", "args": ["plomb accident", "accident"], "u": [1.6, 2.4]}
+]

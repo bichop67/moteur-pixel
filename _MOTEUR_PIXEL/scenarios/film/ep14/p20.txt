@@ -1,0 +1,64 @@
+# ÉPISODE 14 — L'HISTOIRE DU PROPHÈTE MOUSSA — PARTIE 20 : LA VACHE
+# Découpage : FILM\EPISODE 14\_source\ep14_source_complet.txt (P20). Voix : E14P20_NARRATEUR, _CORAN, _FILS_D_ISRAEL
+# Moussa : orbe, ses paroles lues par la voix du Coran. Le mort : RICHE_ISRAEL (étendu, de loin) ; celui qui l'a tué :
+# NEVEU (Ibn Kathir 2:73 : son neveu, pour l'héritage — montré seulement, pas dit). La vache n'est pas immolée à
+# l'écran : on l'emmène, hors champ.
+TITRE: Moussa - partie 20 - La vache
+CODE: E14P20
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix
+PERSONNAGES: MOUSSA, FILS_D_ISRAEL
+
+# LE MORT — au petit matin, entre les tentes : un homme étendu ; la foule ; chacun accuse les autres
+== camp_desert_aube, ambiance amb_foule_murmure 0.15
+RICHE_ISRAEL place 520 1284, allonge
+ISRAELITE2 place 140
+GENS place 300
+ISRAELITE place 760
+ISRAELITE_F place 900
+FILS_D_ISRAEL place 1040
+NEVEU place 1180
+NARRATEUR (voix off, plan large) : [dark] Un jour, un homme est retrouvé {cadre RICHE_ISRAEL} mort. Qui l'a tué ? Personne ne {large} sait. Et chacun {geste GENS pointe} {geste FILS_D_ISRAEL pointe} accuse {geste ISRAELITE enerve} {geste NEVEU pointe} les autres. {source "CORAN 2:72"}
+CORAN (voix off, plan large) : Et quand vous aviez tué un homme et que chacun de vous cherchait à se {geste ISRAELITE haussement} {geste NEVEU haussement} disculper. Mais Allah démasqua ce que vous {cadre NEVEU} dissimuliez. {source "CORAN 2:72"}
+
+# QUELLE VACHE ? — Moussa face au groupe ; derrière Moussa, un troupeau de toutes les couleurs ; à chaque réponse, des
+# bêtes s'en vont, jusqu'à ce qu'il ne reste qu'une vache : jaune vif
+== camp_desert, ambiance amb_troupeau 0.2
+VACHE_NOIRE place -270 1212
+VACHE_BLANCHE place -60 1212
+VACHE_JAUNE_TACHES place 150 1212
+VACHE_GRISE place -180 1262
+VACHE_JAUNE place 40 1262
+VEAU_JEUNE place 250 1262
+MOUSSA place 470
+FILS_D_ISRAEL place 700
+ISRAELITE place 830
+GENS place 960
+ISRAELITE2 place 1090
+CORAN (voix off, plan large) : Et lorsque Moussa dit à son peuple : « Certes Allah vous ordonne d'immoler une {cadre MOUSSA} vache. » Ils {large} dirent : {source "CORAN 2:67"}
+FILS_D_ISRAEL (malin, sur FILS_D_ISRAEL) : [mocking] Nous prends-tu en moquerie ? {source "CORAN 2:67"}
+CORAN (voix off, sur MOUSSA) : « Qu'Allah me garde d'être du nombre des ignorants ! » dit-il. {source "CORAN 2:67"}
+FILS_D_ISRAEL (blase, sur FILS_D_ISRAEL) : [skeptical] Demande pour nous à ton Seigneur qu'Il nous {geste ISRAELITE haussement} précise ce qu'elle doit être. {source "CORAN 2:68"}
+CORAN (voix off, plan large) : Il dit : « Certes Allah dit que c'est bien une vache, ni une vache {va VACHE_GRISE -700} vieillie ni {va VEAU_JEUNE -700} vierge, d'un âge moyen, entre les deux. Faites donc ce qu'on vous commande. » {source "CORAN 2:68"}
+FILS_D_ISRAEL (blase, sur FILS_D_ISRAEL) : [skeptical] Demande donc pour nous à ton Seigneur qu'Il nous précise sa {geste GENS haussement} couleur. {source "CORAN 2:69"}
+CORAN (voix off, plan large) : Il dit : « Allah dit que c'est une vache {va VACHE_NOIRE -700} {va VACHE_BLANCHE -700} jaune, de couleur vive et plaisante à voir. » {source "CORAN 2:69"}
+FILS_D_ISRAEL (blase, plan large) : [skeptical] Demande pour nous à ton Seigneur qu'Il nous précise ce qu'elle est car pour nous, les vaches se {geste ISRAELITE2 haussement} confondent. Mais, nous y serions certainement bien guidés, si Allah le veut. {source "CORAN 2:70"}
+CORAN (voix off, plan large) : Il dit : « Allah dit que c'est bien une vache qui n'a pas été asservie à labourer la terre ni à arroser le champ, {va VACHE_JAUNE_TACHES -700} indemne d'infirmité et dont la couleur est unie. » {source "CORAN 2:71"}
+FILS_D_ISRAEL (malin, sur FILS_D_ISRAEL) : [sarcastic] Te voilà enfin, tu nous as apporté la vérité ! {source "CORAN 2:71"}
+CORAN (voix off, plan large) : Ils l'immolèrent {va ISRAELITE -700} {va VACHE_JAUNE -700} alors mais il s'en fallut de peu qu'ils ne l'eussent pas fait. {source "CORAN 2:71"}
+
+# LE MORT PARLE — on touche le corps avec un morceau de la vache ; l'homme se relève, désigne celui qui l'a tué, retombe ;
+# la foule recule, stupéfaite
+== camp_desert, ambiance amb_vent_doux 0.2
+MOUSSA place 120
+RICHE_ISRAEL place 520 1284, allonge
+FILS_D_ISRAEL place 300
+GENS place 760
+ISRAELITE place 880
+NEVEU place 1020
+ISRAELITE_F place 1160
+ISRAELITE2 place 1300
+CORAN (voix off, plan large) : Nous dîmes donc : « Frappez le tué avec une {va GENS 640} partie de la vache. » Ainsi, Allah {lumiere RICHE_ISRAEL} ressuscite les morts et vous montre Ses signes afin que vous {cadre RICHE_ISRAEL} raisonniez. {source "CORAN 2:73"}
+NARRATEUR (voix off, plan large) : [mysterious] Le mort {geste RICHE_ISRAEL debout} {derive GENS 760 1262 1.2s} se relève. Il {regarde RICHE_ISRAEL droite} désigne {geste RICHE_ISRAEL pointe} {geste NEVEU peur} {derive ISRAELITE 900 1262 1.4s} {derive ISRAELITE_F 1200 1262 1.4s} celui qui l'a tué… puis il {geste RICHE_ISRAEL allonge} retombe, mort. {source "TAFSIR IBN KATHIR (2:73)"}

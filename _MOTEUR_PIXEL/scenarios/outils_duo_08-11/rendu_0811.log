@@ -1,0 +1,150 @@
+11:06:54 -> scenario.py scenarios/islam_23_talons.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu fais tes ablutions lave tes talons.mp4
+
+11:09:46 fin (0) en 2.9 min
+11:09:46 -> controle_video.py scenarios/Tu fais tes ablutions lave tes talons.mp4 --leger
+Tu fais tes ablutions lave tes talons.mp4 : 22.9 s, 1080x1920, -15.8 LUFS, crête -1.4 dBFS, aucun trou de son
+  planche : scenarios/Tu fais tes ablutions lave tes talons_qa.png
+  rythme : 16 changements nets d'image (0.7 par seconde) ; passages figés de plus de 4 s : [(5.2, 10.0)]
+  copie légère : scenarios/Tu fais tes ablutions lave tes talons (leger).mp4 (9.7 Mo)
+
+11:10:43 fin (0) en 0.9 min
+11:10:43 -> scenario.py scenarios/islam_24_urine.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Pipi fini, pas nettoyé, je file. Ça sèche tout seul. Je vais vérifier, dix fois !
+GRAND Stop ! Nétoie -toi bien ! Deux morts, châtiés dans leurs tombes ! Le prophète, que la paix et le salut d 'Allah soient sur lui, a dit « L 'un ne se protégeait pas de son urine, l 'autre colportait les paroles » Négligez l 'urine, grand péché ! Bien nettoyer, ça suffit !
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl24\asr_ISL24.json
+
+11:11:23 fin (0) en 0.7 min
+11:11:23 -> scenario.py scenarios/islam_24_urine.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu sors des toilettes nettoie toi bien.mp4
+
+11:14:06 fin (0) en 2.7 min
+11:14:06 -> controle_video.py scenarios/Tu sors des toilettes nettoie toi bien.mp4 --leger
+Tu sors des toilettes nettoie toi bien.mp4 : 24.0 s, 1080x1920, -15.3 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Tu sors des toilettes nettoie toi bien_qa.png
+  rythme : 18 changements nets d'image (0.8 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Tu sors des toilettes nettoie toi bien (leger).mp4 (9.7 Mo)
+
+11:15:07 fin (0) en 1.0 min
+11:15:07 -> scenario.py scenarios/islam_25_droite.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Tacos et Tiktok ! Le Shaitan mange ? Tacos à droite, Tiktok à gauche.
+GRAND Arrête ! Le haïtan mange de la gauche ! Le prophète, que la paix et le salut d 'Allah soient sur lui, l 'a dit. Un homme a refusé. Je ne peux pas, par orgueil. Le prophète a dit, puisses -tu ne pas pouvoir ? Il n 'a plus levé sa droite à sa bouche. T 'as droit de plâtrer ? Aucun reproche.
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl25\asr_ISL25.json
+
+11:15:46 fin (0) en 0.6 min
+11:15:46 -> scenario.py scenarios/islam_25_droite.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu manges de la main gauche arrete.mp4
+
+11:18:29 fin (0) en 2.7 min
+11:18:29 -> controle_video.py scenarios/Tu manges de la main gauche arrete.mp4 --leger
+Tu manges de la main gauche arrete.mp4 : 23.9 s, 1080x1920, -16.8 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Tu manges de la main gauche arrete_qa.png
+  rythme : 27 changements nets d'image (1.1 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Tu manges de la main gauche arrete (leger).mp4 (9.8 Mo)
+
+11:19:27 fin (0) en 1.0 min
+11:19:27 -> scenario.py scenarios/islam_26_imam.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Ne te releve jamais avant l imam.mp4
+
+11:21:59 fin (0) en 2.5 min
+11:21:59 -> controle_video.py scenarios/Ne te releve jamais avant l imam.mp4 --leger
+Ne te releve jamais avant l imam.mp4 : 21.9 s, 1080x1920, -16.2 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Ne te releve jamais avant l imam_qa.png
+  rythme : 16 changements nets d'image (0.7 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Ne te releve jamais avant l imam (leger).mp4 (9.8 Mo)
+
+11:22:55 fin (0) en 0.9 min
+11:22:55 -> scenario.py scenarios/islam_27_asr.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Encore un match ! Je la rattraperai. Ma famille ? Ma console ? La sert d 'abord, le match après.
+GRAND Pris l 'asr d 'abord ! Le prophète, que la paix et le salut d 'Allah soient sur lui, a dit « Celui qui rate l 'asr, c 'est comme si on lui avait pris sa famille et ses biens. » Rater, c 'est laisser passer son heure. N 'attend pas que le soleil jaunisse.
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl27\asr_ISL27.json
+
+11:23:33 fin (0) en 0.6 min
+11:23:33 -> scenario.py scenarios/islam_27_asr.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Encore un match prie l Asr d abord.mp4
+
+11:26:11 fin (0) en 2.6 min
+11:26:11 -> controle_video.py scenarios/Encore un match prie l Asr d abord.mp4 --leger
+Encore un match prie l Asr d abord.mp4 : 22.6 s, 1080x1920, -15.7 LUFS, crête -1.4 dBFS, aucun trou de son
+  planche : scenarios/Encore un match prie l Asr d abord_qa.png
+  rythme : 16 changements nets d'image (0.7 par seconde) ; passages figés de plus de 4 s : [(6.5, 10.8)]
+  copie légère : scenarios/Encore un match prie l Asr d abord (leger).mp4 (9.8 Mo)
+
+11:27:08 fin (0) en 1.0 min
+11:27:08 -> scenario.py scenarios/islam_28_medisance.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Le nouveau pu ! Ben c 'est vrai ! Je coupe mes ongles !
+GRAND Arrête ! Tu manges la chair de ton frère mort ! Le prophète, que la paix et le salut d 'Allah soient sur lui, dit Si c 'est vrai, c 'est ça la médisance ! Il a vu des gens aux ongles de cuivre se griffer le visage. Ceux qui mangent la chair des gens ! Défends -le ! Allah protégera ton visage du feu !
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl28\asr_ISL28.json
+
+11:27:47 fin (0) en 0.6 min
+11:27:47 -> scenario.py scenarios/islam_28_medisance.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu parles dans son dos arrete.mp4
+
+11:30:22 fin (0) en 2.6 min
+11:30:22 -> controle_video.py scenarios/Tu parles dans son dos arrete.mp4 --leger
+Tu parles dans son dos arrete.mp4 : 23.2 s, 1080x1920, -15.7 LUFS, crête -1.4 dBFS, aucun trou de son
+  planche : scenarios/Tu parles dans son dos arrete_qa.png
+  rythme : 23 changements nets d'image (1.0 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Tu parles dans son dos arrete (leger).mp4 (9.8 Mo)
+
+11:31:20 fin (0) en 1.0 min
+11:31:20 -> scenario.py scenarios/islam_29_ecoute.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Chut ! Il parle de moi ! Du plomb ? Trop tard. Une console.
+GRAND Arrête ! Allah dit, n 'espionnez pas ! Le prophète, que la paix et le salut d 'Allah soient sur lui, a dit, celui qui écoute des gens malgré eux, on lui versera du plomb fondu dans l 'oreille le jour de la Résurrection. Sans le vouloir, éloigne -toi. Surprise gâchée, repends -toi, décolle !
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl29\asr_ISL29.json
+
+11:31:59 fin (0) en 0.6 min
+11:31:59 -> scenario.py scenarios/islam_29_ecoute.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu ecoutes derriere la porte arrete.mp4
+
+11:34:51 fin (0) en 2.9 min
+11:34:51 -> controle_video.py scenarios/Tu ecoutes derriere la porte arrete.mp4 --leger
+Tu ecoutes derriere la porte arrete.mp4 : 24.1 s, 1080x1920, -16.0 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Tu ecoutes derriere la porte arrete_qa.png
+  rythme : 21 changements nets d'image (0.9 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Tu ecoutes derriere la porte arrete (leger).mp4 (9.8 Mo)
+
+11:35:54 fin (0) en 1.0 min
+11:35:54 -> scenario.py scenarios/islam_30_horoscope.txt asr
+(maquette : voix absentes, durées estimées)
+PETIT Mon horoscope ! Je serai riche ! Quarante nuits ? J 'arrête de prier ? Et mon signe ? Je supprime.
+GRAND Arrête ! Le prophète, que la paix et le salut d 'Allah soit sur lui, a dit, qui interroge un devin, sa prière n 'est pas acceptée qu 'à rente nuit. Non ! Tu dois quand même prier ! Musulman. Ton avenir, Allah seul le connaît. Et repends -toi.
+C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\voix_isl30\asr_ISL30.json
+
+11:36:32 fin (0) en 0.6 min
+11:36:32 -> scenario.py scenarios/islam_30_horoscope.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Tu lis ton horoscope arrete.mp4
+
+11:39:45 fin (0) en 3.2 min
+11:39:45 -> controle_video.py scenarios/Tu lis ton horoscope arrete.mp4 --leger
+Tu lis ton horoscope arrete.mp4 : 24.1 s, 1080x1920, -15.4 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Tu lis ton horoscope arrete_qa.png
+  rythme : 21 changements nets d'image (0.9 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Tu lis ton horoscope arrete (leger).mp4 (9.8 Mo)
+
+11:40:52 fin (0) en 1.1 min
+11:40:52 -> scenario.py scenarios/islam_31_coucher.txt tout 8
+vidéo : C:\Users\abdellah\Desktop\VIDEO YOUTUBE\_MOTEUR_PIXEL\scenarios\Le soleil se couche rentre les petits.mp4
+
+11:43:49 fin (0) en 3.0 min
+11:43:49 -> controle_video.py scenarios/Le soleil se couche rentre les petits.mp4 --leger
+Le soleil se couche rentre les petits.mp4 : 21.2 s, 1080x1920, -16.2 LUFS, crête -1.5 dBFS, aucun trou de son
+  planche : scenarios/Le soleil se couche rentre les petits_qa.png
+  rythme : 25 changements nets d'image (1.2 par seconde) ; aucun passage figé de plus de 4 s
+  copie légère : scenarios/Le soleil se couche rentre les petits (leger).mp4 (9.8 Mo)
+
+11:45:00 fin (0) en 1.2 min
+ISL23 Tu fais tes ablutions lave tes talons : contrôle illisible, PASSAGE FIGÉ > 4 s | figés de plus de 4 s : [(5.2, 10.0)]
+ISL24 Tu sors des toilettes nettoie toi bien : contrôle illisible, rythme OK
+ISL25 Tu manges de la main gauche arrete : contrôle illisible, rythme OK
+ISL26 Ne te releve jamais avant l imam : contrôle illisible, rythme OK
+ISL27 Encore un match prie l Asr d abord : contrôle illisible, PASSAGE FIGÉ > 4 s | figés de plus de 4 s : [(6.5, 10.8)]
+ISL28 Tu parles dans son dos arrete : contrôle illisible, rythme OK
+ISL29 Tu ecoutes derriere la porte arrete : contrôle illisible, rythme OK
+ISL30 Tu lis ton horoscope arrete : contrôle illisible, rythme OK
+ISL31 Le soleil se couche rentre les petits : contrôle illisible, rythme OK

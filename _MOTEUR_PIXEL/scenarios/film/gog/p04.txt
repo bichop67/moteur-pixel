@@ -1,0 +1,35 @@
+# FILM HORS-SÉRIE « GOG ET MAGOG » (10/11/2026) — PARTIE 4 : LE BARRAGE
+# Un seul conteur ; Coran + hadiths authentiques seulement ; orbes : Dhoul-Qarnayn, 'Issa, le Prophète, Zaynab.
+TITRE: Gog et Magog - partie 4 - Le barrage
+CODE: GOGP4
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+MUSIQUE: fond_epique
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/HORS SERIE - GOG ET MAGOG/voix
+
+# LE CHANTIER — les blocs de fer montent ; la fournaise ; le cuivre fondu (MOMENT FORT)
+== gog_col, ambiance amb_chantier 0.22
+DHOUL_QARNAYN place 160
+VIEILLARD place 930
+GENS place 1060
+NARRATEUR (voix off) : [dramatic] Dhoul-Qarnayn a dit : « Apportez-moi des blocs de *fer* ! » {source "CORAN 18:96"}
+NARRATEUR (voix off) : [calm] {barrage_monte 13} Alors ils ont apporté le fer. Bloc après bloc. Rangée après rangée. Et le mur s'est mis à monter… entre les deux montagnes. {source "CORAN 18:96 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [calm] Plus haut. Encore plus haut. Jusqu'à ce que le fer arrive tout en haut, au niveau des deux versants. Le passage était *fermé*. {source "CORAN 18:96 · TAFSIR IBN KATHIR"}
+NARRATEUR (voix off) : [dramatic] Mais Dhoul-Qarnayn n'avait pas fini. Il a dit : « {barrage_feu 6} {son dv_feu_allumage_1 0.12} Soufflez ! » [pause] Et ils ont attisé le feu… jusqu'à ce que tout ce fer devienne une *fournaise*. {source "CORAN 18:96"}
+NARRATEUR (voix off) : [dramatic] Et là, il a dit : « Apportez-moi du cuivre fondu, que je le verse dessus. » {source "CORAN 18:96"}
+NARRATEUR (voix off) : [calm] {barrage_cuivre 7} Et le cuivre fondu a recouvert le fer. [pause] Un barrage de fer… et de *cuivre*. {source "CORAN 18:96 · TAFSIR IBN KATHIR"}
+
+# L'AUTRE CÔTÉ, LA NUIT — ils n'arrivent ni à monter ni à percer
+== gog_derriere, 1s, escalade, ambiance amb_foule_lointaine 0.22
+NARRATEUR (voix off) : [dark] De l'autre côté, Ya'jouj et Ma'jouj n'ont pas pu passer par-dessus. [pause] Et ils n'ont pas pu le percer. {source "CORAN 18:97"}
+
+# LE BARRAGE FINI, LE SOIR
+== gog_barrage_soir, vent, ambiance amb_vent_doux 0.2
+DHOUL_QARNAYN place 240
+VIEILLARD place 900
+GENS place 1030
+BERGER2 place 1160
+NARRATEUR (voix off) : [warmly] {cadre DHOUL_QARNAYN} Et Dhoul-Qarnayn, devant ce barrage, qu'est-ce qu'il a dit ? [pause] « C'est une *miséricorde* de mon Seigneur. » {source "CORAN 18:98"}
+NARRATEUR (voix off) : [dark] Et puis il a ajouté une phrase. [pause] « Mais quand la promesse de mon Seigneur {souvenir DHOUL_QARNAYN gog_barrage_fin 70 16 7s} viendra… Il le rasera. {large} Et la promesse de mon Seigneur est *vérité*. » {source "CORAN 18:98"}
+NARRATEUR (voix off) : [mysterious] Tu as compris ? Ce barrage ne restera pas là pour toujours. [pause] Un jour… il {devient gog_barrage_nuit 4} tombera.

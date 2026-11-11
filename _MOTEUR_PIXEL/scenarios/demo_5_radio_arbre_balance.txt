@@ -1,0 +1,23 @@
+# DÉMO 5 (03/11/2026) — les 4 nouvelles démonstrations en image (explique.py), avec leur code à l'écran :
+# radiographie (articulations), orteil cogné, arbre qui perd ses feuilles, balance. Maquette sans voix.
+
+TITRE: Demo 5 - radio orteil arbre balance
+CODE: DEMO5
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: aucune
+PERSONNAGES: PETIT, GRAND
+DEMO: oui
+DUREE_FIN: 1.0
+
+== salon
+LEGENDE : RADIOGRAPHIE / {radio PETIT} puis {radio articulations} {radio +1 "…"} {radio reste} {radio tout "…"}
+GRAND : {radio PETIT} Voici la radiographie de Petit. {radio articulations} Une vague montre ses articulations.
+GRAND (schéma) : {radio +1 "SUBHAN ALLAH"} Une articulation passe au vert. {radio reste} Il en reste beaucoup. {radio tout "2 RAKATS DE DUHA"} Et là, toutes passent au vert.
+LEGENDE : ORTEIL / {orteil} : le pied se cogne contre le pied du lit
+PETIT (nouveau schéma) : {orteil} Aïe, mon petit orteil, contre le pied du lit !
+LEGENDE : ARBRE / {arbre "TES PÉCHÉS"} puis {feuilles} : les feuilles sombres tombent une à une
+GRAND (nouveau schéma) : {arbre "TES PÉCHÉS"} Voici un arbre aux feuilles sombres. {feuilles} Un coup de vent : elles tombent une à une, doucement.
+LEGENDE : BALANCE / {balance "A" "B"} {balance + manette} {balance pese} (option deja)
+GRAND (nouveau schéma) : {balance "LE MONDE ENTIER" "2 RAKATS // SUNNA AVANT LE FAJR"} Une balance qui se remplit. {balance + manette} Un objet de plus. {balance pese} Et maintenant, elle penche de l'autre côté.
+FIN

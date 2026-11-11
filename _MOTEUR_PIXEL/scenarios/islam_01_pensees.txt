@@ -1,0 +1,24 @@
+# ISLAMARCADE — Short 1 (partie 1/2) : « Des pensées horribles sur Allah » (waswasa)
+# Sources vérifiées sur sunnah.com le 01/11/2026 : Mouslim 132a ; Boukhari 3276.
+# Explication : an-Nawawi (Charh Mouslim) : c'est le fait de trouver ces pensées trop graves qui est la marque de la foi.
+# Relecture indépendante faite le 01/11/2026. Version 30 s : le 2e cas (croire vraiment du mal d'Allah) est
+# traité dans la partie 2 (islam_01b_oublie.txt), annoncée à la fin.
+
+TITRE: Des pensees horribles sur Allah
+CODE: ISL1A
+THEME: sketch
+FORMAT: vertical
+MUSIQUE: fond_mystere
+PERSONNAGES: PETIT, GRAND
+ACCROCHE: DES PENSÉES HORRIBLES / SUR ALLAH ?!
+MINIATURE: DES PENSÉES HORRIBLES / SUR ALLAH ?!
+ICONE: nuage
+
+== chambre_ado
+PETIT (peur) : {pensees PETIT} Des pensées horribles sur Allah me viennent… je suis *foutu* ?
+GRAND (calme, explique) : Des {icone bulle} {source "MOUSLIM 132"} Compagnons n'osaient même pas {croix} les dire. Le {icone coeur} Prophète {fleche} ﷺ leur a dit : {texte "« C'EST LA FOI ÉVIDENTE »"} c'est la foi {check} évidente.
+PETIT (choc) : C'est la foi ?!
+GRAND (index) : Pas la pensée : c'est de la *détester* qui le montre. {source "SELON AN-NAWAWI (CHARH MOUSLIM)"}
+GRAND (explique) : Dis « je cherche refuge auprès d'Allah »… {repousse PETIT} et lâche-la. {source "BOUKHARI 3276"}
+GRAND (malin) : Et si tu penses *vraiment* du mal de Lui ? … Partie 2.
+FIN

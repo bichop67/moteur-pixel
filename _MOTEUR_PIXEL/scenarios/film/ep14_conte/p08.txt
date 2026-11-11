@@ -1,0 +1,50 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 8 : DIX ANS À MADYAN
+# Un seul conteur. Racontés : 28:27 (paroles du vieil homme), 28:28 (paroles de Moussa).
+TITRE: Moussa conte - partie 8 - Dix ans a Madyan
+CODE: E14P8
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_espoir
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: MOUSSA, VIEIL_HOMME
+
+# LA PROPOSITION — la maison du vieil homme, le soir, à la lampe ; à la fin, les deux halos se rapprochent (l'accord)
+== maison_madyan_int, sans_baton, ambiance amb_grillons_nuit 0.12
+VIEIL_HOMME place 300
+MOUSSA place 720
+FILLE_1 place 1010 1290
+FILLE_2 place 1150 1290
+NARRATEUR (voix off) : [calm] Alors le vieil homme a fait une proposition à Moussa. {source "TAFSIR IBN KATHIR (28:27)"}
+NARRATEUR (voix off) : [calm] Il lui a dit : « Je voudrais te marier à l'une de mes deux filles, si tu travailles pour moi pendant huit ans. Et si tu vas jusqu'à dix ans, ce sera de ton plein gré. Je ne veux rien t'imposer de trop dur. Tu verras, si Allah le veut, que je suis quelqu'un de bien. » {source "CORAN 28:27"}
+NARRATEUR (voix off) : [calm] Et Moussa a répondu : « C'est d'accord entre toi et moi. {derive MOUSSA 470 1320 4s} Quel que soit le délai que je choisis, on ne pourra rien me reprocher. Et Allah est garant de ce qu'on dit. » {geste MOUSSA intense} {source "CORAN 28:28"}
+
+# LE BERGER — les collines au fil des saisons : printemps, été, pluie ; Moussa devant son troupeau, les feuilles tombent pour les moutons
+== collines_madyan, feuilles, ambiance amb_troupeau 0.18
+MOUSSA place 120
+MOUTON place 300
+MOUTON place 420 1300
+CHEVRE place 540
+MOUTON place 620 1290
+NARRATEUR (voix off) : [warmly] {derive MOUSSA 520 1320 8s} {va MOUTON 760} Et le prince d'Égypte est devenu *berger*. Pendant des années, il a fait paître les moutons de Madyan. {source "TAFSIR IBN KATHIR (28:26)"}
+== collines_madyan_ete, ambiance amb_troupeau 0.15
+MOUSSA place 700
+MOUTON place 420
+MOUTON place 300 1300
+CHEVRE place 160
+NARRATEUR (voix off) : [warmly] {derive MOUSSA 900 1320 8s} {va MOUTON 640} Et tu sais, des siècles plus tard, le Prophète a dit : « Allah n'a envoyé aucun prophète sans qu'il ait fait paître des moutons. » {source "BOUKHARI 2262"}
+== collines_madyan_pluie, pluie, ambiance amb_pluie 0.18
+MOUSSA place 360
+MOUTON place 560
+MOUTON place 680 1300
+NARRATEUR (voix off) : [calm] Huit ans… ou dix ? [pause] Moussa a fait le plus long des deux, et le meilleur. Parce qu'un messager d'Allah, quand il dit une chose… il la {geste MOUSSA intense} fait. {source "BOUKHARI 2684 (IBN 'ABBAS)"}
+
+# LE DÉPART DE MADYAN — Moussa, sa femme et le troupeau prennent la route ; le désert s'assombrit ; la carte : de Madyan vers le Mont
+== desert_soir, ambiance amb_vent_desert 0.18
+MOUSSA place 1100
+SA_FEMME place 1260
+MOUTON place 1380
+NARRATEUR (voix off) : [calm] Dix ans ont passé. [pause] {derive MOUSSA 560 1320 8s} {derive SA_FEMME 720 1320 8s} {va MOUTON 840} Et puis Moussa a eu envie de revoir son pays, et les siens. {source "TAFSIR IBN KATHIR (28:29)"}
+== carte_madyan, chemin_retour 0.4 6, ambiance amb_vent_desert 0.15
+NARRATEUR (voix off) : [calm] Alors il s'est mis en route, avec sa femme, et le troupeau que son beau-père lui avait offert. Direction : l'Égypte. {source "TAFSIR IBN KATHIR (20:10 · 28:29)"}

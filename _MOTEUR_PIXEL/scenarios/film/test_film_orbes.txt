@@ -1,0 +1,16 @@
+# Test du module film (orbes qui jouent, narrateur et voix du Coran sans corps, thème film 16:9)
+TITRE: Test film orbes
+CODE: TFILM
+THEME: film
+FORMAT: horizontal
+MUSIQUE: fond_mystere
+PERSONNAGES: SA_MERE, MOUSSA_BEBE
+
+== desert_soir, 2s
+SA_MERE place 260
+MOUSSA_BEBE place 560
+NARRATEUR (voix off) : [dark] Une mère jette son bébé dans le *fleuve*. {source "CORAN 28:7"}
+NARRATEUR (voix off) : [softly] Elle l'a couché dans un petit coffre… {va SA_MERE 420} elle l'a posé sur l'eau… et elle le laisse partir. {source "CORAN 20:39"}
+CORAN (voix off) : Et Nous révélâmes à la mère de Moussa : « Allaite-le ! Et quand tu craindras pour lui, jette-le dans le flot ! » {source "CORAN 28:7"}
+SA_MERE pale
+NARRATEUR (voix off) : [sad] *Vide*. Vide de tout… sauf de son fils. {source "TAFSIR IBN KATHIR (28:10)"}

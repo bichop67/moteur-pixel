@@ -1,0 +1,68 @@
+# ÉPISODE 14 — MOUSSA, VERSION « CONTE » (02/11/2026) — PARTIE 18 : LE VEAU D'OR
+# Un seul conteur ; FILS_D_ISRAEL et SAMIRI : leurs paroles du Coran dites en mots simples (NOUVELLES voix à générer).
+# Paroles de Moussa et de Haroun (20:90, 7:150-151, 20:95, 20:97, 7:154) rapportées par le conteur.
+# Le veau d'or est une statue (objet VEAU) ; Moussa et Haroun : orbes. Les Tables restent en pose « porte » (y 1374 = au sol).
+TITRE: Moussa conte - partie 18 - Le veau d'or
+CODE: E14P18
+THEME: film
+FORMAT: horizontal
+CAMERA: calme
+BATON_MOUSSA: oui
+MUSIQUE: fond_tension
+VOIX: C:/Users/abdellah/Desktop/VIDEO YOUTUBE/FILM/EPISODE 14/voix_conte
+PERSONNAGES: SAMIRI, MOUSSA
+
+# LE VEAU — au camp : le Samiri fait jeter les bijoux dans le feu ; un veau d'or en sort ; la foule danse ; Haroun s'avance
+== camp_desert, ambiance amb_feu_camp 0.2
+SAMIRI place 320, malin
+VEAU place 560 1290
+ISRAELITE3 place 160
+FILS_D_ISRAEL place 760
+ISRAELITE place 880
+ISRAELITE_F place 1000
+GENS place 1120
+HAROUN place 1560
+NARRATEUR (voix off) : [dark] Pendant ce temps, au camp, un homme qu'on appelait le Samiri leur a fait rassembler tous les bijoux qu'ils avaient emportés d'Égypte. On les a jetés dans le {son dv_feu_allumage_1 0.05} feu… et il en a fait sortir un {apparait VEAU} veau. Un veau en or… qui {son imp_grondement_1 0.03} mugissait. {source "CORAN 20:87-88 · TAFSIR IBN KATHIR (20:96, 'IKRIMA)"}
+FILS_D_ISRAEL (content, pointe, danse) : [excited] C'est lui, votre dieu ! Et c'est le dieu de Moussa ! Moussa, il a oublié ! {source "CORAN 20:88"}
+NARRATEUR (voix off) : [calm] Moussa, disaient-ils, {danse ISRAELITE 5s} {danse ISRAELITE_F 5s} {danse GENS 4s} avait oublié son dieu ici… et il était parti le chercher ailleurs. {source "TAFSIR IBN KATHIR (20:88, IBN 'ABBAS) · TAFSIR AL-QOURTOUBI (20:91)"}
+NARRATEUR (voix off) : [calm] {derive HAROUN 1240 1320 3s} Pourtant, Haroun les avait prévenus : « Ô mon peuple ! Ce veau, c'est une épreuve pour vous. Votre Seigneur, c'est le Tout Miséricordieux. Alors suivez-moi, et obéissez-moi ! » {source "CORAN 20:90"}
+FILS_D_ISRAEL (fier) : [arrogant] On ne le lâchera pas ! On continuera à l'adorer, jusqu'à ce que Moussa revienne ! {source "CORAN 20:91"}
+
+# LE RETOUR DE MOUSSA — Moussa redescend avec les Tables ; il voit la foule autour du veau ; les Tables tombent ; il va vers Haroun
+== camp_desert, ambiance amb_vent_doux 0.15
+VEAU place 560 1290
+SAMIRI place 300
+FILS_D_ISRAEL place 760
+ISRAELITE place 870
+ISRAELITE_F place 980
+HAROUN place 1290
+MOUSSA place -260
+TABLETTES place -170 1322, porte
+NARRATEUR (voix off) : [dark] {derive MOUSSA 60 1320 4s} {derive TABLETTES 150 1322 4s} Et quand Moussa est revenu vers son peuple… il était en colère, et triste. Il a dit : « Ce que vous avez fait pendant mon absence, c'est vraiment grave ! Vous avez voulu devancer l'ordre de votre Seigneur ? » Il a jeté les {derive TABLETTES 150 1374 0.6s} {son imp_pierres_chute_1 0.03} Tables, et il a attrapé la tête de son frère, en la {derive MOUSSA 1150 1320 2s} tirant vers lui. Haroun lui a dit : « Ô fils de ma mère ! Le peuple m'a traité comme un faible, et ils ont failli me tuer. Ne donne pas aux ennemis le plaisir de se réjouir de mon malheur… et ne me mets pas avec ces gens injustes ! » {source "CORAN 7:150"}
+NARRATEUR (voix off) : [softly] Et Moussa a dit : « Ô mon Seigneur, pardonne-moi, et pardonne à mon frère. Fais-nous entrer dans Ta miséricorde : Tu es le plus miséricordieux des {geste MOUSSA intense} {geste HAROUN intense} miséricordieux. » {source "CORAN 7:151"}
+
+# LE SAMIRI — face à face ; « Va-t'en » : il s'éloigne seul et les gens s'écartent ; le veau brûlé, ses cendres dispersées sur la mer
+== camp_desert, ambiance amb_vent_doux 0.15
+VEAU place 560 1290
+SAMIRI place 780, peur
+MOUSSA place 300
+TABLETTES place 200 1374, porte
+GENS place 1060
+ISRAELITE_F place 1180
+NARRATEUR (voix off) : [dark] Ensuite, Moussa s'est tourné vers le Samiri : « Et toi, Samiri, qu'est-ce qui t'a pris ? » {source "CORAN 20:95"}
+SAMIRI (malin) : [mysterious] J'ai vu ce qu'ils n'ont pas vu. J'ai pris une poignée de la trace de l'Envoyé… et je l'ai jetée. C'est ce que mon âme m'a soufflé. {source "CORAN 20:96"}
+NARRATEUR (voix off, plan large) : [calm] L'Envoyé, c'était l'ange Jibril. Le Samiri avait pris une poignée de terre là où son cheval était passé. {source "TAFSIR IBN KATHIR (20:96)"}
+NARRATEUR (voix off) : [dark] Moussa lui a dit : « Va-t'en ! {va SAMIRI 1700} {derive GENS 1000 1250 1.6s} {derive ISRAELITE_F 1250 1250 1.8s} Toute ta vie, tu devras dire aux gens : "Ne me touchez pas !" Et tu as un rendez-vous que tu ne pourras pas manquer. Et regarde ton dieu, celui que tu adorais tout le temps : on va le {disparait VEAU} {son dv_feu_allumage_1 0.05} brûler… et disperser ses cendres dans la {son tr_whoosh_vent_1 0.03} mer. » {source "CORAN 20:97"}
+
+# LES CENDRES — plan muet : sur le rivage, les cendres du veau d'or emportées par le vent tombent dans la mer
+== mer_rivage_jour, 5.5s, cendres 0.4 4.5 500 1100, mer_vie, ambiance amb_vagues_mer 0.2
+MOUSSA place 420
+
+# LES TABLES — la colère passée, Moussa reprend les Tables ; une lumière douce
+== camp_desert, ambiance amb_vent_doux 0.15
+MOUSSA place 400
+TABLETTES place 300 1374, porte
+HAROUN place 1000
+ISRAELITE place 760
+FILS_D_ISRAEL place 1240
+NARRATEUR (voix off) : [softly] Et quand la colère de Moussa s'est calmée, il a {derive TABLETTES 300 1322 1.4s} repris les Tables. Dedans, il y avait la bonne direction, et la miséricorde, pour ceux qui craignent leur {geste MOUSSA intense} Seigneur. {source "CORAN 7:154"}
