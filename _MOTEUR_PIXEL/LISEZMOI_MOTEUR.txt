@@ -860,3 +860,65 @@ Contrôles après ces changements : controle_avant_apres.py OK (ISL13, 17, 23 id
 controle_moteur.py verifie demo,short : 42 images identiques.
 Ce qui n'a PAS été fait : le calcul des images (74 s) n'a pas été accéléré (228 s de processeur réparties sur 8
 processus : le gain possible est faible et le risque de changer un pixel réel).
+
+
+================================================================================================================
+32. SIX AMÉLIORATIONS APRÈS LE FILM « GOG ET MAGOG » (11/11/2026) — skill film-pixel
+================================================================================================================
+Demande : « améliore le moteur avec tous les points que tu m'as donnés ». Sauvegarde d'avant :
+_MOTEUR\moteur_pixel_2026-11-11_avant_ameliorations.zip.
+
+1. CONTRÔLE DU MOTEUR SANS AUCUNE VOIX : controle_moteur.py (remplace controle_vop.py, en panne depuis que les voix
+   des VOP ont quitté le PC). 16 scènes de référence (rendu d'origine des VOP, démos, Shorts, Moussa, Gog) fabriquées
+   en MAQUETTE à 15 caractères/s (même si les voix existent, et sans estime.py) ; 6 images de chacune comparées au
+   pixel près à controle_moteur.json ; vignettes dans controle_moteur_ref\ ; en cas d'écart : planche
+   controle_moteur_ecarts.png (référence à gauche, maintenant à droite).
+       python controle_moteur.py            ≈ 3 min ; à lancer AVANT et APRÈS toute retouche du moteur
+       python controle_moteur.py verifie gog,moussa     seulement ces scènes
+       python controle_moteur.py enregistre             seulement après un changement VOULU et regardé
+   Vérifié avec lui : les ajouts du film Gog (10/11) n'avaient changé aucune scène d'avant (72 images identiques avec
+   le moteur d'avant Gog) ; les changements ci-dessous non plus (96 images identiques).
+
+2. APERÇU RAPIDE « BROUILLON » : voir la vidéo BOUGER, avec le son, avant le vrai rendu.
+       python scenario.py <scénario> brouillon [processus]     → « <titre> (brouillon).mp4 » à côté du scénario
+   10 images/s (1 sur 3), 960 x 540, sans grain ni vignette, mot BROUILLON incrusté en haut à gauche (jamais
+   publiable par erreur). Partie 6 de Gog (67 s) : 2 min 08 au lieu de 5 min 48, 7 Mo (envoyable sur téléphone).
+   pxv.Video.render_brouillon / encode_brouillon ; images temporaires dans %TEMP%\ia501\<nom>_brouillon.
+
+3. VITESSE DU RENDU : PAS DE GAIN MESURABLE. Mesuré : ≈ 0,56 s par image de film sur un cœur, dont le cadrage de la
+   caméra (agrandissement lissé de la scène : 0,1 à 0,2 s), le filtre film (0,1 s), les animations, le JPEG.
+   L'idée « dessiner en petit et agrandir à l'encodage » ne tient pas : la caméra glisse au sous-pixel sur une scène
+   en pleine taille, et les sous-titres sont en pleine taille. Fait quand même, identique au pixel près :
+   lieux.pose_calque(img, calque) (un calque d'animation n'est agrandi et posé que sur sa zone dessinée ; 30 appels
+   remplacés dans decors_*.py), filtre film dans un seul tampon, avant-plan du décor posé par sa zone dessinée.
+   Avant / après sur les mêmes images : 558-599 ms contre 556-584 ms (dans le bruit de mesure). Essayé et écarté :
+   Image.transform (2 fois plus lent que crop + resize). Pas tranché : mettre les 4 processus sur 4 cœurs physiques
+   (masque 0x550) au lieu de 4 processeurs logiques voisins (0xF00 = 2 cœurs) — mesures trop bruitées pendant qu'une
+   autre session rendait ; cela chargerait davantage le PC, donc à décider avec l'utilisateur.
+
+4. POIDS DU FILM FINAL : fais_film.py assemble à « slow crf 23 » au lieu de 20. Scène la plus chargée de Gog
+   (effondrement + marée, 20 s) : crf 20 = 27,8 Mbit/s ; 22 = 19,4 ; 23 (medium) = 15,7 ; 24 = 12,7 ; « -tune grain »
+   alourdit (30,5). Regardé en zoom x2 : pixels et tramage intacts à 22 et 24, seul le grain s'adoucit. C'est le grain
+   du filtre film qui coûte les bits. Les parties restent en « veryfast crf 16 » (elles sont réencodées au montage).
+   assemble_film.py garde 20 par défaut (--crf pour changer).
+
+5. UN FILM, UNE COMMANDE : fais_film.py <dossier des scénarios> <commande> [parties…]
+   etat | voix | asr statut.json… | verifie | planches | brouillon | rendu | assemble | controle | tout
+   Tout se lit dans les en-têtes des pNN.txt : FILM: (titre du film), CHAPITRE: (titre du chapitre), VOIX: (le dossier
+   du film est son parent). « asr » reconnaît chaque transcription ElevenLabs par son TEXTE (plus de table
+   d'identifiants de sessions) ; essai sur Gog : voix.json et asr_GOGPn.json identiques à ceux faits à la main.
+   « rendu » saute une partie déjà rendue et à jour (trace <partie>.rendu.txt = empreinte du scénario et des voix),
+   « assemble » refuse s'il manque une partie et garde l'ancienne version du film sous « (vN) ».
+   Priorité : « inférieure à la normale » (0x4000), PAS « inactive » (0x40) : en priorité inactive, le rendu
+   n'avance plus du tout dès qu'un autre rendu tourne sur le PC.
+
+6. DEUX PIÈGES SUPPRIMÉS :
+   - cache des décors : egypte._empreinte() prend tous les fichiers decors_*.py (plus de liste à tenir à jour) ;
+   - hors image : controle_cadre.py <scénario…> (et fais_film.py … verifie) signale une animation dont moins d'un
+     quart du dessin tombe dans l'image, et un personnage ou une orbe qui n'entre jamais dans l'image pendant toute
+     une scène. Essai : une foule dessinée à y = 1600-1880 (image : 491-1380) et un perso à x = 4000 sont signalés ;
+     Gog p03, p06, p07 et Moussa p06 : rien à signaler. ≈ 15 à 90 s par partie.
+
+Autre session le même jour : estime.py, briques.controle, volume_exact, encodage_rapide (section 31) et le dépôt git
+du dossier VIDEO YOUTUBE (README.md, moteur.ps1, requirements.txt). Deux sessions modifiaient le moteur en même
+temps : n'éditer que par remplacements exacts, jamais réécrire un fichier entier du moteur depuis une copie lue plus tôt.
