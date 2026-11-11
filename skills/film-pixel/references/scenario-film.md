@@ -68,6 +68,22 @@ python assemble_film.py "<film>.mp4" p01.mp4 … p24.mp4 [--leger]   assemble : 
                                         fondu final ; chapitres = début de chaque partie (durées − 1 s par fondu)
 ```
 
+Depuis le 11/11/2026, tout le film se pilote avec UNE commande (dossier = celui des `p01.txt`, `p02.txt`…) :
+
+```
+python fais_film.py scenarios\film\<film> etat                    où en est chaque partie
+python fais_film.py … voix                                        textes ElevenLabs + crédits → voix\textes\voix.json
+python fais_film.py … asr statut1.json statut2.json               transcriptions ElevenLabs → voix\asr_<CODE>.json
+python fais_film.py … verifie                                     ce qui est dessiné hors de l'image
+python fais_film.py … planches 6 --pas 2 --de 28 --a 44           planche d'une partie (ou de toutes)
+python fais_film.py … brouillon                                   aperçu qui bouge, avec le son, de tout le film
+python fais_film.py … rendu            (ou : rendu 6 4 1)         file de rendu, priorité basse
+python fais_film.py … assemble         puis : controle            film + copie légère, puis contrôle final et chapitres
+python controle_moteur.py                                         après toute retouche du moteur : rien ne doit changer
+```
+
+En-têtes à mettre dans chaque partie : `FILM: <titre du film entier>` et `CHAPITRE: <titre du chapitre YouTube>`.
+
 ## 6. Shorts tirés du film
 
 Copier la scène choisie dans un scénario `FORMAT: vertical` avec `ACCROCHE:` et `FIN` (`DUREE_FIN: 2.0`), réutiliser les
